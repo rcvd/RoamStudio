@@ -1,0 +1,20 @@
+{
+  "name": "roamstudio",
+  "version": "1.0.0",
+  "description": "Beautiful and easily customizable themes for Roam",
+  "main": "./build/main.js",
+  "scripts": {
+    "prebuild:roam": "npm install",
+    "build:roam": "roamjs-scripts build --depot",
+    "dev:roam": "roamjs-scripts dev --depot",
+    "start": "roamjs-scripts dev",
+    "add_css": "sh add_css.sh"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "roamjs-scripts": "^0.21.3"
+  },
+  "dependencies": {
+    "roamjs-components": "^0.70.11"
+  }
+}
