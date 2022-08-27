@@ -70,11 +70,11 @@ function changeHeadingFontFamily() {
     document.getElementById("css-heading-font-family").remove();
   }
 
-  if (cssFontFamily != "Theme Default") {
+  if (cssHeadingFontFamily != "Theme Default") {
     var head = document.getElementsByTagName("head")[0];
     var style = document.createElement("style");
     style.id = "css-heading-font-family";
-    if (cssFontFamily == "System Font Stack") {
+    if (cssHeadingFontFamily == "System Font Stack") {
       style.textContent =
         ":root {" +
         '--ff-main__page-title: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";' +
@@ -86,16 +86,16 @@ function changeHeadingFontFamily() {
       style.textContent =
         ":root {" +
         "--ff-main__page-title: " +
-        cssFontFamily +
+        cssHeadingFontFamily +
         ",sans-serif;" +
         "--ff-main__level1: " +
-        cssFontFamily +
+        cssHeadingFontFamily +
         ",sans-serif;" +
         "--ff-main__level2: " +
-        cssFontFamily +
+        cssHeadingFontFamily +
         ",sans-serif;" +
         "--ff-main__level3: " +
-        cssFontFamily +
+        cssHeadingFontFamily +
         ",sans-serif;" +
         "}";
     }
