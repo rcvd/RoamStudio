@@ -7,5 +7,6 @@ Beautiful and easily customizable themes for Roam Research.
 - [Flattr](https://flattr.com/@rcvd)
 - [Paypal](https://paypal.me/rcvd)
 
-## Bugs and feedback
-If you find a bug, file it under [Issues](https://github.com/rcvd/RoamStudio/issues) with a short description and an screenshot
+## Feature Requests, Bugs and Feedback
+If you have an idea for a new feature or find a bug, file it under [Issues](https://github.com/rcvd/RoamStudio/issues) with a short description and an screenshot.
+Any other feedback can be send to alex@goedel.io
