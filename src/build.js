@@ -120,6 +120,7 @@ function changeFontFamily() {
         '--ff-main__tags: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";' +
         '--ff-main__pomodoro: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";' +
         '--ff-main__quote: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";' +
+        '--ff-log-page__h1: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";' +
         "}";
     } else {
       style.textContent =
@@ -134,6 +135,9 @@ function changeFontFamily() {
         cssFontFamily +
         ",sans-serif;" +
         "--ff-main__quote: " +
+        cssFontFamily +
+        ",sans-serif;" +
+        "--ff-log-page__h1: " +
         cssFontFamily +
         ",sans-serif;" +
         "}";
