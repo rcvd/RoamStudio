@@ -1,1 +1,115 @@
-.root,html{font-size:14.75px;line-height:23.5px}.article,.rm-block-input,.roam-block,body,div{font-size:1rem;line-height:23.5px}.rm-block-main,.roam-block{line-height:23.5px;min-height:23.5px!important;letter-spacing:-.008em}.rm-block-children .rm-block:last-child{margin-bottom:1rem!important}.controls,.rm-block__controls{line-height:23.5px}.block-expand{line-height:23.5px}.rm-block--ghost .controls,.rm-block--ghost .rm-block__controls{padding-top:4px;padding-left:12px;margin-right:6px}.rm-block-input{padding-bottom:4px;margin-top:0;padding-top:4px}.controls,.rm-block__controls,.roam-block{margin-top:0;margin-bottom:0;padding-top:4px;padding-bottom:4px}.h1,.level2,.rm-title-display,.rm-title-editing-display,.roam-body .roam-app .roam-main .roam-article .rm-title-display,h1{font-size:1.9333333rem;line-height:2.9333333rem;margin-top:1.4666667rem;margin-bottom:1.4666667rem!important}#right-sidebar .rm-title-display,#right-sidebar .rm-title-editing-display{line-height:2.9333333rem!important;margin-bottom:0!important}textarea.rm-title-textarea{line-height:2.9333333rem}.h2,.rm-heading-level-1>.rm-block__self .rm-block__input,h2{font-size:1.5333333rem;line-height:1.4666667rem;margin-top:1.4666667rem;margin-bottom:0!important}.rm-heading-level-1>.rm-block__self textarea.rm-block__input{line-height:2.9333333rem}.rm-heading-level-1>.rm-block__self .controls{margin-top:2.2rem;line-height:4.4rem}.h3,.rm-heading-level-2>.rm-block__self .rm-block__input,h3{font-size:1.2666667rem;line-height:1.4666667rem;margin-top:1.4666667rem!important;margin-bottom:0!important}.rm-heading-level-2>.rm-block__self textarea.rm-block__input{line-height:1.4666667rem}.rm-heading-level-2>.rm-block__self .controls{line-height:1.4666667rem;margin-top:1.4666667rem}.h4,.rm-heading-level-3>.rm-block__self .rm-block__input,h4{font-size:1rem;line-height:1.4666667rem;margin-top:1.4666667rem;margin-bottom:0!important}.rm-heading-level-3>.rm-block__self textarea.rm-block__input{line-height:1.4666667rem}
+html, .root {
+  font-size: 14.75px;
+  line-height: 23.5px;
+}
+
+body, .article, .roam-block, .rm-block-input, div {
+  font-size: 1rem;
+  line-height: 23.5px;
+}
+
+.roam-block, .rm-block-main {
+  line-height: 23.5px;
+  min-height: 23.5px!important;
+  letter-spacing: -0.008em;
+}
+
+.rm-block-children .rm-block:last-child {
+  margin-bottom: 1rem!important;
+}
+
+.controls,
+.rm-block__controls {
+    line-height: 23.5px;
+}
+
+.block-expand {
+    line-height: 23.5px;
+}
+
+/* Fix ghost block */
+.rm-block--ghost .controls, .rm-block--ghost .rm-block__controls {
+  padding-top: 4px;
+  padding-left: 12px;
+  margin-right: 6px;
+}
+
+.rm-block-input {
+  padding-bottom: 4px;
+  margin-top: 0px;
+  padding-top: 4px;
+}
+
+.controls, .rm-block__controls,
+.roam-block {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+
+/* Page Title */
+.rm-title-display, .rm-title-editing-display, .roam-body .roam-app .roam-main .roam-article .rm-title-display, .level2, h1, .h1 {
+  font-size: 1.9333333rem;
+  line-height: 2.9333333rem;
+  margin-top: 1.4666667rem;
+  margin-bottom: 1.4666667rem!important;
+}
+
+#right-sidebar .rm-title-display,
+#right-sidebar .rm-title-editing-display {
+    line-height: 2.9333333rem!important;
+    margin-bottom: 0!important;
+}
+
+textarea.rm-title-textarea {
+  line-height: 2.9333333rem;
+}
+
+/* Heading 1 */
+.rm-heading-level-1 > .rm-block__self .rm-block__input, h2, .h2 {
+  font-size: 1.5333333rem;
+  line-height: 1.4666667rem;
+  margin-top: 1.4666667rem;
+  margin-bottom: 0rem!important;
+}
+
+.rm-heading-level-1 > .rm-block__self textarea.rm-block__input
+{
+  line-height: 2.9333333rem;
+}
+
+.rm-heading-level-1 > .rm-block__self .controls {
+  margin-top: 2.2rem;
+  line-height: 4.4rem;
+}
+
+/* Heading 2 */ 
+.rm-heading-level-2 > .rm-block__self .rm-block__input, h3, .h3 {
+  font-size: 1.2666667rem;
+  line-height: 1.4666667rem;
+  margin-top: 1.4666667rem!important;
+  margin-bottom: 0rem!important;
+}
+
+.rm-heading-level-2 > .rm-block__self textarea.rm-block__input {
+  line-height: 1.4666667rem;
+}
+
+.rm-heading-level-2 > .rm-block__self .controls {
+  line-height: 1.4666667rem;
+  margin-top: 1.4666667rem;
+}
+
+/* Heading 3 */
+.rm-heading-level-3>.rm-block__self .rm-block__input, h4, .h4 {
+  font-size: 1rem;
+  line-height: 1.4666667rem;
+  margin-top: 1.4666667rem;
+  margin-bottom: 0rem!important;
+}
+
+.rm-heading-level-3 > .rm-block__self textarea.rm-block__input {
+  line-height: 1.4666667rem;
+}

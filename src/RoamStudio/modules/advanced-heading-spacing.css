@@ -1,1 +1,15 @@
-.rm-block--closed.rm-heading-level-1>.rm-block__self .rm-block__input,.rm-block--closed.rm-heading-level-1>.rm-block__self>.controls,.rm-block--closed.rm-heading-level-1>.rm-block__self>.rm-block__controls,.rm-block--closed.rm-heading-level-2>.rm-block__self .rm-block__input,.rm-block--closed.rm-heading-level-2>.rm-block__self>.controls,.rm-block--closed.rm-heading-level-2>.rm-block__self>.rm-block__controls,.rm-block--closed.rm-heading-level-3>.rm-block__self .rm-block__input,.rm-block--closed.rm-heading-level-3>.rm-block__self>.controls,.rm-block--closed.rm-heading-level-3>.rm-block__self>.rm-block__controls,.rm-block--closed.rm-level1,.rm-block--closed.rm-level2,.rm-block--closed.rm-level3{margin-top:0;margin-bottom:0}
+.rm-block--closed.rm-level1,
+.rm-block--closed.rm-heading-level-1 > .rm-block__self .rm-block__input,
+.rm-block--closed.rm-heading-level-1 > .rm-block__self > .controls,
+.rm-block--closed.rm-heading-level-1 > .rm-block__self > .rm-block__controls,
+.rm-block--closed.rm-level2,
+.rm-block--closed.rm-heading-level-2 > .rm-block__self .rm-block__input,
+.rm-block--closed.rm-heading-level-2 > .rm-block__self > .controls,
+.rm-block--closed.rm-heading-level-2 > .rm-block__self > .rm-block__controls,
+.rm-block--closed.rm-level3,
+.rm-block--closed.rm-heading-level-3 > .rm-block__self .rm-block__input,
+.rm-block--closed.rm-heading-level-3 > .rm-block__self > .controls,
+.rm-block--closed.rm-heading-level-3 > .rm-block__self > .rm-block__controls {
+  margin-top: 0;
+  margin-bottom: 0;
+}

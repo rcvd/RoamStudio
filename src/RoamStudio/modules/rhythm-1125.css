@@ -1,1 +1,153 @@
-:root{--fnt-size:14px;--fnt-line-height:22px;--fnt-rhythm:1.125rem}.root,div,html{font-size:var(--fnt-size);line-height:var(--fnt-line-height)}span.bp3-icon-standard{line-height:15px}.article,.rm-block-input,.roam-block,body{font-size:1rem;line-height:var(--fnt-line-height)}.roam-block{line-height:var(--fnt-line-height);min-height:var(--fnt-line-height)!important}.rm-block-main{line-height:var(--fnt-line-height);min-height:var(--fnt-line-height)}.controls,.rm-block__controls{line-height:var(--fnt-line-height)}.block-expand{line-height:var(--fnt-line-height)}.rm-block--ghost .controls,.rm-block--ghost .rm-block__controls{padding-top:4px;padding-left:10px}.rm-block-input{padding-bottom:4px;margin-top:0;padding-top:4px}.controls,.rm-block__controls,.roam-block{margin-top:0;margin-bottom:0;padding-top:4px;padding-bottom:4px}#right-sidebar .rm-title-editing-display{font-size:1.25rem;line-height:1.625rem;min-height:1.625rem;margin-top:1.625rem;margin-bottom:.5rem!important}.rm-title-editing-display{font-size:1.4375rem;margin-top:1.625rem;margin-bottom:3.25rem!important}#right-sidebar .rm-sidebar-outline .rm-title-textarea{font-size:1.25rem;line-height:1.625rem}.rm-title-textarea{line-height:1.625rem}#right-sidebar .rm-sidebar-outline .rm-title-display,#right-sidebar .rm-sidebar-outline .rm-title-textarea,.rm-title-editing-display,.roam-body .roam-app .roam-main .roam-article .rm-title-display{height:var(--fnt-line-height)!important}.h1,.level2,.rm-heading-level-1>.rm-block-main,.rm-level1,.roam-body .roam-app .roam-main .roam-article .rm-title-display,h1{font-size:1.4375rem;line-height:1.625rem;min-height:1.625rem;margin-top:1.625rem;margin-bottom:.5rem}.roam-body .roam-app .roam-main .roam-article .rm-title-display{margin-bottom:1rem}#right-sidebar .rm-sidebar-outline .rm-title-display{margin-top:0!important}#right-sidebar .rm-sidebar-outline .rm-title-display,.h2,.rm-heading-level-2>.rm-block-main,.rm-level2,h2{font-size:1.25rem;line-height:1.625rem;min-height:1.625rem;margin-top:1.625rem;margin-bottom:.3rem}.h3,.rm-heading-level-3>.rm-block-main,.rm-level3,h3{font-size:1.125rem;line-height:1.625rem;min-height:1.625rem;margin-top:1.625rem;margin-bottom:0}blockquote,ol,p,pre,table,ul{margin-top:0;margin-bottom:1.625rem}ol ol,ol ul,ul ol,ul ul{margin-top:0;margin-bottom:0}.hr,hr{border:1px solid;margin:-1px 0}a,b,code,em,i,small,strong{line-height:0}sub,sup{line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}
+:root {
+  --fnt-size: 14px;
+  --fnt-line-height: 22px;
+  --fnt-rhythm: 1.125rem;
+}
+
+html, .root, div {
+  font-size: var(--fnt-size);
+  line-height: var(--fnt-line-height);
+}
+
+span.bp3-icon-standard {
+  line-height: 15px;
+}
+
+body, .article, .roam-block, .rm-block-input {
+  font-size: 1rem;
+  line-height: var(--fnt-line-height);
+}
+
+/* Fix Block height */
+.roam-block {
+  line-height: var(--fnt-line-height);
+  min-height: var(--fnt-line-height)!important;
+}
+
+.rm-block-main {
+  line-height: var(--fnt-line-height);
+  min-height: var(--fnt-line-height);
+}
+
+.controls, .rm-block__controls {
+  line-height: var(--fnt-line-height);
+}
+
+.block-expand {
+  line-height: var(--fnt-line-height);
+}
+
+/* Fix ghost block */
+.rm-block--ghost .controls, .rm-block--ghost .rm-block__controls {
+  padding-top: 4px;
+  padding-left: 10px;
+}
+
+.rm-block-input {
+  padding-bottom: 4px;
+  margin-top: 0px;
+  padding-top: 4px;
+}
+
+.controls, .rm-block__controls,
+.roam-block {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#right-sidebar .rm-title-editing-display {
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  min-height: 1.625rem;
+  margin-top: 1.625rem;
+  margin-bottom: 0.5rem!important;
+} 
+
+.rm-title-editing-display {
+  font-size: 1.4375rem;
+  margin-top: 1.625rem;
+  margin-bottom: 3.25rem!important;
+}
+
+#right-sidebar .rm-sidebar-outline .rm-title-textarea {
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+}
+
+.rm-title-textarea {
+  line-height: 1.625rem;
+}
+
+
+.rm-title-editing-display,
+#right-sidebar .rm-sidebar-outline .rm-title-textarea,
+#right-sidebar .rm-sidebar-outline .rm-title-display,
+.roam-body .roam-app .roam-main .roam-article .rm-title-display {
+  height: var(--fnt-line-height)!important;
+}
+
+.level2,
+.roam-body .roam-app .roam-main .roam-article .rm-title-display,
+.rm-heading-level-1>.rm-block-main, .rm-level1, h1, .h1 {
+  font-size: 1.4375rem;
+  line-height: 1.625rem;
+  min-height: 1.625rem;
+  margin-top: 1.625rem;
+  margin-bottom: 0.5rem;
+}
+
+.roam-body .roam-app .roam-main .roam-article .rm-title-display {
+  margin-bottom: 1rem;
+}
+
+#right-sidebar .rm-sidebar-outline .rm-title-display {
+  margin-top: 0!important;
+}
+
+#right-sidebar .rm-sidebar-outline .rm-title-display,
+.rm-heading-level-2>.rm-block-main, .rm-level2, h2, .h2 {
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  min-height: 1.625rem;
+  margin-top: 1.625rem;
+  margin-bottom: 0.3rem;
+}
+
+.rm-heading-level-3>.rm-block-main, .rm-level3, h3, .h3 {
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  min-height: 1.625rem;
+  margin-top: 1.625rem;
+  margin-bottom: 0rem;
+}
+
+p, ul, ol, pre, table, blockquote {
+  margin-top: 0rem;
+  margin-bottom: 1.625rem;
+}
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+/* Let's make sure all's aligned */
+hr, .hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+a, b, i, strong, em, small, code {
+  line-height: 0;
+}
+sub, sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}

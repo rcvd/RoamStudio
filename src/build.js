@@ -16,7 +16,7 @@ var modules = {
   css = {};
 
 function loadSystem() {
-  console.log("Loading Roam CSS System III");
+  console.log("Loading Roam Roam Studio");
 
   if (document.getElementById("css-system")) {
     document.getElementById("css-system").remove();
@@ -204,7 +204,7 @@ function setSettingDefault(extensionAPI, settingId, settingDefault) {
 }
 
 const panelConfig = {
-  tabTitle: "RoamStudio",
+  tabTitle: "Roam Studio",
   settings: [
     {
       id: "css-theme",
@@ -401,11 +401,11 @@ function onload({ extensionAPI }) {
   changeHeadingFontFamily();
   changeFontSize();
 
-  console.log("Loaded Roam CSS System III");
+  console.log("Loaded Roam Studio");
 }
 
 function onunload() {
-  console.log("Unloading Roam CSS System III");
+  console.log("Unloading Roam Studio");
 
   if (document.getElementById("css-theme")) {
     console.log("Removing Theme");
@@ -438,7 +438,7 @@ function onunload() {
       document.getElementById(item).remove();
     }
   });
-  console.log("Unloaded Roam CSS System III");
+  console.log("Unloaded Roam Studio");
 }
 
 export default {

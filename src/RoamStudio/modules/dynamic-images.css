@@ -1,1 +1,15 @@
-#roam-right-sidebar-content .react-resizable,#roam-right-sidebar-content .rm-inline-img__resize{width:unset!important}.react-resizable[style*='width: 580px'],.rm-inline-img__resize[style*='width: 580px']{width:100%!important}
+/*
+Images in the right sidebar will be scaled dynamically to fit the width of the bar.
+
+Images in the content area will be scaled to 100% once the reach the max width of 580px
+*/
+
+#roam-right-sidebar-content .rm-inline-img__resize,
+#roam-right-sidebar-content .react-resizable {
+	width: unset!important;
+}
+
+.rm-inline-img__resize[style*='width: 580px'],
+.react-resizable[style*='width: 580px'] {
+	width: 100%!important;
+}
