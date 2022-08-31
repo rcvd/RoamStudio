@@ -1,6 +1,8 @@
 # Roam Studio
 Beautiful and easily customizable themes for Roam Research.
 
+More themes coming soon! Stay tuned...
+
 ## If you want to support my work
 - [Buy Me a Coffee](https://www.buymeacoffee.com/rcvdio)
 - [Become a supporter on gödel.io](https://www.goedel.io/subscribe?utm_medium=web&utm_source=subscribe-widget&utm_content=47299057)
