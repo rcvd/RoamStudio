@@ -1,2 +1,3 @@
+npm install
 npm run add_css
-npm run build:roam
+npm run build
