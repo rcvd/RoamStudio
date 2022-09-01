@@ -4,17 +4,16 @@
   "description": "Beautiful and easily customizable themes for Roam",
   "main": "./build/main.js",
   "scripts": {
-    "prebuild:roam": "npm install",
-    "build:roam": "roamjs-scripts build --depot",
-    "dev:roam": "roamjs-scripts dev --depot",
-    "start": "roamjs-scripts dev",
-    "add_css": "sh add_css.sh"
+      "build": "webpack",
+      "watch": "webpack --watch",
+      "build:roam": "webpack",
+      "dev:roam": "webpack --watch",
+      "start": "webpack --watch",
+      "add_css": "sh add_css.sh"
   },
   "license": "MIT",
   "devDependencies": {
-    "roamjs-scripts": "^0.21.3"
-  },
-  "dependencies": {
-    "roamjs-components": "^0.70.11"
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
   }
 }
