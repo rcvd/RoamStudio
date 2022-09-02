@@ -744,12 +744,18 @@ input[type=radio] {
 .check-container .checkmark:after {
   width: calc(var(--fs-app__html) / 3 + 1px);
   height: calc(var(--fs-app__html) / 3 * 2 + 1px);
+  margin-top: -2px;
+  left: unset;
+  top: unset;
+}
+
+/*
   left: unset;
   top: unset;
   position: unset;
-  margin-top: -2px;
 }
 
+*/
 .check-container,
 .check-container .checkmark {
   align-items: center;

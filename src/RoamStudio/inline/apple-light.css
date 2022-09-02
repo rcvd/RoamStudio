@@ -1666,6 +1666,10 @@ html {
   --co-settings__small-downloads: ;
   --co-settings__small-name--hover: ;
   --co-settings__small-name: ;
+  --bc-settings__tab-mobile--hover: ;
+  --sd-settings__tab-mobile--hover: ;
+  --co-settings__tab-mobile--hover: ;
+  --co-settings__tab-mobile: ;
   --fs-settings__tab: ;
   --bc-settings__tab-list: #ffffff;
   --br-settings__tab-list: ;

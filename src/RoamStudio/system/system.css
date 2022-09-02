@@ -3166,6 +3166,17 @@ code {
 	color: 					var(--co-settings__small-name);
 }
 
+.rm-settings .bp3-tab[aria-selected="true"], .bp3-tab:not([aria-disabled="true"]):hover {
+	background-color: 		var(--bc-settings__tab-mobile--hover);
+	box-shadow: 			var(--sd-settings__tab-mobile--hover);
+	--webkit-box-shadow: 	var(--sd-settings__tab-mobile--hover);
+	color: 					var(--co-settings__tab-mobile--hover)!important;
+}
+
+.rm-settings .rm-settings__tab:not(.rm-settings__panel-wrapper) {
+	color: 					var(--co-settings__tab-mobile);
+}
+
 .rm-settings--desktop .rm-settings-tabs .bp3-tab {
 	font-size: 				var(--fs-settings__tab);
 }

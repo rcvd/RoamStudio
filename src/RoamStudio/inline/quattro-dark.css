@@ -1664,6 +1664,10 @@ a.rm-alias:not(.rm-alias--external):hover {
   --co-settings__small-downloads: var(--cl-gray-500);
   --co-settings__small-name--hover: var(--cl-white);
   --co-settings__small-name: var(--cl-gray-100);
+  --bc-settings__tab-mobile--hover: var(--cl-gray-600);
+  --sd-settings__tab-mobile--hover: none;
+  --co-settings__tab-mobile--hover: var(--cl-white);
+  --co-settings__tab-mobile: var(--cl-gray-400);
   --fs-settings__tab: 0.9rem;
   --bc-settings__tab-list: var(--cl-gray-800);
   --br-settings__tab-list: 1px solid var(--cl-gray-700);
