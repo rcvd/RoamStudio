@@ -4,6 +4,7 @@ Beautiful and easily customizable themes for Roam Research.
 > More themes coming soon!
 
 ## If you want to support my work
+- [Become a GitHub Sponsor](https://github.com/sponsors/rcvd)
 - [Buy Me a Coffee](https://www.buymeacoffee.com/rcvdio)
 - [Become a supporter on gödel.io](https://www.goedel.io/subscribe?utm_medium=web&utm_source=subscribe-widget&utm_content=47299057)
 - [Flattr](https://flattr.com/@rcvd)
