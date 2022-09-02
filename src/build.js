@@ -18,14 +18,14 @@ var modules = {
 function loadSystem() {
   console.log("Loading Roam Roam Studio");
 
-  if (document.getElementById("css-system")) {
-    document.getElementById("css-system").remove();
+  if (document.getElementById("roamstudio-css-system")) {
+    document.getElementById("roamstudio-css-system").remove();
   }
 
   if (cssTheme.toLowerCase() != "default") {
     var head = document.getElementsByTagName("head")[0];
     var style = document.createElement("style");
-    style.id = "css-system";
+    style.id = "roamstudio-css-system";
     style.textContent = css["system"];
     head.appendChild(style);
   }
@@ -35,8 +35,8 @@ function changeFontSize() {
   var fontSize;
 
   console.log("Switching base font size:" + cssFontSize);
-  if (document.getElementById("css-font-size")) {
-    document.getElementById("css-font-size").remove();
+  if (document.getElementById("roamstudio-css-font-size")) {
+    document.getElementById("roamstudio-css-font-size").remove();
   }
 
   switch (cssFontSize) {
@@ -59,21 +59,21 @@ function changeFontSize() {
 
   var head = document.getElementsByTagName("head")[0];
   var style = document.createElement("style");
-  style.id = "css-font-size";
+  style.id = "roamstudio-css-font-size";
   style.textContent = ":root {" + "--fs-app__html: " + fontSize + "px;};";
   head.appendChild(style);
 }
 
 function changeHeadingFontFamily() {
   console.log("Switching heading font family");
-  if (document.getElementById("css-heading-font-family")) {
-    document.getElementById("css-heading-font-family").remove();
+  if (document.getElementById("roamstudio-css-heading-font-family")) {
+    document.getElementById("roamstudio-css-heading-font-family").remove();
   }
 
   if (cssHeadingFontFamily != "Theme Default") {
     var head = document.getElementsByTagName("head")[0];
     var style = document.createElement("style");
-    style.id = "css-heading-font-family";
+    style.id = "roamstudio-css-heading-font-family";
     if (cssHeadingFontFamily == "System Font Stack") {
       style.textContent =
         ":root {" +
@@ -105,14 +105,14 @@ function changeHeadingFontFamily() {
 
 function changeFontFamily() {
   console.log("Switching font family");
-  if (document.getElementById("css-font-family")) {
-    document.getElementById("css-font-family").remove();
+  if (document.getElementById("roamstudio-css-font-family")) {
+    document.getElementById("roamstudio-css-font-family").remove();
   }
 
   if (cssFontFamily != "Theme Default") {
     var head = document.getElementsByTagName("head")[0];
     var style = document.createElement("style");
-    style.id = "css-font-family";
+    style.id = "roamstudio-css-font-family";
     if (cssFontFamily == "System Font Stack") {
       style.textContent =
         ":root {" +
@@ -152,31 +152,35 @@ function changeTheme() {
   console.log("Changing theme to: " + cssTheme);
   console.log("Changing appearance to: " + cssAppearance);
 
-  if (document.getElementById("css-theme")) {
-    document.getElementById("css-theme").remove();
+  if (document.getElementById("roamstudio-css-theme")) {
+    document.getElementById("roamstudio-css-theme").remove();
   }
 
   if (cssTheme.toLowerCase() != "default") {
-    if (document.getElementById("css-system") == null) {
+    if (document.getElementById("roamstudio-css-system") == null) {
       var head = document.getElementsByTagName("head")[0];
       var style = document.createElement("style");
-      style.id = "css-system";
+      style.id = "roamstudio-css-system";
       style.textContent = css["system"];
       head.appendChild(style);
     }
 
     var head = document.getElementsByTagName("head")[0];
     var style = document.createElement("style");
-    style.id = "css-theme";
+    style.id = "roamstudio-css-theme";
     style.textContent =
       css[cssTheme.toLowerCase() + "-common"] +
       css[cssTheme.toLowerCase() + "-" + cssAppearance.toLowerCase()];
     head.appendChild(style);
   } else {
-    if (document.getElementById("css-system")) {
-      document.getElementById("css-system").remove();
+    if (document.getElementById("roamstudio-css-system")) {
+      document.getElementById("roamstudio-css-system").remove();
     }
   }
+
+  changeFontFamily();
+  changeHeadingFontFamily();
+  changeFontSize();
 }
 
 function changeModule(moduleName) {
@@ -184,13 +188,17 @@ function changeModule(moduleName) {
   console.log("Module status: " + modules[moduleName]);
 
   if (!modules[moduleName]) {
-    if (document.getElementById(moduleName)) {
-      document.getElementById(moduleName).remove();
+    if (document.getElementById('roamstudio-css-'+moduleName)) {
+      document.getElementById('roamstudio-css-'+moduleName).remove();
     }
   } else {
+    if (document.getElementById("roamstudio-css-theme"+moduleName)) {
+      document.getElementById("roamstudio-css-theme"+moduleName).remove();
+    }
+
     var head = document.getElementsByTagName("head")[0];
     var style = document.createElement("style");
-    style.id = moduleName;
+    style.id = 'roamstudio-css-'+moduleName;
     style.textContent = css[moduleName];
     head.appendChild(style);
   }
@@ -407,35 +415,35 @@ function onload({ extensionAPI }) {
 function onunload() {
   console.log("Unloading Roam Studio");
 
-  if (document.getElementById("css-theme")) {
+  if (document.getElementById("roamstudio-css-theme")) {
     console.log("Removing Theme");
     document.getElementById("css-theme").remove();
   }
 
-  if (document.getElementById("css-system")) {
+  if (document.getElementById("roamstudio-css-system")) {
     console.log("Removing CSS System");
     document.getElementById("css-system").remove();
   }
 
-  if (document.getElementById("css-font-family")) {
+  if (document.getElementById("roamstudio-css-font-family")) {
     console.log("Removing CSS Font Family");
     document.getElementById("css-font-family").remove();
   }
 
-  if (document.getElementById("css-heading-font-family")) {
+  if (document.getElementById("roamstudio-css-heading-font-family")) {
     console.log("Removing CSS Heading Font Family");
     document.getElementById("css-heading-font-family").remove();
   }
 
-  if (document.getElementById("css-font-size")) {
+  if (document.getElementById("roamstudio-css-font-size")) {
     console.log("Removing CSS Base Font Size");
     document.getElementById("css-font-size").remove();
   }
 
   Object.keys(modules).forEach((item) => {
     console.log("Removing Module: " + item);
-    if (document.getElementById(item)) {
-      document.getElementById(item).remove();
+    if (document.getElementById("roamstudio-"+item)) {
+      document.getElementById("roamstudio-"+item).remove();
     }
   });
   console.log("Unloaded Roam Studio");

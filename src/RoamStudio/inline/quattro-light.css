@@ -703,7 +703,7 @@
   --br-find-or-create__wrapper-large: transparent;
   --bb-find-or-create__wrapper-large: transparent;
   --bl-find-or-create__wrapper-large: transparent;
-  --bd-find-or-create__wrapper-large: 0px;
+  --bd-find-or-create__wrapper-large: 5px;
   --sd-find-or-create__wrapper-large: none;
   --co-find-or-create__wrapper-large: var(--cl-gray-900);
   --ff-find-or-create__wrapper-large: -apple-system, BlinkMacSystemFont, Inter, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;

@@ -9,7 +9,7 @@ Images in the content area will be scaled to 100% once the reach the max width o
 	width: unset!important;
 }
 
-.rm-inline-img__resize[style*='width: 580px'],
-.react-resizable[style*='width: 580px'] {
+.rm-inline-img__resize[style*="width: 580px"],
+.react-resizable[style*="width: 580px"] {
 	width: 100%!important;
 }
