@@ -5,6 +5,7 @@
   transition: all 0.2s ease-in-out;
 }
 
+.sidebar-content .rm-bullet.rm-bullet--closed:hover .rm-bullet__inner,
 .rm-bullet.rm-bullet--closed:hover .rm-bullet__inner {
   border: 2px solid transparent;
 }

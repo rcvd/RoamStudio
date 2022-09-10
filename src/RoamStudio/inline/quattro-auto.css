@@ -264,6 +264,7 @@
   --co-codeblock__hr: var(--cl-gray-550);
   --co-codeblock__invalidchar: var(--cl-red-500);
   --co-codeblock__keyword: var(--cl-pink-700);
+  --co-codeblock__labelname: var(--cl-blue-600);
   --bc-codeblock__language-chooser: var(--cl-gray-200);
   --co-codeblock__link: var(--cl-blue-700);
   --co-codeblock__matchingbracket: var(--cl-green-500);
@@ -1441,6 +1442,7 @@
   --bd-right-sidebar__codeblock-settings-bar: 3px;
   --bc-right-sidebar__content: var(--cl-white);
   --co-right-sidebar__h1: var(--cl-gray-700);
+  --ff-right-sidebar__h1: "iA Writer Quattro S";
   --fs-right-sidebar__h1: 1rem;
   --fw-right-sidebar__h1: 600;
   --co-right-sidebar__helper-text: var(--cl-gray-600);
@@ -1559,6 +1561,7 @@
   --br-settings__extensions-tag: 1px solid var(--cl-accent-700);
   --bb-settings__extensions-tag: 1px solid var(--cl-accent-700);
   --bl-settings__extensions-tag: 1px solid var(--cl-accent-700);
+  --bc-settings__extension-full-dialog: var(--cl-gray-100);
   --co-settings__filelist-item: var(--cl-gray-900);
   --co-settings__h1: var(--cl-gray-900);
   --fs-settings__h1: 1.4rem;
@@ -1642,6 +1645,7 @@
   --bb-settings__select-wrapper: transparent;
   --bl-settings__select-wrapper: transparent;
   --bd-settings__select-wrapper: 5px;
+  --bl-settings__selected-setting: 8px solid var(--cl-accent-700);
   --co-settings__small-author--hover: var(--cl-white);
   --co-settings__small-author: var(--cl-gray-500);
   --co-settings__small-desc--hover: var(--cl-white);
@@ -1680,6 +1684,7 @@
   --bc-toast__progress--success: var(--cl-green-700);
   --bc-toast__progress--warning: var(--cl-orange-700);
   --bc-toast__progress: var(--cl-gray-700);
+  --co-toast__message: var(--cl-white);
   --bc-toast--danger: var(--cl-red-700);
   --bt-toast--danger: 1px solid var(--cl-red-800);
   --br-toast--danger: 1px solid var(--cl-red-800);
@@ -2049,6 +2054,7 @@ a.rm-alias:not(.rm-alias--external):hover {
     --co-codeblock__hr: var(--cl-gray-400);
     --co-codeblock__invalidchar: var(--cl-red-400);
     --co-codeblock__keyword: var(--cl-pink-200);
+    --co-codeblock__labelname: var(--cl-blue-300);
     --bc-codeblock__language-chooser: var(--cl-gray-800);
     --co-codeblock__link: var(--cl-blue-200);
     --co-codeblock__matchingbracket: var(--cl-green-400);
@@ -2293,7 +2299,7 @@ a.rm-alias:not(.rm-alias--external):hover {
     --fs-dialog: 0.9rem;
     --co-elevation__create-block--selected: var(--cl-gray-200);
     --co-elevation__create-block: var(--cl-gray-200);
-    --bc-elevation__item--selected: var(--cl-accent-500);
+    --bc-elevation__item--selected: var(--cl-accent-800);
     --bt-elevation__item--selected: transparent;
     --br-elevation__item--selected: transparent;
     --bb-elevation__item--selected: transparent;
@@ -3017,7 +3023,7 @@ a.rm-alias:not(.rm-alias--external):hover {
     --tt-main__tags: none;
     --bc-main__textarea-selection: var(--cl-accent-900);
     --bc-main__unread: var(--cl-gray-800);
-    --co-main__version-button--selected: ;
+    --co-main__version-button--selected: var(--cl-white);
     --fw-main__version-button--selected: bold;
     --co-main__version-button: var(--cl-gray-500);
     --bc-main__version-bullet: var(--cl-gray-600);
@@ -3226,6 +3232,7 @@ a.rm-alias:not(.rm-alias--external):hover {
     --bd-right-sidebar__codeblock-settings-bar: 3px;
     --bc-right-sidebar__content: var(--cl-gray-800);
     --co-right-sidebar__h1: var(--cl-gray-450);
+    --ff-right-sidebar__h1: "iA Writer Quattro S";
     --fs-right-sidebar__h1: 1rem;
     --fw-right-sidebar__h1: 600;
     --co-right-sidebar__helper-text: var(--cl-gray-300);
@@ -3344,6 +3351,7 @@ a.rm-alias:not(.rm-alias--external):hover {
     --br-settings__extensions-tag: 1px solid var(--cl-accent-800);
     --bb-settings__extensions-tag: 1px solid var(--cl-accent-800);
     --bl-settings__extensions-tag: 1px solid var(--cl-accent-800);
+    --bc-settings__extension-full-dialog: var(--cl-gray-750);
     --co-settings__filelist-item: var(--cl-gray-100);
     --co-settings__h1: var(--cl-gray-100);
     --fs-settings__h1: 1.4rem;
@@ -3374,10 +3382,10 @@ a.rm-alias:not(.rm-alias--external):hover {
     --sd-settings__input--focus: 0px 0px 0px 2px var(--cl-accent-700);
     --co-settings__input--placeholder: var(--cl-gray-400);
     --bc-settings__input: var(--cl-gray-800);
-    --bt-settings__input: 1px solid transparent;
-    --br-settings__input: 1px solid transparent;
-    --bb-settings__input: 1px solid transparent;
-    --bl-settings__input: 1px solid transparent;
+    --bt-settings__input: 1px solid var(--cl-gray-600);
+    --br-settings__input: 1px solid var(--cl-gray-600);
+    --bb-settings__input: 1px solid var(--cl-gray-600);
+    --bl-settings__input: 1px solid var(--cl-gray-600);
     --bd-settings__input: 5px;
     --co-settings__input: var(--cl-gray-400);
     --bc-settings__items--hover: var(--cl-accent-800);
@@ -3427,6 +3435,7 @@ a.rm-alias:not(.rm-alias--external):hover {
     --bb-settings__select-wrapper: transparent;
     --bl-settings__select-wrapper: transparent;
     --bd-settings__select-wrapper: 5px;
+    --bl-settings__selected-setting: 8px solid var(--cl-accent-800);
     --co-settings__small-author--hover: var(--cl-white);
     --co-settings__small-author: var(--cl-gray-500);
     --co-settings__small-desc--hover: var(--cl-white);
@@ -3465,6 +3474,7 @@ a.rm-alias:not(.rm-alias--external):hover {
     --bc-toast__progress--success: var(--cl-green-700);
     --bc-toast__progress--warning: var(--cl-orange-700);
     --bc-toast__progress: var(--cl-gray-700);
+    --co-toast__message: var(--cl-white);
     --bc-toast--danger: var(--cl-red-700);
     --bt-toast--danger: 1px solid var(--cl-red-800);
     --br-toast--danger: 1px solid var(--cl-red-800);

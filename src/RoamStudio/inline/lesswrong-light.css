@@ -264,6 +264,7 @@
   --co-codeblock__hr: var(--cl-gray-500);
   --co-codeblock__invalidchar: var(--cl-red-500);
   --co-codeblock__keyword: var(--cl-pink-700);
+  --co-codeblock__labelname: ;
   --bc-codeblock__language-chooser: var(--cl-gray-50);
   --co-codeblock__link: var(--cl-blue-700);
   --co-codeblock__matchingbracket: var(--cl-green-500);
@@ -1441,6 +1442,7 @@
   --bd-right-sidebar__codeblock-settings-bar: 3px;
   --bc-right-sidebar__content: var(--cl-accent-50);
   --co-right-sidebar__h1: var(--cl-gray-700);
+  --ff-right-sidebar__h1: ;
   --fs-right-sidebar__h1: 1.2rem;
   --fw-right-sidebar__h1: 600;
   --co-right-sidebar__helper-text: var(--cl-gray-600);
@@ -1559,6 +1561,7 @@
   --br-settings__extensions-tag: 1px solid var(--cl-accent-500);
   --bb-settings__extensions-tag: 1px solid var(--cl-accent-500);
   --bl-settings__extensions-tag: 1px solid var(--cl-accent-500);
+  --bc-settings__extension-full-dialog: ;
   --co-settings__filelist-item: var(--cl-gray-900);
   --co-settings__h1: var(--cl-gray-900);
   --fs-settings__h1: 1.3rem;
@@ -1642,6 +1645,7 @@
   --bb-settings__select-wrapper: transparent;
   --bl-settings__select-wrapper: transparent;
   --bd-settings__select-wrapper: 5px;
+  --bl-settings__selected-setting: ;
   --co-settings__small-author--hover: var(--cl-white);
   --co-settings__small-author: var(--cl-gray-500);
   --co-settings__small-desc--hover: var(--cl-white);
@@ -1680,6 +1684,7 @@
   --bc-toast__progress--success: var(--cl-green-700);
   --bc-toast__progress--warning: var(--cl-orange-700);
   --bc-toast__progress: var(--cl-gray-700);
+  --co-toast__message: ;
   --bc-toast--danger: var(--cl-red-700);
   --bt-toast--danger: 1px solid var(--cl-red-800);
   --br-toast--danger: 1px solid var(--cl-red-800);

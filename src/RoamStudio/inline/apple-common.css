@@ -360,15 +360,9 @@ input[type=radio]:active,
 }
 
 .rm-bullet::after {
-  transition: all 300ms ease-in;
-  opacity: 0;
-  cursor: pointer;
-  position: absolute;
   width: 16px;
-  bottom: -5px;
-  left: -2px;
-  color: transparent;
-  content: "⎕";
+  height: 8px;
+  bottom: -8px;
 }
 
 .rm-E:hover .rm-block__controls {
@@ -931,6 +925,10 @@ input[type=radio] {
 
 .bp3-popover .bp3-popover-arrow-border {
   fill-opacity: 1;
+}
+
+.rm-query .rm-query-content {
+  padding-left: 11px;
 }
 
 .rm-reference-main {

@@ -272,6 +272,7 @@ textarea,
   --co-codeblock__hr: rgb(142,142,147);
   --co-codeblock__invalidchar: rgb(255,59,48);
   --co-codeblock__keyword: rgba(0, 135, 178, 1.00);
+  --co-codeblock__labelname: ;
   --bc-codeblock__language-chooser: ;
   --co-codeblock__link: rgb(85,190,240);
   --co-codeblock__matchingbracket: rgb(40,205,65);
@@ -1449,6 +1450,7 @@ textarea,
   --bd-right-sidebar__codeblock-settings-bar: ;
   --bc-right-sidebar__content: #fafafa;
   --co-right-sidebar__h1: #121418;
+  --ff-right-sidebar__h1: ;
   --fs-right-sidebar__h1: 1rem;
   --fw-right-sidebar__h1: 600;
   --co-right-sidebar__helper-text: ;
@@ -1567,6 +1569,7 @@ textarea,
   --br-settings__extensions-tag: ;
   --bb-settings__extensions-tag: ;
   --bl-settings__extensions-tag: ;
+  --bc-settings__extension-full-dialog: ;
   --co-settings__filelist-item: #1d72d1;
   --co-settings__h1: ;
   --fs-settings__h1: ;
@@ -1650,6 +1653,7 @@ textarea,
   --bb-settings__select-wrapper: transparent;
   --bl-settings__select-wrapper: transparent;
   --bd-settings__select-wrapper: 5px;
+  --bl-settings__selected-setting: ;
   --co-settings__small-author--hover: ;
   --co-settings__small-author: ;
   --co-settings__small-desc--hover: ;
@@ -1688,6 +1692,7 @@ textarea,
   --bc-toast__progress--success: ;
   --bc-toast__progress--warning: ;
   --bc-toast__progress: ;
+  --co-toast__message: ;
   --bc-toast--danger: ;
   --bt-toast--danger: ;
   --br-toast--danger: ;
@@ -2052,6 +2057,7 @@ textarea,
     --co-codeblock__hr: rgb(142,142,147);
     --co-codeblock__invalidchar: rgb(255,59,48);
     --co-codeblock__keyword: rgba(174, 237, 218, 1.00);
+    --co-codeblock__labelname: ;
     --bc-codeblock__language-chooser: ;
     --co-codeblock__link: rgb(90,200,245);
     --co-codeblock__matchingbracket: rgb(50,215,75);
@@ -3229,6 +3235,7 @@ textarea,
     --bd-right-sidebar__codeblock-settings-bar: ;
     --bc-right-sidebar__content: #1e2022;
     --co-right-sidebar__h1: #f5f5f7;
+    --ff-right-sidebar__h1: ;
     --fs-right-sidebar__h1: 1rem;
     --fw-right-sidebar__h1: 600;
     --co-right-sidebar__helper-text: ;
@@ -3347,6 +3354,7 @@ textarea,
     --br-settings__extensions-tag: ;
     --bb-settings__extensions-tag: ;
     --bl-settings__extensions-tag: ;
+    --bc-settings__extension-full-dialog: ;
     --co-settings__filelist-item: ;
     --co-settings__h1: ;
     --fs-settings__h1: ;
@@ -3430,6 +3438,7 @@ textarea,
     --bb-settings__select-wrapper: transparent;
     --bl-settings__select-wrapper: transparent;
     --bd-settings__select-wrapper: 5px;
+    --bl-settings__selected-setting: ;
     --co-settings__small-author--hover: ;
     --co-settings__small-author: ;
     --co-settings__small-desc--hover: ;
@@ -3468,6 +3477,7 @@ textarea,
     --bc-toast__progress--success: ;
     --bc-toast__progress--warning: ;
     --bc-toast__progress: ;
+    --co-toast__message: ;
     --bc-toast--danger: ;
     --bt-toast--danger: ;
     --br-toast--danger: ;
