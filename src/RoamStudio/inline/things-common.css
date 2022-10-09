@@ -225,14 +225,14 @@
 }
 
 .rm-all-pages .table .rm-pages-row {
-  align-items: center;
+  align-items: baseline;
 }
 
 .rm-all-pages .table .rm-pages-row .rm-pages-checkbox-col .checkbox-header,
 .rm-all-pages .table .rm-pages-row .rm-pages-checkbox-col > .bp3-control,
 .rm-all-pages .table .rm-pages-row .rm-pages-checkbox-col > .bp3-popover-wrapper,
 .rm-all-pages .table .rm-pages-row .rm-pages-checkbox-col {
-  display: inline-flex;
+  display: block;
 }
 
 .sorting-button-group .sort-button {
@@ -345,7 +345,6 @@ html {
 }
 
 .bp3-control .bp3-control-indicator {
-  margin-top: 0;
   display: inline-flex;
 }
 
@@ -449,12 +448,6 @@ input[type=radio]:active,
 
 .bp3-file-upload-input::after {
   line-height: 30px;
-}
-
-.bp3-callout.bp3-intent-primary .bp3-heading,
-.bp3-callout.bp3-intent-primary > .bp3-icon:first-child,
-.bp3-callout.bp3-intent-primary[class*=bp3-icon-]::before {
-  margin-top: 2px;
 }
 
 .bp3-elevation-3 div.dont-unfocus-block {
