@@ -1,7 +1,7 @@
-.rm-block:has(.roam-block>span:empty) > .rm-block__self > .controls {
+.rm-block > .rm-block-main:has(.roam-block > span:empty) > .controls {
   display: none;
 }
 
 .roam-block {
-  min-height: 31px;
+  min-height: 31px!important;
 }
