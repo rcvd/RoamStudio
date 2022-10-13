@@ -1464,7 +1464,7 @@
   --ft-reference__unlinked-title-closed: normal;
   --fw-reference__unlinked-title-closed: 500;
   --tt-reference__unlinked-title-closed: none;
-  --co-reference__zoom-item: var(--cl-gray-400);
+  --co-reference__zoom-item: var(--cl-gray-550);
   --ff-reference__zoom-item: -apple-system, BlinkMacSystemFont, Inter, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
   --fs-reference__zoom-item: 1rem;
   --ff-reference: -apple-system, BlinkMacSystemFont, Inter, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;

@@ -594,6 +594,27 @@ function changeFontFamily() {
                 "--ff-log-page__h1: " +
                 cssFontFamily +
                 ",sans-serif;" +
+                "--ff-reference__linked-title: " +
+                cssFontFamily +
+                ",sans-serif;" +
+                "--ff-reference__linked-title-closed: " +
+                cssFontFamily +
+                ",sans-serif;" +
+                "--ff-reference__page-title: " +
+                cssFontFamily +
+                ",sans-serif;" +
+                "--ff-reference__unlinked-title: " +
+                cssFontFamily +
+                ",sans-serif;" +
+                "--ff-reference__unlinked-title-closed: " +
+                cssFontFamily +
+                ",sans-serif;" +
+                "--ff-reference__zoom-item: " +
+                cssFontFamily +
+                ",sans-serif;" +
+                "--ff-reference: " +
+                cssFontFamily +
+                ",sans-serif;" +
                 "}";
         }
         head.appendChild(style);

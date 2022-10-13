@@ -2782,7 +2782,7 @@ code {
 	text-transform: 		var(--tt-reference__unlinked-title-closed);
 }
 
-.rm-mentions .rm-zoom-item {
+.rm-mentions .rm-zoom-item div {
 	color: 					var(--co-reference__zoom-item);
 	font-family: 			var(--ff-reference__zoom-item);
 	font-size: 				var(--fs-reference__zoom-item);
