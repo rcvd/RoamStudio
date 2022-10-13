@@ -834,6 +834,13 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
   margin-left: -17.5px !important;
 }
 
+#right-sidebar > .flex-h-box {
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+  margin-right: 0px !important;
+  padding-right: 7px !important;
+}
+
 .rm-settings--desktop .rm-settings-heading {
   margin-top: 20px;
   margin-left: 10px;

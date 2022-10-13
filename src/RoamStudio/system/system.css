@@ -2721,6 +2721,8 @@ code {
 .rm-reference-container .rm-caret-open ~ div[style*="color: rgb(206, 217, 224);"] strong {
 	border-bottom: 			var(--bb-reference__linked-title);
 	color: 					var(--co-reference__linked-title);
+	font-family: 			var(--ff-reference__linked-title);
+	font-size: 				var(--fs-reference__linked-title);
 	font-style: 			var(--ft-reference__linked-title);
 	font-weight: 			var(--fw-reference__linked-title);
 	text-transform: 		var(--tt-reference__linked-title);
@@ -2730,6 +2732,8 @@ code {
 	border-top: 			var(--bt-reference__linked-title-closed);
 	border-bottom: 			var(--bb-reference__linked-title-closed);
 	color: 					var(--co-reference__linked-title-closed);
+	font-family: 			var(--ff-reference__linked-title-closed);
+	font-size: 				var(--fs-reference__linked-title-closed);
 	font-style: 			var(--ft-reference__linked-title-closed);
 	font-weight: 			var(--fw-reference__linked-title-closed);
 	text-transform: 		var(--tt-reference__linked-title-closed);
@@ -2751,6 +2755,7 @@ code {
 
 .rm-mentions .rm-ref-page-view .rm-ref-page-view-title a, .rm-mentions .rm-ref-page-view .rm-ref-page-view-title {
 	color: 					var(--co-reference__page-title);
+	font-family: 			var(--ff-reference__page-title);
 	font-size: 				var(--fs-reference__page-title);
 	font-weight: 			var(--fw-reference__page-title);
 	-webkit-text-decoration: 		var(--td-reference__page-title)!important;
@@ -2760,6 +2765,8 @@ code {
 .rm-caret-open ~ strong {
 	border-bottom: 			var(--bb-reference__unlinked-title);
 	color: 					var(--co-reference__unlinked-title)!important;
+	font-family: 			var(--ff-reference__unlinked-title);
+	font-size: 				var(--fs-reference__unlinked-title);
 	font-style: 			var(--ft-reference__unlinked-title);
 	font-weight: 			var(--fw-reference__unlinked-title);
 	text-transform: 		var(--tt-reference__unlinked-title);
@@ -2768,6 +2775,8 @@ code {
 .rm-caret-closed ~ strong {
 	border-bottom: 			var(--bb-reference__unlinked-title-closed);
 	color: 					var(--co-reference__unlinked-title-closed)!important;
+	font-family: 			var(--ff-reference__unlinked-title-closed);
+	font-size: 				var(--fs-reference__unlinked-title-closed);
 	font-style: 			var(--ft-reference__unlinked-title-closed);
 	font-weight: 			var(--fw-reference__unlinked-title-closed);
 	text-transform: 		var(--tt-reference__unlinked-title-closed);
@@ -2775,6 +2784,8 @@ code {
 
 .rm-mentions .rm-zoom-item {
 	color: 					var(--co-reference__zoom-item);
+	font-family: 			var(--ff-reference__zoom-item);
+	font-size: 				var(--fs-reference__zoom-item);
 }
 
 .rm-reference-container {
