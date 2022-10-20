@@ -1714,13 +1714,13 @@
   --bl-settings__select-wrapper: transparent;
   --bd-settings__select-wrapper: 5px;
   --bl-settings__selected-setting: 8px solid var(--cl-accent-700);
-  --co-settings__small-author--hover: var(--cl-white);
+  --co-settings__small-author--hover: var(--cl-gray-850);
   --co-settings__small-author: var(--cl-gray-500);
-  --co-settings__small-desc--hover: var(--cl-white);
+  --co-settings__small-desc--hover: var(--cl-gray-850);
   --co-settings__small-desc: var(--cl-gray-700);
-  --co-settings__small-downloads--hover: var(--cl-white);
+  --co-settings__small-downloads--hover: var(--cl-gray-850);
   --co-settings__small-downloads: var(--cl-gray-500);
-  --co-settings__small-name--hover: var(--cl-white);
+  --co-settings__small-name--hover: var(--cl-gray-850);
   --co-settings__small-name: var(--cl-gray-850);
   --bc-settings__tab-mobile--hover: var(--cl-gray-500);
   --sd-settings__tab-mobile--hover: none;
