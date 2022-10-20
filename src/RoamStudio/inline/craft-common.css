@@ -1371,7 +1371,7 @@ span[data-tag=tags] {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   color: var(--cl-main__date-link);
-  content: "\\e62b";
+  content: "\\\e62b";
   padding-right: 4px;
 }
 
