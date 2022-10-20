@@ -1355,14 +1355,14 @@ span[data-tag=tags] {
   flex: 0 0 44px;
 }
 
-/*
-:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref {
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 6px;
-    padding-right: 6px;
+:is(span[data-link-uid*="-17"], span[data-link-uid*="-18"], span[data-link-uid*="-19"], span[data-link-uid*="-20"], span[data-link-uid*="-21"]) .rm-page-ref {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
+/*
 :is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref:before {
     font-family: "Icons16",sans-serif;
     font-size: 16px;
