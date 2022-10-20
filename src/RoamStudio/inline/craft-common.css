@@ -1355,41 +1355,43 @@ span[data-tag=tags] {
   flex: 0 0 44px;
 }
 
-:is(span[data-link-uid*="-17"], span[data-link-uid*="-18"], span[data-link-uid*="-19"], span[data-link-uid*="-20"], span[data-link-uid*="-21"]) .rm-page-ref {
-  padding-top: 3px;
-  padding-bottom: 3px;
-  padding-left: 6px;
-  padding-right: 6px;
+/*
+:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 
-:is(span[data-link-uid*="-17"], span[data-link-uid*="-18"], span[data-link-uid*="-19"], span[data-link-uid*="-20"], span[data-link-uid*="-21"]) .rm-page-ref:before {
-  font-family: "Icons16", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  color: var(--cl-main__date-link);
-  content: "\\\e62b";
-  padding-right: 4px;
+:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref:before {
+    font-family: "Icons16",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    color: var(--cl-main__date-link);
+    content: "\\\e62b";
+    padding-right: 4px;
 }
 
 .rm-embed-margin-action.rm-open {
-  margin-left: -18px;
+    margin-left: -18px;
 }
 
 .rm-spacer::before {
-  font-family: "Icons16", sans-serif;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  content: "\e62a";
+    font-family: "Icons16",sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    content: "";
 }
 
 .rm-spacer svg {
-  display: none;
+    display: none;
 }
+*/
