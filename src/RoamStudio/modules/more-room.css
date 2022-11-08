@@ -1,7 +1,3 @@
 .rm-block > .rm-block-main:has(.roam-block > span:empty) > .controls {
   display: none;
 }
-
-.roam-block {
-  min-height: 31px!important;
-}

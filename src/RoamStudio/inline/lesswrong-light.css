@@ -985,12 +985,14 @@
   --td-main__a--hover: none;
   --bb-main__a: transparent;
   --co-main__a: var(--cl-accent-600);
+  --fw-main__a: ;
   --td-main__a: none;
   --bb-main__alias--hover: transparent;
   --co-main__alias--hover: var(--cl-accent-400);
   --td-main__alias--hover: none;
   --bb-main__alias: transparent;
   --co-main__alias: var(--cl-accent-600);
+  --fw-main__alias: ;
   --td-main__alias: none;
   --co-main__alias-tooltip-external: var(--cl-gray-200);
   --td-main__alias-tooltip-external: none;
@@ -1081,6 +1083,8 @@
   --bb-main__date-link: ;
   --bd-main__date-link: ;
   --co-main__date-link: ;
+  --fs-main__date-link: ;
+  --fw-main__date-link: ;
   --td-main__date-link: ;
   --bc-main__dropbar: var(--cl-accent-500);
   --bc-main__highlight: var(--cl-accent-100);
@@ -1157,6 +1161,7 @@
   --td-main__page-link--hover: none;
   --bb-main__page-link: transparent;
   --co-main__page-link: var(--cl-accent-600);
+  --fw-main__page-link: ;
   --td-main__page-link: none;
   --co-main__page-title: var(--cl-gray-900);
   --ff-main__page-title: "Ibarra Real Nova", serif;
@@ -1439,8 +1444,10 @@
   --tt-reference__linked-title-closed: none;
   --bt-reference__mentions: transparent;
   --bc-reference__nested-refs: transparent;
+  --bb-reference__page-title--hover: ;
   --co-reference__page-title--hover: var(--cl-gray-900);
   --td-reference__page-title--hover: underline;
+  --bb-reference__page-title: ;
   --co-reference__page-title: var(--cl-gray-600);
   --ff-reference__page-title: ;
   --fs-reference__page-title: ;

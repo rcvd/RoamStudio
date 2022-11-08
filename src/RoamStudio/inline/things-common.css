@@ -2,6 +2,11 @@
 :root {
   --cl-black: #000;
   --cl-white: #fff;
+  --cl-accent-300: #c9e2ff;
+  --cl-accent-400: #5f9ff5;
+  --cl-accent-500: #509cff;
+  --cl-accent-700: #0169cd;
+  --cl-accent-800: #0362c1;
   --cl-rose-50: #fff1f2;
   --cl-rose-100: #ffe4e6;
   --cl-rose-200: #fecdd3;
@@ -195,12 +200,16 @@
   --cl-gray-50: #f9fafb;
   --cl-gray-100: #f5f6f8;
   --cl-gray-200: #eef0f4;
+  --cl-gray-250: #e6e8eb;
   --cl-gray-300: #dee0e5;
+  --cl-gray-350: #c1c3c6;
   --cl-gray-400: #b5b9bd;
   --cl-gray-500: #a8acb3;
   --cl-gray-600: #8d9195;
+  --cl-gray-650: #5d5f62;
   --cl-gray-700: #363a3e;
   --cl-gray-800: #2c3239;
+  --cl-gray-850: #1c1c1c;
   --cl-gray-900: #121417;
   --cl-coolGray-50: #f9fafb;
   --cl-coolGray-100: #f3f4f6;
@@ -450,6 +459,10 @@ input[type=radio]:active,
   line-height: 30px;
 }
 
+.dm-toggle {
+  display: none;
+}
+
 .bp3-elevation-3 div.dont-unfocus-block {
   align-items: center;
 }
@@ -641,7 +654,7 @@ input[type=radio] {
 .roam-block,
 .rm-block__input {
   line-height: calc(var(--fs-main) + 8px);
-  min-height: calc(var(--fs-main) + 8px);
+  min-height: calc(var(--fs-main) + 16px);
   padding-top: var(--font-padding);
 }
 
@@ -895,6 +908,10 @@ input[type=radio] {
 .rm-hr {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.rm-highlight {
+  margin: 0;
 }
 
 .bp3-menu-item {
@@ -1167,6 +1184,17 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
   transition: all ease-in-out 300ms;
 }
 
+.rm-video-player__container,
+.rm-iframe__container {
+  margin-right: 0;
+}
+
+@media (min-width: 1000px) {
+  .rm-spacing--large .rm-video-player__spacing-wrapper,
+.rm-spacing--large .rm-iframe__spacing-wrapper {
+    max-width: 100% !important;
+  }
+}
 #zotero-roam-portal .header-bottom {
   margin: min(74px, 10vh) 2.5%;
 }
@@ -1193,6 +1221,11 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
   padding: 8px 15px !important;
 }
 
-.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page, .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .title {
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page,
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .title {
   padding-left: 5px;
+}
+
+.rm-bullet.rm-bullet--closed .rm-bullet__inner {
+  padding: 3px;
 }

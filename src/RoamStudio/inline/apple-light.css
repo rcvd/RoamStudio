@@ -1001,12 +1001,14 @@ html {
   --td-main__a--hover: none;
   --bb-main__a: ;
   --co-main__a: #06c;
+  --fw-main__a: ;
   --td-main__a: none;
   --bb-main__alias--hover: ;
   --co-main__alias--hover: #06c;
   --td-main__alias--hover: none;
   --bb-main__alias: ;
   --co-main__alias: #06c;
+  --fw-main__alias: ;
   --td-main__alias: none;
   --co-main__alias-tooltip-external: ;
   --td-main__alias-tooltip-external: ;
@@ -1097,6 +1099,8 @@ html {
   --bb-main__date-link: ;
   --bd-main__date-link: ;
   --co-main__date-link: ;
+  --fs-main__date-link: ;
+  --fw-main__date-link: ;
   --td-main__date-link: ;
   --bc-main__dropbar: #b5b9bd;
   --bc-main__highlight: #f7e594;
@@ -1173,6 +1177,7 @@ html {
   --td-main__page-link--hover: none;
   --bb-main__page-link: ;
   --co-main__page-link: #06c;
+  --fw-main__page-link: ;
   --td-main__page-link: none;
   --co-main__page-title: #23272b;
   --ff-main__page-title: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
@@ -1455,8 +1460,10 @@ html {
   --tt-reference__linked-title-closed: ;
   --bt-reference__mentions: ;
   --bc-reference__nested-refs: #f9fafb;
+  --bb-reference__page-title--hover: ;
   --co-reference__page-title--hover: ;
   --td-reference__page-title--hover: none;
+  --bb-reference__page-title: ;
   --co-reference__page-title: #121418;
   --ff-reference__page-title: ;
   --fs-reference__page-title: 1rem;

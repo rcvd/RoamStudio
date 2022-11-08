@@ -1900,6 +1900,7 @@ h3.bp3-heading {
 .roam-block a:not(.bp3-menu-item), #right-sidebar a:not(.bp3-menu-item), .rm-help a {
 	border-bottom: 			var(--bb-main__a);
 	color: 					var(--co-main__a);
+	font-weight: 			var(--fw-main__a);
 	-webkit-text-decoration: 		var(--td-main__a);
 	        text-decoration: 		var(--td-main__a);
 }
@@ -1914,6 +1915,7 @@ a.rm-alias:not(.rm-alias--external):hover {
 a.rm-alias:not(.rm-alias--external) {
 	border-bottom: 			var(--bb-main__alias);
 	color: 					var(--co-main__alias);
+	font-weight: 			var(--fw-main__alias);
 	-webkit-text-decoration: 		var(--td-main__alias);
 	        text-decoration: 		var(--td-main__alias);
 }
@@ -2048,7 +2050,7 @@ a.rm-alias:not(.rm-alias--external) {
 	background-color: 		var(--bc-main__bullet-inner);
 }
 
-.rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper .rm-caret {
+.rm-caret {
 	color: 					var(--co-main__caret);
 }
 
@@ -2091,6 +2093,8 @@ a.rm-alias:not(.rm-alias--external) {
 	border-bottom: 			var(--bb-main__date-link);
 	border-radius: 			var(--bd-main__date-link);
 	color: 					var(--co-main__date-link);
+	font-size: 				var(--fs-main__date-link);
+	font-weight: 			var(--fw-main__date-link);
 	-webkit-text-decoration: 		var(--td-main__date-link);
 	        text-decoration: 		var(--td-main__date-link);
 }
@@ -2238,6 +2242,7 @@ code {
 .rm-page-ref {
 	border-bottom: 			var(--bb-main__page-link);
 	color: 					var(--co-main__page-link);
+	font-weight: 			var(--fw-main__page-link);
 	-webkit-text-decoration: 		var(--td-main__page-link);
 	        text-decoration: 		var(--td-main__page-link);
 }
@@ -2748,12 +2753,14 @@ code {
 }
 
 .rm-mentions .rm-ref-page-view .rm-ref-page-view-title a:hover span {
+	border-bottom: 			var(--bb-reference__page-title--hover);
 	color: 					var(--co-reference__page-title--hover);
 	-webkit-text-decoration: 		var(--td-reference__page-title--hover)!important;
 	        text-decoration: 		var(--td-reference__page-title--hover)!important;
 }
 
-.rm-mentions .rm-ref-page-view .rm-ref-page-view-title a, .rm-mentions .rm-ref-page-view .rm-ref-page-view-title {
+.rm-mentions .rm-ref-page-view .rm-ref-page-view-title a {
+	border-bottom: 			var(--bb-reference__page-title);
 	color: 					var(--co-reference__page-title);
 	font-family: 			var(--ff-reference__page-title);
 	font-size: 				var(--fs-reference__page-title);

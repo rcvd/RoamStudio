@@ -993,12 +993,14 @@ textarea,
   --td-main__a--hover: none;
   --bb-main__a: ;
   --co-main__a: rgba(107, 202, 251, 1.00);
+  --fw-main__a: ;
   --td-main__a: none;
   --bb-main__alias--hover: ;
   --co-main__alias--hover: rgba(107, 202, 251, 1.00);
   --td-main__alias--hover: none;
   --bb-main__alias: ;
   --co-main__alias: rgba(107, 202, 251, 1.00);
+  --fw-main__alias: ;
   --td-main__alias: none;
   --co-main__alias-tooltip-external: ;
   --td-main__alias-tooltip-external: ;
@@ -1089,6 +1091,8 @@ textarea,
   --bb-main__date-link: ;
   --bd-main__date-link: ;
   --co-main__date-link: ;
+  --fs-main__date-link: ;
+  --fw-main__date-link: ;
   --td-main__date-link: ;
   --bc-main__dropbar: var(--cl-var(--cl-gray-500));
   --bc-main__highlight: #253c92;
@@ -1165,6 +1169,7 @@ textarea,
   --td-main__page-link--hover: none;
   --bb-main__page-link: ;
   --co-main__page-link: rgba(107, 202, 251, 1.00);
+  --fw-main__page-link: ;
   --td-main__page-link: none;
   --co-main__page-title: rgba(203, 219, 229, 1.00);
   --ff-main__page-title: avenir next, avenir, "Nunito Sans", segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
@@ -1447,8 +1452,10 @@ textarea,
   --tt-reference__linked-title-closed: ;
   --bt-reference__mentions: ;
   --bc-reference__nested-refs: #333333;
+  --bb-reference__page-title--hover: ;
   --co-reference__page-title--hover: ;
   --td-reference__page-title--hover: none;
+  --bb-reference__page-title: ;
   --co-reference__page-title: #f5f5f7;
   --ff-reference__page-title: avenir next, avenir, "Nunito Sans", segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
   --fs-reference__page-title: 1rem;

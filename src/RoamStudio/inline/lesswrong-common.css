@@ -461,6 +461,10 @@ input[type=radio]:active,
   line-height: 30px;
 }
 
+.dm-toggle {
+  display: none;
+}
+
 .bp3-elevation-3 div.dont-unfocus-block {
   align-items: center;
 }
@@ -652,7 +656,7 @@ input[type=radio] {
 .roam-block,
 .rm-block__input {
   line-height: calc(var(--fs-main) + 8px);
-  min-height: calc(var(--fs-main) + 8px);
+  min-height: calc(var(--fs-main) + 16px);
   padding-top: var(--font-padding);
 }
 
@@ -906,6 +910,10 @@ input[type=radio] {
 .rm-hr {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.rm-highlight {
+  margin: 0;
 }
 
 .bp3-menu-item {
@@ -1178,6 +1186,17 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
   transition: all ease-in-out 300ms;
 }
 
+.rm-video-player__container,
+.rm-iframe__container {
+  margin-right: 0;
+}
+
+@media (min-width: 1000px) {
+  .rm-spacing--large .rm-video-player__spacing-wrapper,
+.rm-spacing--large .rm-iframe__spacing-wrapper {
+    max-width: 100% !important;
+  }
+}
 #zotero-roam-portal .header-bottom {
   margin: min(74px, 10vh) 2.5%;
 }

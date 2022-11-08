@@ -986,12 +986,14 @@
   --td-main__a--hover: none;
   --bb-main__a: 1px solid var(--cl-gray-700);
   --co-main__a: var(--cl-gray-700);
+  --fw-main__a: ;
   --td-main__a: none;
   --bb-main__alias--hover: 1px solid var(--cl-gray-700);
   --co-main__alias--hover: var(--cl-gray-850);
   --td-main__alias--hover: none;
   --bb-main__alias: 1px solid var(--cl-gray-700);
   --co-main__alias: var(--cl-gray-850);
+  --fw-main__alias: ;
   --td-main__alias: none;
   --co-main__alias-tooltip-external: var(--cl-gray-700);
   --td-main__alias-tooltip-external: none;
@@ -1082,6 +1084,8 @@
   --bb-main__date-link: transparent;
   --bd-main__date-link: 3px;
   --co-main__date-link: var(--cl-gray-550);
+  --fs-main__date-link: ;
+  --fw-main__date-link: normal;
   --td-main__date-link: none;
   --bc-main__dropbar: var(--cl-accent-700);
   --bc-main__highlight: var(--cl-yellow-150);
@@ -1158,6 +1162,7 @@
   --td-main__page-link--hover: none;
   --bb-main__page-link: 3px solid var(--cl-gray-300);
   --co-main__page-link: var(--cl-gray-700);
+  --fw-main__page-link: ;
   --td-main__page-link: none;
   --co-main__page-title: var(--cl-gray-850);
   --ff-main__page-title: -apple-system, BlinkMacSystemFont, Inter, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
@@ -1234,9 +1239,9 @@
   --fs-main__quote: 1rem;
   --ft-main__quote: normal;
   --fw-main__quote: normal;
-  --bt-main__rm-E: 1px dotted var(--cl-gray-300);
-  --bb-main__rm-E: 1px dotted var(--cl-gray-300);
-  --bl-main__rm-E: 1px dotted var(--cl-gray-300);
+  --bt-main__rm-E: 1px solid var(--cl-gray-300);
+  --bb-main__rm-E: 1px solid var(--cl-gray-300);
+  --bl-main__rm-E: 1px solid var(--cl-gray-300);
   --bc-main__rm-hide--hover: var(--cl-gray-500);
   --bc-main__rm-hide: var(--cl-gray-500);
   --co-main__strikethrough: var(--cl-gray-500);
@@ -1440,8 +1445,10 @@
   --tt-reference__linked-title-closed: none;
   --bt-reference__mentions: 1px solid var(--cl-gray-200);
   --bc-reference__nested-refs: transparent;
+  --bb-reference__page-title--hover: ;
   --co-reference__page-title--hover: var(--cl-gray-850);
   --td-reference__page-title--hover: none;
+  --bb-reference__page-title: ;
   --co-reference__page-title: var(--cl-gray-850);
   --ff-reference__page-title: -apple-system, BlinkMacSystemFont, Inter, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
   --fs-reference__page-title: 1rem;
@@ -1747,7 +1754,7 @@
   --bb-toast__button-minimal: 1px solid var(--cl-gray-500);
   --bl-toast__button-minimal: 1px solid var(--cl-gray-500);
   --bd-toast__button-minimal: 5px;
-  --co-toast__icon: var(--cl-white);
+  --co-toast__icon: var(--cl-gray-850);
   --bc-toast__progress--danger: var(--cl-red-700);
   --bc-toast__progress--success: var(--cl-green-700);
   --bc-toast__progress--warning: var(--cl-orange-700);
