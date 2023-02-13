@@ -1,7 +1,8 @@
-.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .icon {
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .icon,
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .bp3-button .bp3-icon-search {
   display: none;
 }
 
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button {
-  font-weight: bold;
+  font-weight: 600;
 }

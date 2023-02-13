@@ -47,6 +47,7 @@ var settings: { [key: string]: any } = {
     "css-advanced-heading-spacing": false,
     "css-bullet-effects": false,
     "css-centered-search": false,
+    "css-done": false,
     "css-dynamic-images": false,
     "css-hide-line-numbers": false,
     "css-hide-logo": false,
@@ -411,7 +412,7 @@ function changeFontSize() {
   var head = document.getElementsByTagName("head")[0];
   var style = document.createElement("style");
   style.id = "roamstudio-css-font-size";
-  style.textContent = ":root {" + "--fs-app__html: " + fontSize + "px;};";
+  style.textContent = ":root {" + "--fs-app__html: " + fontSize + "px!important;};";
   head.appendChild(style);
 }
 
@@ -426,7 +427,7 @@ function changeLineSpacing() {
   switch (settings["css-line-spacing"]) {
     case "small":
       spacing =
-        ".roam-block, .rm-block__input {line-height: calc(var(--fs-main) + 6px); min-height: calc(var(--fs-main) + 16px); padding-top: 5px;};" +
+        ".roam-block, .rm-block__input {line-height: calc(var(--fs-main) + 6px); min-height: calc(var(--fs-main) + 12px); padding-top: 5px;};" +
         "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level1) + 6px);}" +
         "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level2) + 6px);}" +
         "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level3) + 6px);}";
@@ -440,7 +441,7 @@ function changeLineSpacing() {
       break;
     case "large":
       spacing =
-        ".roam-block, .rm-block__input {line-height: calc(var(--fs-main) + 10px); min-height: calc(var(--fs-main) + 16px); padding-top: 3px;};" +
+        ".roam-block, .rm-block__input {line-height: calc(var(--fs-main) + 10px); min-height: calc(var(--fs-main) + 20px); padding-top: 3px;};" +
         "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level1) + 10px);}" +
         "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level2) + 10px);}" +
         "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level3) + 10px);}";
@@ -538,8 +539,19 @@ function changePageLinkColor() {
   if (settings["css-page-link-color"] != "Theme Default") {
     var head = document.getElementsByTagName("head")[0];
     var style = document.createElement("style");
+    
     style.id = "roamstudio-css-page-link-color";
-    style.textContent = `:root {--co-main__page-link: var(--cl-${settings["css-page-link-color"]}-600);--co-main__a: var(--cl-${settings["css-page-link-color"]}-600);--co-main__alias: var(--cl-${settings["css-page-link-color"]}-600);--co-main__page-link--hover: var(--cl-${settings["css-page-link-color"]}-600);--co-main__a--hover: var(--cl-${settings["css-page-link-color"]}-600);--co-main__alias--hover: var(--cl-${settings["css-page-link-color"]}-600);}`;
+    switch (settings["css-appearance"]) {
+    case "Auto":
+      style.textContent = `:root {--co-main__page-link: var(--cl-${settings["css-page-link-color"]}-600);--co-main__a: var(--cl-${settings["css-page-link-color"]}-600);--co-main__alias: var(--cl-${settings["css-page-link-color"]}-600);--co-main__page-link--hover: var(--cl-${settings["css-page-link-color"]}-600);--co-main__a--hover: var(--cl-${settings["css-page-link-color"]}-600);--co-main__alias--hover: var(--cl-${settings["css-page-link-color"]}-600);}`+`@media (prefers-color-scheme: dark) {:root {--co-main__page-link: var(--cl-${settings["css-page-link-color"]}-400);--co-main__a: var(--cl-${settings["css-page-link-color"]}-400);--co-main__alias: var(--cl-${settings["css-page-link-color"]}-400);--co-main__page-link--hover: var(--cl-${settings["css-page-link-color"]}-400);--co-main__a--hover: var(--cl-${settings["css-page-link-color"]}-400);--co-main__alias--hover: var(--cl-${settings["css-page-link-color"]}-400);}`;
+      break;
+    case "Dark":
+      style.textContent = `:root {--co-main__page-link: var(--cl-${settings["css-page-link-color"]}-400);--co-main__a: var(--cl-${settings["css-page-link-color"]}-400);--co-main__alias: var(--cl-${settings["css-page-link-color"]}-400);--co-main__page-link--hover: var(--cl-${settings["css-page-link-color"]}-400);--co-main__a--hover: var(--cl-${settings["css-page-link-color"]}-400);--co-main__alias--hover: var(--cl-${settings["css-page-link-color"]}-400);}`;
+      break;
+    case "Light":
+      style.textContent = `:root {--co-main__page-link: var(--cl-${settings["css-page-link-color"]}-600);--co-main__a: var(--cl-${settings["css-page-link-color"]}-600);--co-main__alias: var(--cl-${settings["css-page-link-color"]}-600);--co-main__page-link--hover: var(--cl-${settings["css-page-link-color"]}-600);--co-main__a--hover: var(--cl-${settings["css-page-link-color"]}-600);--co-main__alias--hover: var(--cl-${settings["css-page-link-color"]}-600);}`;
+      break;
+    }
     head.appendChild(style);
   }
 }
@@ -571,7 +583,7 @@ function changePageLinkStyle() {
   } else {
     linkColor = settings["css-page-link-color"];
     linkBrightLight = 300;
-    linkBrightDark = 800;
+    linkBrightDark = 550;
   }
   if (settings["css-page-link-style"] != "Theme Default") {
     switch (settings["css-page-link-style"]) {
@@ -2220,6 +2232,19 @@ function onload({ extensionAPI }: OnloadArgs) {
           onChange: (evt) => {
             modules["css-no-animations"] = evt.target.checked;
             changeModule("css-no-animations");
+          },
+        },
+      },
+      {
+        id: "css-done",
+        name: "Strike done todos",
+        description:
+          "Strike out done todos",
+        action: {
+          type: "switch",
+          onChange: (evt) => {
+            modules["css-done"] = evt.target.checked;
+            changeModule("css-done");
           },
         },
       },

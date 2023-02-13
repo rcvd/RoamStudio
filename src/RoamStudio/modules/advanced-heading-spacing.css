@@ -10,6 +10,6 @@
 .rm-block--closed.rm-heading-level-3 > .rm-block__self .rm-block__input,
 .rm-block--closed.rm-heading-level-3 > .rm-block__self > .controls,
 .rm-block--closed.rm-heading-level-3 > .rm-block__self > .rm-block__controls {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
+  margin-top: 0;
+  margin-bottom: 0;
 }

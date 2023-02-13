@@ -16,6 +16,7 @@ echo "    css['craft-light'] = '`cat src/RoamStudio/inline/craft-light.css | tr 
 echo "    css['css-advanced-heading-spacing'] = '`cat src/RoamStudio/modules/advanced-heading-spacing.css | tr '\n' ' '`';" >> src/index.ts
 echo "    css['css-bullet-effects'] = '`cat src/RoamStudio/modules/bullet-effects.css | tr '\n' ' '`';" >> src/index.ts
 echo "    css['css-centered-search'] = '`cat src/RoamStudio/modules/centered-search.css | tr '\n' ' '`';" >> src/index.ts
+echo "    css['css-done'] = '`cat src/RoamStudio/modules/done.css | tr '\n' ' '`';" >> src/index.ts
 echo "    css['css-dynamic-images'] = '`cat src/RoamStudio/modules/dynamic-images.css | tr '\n' ' '`';" >> src/index.ts
 echo "    css['css-hide-line-numbers'] = '`cat src/RoamStudio/modules/hide-line-numbers.css | tr '\n' ' '`';" >> src/index.ts
 echo "    css['css-hide-logo'] = '`cat src/RoamStudio/modules/hide-logo.css | tr '\n' ' '`';" >> src/index.ts
