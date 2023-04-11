@@ -404,8 +404,7 @@ html {
 }
 
 .bp3-progress-bar:not(.bp3-no-animation):not(.bp3-no-stripes) .bp3-progress-meter {
-  -webkit-animation: none;
-          animation: none;
+  animation: none;
 }
 
 .bp3-control .bp3-control-indicator {
@@ -461,7 +460,7 @@ input[type=radio]:active,
 }
 
 .bp3-datepicker .bp3-datepicker-day-wrapper {
-  padding: calc(var(--fs-app__html) / 2 - var(--fs-app__html) / 7);
+  padding: calc(var(--fs-app__html) / 4);
 }
 
 .bp3-file-upload-input {
@@ -612,6 +611,23 @@ input[type=radio]:active,
 
 .rm-graph-dropdown a:focus {
   outline: none;
+}
+
+.bp3-input-group .bp3-input-action, .bp3-input-group > .bp3-input-left-container, .bp3-input-group > .bp3-button, .bp3-input-group > .bp3-icon {
+  top: calc((2 * var(--fs-app__html) - 26px) / 2);
+}
+
+.bp3-input-group > .bp3-icon {
+  margin: 5px;
+}
+
+.bp3-input-group.bp3-small .bp3-input {
+  height: calc(2 * var(--fs-app__html) - 2px);
+  line-height: calc(2 * var(--fs-app__html) - 2px);
+}
+
+.bp3-input-group .bp3-button {
+  margin: 1px;
 }
 
 .rm-help-search__icon-container {
@@ -1063,6 +1079,17 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
   line-height: 24px;
 }
 
+.rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper .rm-caret {
+  min-width: 20px;
+  line-height: 20px;
+}
+
+.rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: flex-start;
+}
+
 #right-sidebar .window-headers,
 #right-sidebar .window-headers div {
   line-height: 24px;
@@ -1292,14 +1319,6 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
     max-width: 100% !important;
   }
 }
-#zotero-roam-portal .header-bottom {
-  margin: min(74px, 10vh) 2.5%;
-}
-
-.zotero-roam-cm-option .bp3-menu-item:before {
-  margin-top: 4px;
-}
-
 .advanced-search-el .sidebar {
   border-top-right-radius: var(--bd-dialog);
   border-bottom-right-radius: var(--bd-dialog);
@@ -1431,6 +1450,18 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
 
 .bp3-dialog-header {
   border-radius: var(--bd-dialog) var(--bd-dialog) 0 0;
+}
+
+#zotero-roam-portal .header-bottom {
+  margin: min(74px, 10vh) 2.5%;
+}
+
+.zotero-roam-cm-option .bp3-menu-item:before {
+  margin-top: 4px;
+}
+
+.zr-date-input input, .zr-date-range-input input, .zr-text-input input:not(.bp3-input-ghost), [class*=zr] .bp3-multi-select.bp3-input, [class*=zr] .bp3-numeric-input input.bp3-input, textarea.zr-text-input {
+  outline: none;
 }
 
 :root {

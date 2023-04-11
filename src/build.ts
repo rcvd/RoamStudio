@@ -751,42 +751,37 @@ function changeTagColor() {
     document.getElementById("roamstudio-css-tag-color").remove();
   }
 
-  if (
-    settings["css-tag-background"] != "Theme Default" ||
-    settings["css-tag-invert"]
-  ) {
-    if (settings["css-tag-color"] == "Theme Default") {
-      tagColor = "gray";
-    } else {
-      tagColor = settings["css-tag-color"];
-    }
-
-    if (!settings["css-tag-invert"]) {
-      colorStyleLight = 500;
-      colorStyleDark = 500;
-    } else {
-      colorStyleLight = 100;
-      colorStyleDark = 900;
-    }
-
-    var head = document.getElementsByTagName("head")[0];
-    var style = document.createElement("style");
-    style.id = "roamstudio-css-tag-color";
-    switch (settings["css-appearance"]) {
-      case "Auto":
-        style.textContent =
-          `:root {--co-main__tags: var(--cl-${tagColor}-${colorStyleLight});--co-main__tags--hover: var(--cl-${tagColor}-${colorStyleLight});}` +
-          `@media (prefers-color-scheme: dark) {:root {--co-main__tags: var(--cl-${tagColor}-${colorStyleDark});--co-main__tags--hover: var(--cl-${tagColor}-${colorStyleDark});}}`;
-        break;
-      case "Dark":
-        style.textContent = `:root {--co-main__tags: var(--cl-${tagColor}-${colorStyleDark});--co-main__tags--hover: var(--cl-${tagColor}-${colorStyleDark});}`;
-        break;
-      case "Light":
-        style.textContent = `:root {--co-main__tags: var(--cl-${tagColor}-${colorStyleLight});--co-main__tags--hover: var(--cl-${tagColor}-${colorStyleLight});}`;
-        break;
-    }
-    head.appendChild(style);
+  if (settings["css-tag-color"] == "Theme Default") {
+    tagColor = "gray";
+  } else {
+    tagColor = settings["css-tag-color"];
   }
+
+  if (!settings["css-tag-invert"]) {
+    colorStyleLight = 500;
+    colorStyleDark = 500;
+  } else {
+    colorStyleLight = 100;
+    colorStyleDark = 900;
+  }
+
+  var head = document.getElementsByTagName("head")[0];
+  var style = document.createElement("style");
+  style.id = "roamstudio-css-tag-color";
+  switch (settings["css-appearance"]) {
+    case "Auto":
+      style.textContent =
+        `:root {--co-main__tags: var(--cl-${tagColor}-${colorStyleLight});--co-main__tags--hover: var(--cl-${tagColor}-${colorStyleLight});}` +
+        `@media (prefers-color-scheme: dark) {:root {--co-main__tags: var(--cl-${tagColor}-${colorStyleDark});--co-main__tags--hover: var(--cl-${tagColor}-${colorStyleDark});}}`;
+      break;
+    case "Dark":
+      style.textContent = `:root {--co-main__tags: var(--cl-${tagColor}-${colorStyleDark});--co-main__tags--hover: var(--cl-${tagColor}-${colorStyleDark});}`;
+      break;
+    case "Light":
+      style.textContent = `:root {--co-main__tags: var(--cl-${tagColor}-${colorStyleLight});--co-main__tags--hover: var(--cl-${tagColor}-${colorStyleLight});}`;
+      break;
+  }
+  head.appendChild(style);
 }
 
 function changeTagStyle() {
@@ -1443,7 +1438,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         description: "Select your base theme",
         action: {
           type: "select",
-          items: ["Craft", "Quattro"],
+          items: ["Craft", "Quattro", "Things"],
           onChange: (evt) => {
             settings["css-theme"] = evt.toString();
             changeSettings("css-theme");
@@ -1941,6 +1936,40 @@ function onload({ extensionAPI }: OnloadArgs) {
         },
       },
       {
+        id: "css-tag-background",
+        name: "Tag Background Color",
+        description: "Select the background color of your tags",
+        action: {
+          type: "select",
+          items: [
+            "Theme Default",
+            "accent",
+            "rose",
+            "pink",
+            "fuchsia",
+            "purple",
+            "violet",
+            "indigo",
+            "blue",
+            "sky",
+            "cyan",
+            "teal",
+            "emerald",
+            "green",
+            "lime",
+            "yellow",
+            "amber",
+            "orange",
+            "red",
+            "gray",
+          ],
+          onChange: (evt) => {
+            settings["css-tag-background"] = evt.toString();
+            changeTagBackground();
+          },
+        },
+      },
+      {
         id: "css-tag-style",
         name: "Tag Style",
         description: "Select the style of your tags",
@@ -1979,40 +2008,7 @@ function onload({ extensionAPI }: OnloadArgs) {
           },
         },
       },
-      {
-        id: "css-tag-background",
-        name: "Tag Background Color",
-        description: "Select the background color of your tags",
-        action: {
-          type: "select",
-          items: [
-            "Theme Default",
-            "accent",
-            "rose",
-            "pink",
-            "fuchsia",
-            "purple",
-            "violet",
-            "indigo",
-            "blue",
-            "sky",
-            "cyan",
-            "teal",
-            "emerald",
-            "green",
-            "lime",
-            "yellow",
-            "amber",
-            "orange",
-            "red",
-            "gray",
-          ],
-          onChange: (evt) => {
-            settings["css-tag-background"] = evt.toString();
-            changeTagBackground();
-          },
-        },
-      },
+
       {
         id: "css-tag-radius",
         name: "Tag Radius",

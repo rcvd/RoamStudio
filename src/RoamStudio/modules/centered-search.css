@@ -52,6 +52,8 @@
 
     .rm-find-or-create-wrapper {
         transition: none;
+        box-shadow: var(--sd-dialog)!important;
+        border: var(--br-dialog)!important;
     }
 
     .rm-find-or-create-wrapper .bp3-menu {
@@ -59,14 +61,13 @@
     }
 
     .rm-find-or-create-wrapper {
-        background-color: var(--bc-popover, #fafafa) !important;
+        background-color: var(--bc-find-or-create, #fafafa) !important;
         border-radius: 6px;
-        box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1), 0 4px 8px rgba(16, 22, 26, 0.2), 0 18px 46px 6px rgba(16, 22, 26, 0.2) !important;
     }
 
     @media (prefers-color-scheme: dark) {
         .rm-find-or-create-wrapper {
-            background-color: var(--bc-popover, #202020) !important;
+            background-color: var(--bc-find-or-create, #202020) !important;
         }
     }
 
