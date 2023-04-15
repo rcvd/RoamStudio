@@ -637,7 +637,7 @@
   --bc-elevation__item-result--selected: transparent;
   --co-elevation__item-result--selected: var(--cl-gray-850);
   --co-elevation__placeholder: var(--cl-gray-850);
-  --bc-elevation__results: var(--cl-gray-100);
+  --bc-elevation__results: transparent;
   --bb-elevation__results: transparent;
   --co-elevation__results: var(--cl-gray-850);
   --bc-elevation: var(--cl-gray-100);

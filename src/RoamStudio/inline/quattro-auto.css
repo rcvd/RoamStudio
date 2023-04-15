@@ -636,7 +636,7 @@
   --bc-elevation__item-result--selected: transparent;
   --co-elevation__item-result--selected: var(--cl-white);
   --co-elevation__placeholder: var(--cl-gray-900);
-  --bc-elevation__results: var(--cl-gray-200);
+  --bc-elevation__results: transparent;
   --bb-elevation__results: transparent;
   --co-elevation__results: var(--cl-gray-900);
   --bc-elevation: var(--cl-gray-200);
@@ -2854,7 +2854,7 @@ a.rm-alias:not(.rm-alias--external):hover {
     --bc-elevation__item-result--selected: transparent;
     --co-elevation__item-result--selected: var(--cl-gray-200);
     --co-elevation__placeholder: var(--cl-gray-200);
-    --bc-elevation__results: var(--cl-gray-700);
+    --bc-elevation__results: transparent;
     --bb-elevation__results: transparent;
     --co-elevation__results: var(--cl-gray-200);
     --bc-elevation: var(--cl-gray-700);
