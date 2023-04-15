@@ -412,7 +412,8 @@ function changeFontSize() {
   var head = document.getElementsByTagName("head")[0];
   var style = document.createElement("style");
   style.id = "roamstudio-css-font-size";
-  style.textContent = ":root {" + "--fs-app__html: " + fontSize + "px!important;};";
+  style.textContent =
+    ":root {" + "--fs-app__html: " + fontSize + "px!important;};";
   head.appendChild(style);
 }
 
@@ -539,18 +540,20 @@ function changePageLinkColor() {
   if (settings["css-page-link-color"] != "Theme Default") {
     var head = document.getElementsByTagName("head")[0];
     var style = document.createElement("style");
-    
+
     style.id = "roamstudio-css-page-link-color";
     switch (settings["css-appearance"]) {
-    case "Auto":
-      style.textContent = `:root {--co-main__page-link: var(--cl-${settings["css-page-link-color"]}-600);--co-main__a: var(--cl-${settings["css-page-link-color"]}-600);--co-main__alias: var(--cl-${settings["css-page-link-color"]}-600);--co-main__page-link--hover: var(--cl-${settings["css-page-link-color"]}-600);--co-main__a--hover: var(--cl-${settings["css-page-link-color"]}-600);--co-main__alias--hover: var(--cl-${settings["css-page-link-color"]}-600);}`+`@media (prefers-color-scheme: dark) {:root {--co-main__page-link: var(--cl-${settings["css-page-link-color"]}-400);--co-main__a: var(--cl-${settings["css-page-link-color"]}-400);--co-main__alias: var(--cl-${settings["css-page-link-color"]}-400);--co-main__page-link--hover: var(--cl-${settings["css-page-link-color"]}-400);--co-main__a--hover: var(--cl-${settings["css-page-link-color"]}-400);--co-main__alias--hover: var(--cl-${settings["css-page-link-color"]}-400);}`;
-      break;
-    case "Dark":
-      style.textContent = `:root {--co-main__page-link: var(--cl-${settings["css-page-link-color"]}-400);--co-main__a: var(--cl-${settings["css-page-link-color"]}-400);--co-main__alias: var(--cl-${settings["css-page-link-color"]}-400);--co-main__page-link--hover: var(--cl-${settings["css-page-link-color"]}-400);--co-main__a--hover: var(--cl-${settings["css-page-link-color"]}-400);--co-main__alias--hover: var(--cl-${settings["css-page-link-color"]}-400);}`;
-      break;
-    case "Light":
-      style.textContent = `:root {--co-main__page-link: var(--cl-${settings["css-page-link-color"]}-600);--co-main__a: var(--cl-${settings["css-page-link-color"]}-600);--co-main__alias: var(--cl-${settings["css-page-link-color"]}-600);--co-main__page-link--hover: var(--cl-${settings["css-page-link-color"]}-600);--co-main__a--hover: var(--cl-${settings["css-page-link-color"]}-600);--co-main__alias--hover: var(--cl-${settings["css-page-link-color"]}-600);}`;
-      break;
+      case "Auto":
+        style.textContent =
+          `:root {--co-main__page-link: var(--cl-${settings["css-page-link-color"]}-600);--co-main__a: var(--cl-${settings["css-page-link-color"]}-600);--co-main__alias: var(--cl-${settings["css-page-link-color"]}-600);--co-main__page-link--hover: var(--cl-${settings["css-page-link-color"]}-600);--co-main__a--hover: var(--cl-${settings["css-page-link-color"]}-600);--co-main__alias--hover: var(--cl-${settings["css-page-link-color"]}-600);}` +
+          `@media (prefers-color-scheme: dark) {:root {--co-main__page-link: var(--cl-${settings["css-page-link-color"]}-400);--co-main__a: var(--cl-${settings["css-page-link-color"]}-400);--co-main__alias: var(--cl-${settings["css-page-link-color"]}-400);--co-main__page-link--hover: var(--cl-${settings["css-page-link-color"]}-400);--co-main__a--hover: var(--cl-${settings["css-page-link-color"]}-400);--co-main__alias--hover: var(--cl-${settings["css-page-link-color"]}-400);}`;
+        break;
+      case "Dark":
+        style.textContent = `:root {--co-main__page-link: var(--cl-${settings["css-page-link-color"]}-400);--co-main__a: var(--cl-${settings["css-page-link-color"]}-400);--co-main__alias: var(--cl-${settings["css-page-link-color"]}-400);--co-main__page-link--hover: var(--cl-${settings["css-page-link-color"]}-400);--co-main__a--hover: var(--cl-${settings["css-page-link-color"]}-400);--co-main__alias--hover: var(--cl-${settings["css-page-link-color"]}-400);}`;
+        break;
+      case "Light":
+        style.textContent = `:root {--co-main__page-link: var(--cl-${settings["css-page-link-color"]}-600);--co-main__a: var(--cl-${settings["css-page-link-color"]}-600);--co-main__alias: var(--cl-${settings["css-page-link-color"]}-600);--co-main__page-link--hover: var(--cl-${settings["css-page-link-color"]}-600);--co-main__a--hover: var(--cl-${settings["css-page-link-color"]}-600);--co-main__alias--hover: var(--cl-${settings["css-page-link-color"]}-600);}`;
+        break;
     }
     head.appendChild(style);
   }
@@ -751,18 +754,33 @@ function changeTagColor() {
     document.getElementById("roamstudio-css-tag-color").remove();
   }
 
-  if (settings["css-tag-color"] == "Theme Default") {
-    tagColor = "gray";
-  } else {
+  switch (settings["css-theme"]) {
+    case "Quattro":
+      tagColor = "gray";
+      colorStyleLight = 900;
+      colorStyleDark = 400;
+      break;
+
+    case "Craft":
+      tagColor = "gray";
+      colorStyleLight = 600;
+      colorStyleDark = 400;
+      break;
+
+    case "Things":
+      tagColor = "accGreen";
+      colorStyleLight = 900;
+      colorStyleDark = 100;
+      break;
+  }
+
+  if (settings["css-tag-color"] != "Theme Default") {
     tagColor = settings["css-tag-color"];
   }
 
-  if (!settings["css-tag-invert"]) {
-    colorStyleLight = 500;
-    colorStyleDark = 500;
-  } else {
-    colorStyleLight = 100;
-    colorStyleDark = 900;
+  if (settings["css-tag-invert"]) {
+    colorStyleLight = 1000 - colorStyleLight;
+    colorStyleDark = 1000 - colorStyleDark;
   }
 
   var head = document.getElementsByTagName("head")[0];
@@ -787,6 +805,8 @@ function changeTagColor() {
 function changeTagStyle() {
   var borderStyle: string;
   var tagColor: string;
+  var colorStyleLight: number;
+  var colorStyleDark: number;
 
   console.log(
     "Switching tag style: " +
@@ -796,6 +816,29 @@ function changeTagStyle() {
   );
   if (document.getElementById("roamstudio-css-tag-style")) {
     document.getElementById("roamstudio-css-tag-style").remove();
+  }
+
+  switch (settings["css-theme"]) {
+    case "Quattro":
+      tagColor = "gray";
+      break;
+
+    case "Craft":
+      tagColor = "gray";
+      break;
+
+    case "Things":
+      tagColor = "accGreen";
+      break;
+  }
+
+  if (settings["css-tag-color"] != "Theme Default") {
+    tagColor = settings["css-tag-color"];
+  }
+
+  if (settings["css-tag-invert"]) {
+    colorStyleLight = 1000 - colorStyleLight;
+    colorStyleDark = 1000 - colorStyleDark;
   }
 
   if (settings["css-tag-style"] != "Theme Default") {
@@ -867,49 +910,82 @@ function changeTagFontSize() {
 }
 
 function changeTagBackground() {
-  var colorStyle: number;
+  var colorStyleLight: number;
+  var colorStyleDark: number;
   var tagColor: string;
-
-  colorStyle = 0;
 
   console.log("Switching tag background:" + settings["css-tag-background"]);
   if (document.getElementById("roamstudio-css-tag-background")) {
     document.getElementById("roamstudio-css-tag-background").remove();
   }
 
+  switch (settings["css-theme"]) {
+    case "Quattro":
+      tagColor = "trans";
+      colorStyleLight = 100;
+      colorStyleDark = 100;
+      break;
+
+    case "Craft":
+      tagColor = "gray";
+      colorStyleLight = 200;
+      colorStyleDark = 700;
+      break;
+
+    case "Things":
+      tagColor = "accGreen";
+      colorStyleLight = 300;
+      colorStyleDark = 800;
+      break;
+  }
+
+  if (settings["css-tag-background"] != "Theme Default") {
+    tagColor = settings["css-tag-background"];
+  }
+
+  if (settings["css-tag-invert"]) {
+    colorStyleLight = 1000 - colorStyleLight;
+    colorStyleDark = 1000 - colorStyleDark;
+  }
+
   if (
     settings["css-tag-background"] != "Theme Default" ||
     settings["css-tag-invert"]
   ) {
-    if (settings["css-tag-background"] == "Theme Default") {
-      tagColor = "gray";
-    } else {
-      tagColor = settings["css-tag-background"];
-    }
-
-    if (settings["css-tag-invert"]) {
-      colorStyle = 500;
-    } else {
-      switch (settings["css-appearance"]) {
-        case "Dark":
-          colorStyle = 900;
-          break;
-        case "Light":
-          colorStyle = 200;
-          break;
-      }
-    }
-
     var head = document.getElementsByTagName("head")[0];
     var style = document.createElement("style");
     style.id = "roamstudio-css-tag-background";
 
-    if (colorStyle != 0) {
-      style.textContent = `.rm-page-ref--tag, span[data-tag="tags"] {padding: 2px 5px;}:root {--bc-main__tags: var(--cl-${tagColor}-${colorStyle});--bc-main__tags--hover: var(--cl-${tagColor}-${colorStyle})}`;
-    } else {
-      style.textContent = `.rm-page-ref--tag, span[data-tag="tags"] {padding: 2px 5px;}:root {--bc-main__tags: var(--cl-${tagColor}-200);--bc-main__tags--hover: var(--cl-${tagColor}-200);}@media (prefers-color-scheme: dark) {:root {--bc-main__tags: var(--cl-${tagColor}-900);--bc-main__tags--hover: var(--cl-${tagColor}-900);}}`;
+    if (tagColor == "Transparent") {
+        switch (settings["css-appearance"]) {
+        case "Auto":
+          style.textContent =
+            `:root {--bc-main__tags: transparent;--bc-main__tags--hover: transparent;}` +
+            `@media (prefers-color-scheme: dark) {:root {--bc-main__tags: transparent;--bc-main__tags--hover: transparent;}}`;
+          break;
+        case "Dark":
+          style.textContent = `:root {--bc-main__tags: transparent;--bc-main__tags--hover: transparent;}`;
+          break;
+        case "Light":
+          style.textContent = `:root {--bc-main__tags: transparent;--bc-main__tags--hover: transparent;}`;
+          break;
+      }
     }
-
+    else {
+      switch (settings["css-appearance"]) {
+        case "Auto":
+          style.textContent =
+            `:root {--bc-main__tags: var(--cl-${tagColor}-${colorStyleLight});--bc-main__tags--hover: var(--cl-${tagColor}-${colorStyleLight});}` +
+            `@media (prefers-color-scheme: dark) {:root {--bc-main__tags: var(--cl-${tagColor}-${colorStyleDark});--bc-main__tags--hover: var(--cl-${tagColor}-${colorStyleDark});}}`;
+          break;
+        case "Dark":
+          style.textContent = `:root {--bc-main__tags: var(--cl-${tagColor}-${colorStyleDark});--bc-main__tags--hover: var(--cl-${tagColor}-${colorStyleDark});}`;
+          break;
+        case "Light":
+          style.textContent = `:root {--bc-main__tags: var(--cl-${tagColor}-${colorStyleLight});--bc-main__tags--hover: var(--cl-${tagColor}-${colorStyleLight});}`;
+          break;
+      }
+    }
     head.appendChild(style);
   }
 }
@@ -982,18 +1058,33 @@ function changeDateColor() {
     document.getElementById("roamstudio-css-date-color").remove();
   }
 
-  if (settings["css-date-color"] == "Theme Default") {
-    tagColor = "gray";
-  } else {
+  switch (settings["css-theme"]) {
+    case "Quattro":
+      tagColor = "gray";
+      colorStyleLight = 900;
+      colorStyleDark = 400;
+      break;
+
+    case "Craft":
+      tagColor = "gray";
+      colorStyleLight = 600;
+      colorStyleDark = 400;
+      break;
+
+    case "Things":
+      tagColor = "accGreen";
+      colorStyleLight = 600;
+      colorStyleDark = 400;
+      break;
+  }
+
+  if (settings["css-date-color"] != "Theme Default") {
     tagColor = settings["css-date-color"];
   }
 
-  if (!settings["css-date-invert"]) {
-    colorStyleLight = 600;
-    colorStyleDark = 400;
-  } else {
-    colorStyleLight = 100;
-    colorStyleDark = 900;
+  if (settings["css-tag-invert"]) {
+    colorStyleLight = 1000 - colorStyleLight;
+    colorStyleDark = 1000 - colorStyleDark;
   }
 
   var head = document.getElementsByTagName("head")[0];
@@ -1017,6 +1108,8 @@ function changeDateColor() {
 
 function changeDateStyle() {
   var borderStyle: string;
+  var colorStyleLight: number;
+  var colorStyleDark: number;
   var tagColor: string;
 
   console.log(
@@ -1029,34 +1122,55 @@ function changeDateStyle() {
     document.getElementById("roamstudio-css-date-style").remove();
   }
 
-  if (settings["css-date-style"] != "Theme Default") {
-    if (settings["css-date-color"] == "Theme Default") {
+  switch (settings["css-theme"]) {
+    case "Quattro":
       tagColor = "gray";
-    } else {
-      tagColor = settings["css-date-color"];
-    }
+      colorStyleLight = 900;
+      colorStyleDark = 400;
+      break;
 
-    switch (settings["css-date-style"]) {
-      case "No underline":
-        borderStyle = "0px solid ";
-        break;
-      case "Thin underline":
-        borderStyle = "1px solid ";
-        break;
-      case "Medium underline":
-        borderStyle = "2px solid ";
-        break;
-      case "Fat underline":
-        borderStyle = "3px solid ";
-        break;
-    }
+    case "Craft":
+      tagColor = "gray";
+      colorStyleLight = 600;
+      colorStyleDark = 400;
+      break;
 
-    var head = document.getElementsByTagName("head")[0];
-    var style = document.createElement("style");
-    style.id = "roamstudio-css-date-style";
-    style.textContent = `:root {--bb-main__date-link: ${borderStyle}var(--cl-${tagColor}-600);--bb-main__date-link--hover: ${borderStyle}var(--cl-${tagColor}-600);}`;
-    head.appendChild(style);
+    case "Things":
+      tagColor = "accGreen";
+      colorStyleLight = 600;
+      colorStyleDark = 400;
+      break;
   }
+
+  if (settings["css-date-color"] != "Theme Default") {
+    tagColor = settings["css-date-color"];
+  }
+
+  if (settings["css-tag-invert"]) {
+    colorStyleLight = 1000 - colorStyleLight;
+    colorStyleDark = 1000 - colorStyleDark;
+  }
+
+  switch (settings["css-date-style"]) {
+    case "No underline":
+      borderStyle = "0px solid ";
+      break;
+    case "Thin underline":
+      borderStyle = "1px solid ";
+      break;
+    case "Medium underline":
+      borderStyle = "2px solid ";
+      break;
+    case "Fat underline":
+      borderStyle = "3px solid ";
+      break;
+  }
+
+  var head = document.getElementsByTagName("head")[0];
+  var style = document.createElement("style");
+  style.id = "roamstudio-css-date-style";
+  style.textContent = `:root {--bb-main__date-link: ${borderStyle}var(--cl-${tagColor}-600);--bb-main__date-link--hover: ${borderStyle}var(--cl-${tagColor}-600);}`;
+  head.appendChild(style);
 }
 
 function changeDateFontSize() {
@@ -1099,49 +1213,82 @@ function changeDateFontSize() {
 }
 
 function changeDateBackground() {
-  var colorStyle: number;
+  var colorStyleLight: number;
+  var colorStyleDark: number;
   var tagColor: string;
-
-  colorStyle = 0;
 
   console.log("Switching date background:" + settings["css-date-background"]);
   if (document.getElementById("roamstudio-css-date-background")) {
     document.getElementById("roamstudio-css-date-background").remove();
   }
 
+  switch (settings["css-theme"]) {
+    case "Quattro":
+      tagColor = "trans";
+      colorStyleLight = 100;
+      colorStyleDark = 600;
+      break;
+
+    case "Craft":
+      tagColor = "gray";
+      colorStyleLight = 200;
+      colorStyleDark = 800;
+      break;
+
+    case "Things":
+      tagColor = "accGreen";
+      colorStyleLight = 300;
+      colorStyleDark = 600;
+      break;
+  }
+
+  if (settings["css-date-background"] != "Theme Default") {
+    tagColor = settings["css-date-background"];
+  }
+
+  if (settings["css-tag-invert"]) {
+    colorStyleLight = 1000 - colorStyleLight;
+    colorStyleDark = 1000 - colorStyleDark;
+  }
+
   if (
     settings["css-date-background"] != "Theme Default" ||
     settings["css-date-invert"]
   ) {
-    if (settings["css-date-background"] == "Theme Default") {
-      tagColor = "gray";
-    } else {
-      tagColor = settings["css-date-background"];
-    }
-
-    if (settings["css-date-invert"]) {
-      colorStyle = 500;
-    } else {
-      switch (settings["css-appearance"]) {
-        case "Dark":
-          colorStyle = 700;
-          break;
-        case "Light":
-          colorStyle = 300;
-          break;
-      }
-    }
-
     var head = document.getElementsByTagName("head")[0];
     var style = document.createElement("style");
     style.id = "roamstudio-css-date-background";
 
-    if (colorStyle != 0) {
-      style.textContent = `:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref {padding: 3px 7px;}:root {--bc-main__date-link: var(--cl-${tagColor}-${colorStyle});--bc-main__date-link--hover: var(--cl-${tagColor}-${colorStyle})}`;
-    } else {
-      style.textContent = `:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref {padding: 3px 7px;}:root {--bc-main__date-link: var(--cl-${tagColor}-300);--bc-main__date-link--hover: var(--cl-${tagColor}-300);}@media (prefers-color-scheme: dark) {:root {--bc-main__date-link: var(--cl-${tagColor}-700);--bc-main__date-link--hover: var(--cl-${tagColor}-700);}}`;
+    if (tagColor == "Transparent") {
+            switch (settings["css-appearance"]) {
+        case "Auto":
+          style.textContent =
+            `:root {--bc-main__date-link: transparent;--bc-main__date-link--hover: transparent;}` +
+            `@media (prefers-color-scheme: dark) {:root {--bc-main__date-link: transparent;--bc-main__date-link--hover: transparent;}}`;
+          break;
+        case "Dark":
+          style.textContent = `:root {--bc-main__date-link: transparent;--bc-main__date-link--hover: transparent;}`;
+          break;
+        case "Light":
+          style.textContent = `:root {--bc-main__date-link: transparent;--bc-main__date-link--hover: transparent;}`;
+          break;
+        }
     }
-
+    else {
+      switch (settings["css-appearance"]) {
+        case "Auto":
+          style.textContent =
+            `:root {--bc-main__date-link: var(--cl-${tagColor}-${colorStyleLight});--bc-main__date-link--hover: var(--cl-${tagColor}-${colorStyleLight});}` +
+            `@media (prefers-color-scheme: dark) {:root {--bc-main__date-link: var(--cl-${tagColor}-${colorStyleDark});--bc-main__date-link--hover: var(--cl-${tagColor}-${colorStyleDark});}}`;
+          break;
+        case "Dark":
+          style.textContent = `:root {--bc-main__date-link: var(--cl-${tagColor}-${colorStyleDark});--bc-main__date-link--hover: var(--cl-${tagColor}-${colorStyleDark});}`;
+          break;
+        case "Light":
+          style.textContent = `:root {--bc-main__date-link: var(--cl-${tagColor}-${colorStyleLight});--bc-main__date-link--hover: var(--cl-${tagColor}-${colorStyleLight});}`;
+          break;
+      }
+    }
     head.appendChild(style);
   }
 }
@@ -1943,6 +2090,7 @@ function onload({ extensionAPI }: OnloadArgs) {
           type: "select",
           items: [
             "Theme Default",
+            "Transparent",
             "accent",
             "rose",
             "pink",
@@ -2116,6 +2264,7 @@ function onload({ extensionAPI }: OnloadArgs) {
           type: "select",
           items: [
             "Theme Default",
+            "Transparent",
             "accent",
             "rose",
             "pink",
@@ -2234,8 +2383,7 @@ function onload({ extensionAPI }: OnloadArgs) {
       {
         id: "css-done",
         name: "Strike done todos",
-        description:
-          "Strike out done todos",
+        description: "Strike out done todos",
         action: {
           type: "switch",
           onChange: (evt) => {

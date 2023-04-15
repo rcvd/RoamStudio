@@ -2024,7 +2024,7 @@
   --bd-settings__extensions-search-scrollbar-thumb: 5px;
   --bc-settings__extensions-search-scrollbar-track: var(--cl-white);
   --bd-settings__extensions-search-scrollbar-track: 0px;
-  --co-settings__extensions-fullstats: var(--cl-gray-600);
+  --co-settings__extensions-fullstats: ;
   --bc-settings__extensions-tag--hover: var(--cl-white);
   --co-settings__extensions-tag--hover: var(--cl-accent-700);
   --bc-settings__extensions-tag: var(--cl-accent-700);
