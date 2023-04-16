@@ -285,7 +285,7 @@
 }
 
 .rm-all-pages .table .rm-pages-row.rm-pages-row-header {
-  overflow-y: initial;
+  overflow-y: auto;
 }
 
 .rm-all-pages .table .rm-pages-row .rm-pages-col {

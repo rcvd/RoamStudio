@@ -49,6 +49,7 @@ var settings: { [key: string]: any } = {
     "css-centered-search": false,
     "css-done": false,
     "css-dynamic-images": false,
+    "css-feather-icons": false,
     "css-hide-line-numbers": false,
     "css-hide-logo": false,
     "css-hide-shortcuts": false,
@@ -1604,6 +1605,18 @@ function onload({ extensionAPI }: OnloadArgs) {
             settings["css-appearance"] = evt.toString();
             changeSettings("css-appearance");
             setToggleIcon();
+          },
+        },
+      },
+      {
+        id: "css-feather-icons",
+        name: "Feather Icon Theme",
+        description: "Use feather icon theme",
+        action: {
+          type: "switch",
+          onChange: (evt) => {
+            modules["css-feather-icons"] = evt.target.checked;
+            changeModule("css-feather-icons");
           },
         },
       },

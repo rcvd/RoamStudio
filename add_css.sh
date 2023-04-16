@@ -22,6 +22,7 @@ echo "    css['css-bullet-effects'] = '`cat src/RoamStudio/modules/bullet-effect
 echo "    css['css-centered-search'] = '`cat src/RoamStudio/modules/centered-search.css | tr '\n' ' '`';" >> src/index.ts
 echo "    css['css-done'] = '`cat src/RoamStudio/modules/done.css | tr '\n' ' '`';" >> src/index.ts
 echo "    css['css-dynamic-images'] = '`cat src/RoamStudio/modules/dynamic-images.css | tr '\n' ' '`';" >> src/index.ts
+echo "    css['css-feather-icons'] = '`cat src/RoamStudio/modules/icons-feather.css | tr '\n' ' '`';" >> src/index.ts
 echo "    css['css-hide-line-numbers'] = '`cat src/RoamStudio/modules/hide-line-numbers.css | tr '\n' ' '`';" >> src/index.ts
 echo "    css['css-hide-logo'] = '`cat src/RoamStudio/modules/hide-logo.css | tr '\n' ' '`';" >> src/index.ts
 echo "    css['css-hide-shortcuts'] = '`cat src/RoamStudio/modules/hide-shortcuts.css | tr '\n' ' '`';" >> src/index.ts
