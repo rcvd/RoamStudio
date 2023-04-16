@@ -931,6 +931,21 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
   align-items: flex-start;
 }
 
+.window-headers {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.window-headers .bp3-icon-cross,
+.window-headers .bp3-icon-pin {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.rm-sidebar-window__controls .bp3-icon-filter {
+  margin-bottom: 4px;
+}
+
 #right-sidebar .window-headers,
 #right-sidebar .window-headers div {
   line-height: 24px;
