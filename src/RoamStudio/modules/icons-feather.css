@@ -20,8 +20,8 @@
   width: 13px!important;
 }
 
-span.bp3-icon-standard:empty,
-span.bp3-icon:empty {
+span.bp3-icon-standard:empty:not(.rm-caret),
+span.bp3-icon:empty:not(.rm-caret) {
   height: 16px;
 }
 
