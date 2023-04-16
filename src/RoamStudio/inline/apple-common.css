@@ -636,7 +636,7 @@ input[type=radio] {
 .roam-block,
 .rm-block__input {
   line-height: calc(var(--fs-main) + 8px);
-  min-height: calc(var(--fs-main) + 16px);
+  min-height: calc(var(--fs-main) + 16px) !important;
   padding-top: var(--font-padding);
 }
 

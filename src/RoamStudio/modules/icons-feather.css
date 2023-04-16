@@ -20,8 +20,8 @@
   width: 13px!important;
 }
 
-span.bp3-icon-standard:empty:not(.rm-caret),
-span.bp3-icon:empty:not(.rm-caret) {
+span.bp3-icon-standard:empty,
+span.bp3-icon:empty {
   height: 16px;
 }
 
@@ -182,7 +182,6 @@ span.bp3-icon:empty:not(.rm-caret) {
     .bp3-icon-filter-list,
     .bp3-icon-search,
     .bp3-icon-shop,
-    .bp3-icon-sort,
     .bp3-icon-stacked-chart,
     .bp3-icon-stopwatch,
     .bp3-icon-th,
@@ -264,7 +263,6 @@ span.bp3-icon:empty:not(.rm-caret) {
     .bp3-icon-filter-list,
     .bp3-icon-search,
     .bp3-icon-shop,
-    .bp3-icon-sort,
     .bp3-icon-stacked-chart,
     .bp3-icon-stopwatch,
     .bp3-icon-th,
@@ -340,7 +338,6 @@ span.bp3-icon:empty:not(.rm-caret) {
     .bp3-icon-filter-list,
     .bp3-icon-search,
     .bp3-icon-shop,
-    .bp3-icon-sort,
     .bp3-icon-stacked-chart,
     .bp3-icon-stopwatch,
     .bp3-icon-th,
@@ -820,13 +817,6 @@ mask: url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=
     no-repeat 50% 50%;
   mask: url("data:image/svg+xml,%0A%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'16\' height=\'16\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\'  stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\' class=\'feather feather-search\'%3E%3Ccircle cx=\'11\' cy=\'11\' r=\'8\'%3E%3C/circle%3E%3Cline x1=\'21\' y1=\'21\' x2=\'16.65\' y2=\'16.65\'%3E%3C/line%3E%3C/svg%3E")
     no-repeat 50% 50%;
-}
-
-.bp3-icon-sort::before {
-  -webkit-mask: url("data:image/svg+xml,%0A%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'16\' height=\'16\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\' class=\'feather feather-sliders\'%3E%3Cline x1=\'4\' y1=\'21\' x2=\'4\' y2=\'14\'%3E%3C/line%3E%3Cline x1=\'4\' y1=\'10\' x2=\'4\' y2=\'3\'%3E%3C/line%3E%3Cline x1=\'12\' y1=\'21\' x2=\'12\' y2=\'12\'%3E%3C/line%3E%3Cline x1=\'12\' y1=\'8\' x2=\'12\' y2=\'3\'%3E%3C/line%3E%3Cline x1=\'20\' y1=\'21\' x2=\'20\' y2=\'16\'%3E%3C/line%3E%3Cline x1=\'20\' y1=\'12\' x2=\'20\' y2=\'3\'%3E%3C/line%3E%3Cline x1=\'1\' y1=\'14\' x2=\'7\' y2=\'14\'%3E%3C/line%3E%3Cline x1=\'9\' y1=\'8\' x2=\'15\' y2=\'8\'%3E%3C/line%3E%3Cline x1=\'17\' y1=\'16\' x2=\'23\' y2=\'16\'%3E%3C/line%3E%3C/svg%3E")
-  no-repeat 50% 50%;
-mask: url("data:image/svg+xml,%0A%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'16\' height=\'16\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\' class=\'feather feather-sliders\'%3E%3Cline x1=\'4\' y1=\'21\' x2=\'4\' y2=\'14\'%3E%3C/line%3E%3Cline x1=\'4\' y1=\'10\' x2=\'4\' y2=\'3\'%3E%3C/line%3E%3Cline x1=\'12\' y1=\'21\' x2=\'12\' y2=\'12\'%3E%3C/line%3E%3Cline x1=\'12\' y1=\'8\' x2=\'12\' y2=\'3\'%3E%3C/line%3E%3Cline x1=\'20\' y1=\'21\' x2=\'20\' y2=\'16\'%3E%3C/line%3E%3Cline x1=\'20\' y1=\'12\' x2=\'20\' y2=\'3\'%3E%3C/line%3E%3Cline x1=\'1\' y1=\'14\' x2=\'7\' y2=\'14\'%3E%3C/line%3E%3Cline x1=\'9\' y1=\'8\' x2=\'15\' y2=\'8\'%3E%3C/line%3E%3Cline x1=\'17\' y1=\'16\' x2=\'23\' y2=\'16\'%3E%3C/line%3E%3C/svg%3E")
-  no-repeat 50% 50%;
 }
 
 .bp3-icon-stacked-chart::before {
