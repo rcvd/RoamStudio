@@ -1741,6 +1741,7 @@ html {
   --co-menu__button-icon--active-hover: #ffffff;
   --co-menu__button-icon--hover: #abacac;
   --co-menu__button-icon: #b5b9bd;
+  --fs-menu__keyprompt: ;
   --bc-menu__install-button--hover: #509cfe;
   --bt-menu__install-button--hover: transparent;
   --br-menu__install-button--hover: transparent;
@@ -1756,6 +1757,8 @@ html {
   --bd-menu__install-button: 3px;
   --sd-menu__install-button: ;
   --co-menu__install-button: #ffffff;
+  --bc-menu__item--disabled: ;
+  --co-menu__item--disabled: ;
   --bc-menu__item--active: ;
   --co-menu__item--active: ;
   --bc-menu__item--hover: #0064e0;
@@ -1774,6 +1777,7 @@ html {
   --fs-menu__item: ;
   --fw-menu__item: ;
   --td-menu__item: ;
+  --co-menu__item-icon--disabled: ;
   --co-menu__item-icon--hover: #ffffff;
   --co-menu__item-icon: #121417;
   --co-menu__item-label--hover: #ffffff;
@@ -1798,6 +1802,7 @@ html {
   --bd-menu__item-primary--hover: ;
   --co-menu__item-primary--hover: ;
   --co-menu__item-primary: #121417;
+  --fl-menu__svg-icon--disabled: ;
   --fl-menu__svg-icon--active: ;
   --fl-menu__svg-icon--hover: #ffffff;
   --fl-menu__svg-icon: #121417;

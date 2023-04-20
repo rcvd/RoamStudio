@@ -145,6 +145,44 @@ span.bp3-icon:empty {
   background-color: var(--co-menu__item-icon--hover);
 }
 
+
+:is(.bp3-menu-item.bp3-disabled, .bp3-menu-item.bp3-disabled:hover) :is(
+    .advanced-search-el .bp3-icon-application,
+    .advanced-search-el .bp3-icon-calendar,
+    .rm-topbar .bp3-icon-calendar,
+    .bp3-popover .bp3-icon-cloud-download,
+    .bp3-popover .bp3-icon-cog,
+    .advanced-search-el .bp3-icon-document,
+    .bp3-popover .bp3-icon-export,
+    .bp3-popover .bp3-icon-import,
+    .bp3-popover .bp3-icon-graph,
+    .bp3-popover .bp3-icon-link,
+    .rm-topbar .bp3-icon-menu-closed,
+    .bp3-popover .bp3-icon-menu-open,
+    #right-sidebar .bp3-icon-menu-open,
+    .advanced-search-el .bp3-icon-paragraph,
+    .advanced-search-el .bp3-icon-person,
+    .bp3-popover .bp3-icon-refresh,
+    .advanced-search-el .bp3-icon-search,
+    .roam-sidebar-container .bp3-icon-search,
+    .bp3-popover .bp3-icon-search,
+    .bp3-popover .bp3-icon-star,
+    .bp3-popover .bp3-icon-star-empty,
+    .advanced-search-el .bp3-icon-tag,
+    .bp3-popover .bp3-icon-trash,
+    .bp3-popover .bp3-icon-zoom-in,
+    .bp3-popover .bp3-icon-add-column-right,
+    .bp3-popover .bp3-icon-exchange,
+    .bp3-popover .bp3-icon-new-layers,
+    .bp3-popover .bp3-icon-clipboard,
+    .bp3-popover .bp3-icon-swap-horizontal,
+    .bp3-popover .bp3-icon-inheritance,
+    .bp3-popover .bp3-icon-duplicate,
+    .bp3-popover .bp3-icon-delete
+  ) {
+  background-color: var(--co-menu__item-icon--disabled);
+}
+
 /* Normal Icons */
 :is(
     .bp3-icon-\:character-count,

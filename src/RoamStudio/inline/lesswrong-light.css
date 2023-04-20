@@ -1725,6 +1725,7 @@
   --co-menu__button-icon--active-hover: var(--cl-accent-500);
   --co-menu__button-icon--hover: var(--cl-gray-900);
   --co-menu__button-icon: var(--cl-gray-700);
+  --fs-menu__keyprompt: ;
   --bc-menu__install-button--hover: var(--cl-accent-500);
   --bt-menu__install-button--hover: transparent;
   --br-menu__install-button--hover: transparent;
@@ -1740,6 +1741,8 @@
   --bd-menu__install-button: 0px;
   --sd-menu__install-button: ;
   --co-menu__install-button: ;
+  --bc-menu__item--disabled: ;
+  --co-menu__item--disabled: ;
   --bc-menu__item--active: ;
   --co-menu__item--active: ;
   --bc-menu__item--hover: var(--cl-gray-150);
@@ -1758,6 +1761,7 @@
   --fs-menu__item: ;
   --fw-menu__item: ;
   --td-menu__item: none;
+  --co-menu__item-icon--disabled: ;
   --co-menu__item-icon--hover: var(--cl-gray-900);
   --co-menu__item-icon: var(--cl-gray-900);
   --co-menu__item-label--hover: var(--cl-gray-500);
@@ -1782,6 +1786,7 @@
   --bd-menu__item-primary--hover: 0px;
   --co-menu__item-primary--hover: ;
   --co-menu__item-primary: var(--cl-accent-500);
+  --fl-menu__svg-icon--disabled: ;
   --fl-menu__svg-icon--active: ;
   --fl-menu__svg-icon--hover: var(--cl-gray-900);
   --fl-menu__svg-icon: var(--cl-gray-900);

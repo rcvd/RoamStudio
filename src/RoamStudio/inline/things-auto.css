@@ -1730,6 +1730,7 @@
   --co-menu__button-icon--active-hover: var(--cl-accent-700);
   --co-menu__button-icon--hover: var(--cl-black);
   --co-menu__button-icon: var(--cl-trueGray-400);
+  --fs-menu__keyprompt: 1rem;
   --bc-menu__install-button--hover: var(--cl-accent-700);
   --bt-menu__install-button--hover: transparent;
   --br-menu__install-button--hover: transparent;
@@ -1745,6 +1746,8 @@
   --bd-menu__install-button: 5px;
   --sd-menu__install-button: none;
   --co-menu__install-button: var(--cl-white);
+  --bc-menu__item--disabled: transparent;
+  --co-menu__item--disabled: var(--cl-trueGray-500);
   --bc-menu__item--active: var(--cl-trueGray-350);
   --co-menu__item--active: var(--cl-white);
   --bc-menu__item--hover: var(--cl-trueGray-350);
@@ -1763,6 +1766,7 @@
   --fs-menu__item: 0.9rem;
   --fw-menu__item: normal;
   --td-menu__item: none;
+  --co-menu__item-icon--disabled: var(--cl-trueGray-500);
   --co-menu__item-icon--hover: var(--cl-white);
   --co-menu__item-icon: var(--cl-black);
   --co-menu__item-label--hover: var(--cl-white);
@@ -1787,6 +1791,7 @@
   --bd-menu__item-primary--hover: 5px;
   --co-menu__item-primary--hover: var(--cl-white);
   --co-menu__item-primary: var(--cl-accent-700);
+  --fl-menu__svg-icon--disabled: var(--cl-trueGray-500);
   --fl-menu__svg-icon--active: var(--cl-white);
   --fl-menu__svg-icon--hover: var(--cl-white);
   --fl-menu__svg-icon: var(--cl-gray-900);
@@ -3934,6 +3939,7 @@
     --co-menu__button-icon--active-hover: var(--cl-accent-800);
     --co-menu__button-icon--hover: var(--cl-trueGray-300);
     --co-menu__button-icon: var(--cl-trueGray-300);
+    --fs-menu__keyprompt: 1rem;
     --bc-menu__install-button--hover: var(--cl-accent-800);
     --bt-menu__install-button--hover: transparent;
     --br-menu__install-button--hover: transparent;
@@ -3949,6 +3955,8 @@
     --bd-menu__install-button: 5px;
     --sd-menu__install-button: none;
     --co-menu__install-button: var(--cl-trueGray-100);
+    --bc-menu__item--disabled: transparent;
+    --co-menu__item--disabled: var(--cl-trueGray-500);
     --bc-menu__item--active: var(--cl-trueGray-500);
     --co-menu__item--active: var(--cl-trueGray-100);
     --bc-menu__item--hover: var(--cl-trueGray-500);
@@ -3967,6 +3975,7 @@
     --fs-menu__item: 0.9rem;
     --fw-menu__item: normal;
     --td-menu__item: none;
+    --co-menu__item-icon--disabled: var(--cl-trueGray-500);
     --co-menu__item-icon--hover: var(--cl-trueGray-100);
     --co-menu__item-icon: var(--cl-trueGray-400);
     --co-menu__item-label--hover: var(--cl-trueGray-100);
@@ -3991,6 +4000,7 @@
     --bd-menu__item-primary--hover: 5px;
     --co-menu__item-primary--hover: var(--cl-trueGray-100);
     --co-menu__item-primary: var(--cl-accent-800);
+    --fl-menu__svg-icon--disabled: var(--cl-trueGray-500);
     --fl-menu__svg-icon--active: var(--cl-gray-50);
     --fl-menu__svg-icon--hover: var(--cl-gray-50);
     --fl-menu__svg-icon: var(--cl-gray-50);

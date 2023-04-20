@@ -3341,6 +3341,10 @@ a[label*="[object Object]"].bp3-menu-item .bp3-menu-item-label, a[label*="[objec
 	color: 					var(--co-menu__button-icon)!important;
 }
 
+.bp3-menu .rm-icon-key-prompt {
+	font-size: 				var(--fs-menu__keyprompt)!important;
+}
+
 .bp3-menu-item.bp3-intent-primary.rm-install-menu-item:hover {
 	background-color: 		var(--bc-menu__install-button--hover);
 	border-top: 			var(--bt-menu__install-button--hover);
@@ -3362,6 +3366,11 @@ a[label*="[object Object]"].bp3-menu-item .bp3-menu-item-label, a[label*="[objec
 	box-shadow: 			var(--sd-menu__install-button);
 	--webkit-box-shadow: 	var(--sd-menu__install-button);
 	color: 					var(--co-menu__install-button)!important;
+}
+
+.bp3-menu-item.bp3-disabled, .bp3-menu-item.bp3-disabled:hover {
+	background-color: 		var(--bc-menu__item--disabled)!important;
+	color: 					var(--co-menu__item--disabled)!important;
 }
 
 .bp3-menu-item.bp3-active, .bp3-menu-item:active {
@@ -3391,6 +3400,10 @@ a[label*="[object Object]"].bp3-menu-item .bp3-menu-item-label, a[label*="[objec
 	font-weight: 			var(--fw-menu__item);
 	-webkit-text-decoration: 		var(--td-menu__item);
 	        text-decoration: 		var(--td-menu__item);
+}
+
+.bp3-menu-item.bp3-disabled::before, .bp3-menu-item.bp3-disabled>.bp3-icon, .bp3-menu-item.bp3-disabled:hover::before, .bp3-menu-item.bp3-disabled:hover>.bp3-icon {
+	color: 					var(--co-menu__item-icon--disabled)!important;
 }
 
 .bp3-menu-item:hover::before, .bp3-submenu .bp3-popover-target.bp3-popover-open>.bp3-menu-item::before {
@@ -3440,6 +3453,10 @@ a[label*="[object Object]"].bp3-menu-item .bp3-menu-item-label, a[label*="[objec
 
 .bp3-menu-item.bp3-intent-primary {
 	color: 					var(--co-menu__item-primary);
+}
+
+.bp3-menu-item.bp3-disabled>.bp3-icon svg, .bp3-menu-item.bp3-disabled:hover>.bp3-icon svg {
+	fill: 		var(--fl-menu__svg-icon--disabled)!important;
 }
 
 .bp3-menu-item.bp3-active>.bp3-icon svg, .bp3-menu-item:active>.bp3-icon svg {

@@ -1733,6 +1733,7 @@ textarea,
   --co-menu__button-icon--active-hover: #ffffff;
   --co-menu__button-icon--hover: #abacac;
   --co-menu__button-icon: #b5b9bd;
+  --fs-menu__keyprompt: ;
   --bc-menu__install-button--hover: #509cfe;
   --bt-menu__install-button--hover: transparent;
   --br-menu__install-button--hover: transparent;
@@ -1748,6 +1749,8 @@ textarea,
   --bd-menu__install-button: 3px;
   --sd-menu__install-button: ;
   --co-menu__install-button: #ffffff;
+  --bc-menu__item--disabled: ;
+  --co-menu__item--disabled: ;
   --bc-menu__item--active: ;
   --co-menu__item--active: ;
   --bc-menu__item--hover: rgba(238, 239, 239, 1.00);
@@ -1766,6 +1769,7 @@ textarea,
   --fs-menu__item: ;
   --fw-menu__item: ;
   --td-menu__item: ;
+  --co-menu__item-icon--disabled: ;
   --co-menu__item-icon--hover: rgba(214, 85, 95, 1.00);
   --co-menu__item-icon: #a8a8a9;
   --co-menu__item-label--hover: #ffffff;
@@ -1790,6 +1794,7 @@ textarea,
   --bd-menu__item-primary--hover: ;
   --co-menu__item-primary--hover: ;
   --co-menu__item-primary: #121417;
+  --fl-menu__svg-icon--disabled: ;
   --fl-menu__svg-icon--active: ;
   --fl-menu__svg-icon--hover: rgba(214, 85, 95, 1.00);
   --fl-menu__svg-icon: #a8a8a9;
@@ -3943,6 +3948,7 @@ textarea,
     --co-menu__button-icon--active-hover: #b7b8b7;
     --co-menu__button-icon--hover: #b7b8b7;
     --co-menu__button-icon: #525151;
+    --fs-menu__keyprompt: ;
     --bc-menu__install-button--hover: #266bbd;
     --bt-menu__install-button--hover: transparent;
     --br-menu__install-button--hover: transparent;
@@ -3958,6 +3964,8 @@ textarea,
     --bd-menu__install-button: 3px;
     --sd-menu__install-button: ;
     --co-menu__install-button: #e7e7e7;
+    --bc-menu__item--disabled: ;
+    --co-menu__item--disabled: ;
     --bc-menu__item--active: ;
     --co-menu__item--active: ;
     --bc-menu__item--hover: #2c2d30;
@@ -3976,6 +3984,7 @@ textarea,
     --fs-menu__item: ;
     --fw-menu__item: ;
     --td-menu__item: ;
+    --co-menu__item-icon--disabled: ;
     --co-menu__item-icon--hover: #6acafb;
     --co-menu__item-icon: #939393;
     --co-menu__item-label--hover: #eeeeee;
@@ -4000,6 +4009,7 @@ textarea,
     --bd-menu__item-primary--hover: ;
     --co-menu__item-primary--hover: ;
     --co-menu__item-primary: #eeeeee;
+    --fl-menu__svg-icon--disabled: ;
     --fl-menu__svg-icon--active: ;
     --fl-menu__svg-icon--hover: #6acafb;
     --fl-menu__svg-icon: #939393;

@@ -1743,6 +1743,7 @@ a.rm-alias:not(.rm-alias--external):hover {
   --co-menu__button-icon--active-hover: var(--cl-accent-800);
   --co-menu__button-icon--hover: var(--cl-gray-300);
   --co-menu__button-icon: var(--cl-gray-300);
+  --fs-menu__keyprompt: 1rem;
   --bc-menu__install-button--hover: var(--cl-accent-800);
   --bt-menu__install-button--hover: transparent;
   --br-menu__install-button--hover: transparent;
@@ -1758,6 +1759,8 @@ a.rm-alias:not(.rm-alias--external):hover {
   --bd-menu__install-button: 5px;
   --sd-menu__install-button: none;
   --co-menu__install-button: var(--cl-gray-100);
+  --bc-menu__item--disabled: transparent;
+  --co-menu__item--disabled: var(--cl-gray-500);
   --bc-menu__item--active: var(--cl-accent-800);
   --co-menu__item--active: var(--cl-white);
   --bc-menu__item--hover: var(--cl-accent-800);
@@ -1776,6 +1779,7 @@ a.rm-alias:not(.rm-alias--external):hover {
   --fs-menu__item: 0.9rem;
   --fw-menu__item: normal;
   --td-menu__item: none;
+  --co-menu__item-icon--disabled: var(--cl-gray-500);
   --co-menu__item-icon--hover: var(--cl-white);
   --co-menu__item-icon: var(--cl-gray-400);
   --co-menu__item-label--hover: var(--cl-white);
@@ -1800,6 +1804,7 @@ a.rm-alias:not(.rm-alias--external):hover {
   --bd-menu__item-primary--hover: 5px;
   --co-menu__item-primary--hover: var(--cl-white);
   --co-menu__item-primary: var(--cl-accent-800);
+  --fl-menu__svg-icon--disabled: var(--cl-gray-500);
   --fl-menu__svg-icon--active: var(--cl-gray-50);
   --fl-menu__svg-icon--hover: var(--cl-gray-50);
   --fl-menu__svg-icon: var(--cl-gray-50);
