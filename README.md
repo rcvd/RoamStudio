@@ -23,8 +23,9 @@ Beautiful and easily customizable themes for Roam Research with various options 
 
 Within the settings you can customize the following objects:
 
-- Theme (Craft, Quattro)
+- Theme (Craft, Things, Quattro)
 - Appearance (Light, Dark, Auto)
+- Custom Icon Theme (Feather)
 - Main Content (Font Family, Size, Spacing)
 - Headings (Font Family, Size, Color, Spacing)
 - Code Blocks (Font Family, Size, Hide Line Numbers)
