@@ -920,11 +920,12 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
   line-height: 24px;
 }
 
+/*
 .rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper .rm-caret {
   min-width: 20px;
   line-height: 20px;
-}
-
+  height: 24px;
+}*/
 .rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper {
   display: flex;
   flex: 1 1 auto;
@@ -1306,6 +1307,24 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
 
 .bp3-dialog-header {
   border-radius: var(--bd-dialog) var(--bd-dialog) 0 0;
+}
+
+.roamjs-workbench-live-preview {
+  padding: 20px !important;
+  padding-top: 0px !important;
+}
+
+.roamjs-daily-notes-popup .roamjs-dialog-body {
+  padding: 20px !important;
+  padding-top: 0px !important;
+}
+
+.roamjs-daily-notes-popup .dnp-content > h1 {
+  display: none;
+}
+
+.roamjs-daily-notes-popup .dnp-content {
+  border-radius: 0px;
 }
 
 #zotero-roam-portal .header-bottom {
