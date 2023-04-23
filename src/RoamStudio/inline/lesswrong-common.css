@@ -1071,12 +1071,12 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
   line-height: 24px;
 }
 
-/*
 .rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper .rm-caret {
-  min-width: 20px;
-  line-height: 20px;
+  min-width: 24px;
+  line-height: 24px;
   height: 24px;
-}*/
+}
+
 .rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper {
   display: flex;
   flex: 1 1 auto;
