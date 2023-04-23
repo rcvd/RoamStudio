@@ -247,6 +247,7 @@ span.bp3-icon:empty {
     .bp3-icon-filter-list,
     .bp3-icon-search,
     .bp3-icon-shop,
+    .bp3-icon-sort,
     .bp3-icon-stacked-chart,
     .bp3-icon-stopwatch,
     .bp3-icon-th,
@@ -328,6 +329,7 @@ span.bp3-icon:empty {
     .bp3-icon-filter-list,
     .bp3-icon-search,
     .bp3-icon-shop,
+    .bp3-icon-sort,
     .bp3-icon-stacked-chart,
     .bp3-icon-stopwatch,
     .bp3-icon-th,
@@ -340,7 +342,7 @@ span.bp3-icon:empty {
   background-color: var(--co-menu__item-icon);
 }
 
-:is(.bp3-menu-item:hover, .bp3-menu-item:active, .rm-extension-small:hover, .rm-extension-small:active) :is(
+:is(.bp3-menu-item:hover, .bp3-menu-item:active, .rm-extension-small:hover, .rm-extension-small:active, .rm-autocomplete__results .dont-unfocus-block[style*=\'background-color: rgb(213, 218, 223);\'], .rm-autocomplete__results .dont-unfocus-block[style*=\'background-color: rgb(213, 218, 223);\']:hover) :is(
     .bp3-icon-\:character-count,
     .bp3-icon-\:code,
     .bp3-icon-\:strikethrough,
@@ -403,6 +405,7 @@ span.bp3-icon:empty {
     .bp3-icon-filter-list,
     .bp3-icon-search,
     .bp3-icon-shop,
+    .bp3-icon-sort,
     .bp3-icon-stacked-chart,
     .bp3-icon-stopwatch,
     .bp3-icon-th,
@@ -917,6 +920,13 @@ mask: url("data:image/svg+xml,%0A%3Csvg xmlns=\'http://www.w3.org/2000/svg\' wid
   -webkit-mask: url("data:image/svg+xml,%0A%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'16\' height=\'16\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\'  stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\' class=\'feather feather-search\'%3E%3Ccircle cx=\'11\' cy=\'11\' r=\'8\'%3E%3C/circle%3E%3Cline x1=\'21\' y1=\'21\' x2=\'16.65\' y2=\'16.65\'%3E%3C/line%3E%3C/svg%3E")
     no-repeat 50% 50%;
   mask: url("data:image/svg+xml,%0A%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'16\' height=\'16\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\'  stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\' class=\'feather feather-search\'%3E%3Ccircle cx=\'11\' cy=\'11\' r=\'8\'%3E%3C/circle%3E%3Cline x1=\'21\' y1=\'21\' x2=\'16.65\' y2=\'16.65\'%3E%3C/line%3E%3C/svg%3E")
+    no-repeat 50% 50%;
+}
+
+.bp3-icon-sort::before {
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\'%3E%3Cpath d=\'M20 4V16H23L19 21L15 16H18V4H20ZM12 18V20H3V18H12ZM14 11V13H3V11H14ZM14 4V6H3V4H14Z\'%3E%3C/path%3E%3C/svg%3E")
+    no-repeat 50% 50%;
+  mask: url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\'%3E%3Cpath d=\'M20 4V16H23L19 21L15 16H18V4H20ZM12 18V20H3V18H12ZM14 11V13H3V11H14ZM14 4V6H3V4H14Z\'%3E%3C/path%3E%3C/svg%3E")
     no-repeat 50% 50%;
 }
 
