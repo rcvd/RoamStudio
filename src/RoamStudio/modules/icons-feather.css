@@ -57,8 +57,7 @@ span.bp3-icon:empty {
     .bp3-popover .bp3-icon-clipboard,
     .bp3-popover .bp3-icon-swap-horizontal,
     .bp3-popover .bp3-icon-inheritance,
-    .bp3-popover .bp3-icon-duplicate,
-    .bp3-popover .bp3-icon-delete
+    .bp3-popover .bp3-icon-duplicate
   )
   svg {
   display: none;
@@ -96,8 +95,7 @@ span.bp3-icon:empty {
     .bp3-popover .bp3-icon-clipboard,
     .bp3-popover .bp3-icon-swap-horizontal,
     .bp3-popover .bp3-icon-inheritance,
-    .bp3-popover .bp3-icon-duplicate,
-    .bp3-popover .bp3-icon-delete
+    .bp3-popover .bp3-icon-duplicate
   ) {
   width: 16px;
   height: 16px;
@@ -139,8 +137,7 @@ span.bp3-icon:empty {
     .bp3-popover .bp3-icon-clipboard,
     .bp3-popover .bp3-icon-swap-horizontal,
     .bp3-popover .bp3-icon-inheritance,
-    .bp3-popover .bp3-icon-duplicate,
-    .bp3-popover .bp3-icon-delete
+    .bp3-popover .bp3-icon-duplicate
   ) {
   background-color: var(--co-menu__item-icon--hover);
 }
@@ -177,8 +174,7 @@ span.bp3-icon:empty {
     .bp3-popover .bp3-icon-clipboard,
     .bp3-popover .bp3-icon-swap-horizontal,
     .bp3-popover .bp3-icon-inheritance,
-    .bp3-popover .bp3-icon-duplicate,
-    .bp3-popover .bp3-icon-delete
+    .bp3-popover .bp3-icon-duplicate
   ) {
   background-color: var(--co-menu__item-icon--disabled);
 }
@@ -210,6 +206,7 @@ span.bp3-icon:empty {
     .rm-settings .bp3-icon-cog,
     .bp3-icon-cross,
     .bp3-icon-data-lineage,
+    .bp3-icon-delete,
     .bp3-icon-draw,
     .rm-all-pages .bp3-icon-export,
     .bp3-icon-eye-off,
@@ -288,6 +285,7 @@ span.bp3-icon:empty {
     .rm-extensions-marketplace-dialog .bp3-icon-cloud-download,
     .bp3-icon-cloud-upload,
     .bp3-icon-code-block,
+    .bp3-icon-delete,
     .rm-graph-dropdown .bp3-icon-cog,
     .rm-settings .bp3-icon-cog,
     .bp3-icon-cross,
@@ -364,6 +362,7 @@ span.bp3-icon:empty {
     .rm-extensions-marketplace-dialog .bp3-icon-cloud-download,
     .bp3-icon-cloud-upload,
     .bp3-icon-code-block,
+    .bp3-icon-delete,
     .rm-graph-dropdown .bp3-icon-cog,
     .rm-settings .bp3-icon-cog,
     .bp3-icon-cross,
@@ -594,7 +593,6 @@ mask: url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=
     no-repeat 50% 50%;
 }
 
-.bp3-popover .bp3-icon-delete,
 .bp3-icon-delete::before {
   -webkit-mask: url("data:image/svg+xml,%0A%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'16\' height=\'16\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\' class=\'feather feather-x-circle\'%3E%3Ccircle cx=\'12\' cy=\'12\' r=\'10\'%3E%3C/circle%3E%3Cline x1=\'15\' y1=\'9\' x2=\'9\' y2=\'15\'%3E%3C/line%3E%3Cline x1=\'9\' y1=\'9\' x2=\'15\' y2=\'15\'%3E%3C/line%3E%3C/svg%3E")
     no-repeat 50% 50%;
