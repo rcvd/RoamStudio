@@ -644,6 +644,7 @@ textarea,
   --bc-elevation__item-result--selected: ;
   --co-elevation__item-result--selected: ;
   --co-elevation__placeholder: #a8a8a9;
+  --co-elevation__results--selected: rgba(214, 85, 95, 1.00);
   --bc-elevation__results: ;
   --bb-elevation__results: ;
   --co-elevation__results: ;
@@ -2859,6 +2860,7 @@ textarea,
     --bc-elevation__item-result--selected: ;
     --co-elevation__item-result--selected: ;
     --co-elevation__placeholder: #939393;
+    --co-elevation__results--selected: #6acafb;
     --bc-elevation__results: ;
     --bb-elevation__results: ;
     --co-elevation__results: ;

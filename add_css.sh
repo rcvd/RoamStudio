@@ -28,8 +28,11 @@ echo "    css['css-hide-logo'] = '`cat src/RoamStudio/modules/hide-logo.css | tr
 echo "    css['css-hide-shortcuts'] = '`cat src/RoamStudio/modules/hide-shortcuts.css | tr '\n' ' '`';" >> src/index.ts
 echo "    css['css-hide-sidebar-icons'] = '`cat src/RoamStudio/modules/hide-sidebar-icons.css | tr '\n' ' '`';" >> src/index.ts
 echo "    css['css-masonry'] = '`cat src/RoamStudio/modules/masonry.css | tr '\n' ' '`';" >> src/index.ts
+echo "    css['css-logpage-minheight'] = '`cat src/RoamStudio/modules/logpage-minheight.css | tr '\n' ' '`';" >> src/index.ts
 echo "    css['css-mobile-sidebar'] = '`cat src/RoamStudio/modules/mobile-sidebar.css | tr '\n' ' '`';" >> src/index.ts
 echo "    css['css-more-room'] = '`cat src/RoamStudio/modules/more-room.css | tr '\n' ' '`';" >> src/index.ts
 echo "    css['css-no-animations'] = '`cat src/RoamStudio/modules/no-animations.css | tr '\n' ' '`';" >> src/index.ts
+echo "    css['css-non-breakable-dates'] = '`cat src/RoamStudio/modules/non-breakable-dates.css | tr '\n' ' '`';" >> src/index.ts
 echo "    css['css-subtle-controls'] = '`cat src/RoamStudio/modules/subtle-controls.css | tr '\n' ' '`';" >> src/index.ts
+echo "    css['css-topbar-borders'] = '`cat src/RoamStudio/modules/topbar-borders.css | tr '\n' ' '`';" >> src/index.ts
 echo "}" >> src/index.ts

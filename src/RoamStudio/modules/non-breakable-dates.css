@@ -1,0 +1,3 @@
+:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref { 
+  white-space:nowrap;
+}

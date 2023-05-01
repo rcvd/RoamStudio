@@ -439,31 +439,31 @@ span[style*="background-color: yellow"] {
 	font-size: 				var(--fs-button);
 }
 
-.cm-focused .cm-activeLine, .cm-focused .cm-activeLineGutter {
+.rm-code-block .cm-editor .cm-focused .cm-activeLine, .rm-code-block .cm-editor .cm-focused .cm-activeLineGutter {
 	background-color: 		var(--bc-codeblock__activeline--focus)!important;
 }
 
-.cm-activeLine, .cm-activeLineGutter {
+.rm-code-block .cm-editor .cm-activeLine, .cm-activeLineGutter {
 	background-color: 		var(--bc-codeblock__activeline)!important;
 }
 
-.cmt-atom {
+.rm-code-block .cm-editor .cmt-atom {
 	color: 					var(--co-codeblock__atom);
 }
 
-.cmt-attribute {
+.rm-code-block .cm-editor .cmt-attribute {
 	color: 					var(--co-codeblock__attribute);
 }
 
-.cmt-bracket {
+.rm-code-block .cm-editor .cmt-bracket {
 	color: 					var(--co-codeblock__bracket);
 }
 
-.cmt-builtin {
+.rm-code-block .cm-editor .cmt-builtin {
 	color: 					var(--co-codeblock__builtin);
 }
 
-.rm-code-block .bp3-button.bp3-minimal:not([class*="bp3-intent-"]):hover {
+.rm-code-block .cm-editor  .bp3-button.bp3-minimal:not([class*="bp3-intent-"]):hover {
 	background-color: 		var(--bc-codeblock__button--hover);
 	border-top: 			var(--bt-codeblock__button--hover);
 	border-right: 			var(--br-codeblock__button--hover);
@@ -474,7 +474,7 @@ span[style*="background-color: yellow"] {
 	color: 					var(--co-codeblock__button--hover);
 }
 
-.rm-code-block .bp3-button.bp3-minimal:not([class*="bp3-intent-"]) {
+.rm-code-block .cm-editor .bp3-button.bp3-minimal:not([class*="bp3-intent-"]) {
 	background-color: 		var(--bc-codeblock__button);
 	border-top: 			var(--bt-codeblock__button);
 	border-right: 			var(--br-codeblock__button);
@@ -487,34 +487,34 @@ span[style*="background-color: yellow"] {
 	font-size: 				var(--fs-codeblock__button);
 }
 
-.cmt-className {
+.rm-code-block .cm-editor .cmt-className {
 	color: 					var(--co-codeblock__classname);
 }
 
-.cm-content .cm-line {
+.rm-code-block .cm-editor .cm-content .cm-line {
 	color: 					var(--co-codeblock__code);
 	font-family: 			var(--ff-codeblock__code)!important;
 	font-size: 				var(--fs-codeblock__code);
 }
 
-.cmt-comment {
+.rm-code-block .cm-editor .cmt-comment {
 	color: 					var(--co-codeblock__comment);
 }
 
-.cm-cursor {
+.rm-code-block .cm-editor .cm-cursor {
 	border-right: 			var(--br-codeblock__cursor)!important;
 	border-left: 			var(--bl-codeblock__cursor)!important;
 }
 
-.cmt-definition {
+.rm-code-block .cm-editor .cmt-definition {
 	color: 					var(--co-codeblock__def);
 }
 
-.cmt-error {
+.rm-code-block .cm-editor .cmt-error {
 	color: 					var(--co-codeblock__error);
 }
 
-.cm-lineNumbers .cm-gutterElement {
+.rm-code-block .cm-editor .cm-lineNumbers .cm-gutterElement {
 	color: 					var(--co-codeblock__gutter);
 	font-family: 			var(--ff-codeblock__gutter);
 	font-size: 				var(--fs-codeblock__gutter);
@@ -522,7 +522,7 @@ span[style*="background-color: yellow"] {
 	font-weight: 			var(--fw-codeblock__gutter);
 }
 
-.cm-gutters {
+.rm-code-block .cm-editor .cm-gutters {
 	background-color: 		var(--bc-codeblock__gutters)!important;
 	border-top: 			var(--bt-codeblock__gutters)!important;
 	border-right: 			var(--br-codeblock__gutters)!important;
@@ -532,19 +532,19 @@ span[style*="background-color: yellow"] {
 	color: 					var(--co-codeblock__gutters);
 }
 
-.cmt-hr {
+.rm-code-block .cm-editor .cmt-hr {
 	color: 					var(--co-codeblock__hr);
 }
 
-.cmt-invalidchar {
+.rm-code-block .cm-editor .cmt-invalidchar {
 	color: 					var(--co-codeblock__invalidchar);
 }
 
-.cmt-keyword {
+.rm-code-block .cm-editor .cmt-keyword {
 	color: 					var(--co-codeblock__keyword);
 }
 
-.cmt-labelName {
+.rm-code-block .cm-editor .cmt-labelName {
 	color: 					var(--co-codeblock__labelname);
 }
 
@@ -553,43 +553,43 @@ span[style*="background-color: yellow"] {
 	border-radius: 			var(--bd-codeblock__language-chooser);
 }
 
-.cmt-link {
+.rm-code-block .cm-editor .cmt-link {
 	color: 					var(--co-codeblock__link);
 }
 
-div.CodeMirror span.CodeMirror-matchingbracket  {
+.rm-code-block .cm-editor div.CodeMirror span.CodeMirror-matchingbracket  {
 	color: 					var(--co-codeblock__matchingbracket);
 }
 
-.cmt-meta {
+.rm-code-block .cm-editor .cmt-meta {
 	color: 					var(--co-codeblock__meta);
 }
 
-div.CodeMirror span.CodeMirror-nonmatchingbracket {
+.rm-code-block .cm-editor div.CodeMirror span.CodeMirror-nonmatchingbracket {
 	color: 					var(--co-codeblock__nonmatchingbracket);
 }
 
-.cmt-number {
+.rm-code-block .cm-editor .cmt-number {
 	color: 					var(--co-codeblock__number);
 }
 
-.cmt-propertyName {
+.rm-code-block .cm-editor .cmt-propertyName {
 	color: 					var(--co-codeblock__propertyname);
 }
 
-.cmt-qualifier {
+.rm-code-block .cm-editor .cmt-qualifier {
 	color: 					var(--co-codeblock__qualifier);
 }
 
-.cmt-searching {
+.rm-code-block .cm-editor .cmt-searching {
 	background-color: 		var(--bc-codeblock__searching);
 }
 
-.cm-focused .cm-selectionBackground {
+.rm-code-block .cm-editor .cm-focused .cm-selectionBackground {
 	background-color: 		var(--bc-codeblock__selected--focus)!important;
 }
 
-.cm-selectionBackground {
+.rm-code-block .cm-editor .cm-selectionBackground {
 	background-color: 		var(--bc-codeblock__selected)!important;
 }
 
@@ -599,27 +599,27 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 	border-radius: 			var(--bd-codeblock__settings-bar);
 }
 
-.cmt-string {
+.rm-code-block .cm-editor .cmt-string {
 	color: 					var(--co-codeblock__string);
 }
 
-.cmt-string2 {
+.rm-code-block .cm-editor .cmt-string2 {
 	color: 					var(--co-codeblock__string-2);
 }
 
-.cmt-tag {
+.rm-code-block .cm-editor .cmt-tag {
 	color: 					var(--co-codeblock__tag);
 }
 
-.cmt-type, .cmt-typeName {
+.rm-code-block .cm-editor .cmt-type, .rm-code-block .cm-editor .cmt-typeName {
 	color: 					var(--co-codeblock__type);
 }
 
-.cmt-variableName {
+.rm-code-block .cm-editor .cmt-variableName {
 	color: 					var(--co-codeblock__variable);
 }
 
-.cmt-variableName2 {
+.rm-code-block .cm-editor .cmt-variableName2 {
 	color: 					var(--co-codeblock__variable-2);
 }
 
@@ -1250,10 +1250,14 @@ h3.bp3-heading, .bp3-dialog-header .bp3-heading {
 	color: 					var(--co-elevation__placeholder)!important;
 }
 
-.rm-autocomplete__results div, .rm-autocomplete__results span, .rm-autocomplete__results a {
+.rm-autocomplete__results .dont-unfocus-block[style*="background-color: rgb(213, 218, 223);"] :is(div, span, a) {
+	color: 					var(--co-elevation__results--selected);
+}
+
+.rm-autocomplete__results :s(div, span, a) {
 	background-color: 		var(--bc-elevation__results);
 	border-bottom: 			var(--bb-elevation__results)!important;
-	color: 					var(--co-elevation__results)!important;
+	color: 					var(--co-elevation__results);
 }
 
 .rm-autocomplete__results {

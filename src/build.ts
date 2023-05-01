@@ -55,10 +55,12 @@ var settings: { [key: string]: any } = {
     "css-hide-shortcuts": false,
     "css-hide-sidebar-icons": false,
     "css-masonry": false,
+    "css-logpage-minheight": false,
     "css-mobile-sidebar": false,
     "css-more-room": false,
     "css-no-animations": false,
     "css-subtle-controls": false,
+    "css-non-breakable-dates": false,
   },
   css: { [key: string]: string } = {
     system: "",
@@ -958,7 +960,7 @@ function changeTagBackground() {
     style.id = "roamstudio-css-tag-background";
 
     if (tagColor == "Transparent") {
-        switch (settings["css-appearance"]) {
+      switch (settings["css-appearance"]) {
         case "Auto":
           style.textContent =
             `:root {--bc-main__tags: transparent;--bc-main__tags--hover: transparent;}` +
@@ -971,8 +973,7 @@ function changeTagBackground() {
           style.textContent = `:root {--bc-main__tags: transparent;--bc-main__tags--hover: transparent;}`;
           break;
       }
-    }
-    else {
+    } else {
       switch (settings["css-appearance"]) {
         case "Auto":
           style.textContent =
@@ -1261,7 +1262,7 @@ function changeDateBackground() {
     style.id = "roamstudio-css-date-background";
 
     if (tagColor == "Transparent") {
-            switch (settings["css-appearance"]) {
+      switch (settings["css-appearance"]) {
         case "Auto":
           style.textContent =
             `:root {--bc-main__date-link: transparent;--bc-main__date-link--hover: transparent;}` +
@@ -1273,9 +1274,8 @@ function changeDateBackground() {
         case "Light":
           style.textContent = `:root {--bc-main__date-link: transparent;--bc-main__date-link--hover: transparent;}`;
           break;
-        }
-    }
-    else {
+      }
+    } else {
       switch (settings["css-appearance"]) {
         case "Auto":
           style.textContent =
@@ -2344,6 +2344,19 @@ function onload({ extensionAPI }: OnloadArgs) {
         },
       },
       {
+        id: "css-non-breakable-dates",
+        name: "No line-break within dates",
+        description:
+          "Dates are not wrapped at the end of the line but transferred to the next line.",
+        action: {
+          type: "switch",
+          onChange: (evt) => {
+            modules["css-non-breakable-dates"] = evt.target.checked;
+            changeModule("css-non-breakable-dates");
+          },
+        },
+      },
+      {
         id: "css-advanced-heading-spacing",
         name: "Advanced Heading Spacing",
         description: "Remove margins for headings on collapse",
@@ -2455,6 +2468,19 @@ function onload({ extensionAPI }: OnloadArgs) {
         },
       },
       {
+        id: "css-logpage-minheight",
+        name: "Remove Logpage minimum height",
+        description:
+          "Removes the height settings from the day blocks on the log page",
+        action: {
+          type: "switch",
+          onChange: (evt) => {
+            modules["css-logpage-minheight"] = evt.target.checked;
+            changeModule("css-logpage-minheight");
+          },
+        },
+      },
+      {
         id: "css-masonry",
         name: "Masonry Sidebar",
         description:
@@ -2501,6 +2527,18 @@ function onload({ extensionAPI }: OnloadArgs) {
           onChange: (evt) => {
             modules["css-subtle-controls"] = evt.target.checked;
             changeModule("css-subtle-controls");
+          },
+        },
+      },
+      {
+        id: "css-topbar-borders",
+        name: "Remove topbar borders",
+        description: "Removes the borders from the topbar",
+        action: {
+          type: "switch",
+          onChange: (evt) => {
+            modules["css-topbar-borders"] = evt.target.checked;
+            changeModule("css-topbar-borders");
           },
         },
       },

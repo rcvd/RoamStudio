@@ -481,12 +481,19 @@ input[type=radio]:active,
 }
 
 .rm-jump-date-picker .bp3-datepicker-day-wrapper {
-  height: calc(2 * var(--fs-app__html) + 1px);
-  width: calc(2 * var(--fs-app__html) + 1px);
+  height: calc(2 * var(--fs-app__html));
+  width: calc(2 * var(--fs-app__html));
 }
 
 .bp3-datepicker .bp3-datepicker-day-wrapper {
   padding: calc(var(--fs-app__html) / 4);
+}
+
+.bp3-datepicker .bp3-datepicker-day-wrapper {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .bp3-file-upload-input {
@@ -1106,8 +1113,8 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
 }
 
 .rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper .rm-caret {
-  min-width: 24px;
-  line-height: 24px;
+  min-width: 20px;
+  line-height: 20px;
   height: 24px;
 }
 
