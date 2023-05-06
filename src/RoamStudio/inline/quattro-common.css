@@ -1099,14 +1099,14 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
 }
 
 .window-headers {
-  padding-top: 0px;
+  padding-top: 4px;
   padding-bottom: 0px;
 }
 
 .window-headers .bp3-icon-cross,
 .window-headers .bp3-icon-pin {
-  margin-top: 4px;
-  margin-bottom: 4px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .rm-sidebar-window__controls .bp3-icon-filter {
@@ -1116,7 +1116,7 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
 #right-sidebar .window-headers,
 #right-sidebar .window-headers div {
   line-height: 24px;
-  align-items: baseline !important;
+  align-items: flex-start !important;
 }
 
 #right-sidebar .window-headers .bp3-button.bp3-small,
@@ -1156,7 +1156,7 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
 }
 
 #right-sidebar .rm-sidebar-window__controls {
-  margin-top: -6px;
+  margin-top: -2px;
 }
 
 .rm-reference-main > div {
