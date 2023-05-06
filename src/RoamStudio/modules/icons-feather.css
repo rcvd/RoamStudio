@@ -57,8 +57,7 @@ span.bp3-icon:empty {
     .bp3-popover .bp3-icon-clipboard,
     .bp3-popover .bp3-icon-swap-horizontal,
     .bp3-popover .bp3-icon-inheritance,
-    .bp3-popover .bp3-icon-duplicate,
-    .bp3-popover .bp3-icon-delete
+    .bp3-popover .bp3-icon-duplicate
   )
   svg {
   display: none;
@@ -96,8 +95,7 @@ span.bp3-icon:empty {
     .bp3-popover .bp3-icon-clipboard,
     .bp3-popover .bp3-icon-swap-horizontal,
     .bp3-popover .bp3-icon-inheritance,
-    .bp3-popover .bp3-icon-duplicate,
-    .bp3-popover .bp3-icon-delete
+    .bp3-popover .bp3-icon-duplicate
   ) {
   width: 16px;
   height: 16px;
@@ -140,8 +138,7 @@ span.bp3-icon:empty {
     .bp3-popover .bp3-icon-clipboard,
     .bp3-popover .bp3-icon-swap-horizontal,
     .bp3-popover .bp3-icon-inheritance,
-    .bp3-popover .bp3-icon-duplicate,
-    .bp3-popover .bp3-icon-delete
+    .bp3-popover .bp3-icon-duplicate
   ) {
   background-color: var(--co-menu__item-icon--hover);
 }
@@ -178,8 +175,7 @@ span.bp3-icon:empty {
     .bp3-popover .bp3-icon-clipboard,
     .bp3-popover .bp3-icon-swap-horizontal,
     .bp3-popover .bp3-icon-inheritance,
-    .bp3-popover .bp3-icon-duplicate,
-    .bp3-popover .bp3-icon-delete
+    .bp3-popover .bp3-icon-duplicate
   ) {
   background-color: var(--co-menu__item-icon--disabled);
 }
@@ -211,6 +207,7 @@ span.bp3-icon:empty {
     .rm-settings .bp3-icon-cog,
     .bp3-icon-cross,
     .bp3-icon-data-lineage,
+    .bp3-icon-delete,
     .bp3-icon-draw,
     .rm-all-pages .bp3-icon-export,
     .bp3-icon-eye-off,
@@ -248,6 +245,7 @@ span.bp3-icon:empty {
     .bp3-icon-filter-list,
     .bp3-icon-search,
     .bp3-icon-shop,
+    .bp3-icon-sort,
     .bp3-icon-stacked-chart,
     .bp3-icon-stopwatch,
     .bp3-icon-th,
@@ -293,6 +291,7 @@ span.bp3-icon:empty {
     .rm-settings .bp3-icon-cog,
     .bp3-icon-cross,
     .bp3-icon-data-lineage,
+    .bp3-icon-delete,
     .bp3-icon-draw,
     .rm-all-pages .bp3-icon-export,
     .bp3-icon-eye-off,
@@ -330,6 +329,7 @@ span.bp3-icon:empty {
     .bp3-icon-filter-list,
     .bp3-icon-search,
     .bp3-icon-shop,
+    .bp3-icon-sort,
     .bp3-icon-stacked-chart,
     .bp3-icon-stopwatch,
     .bp3-icon-th,
@@ -376,6 +376,7 @@ span.bp3-icon:empty {
     .rm-settings .bp3-icon-cog,
     .bp3-icon-cross,
     .bp3-icon-data-lineage,
+    .bp3-icon-delete,
     .bp3-icon-draw,
     .rm-all-pages .bp3-icon-export,
     .bp3-icon-eye-off,
@@ -413,6 +414,7 @@ span.bp3-icon:empty {
     .bp3-icon-filter-list,
     .bp3-icon-search,
     .bp3-icon-shop,
+    .bp3-icon-sort,
     .bp3-icon-stacked-chart,
     .bp3-icon-stopwatch,
     .bp3-icon-th,
@@ -972,6 +974,13 @@ span.bp3-icon:empty {
   -webkit-mask: url("data:image/svg+xml,%0A%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'16\' height=\'16\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\' class=\'feather feather-tag\'%3E%3Cpath d=\'M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z\'%3E%3C/path%3E%3Cline x1=\'7\' y1=\'7\' x2=\'7.01\' y2=\'7\'%3E%3C/line%3E%3C/svg%3E")
     no-repeat 50% 50%;
   mask: url("data:image/svg+xml,%0A%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'16\' height=\'16\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\' class=\'feather feather-tag\'%3E%3Cpath d=\'M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z\'%3E%3C/path%3E%3Cline x1=\'7\' y1=\'7\' x2=\'7.01\' y2=\'7\'%3E%3C/line%3E%3C/svg%3E")
+    no-repeat 50% 50%;
+}
+
+.bp3-icon-sort::before {
+  -webkit-mask: url("data:image/svg+xml,%3C%3Fxml version=\'1.0\' encoding=\'UTF-8\'%3F%3E%3Csvg width=\'24px\' height=\'24px\' viewBox=\'0 0 24 24\' stroke-width=\'2\' fill=\'none\' xmlns=\'http://www.w3.org/2000/svg\' color=\'%23000000\'%3E%3Cpath d=\'M10 14H2M8 10H2M6 6H2M12 18H2M19 20V4m0 16l3-3m-3 3l-3-3m3-13l3 3m-3-3l-3 3\' stroke=\'%23000000\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'%3E%3C/path%3E%3C/svg%3E")
+    no-repeat 50% 50%;
+  mask: url("data:image/svg+xml,%3C%3Fxml version=\'1.0\' encoding=\'UTF-8\'%3F%3E%3Csvg width=\'24px\' height=\'24px\' viewBox=\'0 0 24 24\' stroke-width=\'2\' fill=\'none\' xmlns=\'http://www.w3.org/2000/svg\' color=\'%23000000\'%3E%3Cpath d=\'M10 14H2M8 10H2M6 6H2M12 18H2M19 20V4m0 16l3-3m-3 3l-3-3m3-13l3 3m-3-3l-3 3\' stroke=\'%23000000\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'%3E%3C/path%3E%3C/svg%3E")
     no-repeat 50% 50%;
 }
 
