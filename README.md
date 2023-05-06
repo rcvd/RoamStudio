@@ -27,6 +27,7 @@ Within the settings you can customize the following objects:
 - Appearance (Light, Dark, Auto)
 - Custom Icon Theme (Feather)
 - Main Content (Font Family, Size, Spacing)
+- Mobile Font Size
 - Headings (Font Family, Size, Color, Spacing)
 - Code Blocks (Font Family, Size, Hide Line Numbers)
 - Page Links (Color, Style, Weight)
@@ -41,6 +42,7 @@ You can also enable the following enhancements:
 - Advanced Heading Spacing: Remove margins for headings on collapse
 - Bullet Effects: Subtle effect of bullet hovering
 - Centered Search: Centers the find or create dialog, hides the search icon (use keyboard shortcuts :))
+- Strike done todos: Strikes out done todos 
 - Disable Animations: Disable all animations and transitions to speed up the UI
 - Dynamic Image Sizes: Enable dynamic image sizes (scaled to 100% width)
 - Hide Logo: Hide Roam Research Logo
@@ -49,7 +51,10 @@ You can also enable the following enhancements:
 - Masonry Sidebar: Change the right sidebar to a masonry view of the windows
 - Mobile Sidebar: Show the right sidebar below the main window on mobile
 - More Room for Roam: Hides Bullets on empty blocks
+- No line-break within dates: Dates are not wrapped at the end of the line but transferred to the next line.
+- Remove Logpage minimum height: Removes the height settings from the day blocks on the log page
 - Subtle Controls: Make controls (bullets, carets and multibars) less intrusive when block is not focused
+- Remove topbar borders: Removes the borders from the topbar
 
 ## Advanced Customizations
 
