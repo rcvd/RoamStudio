@@ -184,10 +184,10 @@
   --sd-button__minimal--active: none;
   --co-button__minimal--active: var(--cl-gray-700);
   --bc-button__minimal--hover: var(--cl-gray-200);
-  --bt-button__minimal--hover: 1px solid var(--cl-gray-150);
-  --br-button__minimal--hover: 1px solid var(--cl-gray-150);
-  --bb-button__minimal--hover: 1px solid var(--cl-gray-150);
-  --bl-button__minimal--hover: 1px solid var(--cl-gray-150);
+  --bt-button__minimal--hover: 1px solid var(--cl-gray-200);
+  --br-button__minimal--hover: 1px solid var(--cl-gray-200);
+  --bb-button__minimal--hover: 1px solid var(--cl-gray-200);
+  --bl-button__minimal--hover: 1px solid var(--cl-gray-200);
   --bd-button__minimal--hover: 5px;
   --sd-button__minimal--hover: none;
   --co-button__minimal--hover: var(--cl-gray-700);
