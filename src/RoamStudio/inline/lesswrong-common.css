@@ -1092,7 +1092,7 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
 
 .window-headers {
   padding-top: 4px;
-  padding-bottom: 0px;
+  padding-bottom: 4px;
 }
 
 .window-headers .bp3-icon-cross,
@@ -1148,7 +1148,7 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
 }
 
 #right-sidebar .rm-sidebar-window__controls {
-  margin-top: -2px;
+  margin-top: -6px;
 }
 
 .rm-reference-main > div {
