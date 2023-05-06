@@ -61,6 +61,8 @@ var settings: { [key: string]: any } = {
     "css-no-animations": false,
     "css-subtle-controls": false,
     "css-non-breakable-dates": false,
+    "css-topbar-borders": false,
+    "css-sidebar-borders": false,
   },
   css: { [key: string]: string } = {
     system: "",
@@ -1063,7 +1065,7 @@ function changeDateColor() {
   switch (settings["css-theme"]) {
     case "Quattro":
       tagColor = "gray";
-      colorStyleLight = 900;
+      colorStyleLight = 800;
       colorStyleDark = 400;
       break;
 
@@ -1246,6 +1248,9 @@ function changeDateBackground() {
 
   if (settings["css-date-background"] != "Theme Default") {
     tagColor = settings["css-date-background"];
+    if (tagColor == "gray" && settings["css-theme"]=="Quattro") {
+      colorStyleLight = 200
+    }
   }
 
   if (settings["css-tag-invert"]) {
@@ -2527,6 +2532,18 @@ function onload({ extensionAPI }: OnloadArgs) {
           onChange: (evt) => {
             modules["css-subtle-controls"] = evt.target.checked;
             changeModule("css-subtle-controls");
+          },
+        },
+      },
+      {
+        id: "css-sidebar-borders",
+        name: "Remove sidebar borders",
+        description: "Removes the borders from the sidebars",
+        action: {
+          type: "switch",
+          onChange: (evt) => {
+            modules["css-sidebar-borders"] = evt.target.checked;
+            changeModule("css-sidebar-borders");
           },
         },
       },

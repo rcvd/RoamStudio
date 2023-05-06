@@ -35,4 +35,5 @@ echo "    css['css-no-animations'] = '`cat src/RoamStudio/modules/no-animations.
 echo "    css['css-non-breakable-dates'] = '`cat src/RoamStudio/modules/non-breakable-dates.css | tr '\n' ' '`';" >> src/index.ts
 echo "    css['css-subtle-controls'] = '`cat src/RoamStudio/modules/subtle-controls.css | tr '\n' ' '`';" >> src/index.ts
 echo "    css['css-topbar-borders'] = '`cat src/RoamStudio/modules/topbar-borders.css | tr '\n' ' '`';" >> src/index.ts
+echo "    css['css-sidebar-borders'] = '`cat src/RoamStudio/modules/sidebar-borders.css | tr '\n' ' '`';" >> src/index.ts
 echo "}" >> src/index.ts
