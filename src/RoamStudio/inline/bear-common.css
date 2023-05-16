@@ -1383,7 +1383,7 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
   align-items: flex-start;
 }
 
-.bp3-control.bp3-checkbox input ~ .bp3-control-indicator {
+[class*=zr] .bp3-control.bp3-checkbox input ~ .bp3-control-indicator {
   top: 6px;
 }
 
