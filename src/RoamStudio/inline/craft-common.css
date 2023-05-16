@@ -400,6 +400,10 @@ html {
   outline: none;
 }
 
+span.bp3-popover-target {
+  display: inline-block !important;
+}
+
 .bp3-control .bp3-control-indicator {
   display: inline-flex;
 }
@@ -1065,8 +1069,19 @@ input[type=radio] {
   fill-opacity: 1;
 }
 
+.bp3-popover .bp3-popover-arrow[style*="left: 127px;"] {
+  left: 125px !important;
+}
+
 .rm-query .rm-query-content {
   padding-left: 11px;
+}
+
+.rm-query button {
+  width: 24px;
+  height: 24px;
+  min-height: 24px;
+  min-width: 24px;
 }
 
 .rm-reference-main {
@@ -1357,6 +1372,10 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
   transition: all ease-in-out 300ms;
 }
 
+.rm-topbar__spacer-sm {
+  flex: 0 0 0px;
+}
+
 .rm-video-player__container,
 .rm-iframe__container {
   margin-right: 0;
@@ -1391,7 +1410,7 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
 
 .rm-unlink-aliases {
   padding-left: 0;
-  margin-left: -3px;
+  margin-left: -3px !important;
 }
 
 .rm-unlink-aliases .rm-caret ~ strong {
@@ -1473,6 +1492,10 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
   justify-content: flex-start;
 }
 
+.roamjs-query-results-view > span {
+  margin-top: 0.9rem;
+}
+
 .bp3-popover a:focus {
   text-decoration: none;
   color: var(--co-menu__item);
@@ -1519,16 +1542,106 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
   border-radius: 0px;
 }
 
-#zotero-roam-portal .header-bottom {
-  margin: min(74px, 10vh) 2.5%;
+#workbench-menu button {
+  min-height: 24px;
+  min-width: 24px;
 }
 
-.zotero-roam-cm-option .bp3-menu-item:before {
-  margin-top: 4px;
+#workbench-menu {
+  margin-right: 4px;
+}
+
+#zotero-roam-portal .bp3-tabs.bp3-vertical > .bp3-tab-list {
+  padding: 10px;
 }
 
 .zr-date-input input, .zr-date-range-input input, .zr-text-input input:not(.bp3-input-ghost), [class*=zr] .bp3-multi-select.bp3-input, [class*=zr] .bp3-numeric-input input.bp3-input, textarea.zr-text-input {
   outline: none;
+}
+
+.zr-auxiliary-dialog--settings.bp3-dialog {
+  overflow-y: auto;
+  height: 91vh;
+}
+
+.zr-settings-rowgroup--option-label {
+  align-items: flex-start;
+}
+
+.bp3-control.bp3-checkbox input ~ .bp3-control-indicator {
+  top: 6px;
+}
+
+[class*=zr] .bp3-control.bp3-checkbox input:checked ~ .bp3-control-indicator::before {
+  margin-left: -1px;
+  margin-top: -2px;
+}
+
+[class*=zr] .bp3-control.bp3-checkbox input:checked ~ .bp3-control-indicator, [class*=zr] .bp3-control.bp3-switch input:checked ~ .bp3-control-indicator {
+  background-color: var(--bc-control__checkbox--checked);
+}
+
+.zr-popover .bp3-menu .bp3-menu-item[aria-selected=false]:hover {
+  background-color: var(--bc-menu__item--hover);
+  color: var(--co-menu__item--hover);
+}
+
+.zr-popover .bp3-menu .bp3-menu-item[aria-selected=true], .zr-popover .bp3-menu .bp3-menu-item[aria-selected=true] .bp3-icon, .zr-popover .bp3-menu .bp3-menu-item[aria-selected=true]:hover {
+  background-color: var(--bc-menu__item--active);
+  color: var(--co-menu__item--active);
+}
+
+[class*=zr] .bp3-numeric-input .bp3-button:not([class*=bp3-intent-]) {
+  background-color: var(--bc-button);
+}
+
+.zr-popover .bp3-datepicker, .zr-popover .bp3-menu, .zr-popover.bp3-popover .bp3-popover-content, .zr-popover.bp3-popover2 .bp3-popover2-content, [class*=zr] .bp3-menu, [zr-role] .bp3-menu {
+  background: var(--bc-popover);
+}
+
+.zr-icon-tooltip.bp3-tooltip2 .bp3-popover2-content {
+  background-color: var(--bc-tooltip);
+  color: var(--co-tooltip__content);
+  border-top: var(--bt-tooltip);
+  border-right: var(--br-tooltip);
+  border-bottom: var(--bb-tooltip);
+  border-left: var(--bl-tooltip);
+}
+
+.bp3-tooltip2 .bp3-popover2-arrow-border {
+  fill: var(--fl-tooltip__arrow-border);
+  fill-opacity: 1;
+}
+
+.zr-icon-tooltip.bp3-tooltip2 .bp3-popover2-arrow {
+  top: -10px !important;
+  z-index: 100;
+}
+
+.zr-icon-tooltip.bp3-tooltip2 .bp3-popover2-arrow-fill {
+  fill: var(--fl-tooltip__arrow-fill);
+  fill-opacity: 1;
+}
+
+.bp3-tooltip2.bp3-popover2-placement-bottom .bp3-popover2-arrow {
+  shadow: var(--sd-tooltip__arrow-shadow);
+}
+
+.zr-popover:not(.zr-date-picker):not(.bp3-submenu):not(.zr-guide-popover) {
+  background: var(--bc-popover);
+  border-top: var(--bt-popover);
+  border-right: var(--br-popover);
+  border-bottom: var(--bb-popover);
+  border-left: var(--bl-popover);
+}
+
+#zotero-roam-portal .scite-badge .scite-tally > div {
+  border: none;
+}
+
+.zr-data-requests-dialog button,
+.zr-data-requests-dialog input {
+  min-height: 34px;
 }
 
 :root {
