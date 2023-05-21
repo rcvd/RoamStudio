@@ -1048,12 +1048,19 @@
   --bl-ext-zotero__items: transparent;
   --bd-ext-zotero__items: 5px;
   --co-ext-zotero__items: var(--cl-gray-900);
+  --co-ext-zotero__query-status: ;
   --bc-ext-zotero__scite-badge: var(--cl-white);
   --bt-ext-zotero__scite-badge: 1px solid var(--cl-gray-300);
   --br-ext-zotero__scite-badge: 1px solid var(--cl-gray-300);
   --bb-ext-zotero__scite-badge: 1px solid var(--cl-gray-300);
   --bl-ext-zotero__scite-badge: 1px solid var(--cl-gray-300);
   --co-ext-zotero__scite-badge: var(--cl-gray-900);
+  --bt-ext-zotero__settings-card: 1px solid var(--cl-gray-300);
+  --br-ext-zotero__settings-card: 1px solid var(--cl-gray-300);
+  --bb-ext-zotero__settings-card: 1px solid var(--cl-gray-300);
+  --bl-ext-zotero__settings-card: 1px solid var(--cl-gray-300);
+  --bd-ext-zotero__settings-card: 5px;
+  --co-ext-zotero__settings-card: var(--cl-gray-900);
   --bc-ext-zotero__tab-list: var(--cl-white);
   --br-ext-zotero__tab-list: 1px solid var(--cl-gray-200);
   --bc-ext-zotero: var(--cl-gray-100);
@@ -1578,6 +1585,7 @@
   --bl-main__paren-closed--hover: ;
   --co-main__paren-closed--hover: ;
   --fl-main__paren-icon: ;
+  --bc-main__part--hover: ;
   --bc-main__pomodoro--break: transparent;
   --bt-main__pomodoro--break: 1px solid var(--cl-gray-900);
   --br-main__pomodoro--break: 1px solid var(--cl-gray-900);

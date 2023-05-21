@@ -1056,12 +1056,19 @@ textarea,
   --bl-ext-zotero__items: transparent;
   --bd-ext-zotero__items: ;
   --co-ext-zotero__items: #373837;
+  --co-ext-zotero__query-status: ;
   --bc-ext-zotero__scite-badge: var(--cl-transparen);
   --bt-ext-zotero__scite-badge: transparent;
   --br-ext-zotero__scite-badge: transparent;
   --bb-ext-zotero__scite-badge: transparent;
   --bl-ext-zotero__scite-badge: transparent;
   --co-ext-zotero__scite-badge: #373837;
+  --bt-ext-zotero__settings-card: transparent;
+  --br-ext-zotero__settings-card: transparent;
+  --bb-ext-zotero__settings-card: transparent;
+  --bl-ext-zotero__settings-card: transparent;
+  --bd-ext-zotero__settings-card: 5px;
+  --co-ext-zotero__settings-card: #373837;
   --bc-ext-zotero__tab-list: #ffffff;
   --br-ext-zotero__tab-list: ;
   --bc-ext-zotero: #fafafa;
@@ -1586,6 +1593,7 @@ textarea,
   --bl-main__paren-closed--hover: ;
   --co-main__paren-closed--hover: ;
   --fl-main__paren-icon: ;
+  --bc-main__part--hover: ;
   --bc-main__pomodoro--break: #4cbd5e;
   --bt-main__pomodoro--break: transparent;
   --br-main__pomodoro--break: transparent;

@@ -1183,6 +1183,15 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
   top: 67px !important;
 }
 
+.bp3-popover.bp3-tooltip {
+  box-shadow: 0px 0px 0px 1px var(--fl-tooltip__arrow-border);
+  border: none;
+}
+
+.bp3-popover.bp3-tooltip .bp3-popover-arrow-border {
+  fill: var(--fl-tooltip__arrow-border);
+}
+
 .rm-topbar {
   transition: all ease-in-out 300ms;
 }
@@ -1339,11 +1348,6 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
   border-radius: var(--bd-dialog) var(--bd-dialog) 0 0;
 }
 
-.roamjs-workbench-live-preview {
-  padding: 20px !important;
-  padding-top: 0px !important;
-}
-
 .roamjs-daily-notes-popup .roamjs-dialog-body {
   padding: 20px !important;
   padding-top: 0px !important;
@@ -1364,6 +1368,14 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
 
 #workbench-menu {
   margin-right: 4px;
+}
+
+.roamjs-workbench-live-preview {
+  padding: 20px !important;
+  padding-top: 0px !important;
+  max-width: 640px;
+  max-height: 600px;
+  overflow: auto;
 }
 
 #zotero-roam-portal .bp3-tabs.bp3-vertical > .bp3-tab-list {
@@ -1457,6 +1469,65 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
 .zr-data-requests-dialog button,
 .zr-data-requests-dialog input {
   min-height: 34px;
+}
+
+.bp3-dialog[class*=zr-dialog-overlay--] {
+  background: var(--bc-dialog);
+}
+
+#zotero-roam-search-autocomplete {
+  background-color: var(--bc-input);
+  border-top: var(--bt-input);
+  border-right: var(--br-input);
+  border-bottom: var(--bb-input);
+  border-left: var(--bl-input);
+  border-radius: var(--bd-input);
+  box-shadow: var(--sd-input);
+  --webkit-box-shadow: var(--sd-input);
+  color: var(--co-input);
+  font-family: var(--ff-input);
+  font-size: var(--fs-input);
+  font-weight: var(--fw-input);
+}
+
+.zotero-roam-search_result[aria-selected=false]:hover, .zotero-roam-search_result[aria-selected=true], [class*=zr] li [aria-selected=false]:not(.bp3-menu-item):hover, [class*=zr] li [aria-selected=true]:not(.bp3-menu-item), [class*=zr] li[aria-selected=false]:hover, [class*=zr] li[aria-selected=true] {
+  background-color: var(--bc-menu__item--hover);
+  border-top: var(--bt-menu__item--hover);
+  border-right: var(--br-menu__item--hover);
+  border-bottom: var(--bb-menu__item--hover);
+  border-left: var(--bl-menu__item--hover);
+  color: var(--co-menu__item--hover);
+  -webkit-text-decoration: var(--td-menu__item--hover);
+  text-decoration: var(--td-menu__item--hover);
+}
+
+.zr-auxiliary, button.bp3-button.zr-auxiliary:not(.bp3-disabled) {
+  color: inherit;
+}
+
+#zr-item-details [zr-role=item-actions],
+#zr-item-details [zr-role=item-abstract]:not(:empty) {
+  background-color: transparent;
+}
+
+.zr-accent-1 {
+  color: var(--cl-accent-500);
+}
+
+.roam-block:has(span > span > sub) > span > span button::before {
+  content: "Show Tweet";
+}
+
+.roam-block:has(span > span > sub) > span > span > button {
+  color: var(--co-button);
+}
+
+.roam-block:has(span > span > div > div.twitter-tweet) > span > span > button::before {
+  content: "Hide Tweet";
+}
+
+.roam-block:has(span > span > sub) > span > span > sub {
+  display: none;
 }
 
 /* Fix bullet position */

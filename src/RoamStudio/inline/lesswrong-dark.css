@@ -1060,12 +1060,19 @@
   --bl-ext-zotero__items: transparent;
   --bd-ext-zotero__items: 5px;
   --co-ext-zotero__items: var(--cl-gray-200);
+  --co-ext-zotero__query-status: ;
   --bc-ext-zotero__scite-badge: var(--cl-gray-900);
   --bt-ext-zotero__scite-badge: 1px solid transparent;
   --br-ext-zotero__scite-badge: 1px solid transparent;
   --bb-ext-zotero__scite-badge: 1px solid transparent;
   --bl-ext-zotero__scite-badge: 1px solid transparent;
   --co-ext-zotero__scite-badge: var(--cl-gray-200);
+  --bt-ext-zotero__settings-card: 1px solid transparent;
+  --br-ext-zotero__settings-card: 1px solid transparent;
+  --bb-ext-zotero__settings-card: 1px solid transparent;
+  --bl-ext-zotero__settings-card: 1px solid transparent;
+  --bd-ext-zotero__settings-card: 5px;
+  --co-ext-zotero__settings-card: var(--cl-gray-200);
   --bc-ext-zotero__tab-list: var(--cl-gray-900);
   --br-ext-zotero__tab-list: transparent;
   --bc-ext-zotero: var(--cl-black);
@@ -1590,6 +1597,7 @@
   --bl-main__paren-closed--hover: 1px solid var(--cl-gray-700);
   --co-main__paren-closed--hover: var(--cl-gray-400);
   --fl-main__paren-icon: var(--cl-gray-300);
+  --bc-main__part--hover: ;
   --bc-main__pomodoro--break: transparent;
   --bt-main__pomodoro--break: 1px solid var(--cl-gray-400);
   --br-main__pomodoro--break: 1px solid var(--cl-gray-400);
