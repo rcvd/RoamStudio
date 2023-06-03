@@ -340,7 +340,7 @@ a.rm-alias:not(.rm-alias--external):hover {
   --co-codeblock__qualifier: var(--cl-gray-450);
   --bc-codeblock__searching: transparent;
   --bc-codeblock__selected--focus: var(--cl-gray-600);
-  --bc-codeblock__selected: var(--cl-gray-700);
+  --bc-codeblock__selected: var(--cl-gray-600);
   --bc-codeblock__settings-bar: transparent;
   --bt-codeblock__settings-bar: transparent;
   --bd-codeblock__settings-bar: 3px;
