@@ -70,6 +70,7 @@ var settings: { [key: string]: any } = {
     "css-centered-search": false,
     "css-done": false,
     "css-dynamic-images": false,
+    "css-dynamic-pdfs": false,
     "css-feather-icons": false,
     "css-hide-line-numbers": false,
     "css-hide-logo": false,
@@ -77,6 +78,7 @@ var settings: { [key: string]: any } = {
     "css-hide-sidebar-icons": false,
     "css-masonry": false,
     "css-logpage-minheight": false,
+    "css-mobile-caret": false,
     "css-mobile-sidebar": false,
     "css-more-room": false,
     "css-no-animations": false,
@@ -667,7 +669,8 @@ function changePageLink() {
   var pageLinkBorderLightness: number;
   var pageLinkBorderLightnessDark: number;
 
-  console.log("Switching page link color:" + settings["css-page-link-color"]);
+  console.log("Switching page link color: " + settings["css-page-link-color"]);
+  
   if (document.getElementById("roamstudio-css-page-link-color")) {
     document.getElementById("roamstudio-css-page-link-color").remove();
   }
@@ -767,29 +770,29 @@ function changePageLink() {
         pageLinkBorderStyle = "3px solid ";
         break;
     }
-
-    pageLinkColorLightnessDark = 1000 - pageLinkColorLightness;
-    pageLinkBorderLightnessDark = 1000 - pageLinkBorderLightness;
-
-    var head = document.getElementsByTagName("head")[0];
-    var style = document.createElement("style");
-
-    style.id = "roamstudio-css-page-link-color";
-    switch (settings["css-appearance"]) {
-      case "Auto":
-        style.textContent =
-          `:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${pageLinkBorderStyle}var(--cl-${pageLinkColor}-${pageLinkBorderLightness});--bb-main__page-link--hover: ${pageLinkBorderStyle}var(--cl-${pageLinkColor}-${pageLinkBorderLightness});--co-main__page-link: var(--cl-${pageLinkColor}-${pageLinkColorLightness});--co-main__page-link--hover: var(--cl-${pageLinkColor}-${pageLinkColorLightness});}` +
-          `@media (prefers-color-scheme: dark) {:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${pageLinkBorderStyle}var(--cl-${pageLinkColor}-${pageLinkBorderLightnessDark});--bb-main__page-link--hover: ${pageLinkBorderStyle}var(--cl-${pageLinkColor}-${pageLinkBorderLightnessDark});--co-main__page-link: var(--cl-${pageLinkColor}-${pageLinkColorLightnessDark});--co-main__page-link--hover: var(--cl-${pageLinkColor}-${pageLinkColorLightnessDark});}}`;
-        break;
-      case "Dark":
-        style.textContent = `:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${pageLinkBorderStyle}var(--cl-${pageLinkColor}-${pageLinkBorderLightnessDark});--bb-main__page-link--hover: ${pageLinkBorderStyle}var(--cl-${pageLinkColor}-${pageLinkBorderLightnessDark});--co-main__page-link: var(--cl-${pageLinkColor}-${pageLinkColorLightnessDark});--co-main__page-link--hover: var(--cl-${pageLinkColor}-${pageLinkColorLightnessDark});}`;
-        break;
-      case "Light":
-        style.textContent = `:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${pageLinkBorderStyle}var(--cl-${pageLinkColor}-${pageLinkBorderLightness});--bb-main__page-link--hover: ${pageLinkBorderStyle}var(--cl-${pageLinkColor}-${pageLinkBorderLightness});--co-main__page-link: var(--cl-${pageLinkColor}-${pageLinkColorLightness});--co-main__page-link--hover: var(--cl-${pageLinkColor}-${pageLinkColorLightness});}`;
-        break;
-    }
-    head.appendChild(style);
   }
+
+  pageLinkColorLightnessDark = 1000 - pageLinkColorLightness;
+  pageLinkBorderLightnessDark = 1000 - pageLinkBorderLightness;
+
+  var head = document.getElementsByTagName("head")[0];
+  var style = document.createElement("style");
+
+  style.id = "roamstudio-css-page-link-color";
+  switch (settings["css-appearance"]) {
+    case "Auto":
+      style.textContent =
+        `:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${pageLinkBorderStyle}var(--cl-${pageLinkColor}-${pageLinkBorderLightness});--bb-main__page-link--hover: ${pageLinkBorderStyle}var(--cl-${pageLinkColor}-${pageLinkBorderLightness});--co-main__page-link: var(--cl-${pageLinkColor}-${pageLinkColorLightness});--co-main__page-link--hover: var(--cl-${pageLinkColor}-${pageLinkColorLightness});}` +
+        `@media (prefers-color-scheme: dark) {:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${pageLinkBorderStyle}var(--cl-${pageLinkColor}-${pageLinkBorderLightnessDark});--bb-main__page-link--hover: ${pageLinkBorderStyle}var(--cl-${pageLinkColor}-${pageLinkBorderLightnessDark});--co-main__page-link: var(--cl-${pageLinkColor}-${pageLinkColorLightnessDark});--co-main__page-link--hover: var(--cl-${pageLinkColor}-${pageLinkColorLightnessDark});}}`;
+      break;
+    case "Dark":
+      style.textContent = `:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${pageLinkBorderStyle}var(--cl-${pageLinkColor}-${pageLinkBorderLightnessDark});--bb-main__page-link--hover: ${pageLinkBorderStyle}var(--cl-${pageLinkColor}-${pageLinkBorderLightnessDark});--co-main__page-link: var(--cl-${pageLinkColor}-${pageLinkColorLightnessDark});--co-main__page-link--hover: var(--cl-${pageLinkColor}-${pageLinkColorLightnessDark});}`;
+      break;
+    case "Light":
+      style.textContent = `:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${pageLinkBorderStyle}var(--cl-${pageLinkColor}-${pageLinkBorderLightness});--bb-main__page-link--hover: ${pageLinkBorderStyle}var(--cl-${pageLinkColor}-${pageLinkBorderLightness});--co-main__page-link: var(--cl-${pageLinkColor}-${pageLinkColorLightness});--co-main__page-link--hover: var(--cl-${pageLinkColor}-${pageLinkColorLightness});}`;
+      break;
+  }
+  head.appendChild(style);
 }
 
 function changeReferenceLink() {
@@ -900,29 +903,29 @@ function changeReferenceLink() {
         referenceLinkBorderStyle = "3px solid ";
         break;
     }
-
-    referenceLinkColorLightnessDark = 1000 - referenceLinkColorLightness;
-    referenceLinkBorderLightnessDark = 1000 - referenceLinkBorderLightness;
-
-    var head = document.getElementsByTagName("head")[0];
-    var style = document.createElement("style");
-
-    style.id = "roamstudio-css-reference-link-color";
-    
-    switch (settings["css-appearance"]) {
-      case "Auto":
-        style.textContent = `:root {--fw-reference__page-title: ${settings["css-reference-link-weight"]};--bb-reference__page-title: ${referenceLinkBorderStyle}var(--cl-${referenceLinkColor}-${referenceLinkBorderLightness});--bb-reference__page-title--hover: ${referenceLinkBorderStyle}var(--cl-${referenceLinkColor}-${referenceLinkBorderLightness});--co-reference__page-title: var(--cl-${referenceLinkColor}-${referenceLinkColorLightness});--co-reference__page-title--hover: var(--cl-${referenceLinkColor}-${referenceLinkColorLightness});}` +
-          `@media (prefers-color-scheme: dark) {:root {--fw-reference__page-title: ${settings["css-reference-link-weight"]};--bb-reference__page-title: ${referenceLinkBorderStyle}var(--cl-${referenceLinkColor}-${referenceLinkBorderLightnessDark});--bb-reference__page-title--hover: ${referenceLinkBorderStyle}var(--cl-${referenceLinkColor}-${referenceLinkBorderLightnessDark});--co-reference__page-title: var(--cl-${referenceLinkColor}-${referenceLinkColorLightnessDark});--co-reference__page-title--hover: var(--cl-${referenceLinkColor}-${referenceLinkColorLightnessDark});}}`;
-        break;
-      case "Dark":
-        style.textContent = `:root {--fw-reference__page-title: ${settings["css-reference-link-weight"]};--bb-reference__page-title: ${referenceLinkBorderStyle}var(--cl-${referenceLinkColor}-${referenceLinkBorderLightnessDark});--bb-reference__page-title--hover: ${referenceLinkBorderStyle}var(--cl-${referenceLinkColor}-${referenceLinkBorderLightnessDark});--co-reference__page-title: var(--cl-${referenceLinkColor}-${referenceLinkColorLightnessDark});--co-reference__page-title--hover: var(--cl-${referenceLinkColor}-${referenceLinkColorLightnessDark});}`;
-        break;
-      case "Light":
-        style.textContent = `:root {--fw-reference__page-title: ${settings["css-reference-link-weight"]};--bb-reference__page-title: ${referenceLinkBorderStyle}var(--cl-${referenceLinkColor}-${referenceLinkBorderLightness});--bb-reference__page-title--hover: ${referenceLinkBorderStyle}var(--cl-${referenceLinkColor}-${referenceLinkBorderLightness});--co-reference__page-title: var(--cl-${referenceLinkColor}-${referenceLinkColorLightness});--co-reference__page-title--hover: var(--cl-${referenceLinkColor}-${referenceLinkColorLightness});}`;
-        break;
-    }
-    head.appendChild(style);
   }
+
+  referenceLinkColorLightnessDark = 1000 - referenceLinkColorLightness;
+  referenceLinkBorderLightnessDark = 1000 - referenceLinkBorderLightness;
+
+  var head = document.getElementsByTagName("head")[0];
+  var style = document.createElement("style");
+
+  style.id = "roamstudio-css-reference-link-color";
+  
+  switch (settings["css-appearance"]) {
+    case "Auto":
+      style.textContent = `:root {--fw-reference__page-title: ${settings["css-reference-link-weight"]};--bb-reference__page-title: ${referenceLinkBorderStyle}var(--cl-${referenceLinkColor}-${referenceLinkBorderLightness});--bb-reference__page-title--hover: ${referenceLinkBorderStyle}var(--cl-${referenceLinkColor}-${referenceLinkBorderLightness});--co-reference__page-title: var(--cl-${referenceLinkColor}-${referenceLinkColorLightness});--co-reference__page-title--hover: var(--cl-${referenceLinkColor}-${referenceLinkColorLightness});}` +
+        `@media (prefers-color-scheme: dark) {:root {--fw-reference__page-title: ${settings["css-reference-link-weight"]};--bb-reference__page-title: ${referenceLinkBorderStyle}var(--cl-${referenceLinkColor}-${referenceLinkBorderLightnessDark});--bb-reference__page-title--hover: ${referenceLinkBorderStyle}var(--cl-${referenceLinkColor}-${referenceLinkBorderLightnessDark});--co-reference__page-title: var(--cl-${referenceLinkColor}-${referenceLinkColorLightnessDark});--co-reference__page-title--hover: var(--cl-${referenceLinkColor}-${referenceLinkColorLightnessDark});}}`;
+      break;
+    case "Dark":
+      style.textContent = `:root {--fw-reference__page-title: ${settings["css-reference-link-weight"]};--bb-reference__page-title: ${referenceLinkBorderStyle}var(--cl-${referenceLinkColor}-${referenceLinkBorderLightnessDark});--bb-reference__page-title--hover: ${referenceLinkBorderStyle}var(--cl-${referenceLinkColor}-${referenceLinkBorderLightnessDark});--co-reference__page-title: var(--cl-${referenceLinkColor}-${referenceLinkColorLightnessDark});--co-reference__page-title--hover: var(--cl-${referenceLinkColor}-${referenceLinkColorLightnessDark});}`;
+      break;
+    case "Light":
+      style.textContent = `:root {--fw-reference__page-title: ${settings["css-reference-link-weight"]};--bb-reference__page-title: ${referenceLinkBorderStyle}var(--cl-${referenceLinkColor}-${referenceLinkBorderLightness});--bb-reference__page-title--hover: ${referenceLinkBorderStyle}var(--cl-${referenceLinkColor}-${referenceLinkBorderLightness});--co-reference__page-title: var(--cl-${referenceLinkColor}-${referenceLinkColorLightness});--co-reference__page-title--hover: var(--cl-${referenceLinkColor}-${referenceLinkColorLightness});}`;
+      break;
+  }
+  head.appendChild(style);
 }
 
 function changeBlockLink() {
@@ -1033,29 +1036,29 @@ function changeBlockLink() {
         blockLinkBorderStyle = "3px solid ";
         break;
     }
-
-    blockLinkColorLightnessDark = 1000 - blockLinkColorLightness;
-    blockLinkBorderLightnessDark = 1000 - blockLinkBorderLightness;
-
-    var head = document.getElementsByTagName("head")[0];
-    var style = document.createElement("style");
-
-    style.id = "roamstudio-css-block-link-color";
-    
-    switch (settings["css-appearance"]) {
-      case "Auto":
-        style.textContent = `:root {--fw-main__block-ref: ${settings["css-block-link-weight"]};--bb-main__block-ref: ${blockLinkBorderStyle}var(--cl-${blockLinkColor}-${blockLinkBorderLightness});--bb-main__block-ref--hover: ${blockLinkBorderStyle}var(--cl-${blockLinkColor}-${blockLinkBorderLightness});--co-main__block-ref: var(--cl-${blockLinkColor}-${blockLinkColorLightness});--co-main__block-ref--hover: var(--cl-${blockLinkColor}-${blockLinkColorLightness});}` +
-          `@media (prefers-color-scheme: dark) {:root {--fw-main__block-ref: ${settings["css-block-link-weight"]};--bb-main__block-ref: ${blockLinkBorderStyle}var(--cl-${blockLinkColor}-${blockLinkBorderLightnessDark});--bb-main__block-ref--hover: ${blockLinkBorderStyle}var(--cl-${blockLinkColor}-${blockLinkBorderLightnessDark});--co-main__block-ref: var(--cl-${blockLinkColor}-${blockLinkColorLightnessDark});--co-main__block-ref--hover: var(--cl-${blockLinkColor}-${blockLinkColorLightnessDark});}}`;
-        break;
-      case "Dark":
-        style.textContent = `:root {--fw-main__block-ref: ${settings["css-block-link-weight"]};--bb-main__block-ref: ${blockLinkBorderStyle}var(--cl-${blockLinkColor}-${blockLinkBorderLightnessDark});--bb-main__block-ref--hover: ${blockLinkBorderStyle}var(--cl-${blockLinkColor}-${blockLinkBorderLightnessDark});--co-main__block-ref: var(--cl-${blockLinkColor}-${blockLinkColorLightnessDark});--co-main__block-ref--hover: var(--cl-${blockLinkColor}-${blockLinkColorLightnessDark});}`;
-        break;
-      case "Light":
-        style.textContent = `:root {--fw-main__block-ref: ${settings["css-block-link-weight"]};--bb-main__block-ref: ${blockLinkBorderStyle}var(--cl-${blockLinkColor}-${blockLinkBorderLightness});--bb-main__block-ref--hover: ${blockLinkBorderStyle}var(--cl-${blockLinkColor}-${blockLinkBorderLightness});--co-main__block-ref: var(--cl-${blockLinkColor}-${blockLinkColorLightness});--co-main__block-ref--hover: var(--cl-${blockLinkColor}-${blockLinkColorLightness});}`;
-        break;
-    }
-    head.appendChild(style);
   }
+
+  blockLinkColorLightnessDark = 1000 - blockLinkColorLightness;
+  blockLinkBorderLightnessDark = 1000 - blockLinkBorderLightness;
+
+  var head = document.getElementsByTagName("head")[0];
+  var style = document.createElement("style");
+
+  style.id = "roamstudio-css-block-link-color";
+  
+  switch (settings["css-appearance"]) {
+    case "Auto":
+      style.textContent = `:root {--fw-main__block-ref: ${settings["css-block-link-weight"]};--bb-main__block-ref: ${blockLinkBorderStyle}var(--cl-${blockLinkColor}-${blockLinkBorderLightness});--bb-main__block-ref--hover: ${blockLinkBorderStyle}var(--cl-${blockLinkColor}-${blockLinkBorderLightness});--co-main__block-ref: var(--cl-${blockLinkColor}-${blockLinkColorLightness});--co-main__block-ref--hover: var(--cl-${blockLinkColor}-${blockLinkColorLightness});}` +
+        `@media (prefers-color-scheme: dark) {:root {--fw-main__block-ref: ${settings["css-block-link-weight"]};--bb-main__block-ref: ${blockLinkBorderStyle}var(--cl-${blockLinkColor}-${blockLinkBorderLightnessDark});--bb-main__block-ref--hover: ${blockLinkBorderStyle}var(--cl-${blockLinkColor}-${blockLinkBorderLightnessDark});--co-main__block-ref: var(--cl-${blockLinkColor}-${blockLinkColorLightnessDark});--co-main__block-ref--hover: var(--cl-${blockLinkColor}-${blockLinkColorLightnessDark});}}`;
+      break;
+    case "Dark":
+      style.textContent = `:root {--fw-main__block-ref: ${settings["css-block-link-weight"]};--bb-main__block-ref: ${blockLinkBorderStyle}var(--cl-${blockLinkColor}-${blockLinkBorderLightnessDark});--bb-main__block-ref--hover: ${blockLinkBorderStyle}var(--cl-${blockLinkColor}-${blockLinkBorderLightnessDark});--co-main__block-ref: var(--cl-${blockLinkColor}-${blockLinkColorLightnessDark});--co-main__block-ref--hover: var(--cl-${blockLinkColor}-${blockLinkColorLightnessDark});}`;
+      break;
+    case "Light":
+      style.textContent = `:root {--fw-main__block-ref: ${settings["css-block-link-weight"]};--bb-main__block-ref: ${blockLinkBorderStyle}var(--cl-${blockLinkColor}-${blockLinkBorderLightness});--bb-main__block-ref--hover: ${blockLinkBorderStyle}var(--cl-${blockLinkColor}-${blockLinkBorderLightness});--co-main__block-ref: var(--cl-${blockLinkColor}-${blockLinkColorLightness});--co-main__block-ref--hover: var(--cl-${blockLinkColor}-${blockLinkColorLightness});}`;
+      break;
+  }
+  head.appendChild(style);
 }
 
 function changeTag() {
@@ -3198,6 +3201,18 @@ function onload({ extensionAPI }: OnloadArgs) {
         },
       },
       {
+        id: "css-dynamic-pdfs",
+        name: "Dynamic PDF Sizes",
+        description: "Enable dynamic pdf sizes (scaled to 100% width)",
+        action: {
+          type: "switch",
+          onChange: (evt) => {
+            modules["css-dynamic-pdfs"] = evt.target.checked;
+            changeModule("css-dynamic-pdfs");
+          },
+        },
+      },
+      {
         id: "css-hide-logo",
         name: "Hide Logo",
         description: "Hide Roam Research Logo",
@@ -3257,6 +3272,18 @@ function onload({ extensionAPI }: OnloadArgs) {
           onChange: (evt) => {
             modules["css-masonry"] = evt.target.checked;
             changeModule("css-masonry");
+          },
+        },
+      },
+      {
+        id: "css-mobile-caret",
+        name: "Mobile Caret",
+        description: "Shows a bigger caret for collapsing lists on mobile",
+        action: {
+          type: "switch",
+          onChange: (evt) => {
+            modules["css-mobile-caret"] = evt.target.checked;
+            changeModule("css-mobile-caret");
           },
         },
       },

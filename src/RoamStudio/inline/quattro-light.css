@@ -1579,6 +1579,15 @@
   --bb-main__search-query: 1px solid var(--cl-gray-900);
   --bl-main__search-query: 1px solid var(--cl-gray-900);
   --bd-main__search-query: 0px;
+  --bc-main__slider-progress-primary: var(--cl-gray-700);
+  --bc-main__slider-progress: var(--cl-gray-300);
+  --bc-main__slider-label: var(--cl-gray-700);
+  --sd-main__slider-label: none;
+  --bt-main__slider-handle: 1px solid var(--cl-gray-500);
+  --br-main__slider-handle: 1px solid var(--cl-gray-500);
+  --bb-main__slider-handle: 1px solid var(--cl-gray-500);
+  --bl-main__slider-handle: 1px solid var(--cl-gray-500);
+  --sd-main__slider-handle: none;
   --bc-main__streak-day-0: var(--cl-gray-200);
   --bc-main__streak-day-1: var(--cl-sky-400);
   --bc-main__streak-day-2: var(--cl-sky-500);

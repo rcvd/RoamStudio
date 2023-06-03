@@ -917,8 +917,28 @@ input[type=radio] {
   vertical-align: -55%;
 }
 
-.rm-block--ghost .controls, .rm-block--ghost .rm-block__controls {
+.rm-block--ghost .controls,
+.rm-block--ghost .rm-block__controls {
   padding-left: 3px;
+}
+
+.rm-search-query .rm-reference-main > div {
+  margin-left: 14px !important;
+  line-height: calc(var(--fs-main) + 12px);
+}
+
+.rm-search-query .rm-reference-main > div > a > span:hover {
+  -webkit-text-decoration: var(--td-main__a) !important;
+          text-decoration: var(--td-main__a) !important;
+}
+
+.rm-search-query .rm-reference-main > div:nth-child(2) {
+  margin-top: 1rem !important;
+}
+
+.rm-search-query .rm-search-query-content > span[style*="margin-left: 9px;"] {
+  margin-left: 14px !important;
+  font-weight: bold;
 }
 
 .bp3-menu-item {
@@ -1260,6 +1280,10 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
   max-width: 80%;
 }
 
+.rm-settings--mobile {
+  border-radius: 0px !important;
+}
+
 .bp3-toast-message .bp3-button.bp3-small,
 .bp3-toast-message .bp3-small .bp3-button {
   min-height: 30px;
@@ -1290,6 +1314,11 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
 
 .bp3-popover.bp3-tooltip .bp3-popover-arrow-border {
   fill: var(--fl-tooltip__arrow-border);
+}
+
+.bp3-popover.bp3-tooltip {
+  box-shadow: 0px 0px 0px 1px var(--co-tooltip__arrowborder), 3px 3px 11px 3px rgba(0, 0, 0, 0.1) !important;
+  border: none !important;
 }
 
 .rm-topbar {

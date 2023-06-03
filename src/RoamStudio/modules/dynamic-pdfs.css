@@ -1,0 +1,4 @@
+div.hoverparent[style*="width: 580px;"],
+div.hoverparent[style*="width: 580px;"] div.react-resizable {
+	width: 100% !important;
+}

@@ -1,0 +1,21 @@
+@media screen and (max-width: 600px) { 
+	.block-expand .rm-caret {
+		font-size: 24px;
+		height: 24px!important;
+	}	
+	
+	.block-expand {
+			display: block;
+			float: right;
+			right: 0px;
+			position: absolute;
+	}
+	/*
+	.rm-block--closed > .rm-block-main.rm-block__self .rm-caret.rm-caret-hidden,
+	.roam-block-container:has(.rm-block-children > .roam-block-container) > .rm-block-main.rm-block__self .rm-caret.rm-caret-hidden {
+		opacity: 1;
+	}*/
+	.rm-bullet, .rm-bullet.rm-bullet--closed {
+		margin-left: 16px;
+	}
+}

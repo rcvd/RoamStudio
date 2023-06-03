@@ -1578,6 +1578,15 @@ textarea,
   --bb-main__search-query: transparent;
   --bl-main__search-query: transparent;
   --bd-main__search-query: 5px;
+  --bc-main__slider-progress-primary: ;
+  --bc-main__slider-progress: ;
+  --bc-main__slider-label: ;
+  --sd-main__slider-label: ;
+  --bt-main__slider-handle: ;
+  --br-main__slider-handle: ;
+  --bb-main__slider-handle: ;
+  --bl-main__slider-handle: ;
+  --sd-main__slider-handle: ;
   --bc-main__streak-day-0: ;
   --bc-main__streak-day-1: ;
   --bc-main__streak-day-2: ;

@@ -1597,6 +1597,15 @@ a.rm-alias:not(.rm-alias--external):hover {
   --bb-main__search-query: 1px solid var(--cl-gray-400);
   --bl-main__search-query: 1px solid var(--cl-gray-400);
   --bd-main__search-query: 0px;
+  --bc-main__slider-progress-primary: var(--cl-gray-500);
+  --bc-main__slider-progress: var(--cl-gray-700);
+  --bc-main__slider-label: var(--cl-gray-500);
+  --sd-main__slider-label: none;
+  --bt-main__slider-handle: 1px solid var(--cl-gray-600);
+  --br-main__slider-handle: 1px solid var(--cl-gray-600);
+  --bb-main__slider-handle: 1px solid var(--cl-gray-600);
+  --bl-main__slider-handle: 1px solid var(--cl-gray-600);
+  --sd-main__slider-handle: none;
   --bc-main__streak-day-0: var(--cl-gray-700);
   --bc-main__streak-day-1: var(--cl-sky-900);
   --bc-main__streak-day-2: var(--cl-sky-800);
@@ -1735,7 +1744,7 @@ a.rm-alias:not(.rm-alias--external):hover {
   --td-menu__item: none;
   --co-menu__item-icon--disabled: var(--cl-gray-500);
   --co-menu__item-icon--hover: var(--cl-white);
-  --co-menu__item-icon: var(--cl-gray-400);
+  --co-menu__item-icon: var(--cl-white);
   --co-menu__item-label--hover: var(--cl-white);
   --co-menu__item-label: var(--cl-gray-500);
   --fs-menu__item-label: 0.8rem;

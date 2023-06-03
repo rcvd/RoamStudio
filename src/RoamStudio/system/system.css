@@ -3004,6 +3004,29 @@ a[label*="[object Object]"].bp3-menu-item .bp3-menu-item-label, a[label*="[objec
 	border-radius: 			var(--bd-main__search-query);
 }
 
+.bp3-slider-progress.bp3-intent-primary {
+	background-color: 		var(--bc-main__slider-progress-primary);
+}
+
+.bp3-slider-progress {
+	background-color: 		var(--bc-main__slider-progress);
+}
+
+.bp3-slider-handle .bp3-slider-label {
+	background-color: 		var(--bc-main__slider-label);
+	box-shadow: 			var(--sd-main__slider-label);
+	--webkit-box-shadow: 	var(--sd-main__slider-label);
+}
+
+.bp3-slider-handle {
+	border-top: 			var(--bt-main__slider-handle);
+	border-right: 			var(--br-main__slider-handle);
+	border-bottom: 			var(--bb-main__slider-handle);
+	border-left: 			var(--bl-main__slider-handle);
+	box-shadow: 			var(--sd-main__slider-handle);
+	--webkit-box-shadow: 	var(--sd-main__slider-handle);
+}
+
 .rm-streak__day-0 {
 	background-color: 		var(--bc-main__streak-day-0);
 }

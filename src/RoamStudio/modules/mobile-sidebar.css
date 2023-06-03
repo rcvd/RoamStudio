@@ -2,4 +2,8 @@
   .roam-app > .flex-h-box {
     flex-direction: column;
   }
+  
+  #right-sidebar .bp3-icon-menu-open {
+    transform: rotate(90deg);
+  }
 }
