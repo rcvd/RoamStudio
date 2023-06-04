@@ -334,6 +334,7 @@ span.bp3-icon:empty {
     .bp3-icon-th,
     .bp3-icon-tick,
     .bp3-icon-time,
+    .rm-topbar .bp3-icon-timeline-events::before,
     .bp3-icon-translate,
     .rm-all-pages .bp3-icon-trash,
     .bp3-icon-video,
@@ -613,6 +614,7 @@ span.bp3-icon:empty {
 }
 
 .bp3-icon-timeline-events,
+.rm-topbar .bp3-icon-timeline-events::before,
 .advanced-search-el .bp3-icon-calendar,
 .bp3-elevation-3 .bp3-icon-calendar::before,
 .roam-sidebar-container .bp3-icon-calendar::before,

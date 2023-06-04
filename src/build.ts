@@ -636,29 +636,29 @@ function changeExternalLink() {
         externalLinkBorderStyle = "3px solid ";
         break;
     }
-
-    externalLinkColorLightnessDark = 1000 - externalLinkColorLightness;
-    externalLinkBorderLightnessDark = 1000 - externalLinkBorderLightness;
-
-    var head = document.getElementsByTagName("head")[0];
-    var style = document.createElement("style");
-
-    style.id = "roamstudio-css-external-link-color";
-    switch (settings["css-appearance"]) {
-      case "Auto":
-        style.textContent =
-          `:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightness});--bb-main__alias: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightness});--bb-main__a--hover: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightness});--bb-main__alias--hover: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightness});--co-main__a: var(--cl-${externalLinkColor}-${externalLinkColorLightness});--co-main__alias: var(--cl-${externalLinkColor}-${externalLinkColorLightness});--co-main__external-link--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightness});--co-main__a--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightness});--co-main__alias--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightness});}` +
-          `@media (prefers-color-scheme: dark) {:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightnessDark});--bb-main__alias: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightnessDark});--bb-main__a--hover: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightnessDark});--bb-main__alias--hover: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightnessDark});--co-main__a: var(--cl-${externalLinkColor}-${externalLinkColorLightnessDark});--co-main__alias: var(--cl-${externalLinkColor}-${externalLinkColorLightnessDark});--co-main__a--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightnessDark});--co-main__alias--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightnessDark});}}`;
-        break;
-      case "Dark":
-        style.textContent = `:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightnessDark});--bb-main__alias: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightnessDark});--bb-main__a--hover: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightnessDark});--bb-main__alias--hover: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightnessDark});--co-main__a: var(--cl-${externalLinkColor}-${externalLinkColorLightnessDark});--co-main__alias: var(--cl-${externalLinkColor}-${externalLinkColorLightnessDark});--co-main__a--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightnessDark});--co-main__alias--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightnessDark})`;
-        break;
-      case "Light":
-        style.textContent = `:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightness});--bb-main__alias: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightness});--bb-main__a--hover: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightness});--bb-main__alias--hover: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightness});--co-main__a: var(--cl-${externalLinkColor}-${externalLinkColorLightness});--co-main__alias: var(--cl-${externalLinkColor}-${externalLinkColorLightness});--co-main__external-link--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightness});--co-main__a--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightness});--co-main__alias--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightness});`;
-        break;
-    }
-    head.appendChild(style);
   }
+
+  externalLinkColorLightnessDark = 1000 - externalLinkColorLightness;
+  externalLinkBorderLightnessDark = 1000 - externalLinkBorderLightness;
+
+  var head = document.getElementsByTagName("head")[0];
+  var style = document.createElement("style");
+
+  style.id = "roamstudio-css-external-link-color";
+  switch (settings["css-appearance"]) {
+    case "Auto":
+      style.textContent =
+        `:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightness});--bb-main__alias: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightness});--bb-main__a--hover: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightness});--bb-main__alias--hover: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightness});--co-main__a: var(--cl-${externalLinkColor}-${externalLinkColorLightness});--co-main__alias: var(--cl-${externalLinkColor}-${externalLinkColorLightness});--co-main__external-link--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightness});--co-main__a--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightness});--co-main__alias--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightness});}` +
+        `@media (prefers-color-scheme: dark) {:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightnessDark});--bb-main__alias: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightnessDark});--bb-main__a--hover: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightnessDark});--bb-main__alias--hover: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightnessDark});--co-main__a: var(--cl-${externalLinkColor}-${externalLinkColorLightnessDark});--co-main__alias: var(--cl-${externalLinkColor}-${externalLinkColorLightnessDark});--co-main__a--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightnessDark});--co-main__alias--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightnessDark});}}`;
+      break;
+    case "Dark":
+      style.textContent = `:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightnessDark});--bb-main__alias: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightnessDark});--bb-main__a--hover: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightnessDark});--bb-main__alias--hover: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightnessDark});--co-main__a: var(--cl-${externalLinkColor}-${externalLinkColorLightnessDark});--co-main__alias: var(--cl-${externalLinkColor}-${externalLinkColorLightnessDark});--co-main__a--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightnessDark});--co-main__alias--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightnessDark})`;
+      break;
+    case "Light":
+      style.textContent = `:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightness});--bb-main__alias: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightness});--bb-main__a--hover: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightness});--bb-main__alias--hover: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightness});--co-main__a: var(--cl-${externalLinkColor}-${externalLinkColorLightness});--co-main__alias: var(--cl-${externalLinkColor}-${externalLinkColorLightness});--co-main__external-link--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightness});--co-main__a--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightness});--co-main__alias--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightness});`;
+      break;
+  }
+  head.appendChild(style);
 }
 
 function changePageLink() {
