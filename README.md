@@ -1,6 +1,6 @@
 # Roam Studio
 
-Beautiful and easily customizable themes for Roam Research with various options and modules.
+Discover a wide range of themes for Roam Research that are beautiful and highly customizable, with various options and modules to choose from.
 
 ## If you want to support my work
 
@@ -12,16 +12,16 @@ Beautiful and easily customizable themes for Roam Research with various options 
 
 ## Main Features
 
-- Completely themed and customizable Roam Research experience including dialogs, settings and help
+- Completely themed and customizable Roam Research experience, including dialogs, settings, and help
 - Minimal and clean themes carefully optimized for readability and focus
-- Light and dark mode including auto settings based on your system
+- Light and dark modes, including auto settings based on your system
 - Appearance toggle in the top bar to quickly switch between the modes
-- Fully offline-capable including fonts
+- Fully offline-capable, including fonts
 - Various modules to further enhance Roam Research (see description below)
 
 ## Available User Customizations
 
-Within the settings you can customize the following objects:
+Within the settings, you can customize the following objects:
 
 - Theme (Craft, Things, Quattro)
 - Appearance (Light, Dark, Auto)
@@ -30,31 +30,36 @@ Within the settings you can customize the following objects:
 - Mobile Font Size
 - Headings (Font Family, Size, Color, Spacing)
 - Code Blocks (Font Family, Size, Hide Line Numbers)
+- External Links (Color, Style, Weight)
 - Page Links (Color, Style, Weight)
 - Reference Links (Color, Style, Weight)
-- Tags (Color, Style, Font Size, Background, Radius, Invert)
-- Date Links (Color, Style, Font Size, Background, Radius, Invert, Icons)
+- Block Links (Color, Style, Weight)
+- Tags (Color, Style, Font Size, Background, Padding, Radius)
+- Date Links (Color, Style, Font Size, Background, Padding, Radius, Icons)
 
 ## Available Modules
 
 You can also enable the following enhancements:
 
-- Advanced Heading Spacing: Remove margins for headings on collapse
+- Advanced Heading Spacing: Remove margins for headings when collapsed
 - Bullet Effects: Subtle effect of bullet hovering
 - Centered Search: Centers the find or create dialog, hides the search icon (use keyboard shortcuts :))
-- Strike done todos: Strikes out done todos 
 - Disable Animations: Disable all animations and transitions to speed up the UI
 - Dynamic Image Sizes: Enable dynamic image sizes (scaled to 100% width)
+- Dynamic PDF Sizes: Enable dynamic pdf sizes (scaled to 100% width)
 - Hide Logo: Hide Roam Research Logo
 - Hide Shortcuts: Hide Shortcuts Heading
 - Hide Sidebar Icons: Hide Sidebar Icons (Daily Notes Page, Graph, All Pages, Roam Depot) and make text bold
 - Masonry Sidebar: Change the right sidebar to a masonry view of the windows
+- Mobile Caret: Shows a bigger caret for collapsing lists on mobile
 - Mobile Sidebar: Show the right sidebar below the main window on mobile
 - More Room for Roam: Hides Bullets on empty blocks
-- No line-break within dates: Dates are not wrapped at the end of the line but transferred to the next line.
+- No line-break within dates: Dates are not wrapped at the end of the line but transferred to the following line.
 - Remove Logpage minimum height: Removes the height settings from the day blocks on the log page
-- Subtle Controls: Make controls (bullets, carets and multibars) less intrusive when block is not focused
+- Remove sidebar borders: Removes the borders from the sidebars
 - Remove topbar borders: Removes the borders from the topbar
+- Strike finished todos: Strikes out finished todos 
+- Subtle Controls: Make controls (bullets, carets, and multi-bars) less intrusive when a block is not focused
 
 ## Advanced Customizations
 
@@ -62,7 +67,7 @@ You can customize more than 500 objects with more than 2000 attributes by settin
 
 Please read the [advanced customization documentation](https://roamresearch.com/#/app/RoamStudio).
 
-## Feature Requests, Bugs and Feedback
+## Feature Requests, Bugs, and Feedback
 
-If you have an idea for a new feature or find a bug, file it under [Issues](https://github.com/rcvd/RoamStudio/issues) with a short description and an screenshot.
-Any other feedback can be send to alex@goedel.io
+If you have an idea for a new feature or find a bug, file it under [Issues](https://github.com/rcvd/RoamStudio/issues) with a short description and a screenshot.
+If you have any additional comments or suggestions, please feel free to send them to alex@goedel.io.
