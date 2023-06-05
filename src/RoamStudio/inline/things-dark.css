@@ -313,7 +313,7 @@
   --co-codeblock__propertyname: var(--cl-green-200);
   --co-codeblock__qualifier: var(--cl-trueGray-450);
   --bc-codeblock__searching: transparent;
-  --bc-codeblock__selected--focus: var(--cl-accent-900);
+  --bc-codeblock__selected--focus: var(--cl-trueGray-600);
   --bc-codeblock__selected: var(--cl-trueGray-600);
   --bc-codeblock__settings-bar: transparent;
   --bt-codeblock__settings-bar: transparent;

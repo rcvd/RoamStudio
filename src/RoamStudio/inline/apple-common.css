@@ -315,6 +315,10 @@ html {
   outline: none;
 }
 
+.rm-code-block__language-chooser .bp3-popover-target {
+  display: inline-block !important;
+}
+
 .bp3-control .bp3-control-indicator {
   display: inline-flex;
 }

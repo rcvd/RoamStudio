@@ -318,7 +318,7 @@
   --co-codeblock__qualifier: var(--cl-gray-700);
   --bc-codeblock__searching: transparent;
   --bc-codeblock__selected--focus: var(--cl-gray-300);
-  --bc-codeblock__selected: var(--cl-gray-150);
+  --bc-codeblock__selected: var(--cl-gray-300);
   --bc-codeblock__settings-bar: var(--cl-gray-150);
   --bt-codeblock__settings-bar: transparent;
   --bd-codeblock__settings-bar: 8px;
@@ -2480,7 +2480,7 @@
     --co-codeblock__propertyname: var(--cl-green-200);
     --co-codeblock__qualifier: var(--cl-trueGray-450);
     --bc-codeblock__searching: transparent;
-    --bc-codeblock__selected--focus: var(--cl-accent-900);
+    --bc-codeblock__selected--focus: var(--cl-trueGray-600);
     --bc-codeblock__selected: var(--cl-trueGray-600);
     --bc-codeblock__settings-bar: transparent;
     --bt-codeblock__settings-bar: transparent;
