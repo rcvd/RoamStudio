@@ -974,7 +974,7 @@ input[type=radio] {
 
 .rm-block--ghost .controls,
 .rm-block--ghost .rm-block__controls {
-  padding-left: 3px;
+  padding-left: 0px;
 }
 
 .rm-search-query .rm-reference-main > div {
@@ -1363,16 +1363,7 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
 }
 
 .bp3-popover.bp3-tooltip {
-  box-shadow: 0px 0px 0px 1px var(--fl-tooltip__arrow-border);
-  border: none;
-}
-
-.bp3-popover.bp3-tooltip .bp3-popover-arrow-border {
-  fill: var(--fl-tooltip__arrow-border);
-}
-
-.bp3-popover.bp3-tooltip {
-  box-shadow: 0px 0px 0px 1px var(--co-tooltip__arrowborder), 3px 3px 11px 3px rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0px 0px 0px 1px var(--fl-tooltip__arrow-border), 3px 3px 11px 3px rgba(0, 0, 0, 0.1) !important;
   border: none !important;
 }
 

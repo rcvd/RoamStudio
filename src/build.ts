@@ -686,7 +686,7 @@ function changePageLink() {
       break;
 
     case "Craft":
-      pageLinkColor = "accent";
+      pageLinkColor = "gray";
       pageLinkColorLightness = 900;
       pageLinkBorderStyle = "3px solid ";
       pageLinkBorderLightness = 300;

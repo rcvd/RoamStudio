@@ -334,7 +334,7 @@ span[style*="background-color: yellow"] {
 	background-color: 		var(--bc-button__minimal--hover);
 	border-top: 			var(--bt-button__minimal--hover);
 	border-right: 			var(--br-button__minimal--hover);
-	border-bottom: 			var(--bb-button__minimal--hover);
+	border-bottom: 			var(--bb-button__minimal--hover)!important;
 	border-left: 			var(--bl-button__minimal--hover);
 	border-radius: 			var(--bd-button__minimal--hover);
 	box-shadow: 			var(--sd-button__minimal--hover);
@@ -346,7 +346,7 @@ span[style*="background-color: yellow"] {
 	background-color: 		var(--bc-button__minimal);
 	border-top: 			var(--bt-button__minimal);
 	border-right: 			var(--br-button__minimal);
-	border-bottom: 			var(--bb-button__minimal);
+	border-bottom: 			var(--bb-button__minimal)!important;
 	border-left: 			var(--bl-button__minimal);
 	border-radius: 			var(--bd-button__minimal);
 	box-shadow: 			var(--sd-button__minimal);
@@ -416,7 +416,7 @@ span[style*="background-color: yellow"] {
 	background-color: 		var(--bc-button--hover);
 	border-top: 			var(--bt-button--hover);
 	border-right: 			var(--br-button--hover);
-	border-bottom: 			var(--bb-button--hover);
+	border-bottom: 			var(--bb-button--hover)!important;
 	border-left: 			var(--bl-button--hover);
 	box-shadow: 			var(--sd-button--hover);
 	--webkit-box-shadow: 	var(--sd-button--hover);
@@ -429,7 +429,7 @@ span[style*="background-color: yellow"] {
 	background-color: 		var(--bc-button);
 	border-top: 			var(--bt-button);
 	border-right: 			var(--br-button);
-	border-bottom: 			var(--bb-button);
+	border-bottom: 			var(--bb-button)!important;
 	border-left: 			var(--bl-button);
 	border-radius: 			var(--bd-button);
 	box-shadow: 			var(--sd-button);
@@ -3700,7 +3700,7 @@ a[label*="[object Object]"].bp3-menu-item .bp3-menu-item-label, a[label*="[objec
 	background-color: 		var(--bc-settings__button--hover);
 	border-top: 			var(--bt-settings__button--hover);
 	border-right: 			var(--br-settings__button--hover);
-	border-bottom: 			var(--bb-settings__button--hover);
+	border-bottom: 			var(--bb-settings__button--hover)!important;
 	border-left: 			var(--bl-settings__button--hover);
 	color: 					var(--co-settings__button--hover)!important;
 }
@@ -3709,7 +3709,7 @@ a[label*="[object Object]"].bp3-menu-item .bp3-menu-item-label, a[label*="[objec
 	background-color: 		var(--bc-settings__button);
 	border-top: 			var(--bt-settings__button);
 	border-right: 			var(--br-settings__button);
-	border-bottom: 			var(--bb-settings__button);
+	border-bottom: 			var(--bb-settings__button)!important;
 	border-left: 			var(--bl-settings__button);
 	border-radius: 			var(--bd-settings__button);
 	color: 					var(--co-settings__button)!important;
