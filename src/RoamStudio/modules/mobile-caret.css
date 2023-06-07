@@ -7,11 +7,16 @@
 	.block-expand {
 			display: block;
 			float: right;
-			right: 8px;
+			right: -16px;
 			position: absolute;
 	}
 	
-	.rm-block--closed > .rm-block-main.rm-block__self .rm-caret.rm-caret-hidden,
+	.roam-article {
+		padding-left: 16px!important;
+		padding-right: 32px!important;
+	}
+	
+	.rm-block--closed:has(.rm-bullet.rm-bullet--closed) > .rm-block-main.rm-block__self .rm-caret.rm-caret-hidden,
 	.roam-block-container:has(.rm-block-children > .roam-block-container) > .rm-block-main.rm-block__self .rm-caret.rm-caret-hidden {
 		opacity: 1;
 	}
