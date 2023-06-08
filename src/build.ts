@@ -3390,7 +3390,7 @@ function onunload() {
   destroyToggle();
 
   console.log("Unloaded Roam Studio");
-}
+};
 
 export default {
   onload: onload,
