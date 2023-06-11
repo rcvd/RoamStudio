@@ -3378,13 +3378,14 @@ function onunload() {
     if (document.getElementById("roamstudio-" + item)) {
       document.getElementById("roamstudio-" + item).remove();
     }
-    if (document.getElementById("roamstudio-css-date" + item)) {
-      document.getElementById("roamstudio-css-date" + item).remove();
-    }
-    if (document.getElementById("roamstudio-css-tag" + item)) {
-      document.getElementById("roamstudio-css-tag" + item).remove();
-    }
   });
+  
+  if (document.getElementById("roamstudio-css-date")) {
+    document.getElementById("roamstudio-css-date").remove();
+  }
+  if (document.getElementById("roamstudio-css-tag")) {
+    document.getElementById("roamstudio-css-tag").remove();
+  }
 
   Object.keys(modules).forEach((item) => {
     console.log("Removing Module: " + item);
