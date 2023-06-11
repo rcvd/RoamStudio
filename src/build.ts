@@ -3382,8 +3382,8 @@ function onunload() {
 
   Object.keys(modules).forEach((item) => {
     console.log("Removing Module: " + item);
-    if (document.getElementById("roamstudio-css-" + item)) {
-      document.getElementById("roamstudio-css-" + item).remove();
+    if (document.getElementById("roamstudio-" + item)) {
+      document.getElementById("roamstudio-" + item).remove();
     }
   });
 
