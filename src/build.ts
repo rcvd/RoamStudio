@@ -1,101 +1,101 @@
 import type { OnloadArgs } from "roamjs-components/types";
 
-var settings: { [key: string]: any } = {
-    "css-theme": "Quattro",
-    "css-appearance": "Auto",
-    "css-font-family": "Theme Default",
-    "css-code-font-family": "Theme Default",
-    "css-heading-font-family": "Theme Default",
-    "css-heading-spacing": "Theme Default",
-    "css-heading-level1-color": "Theme Default",
-    "css-heading-level2-color": "Theme Default",
-    "css-heading-level3-color": "Theme Default",
-    "css-heading-level1-color-lightness": "Theme Default",
-    "css-heading-level2-color-lightness": "Theme Default",
-    "css-heading-level3-color-lightness": "Theme Default",
-    "css-heading-level1-size": "Theme Default",
-    "css-heading-level2-size": "Theme Default",
-    "css-heading-level3-size": "Theme Default",
-    "css-heading-level1-style": "Theme Default",
-    "css-heading-level2-style": "Theme Default",
-    "css-heading-level3-style": "Theme Default",
-    "css-heading-level1-weight": "Theme Default",
-    "css-heading-level2-weight": "Theme Default",
-    "css-heading-level3-weight": "Theme Default",
-    "css-font-size": "medium",
-    "css-line-spacing": "medium",
-    "css-code-font-size": "medium",
-    "css-mobile-font-size": "medium",
-    "css-external-link-color": "Theme Default",
-    "css-external-link-color-lightness": "Theme Default",
-    "css-external-link-style": "Theme Default",
-    "css-external-link-border-lightness": "Theme Default",
-    "css-external-link-weight": "Theme Default",
-    "css-page-link-color": "Theme Default",
-    "css-page-link-color-lightness": "Theme Default",
-    "css-page-link-style": "Theme Default",
-    "css-page-link-border-lightness": "Theme Default",
-    "css-page-link-weight": "Theme Default",
-    "css-reference-link-color": "Theme Default",
-    "css-reference-link-color-lightness": "Theme Default",
-    "css-reference-link-style": "Theme Default",
-    "css-reference-link-border-lightness": "Theme Default",
-    "css-reference-link-weight": "Theme Default",
-    "css-block-link-color": "Theme Default",
-    "css-block-link-color-lightness": "Theme Default",
-    "css-block-link-style": "Theme Default",
-    "css-block-link-border-lightness": "Theme Default",
-    "css-block-link-weight": "Theme Default",
-    "css-tag-color": "Theme Default",
-    "css-tag-color-lightness": "Theme Default",
-    "css-tag-style": "Theme Default",
-    "css-tag-font-size": "Theme Default",
-    "css-tag-background": "Theme Default",
-    "css-tag-background-lightness": "Theme Default",
-    "css-tag-radius": "Theme Default",
-    "css-tag-padding": "Theme Default",
-    "css-date-icon": false,
-    "css-date-color": "Theme Default",
-    "css-date-color-lightness": "Theme Default",
-    "css-date-style": "Theme Default",
-    "css-date-font-size": "Theme Default",
-    "css-date-background": "Theme Default",
-    "css-date-background-lightness": "Theme Default",
-    "css-date-radius": "Theme Default",
-    "css-date-padding": "Theme Default",
-  },
-  modules: { [key: string]: boolean } = {
-    "css-advanced-heading-spacing": false,
-    "css-bullet-effects": false,
-    "css-centered-search": false,
-    "css-done": false,
-    "css-dynamic-images": false,
-    "css-dynamic-pdfs": false,
-    "css-feather-icons": false,
-    "css-hide-line-numbers": false,
-    "css-hide-logo": false,
-    "css-hide-shortcuts": false,
-    "css-hide-sidebar-icons": false,
-    "css-masonry": false,
-    "css-logpage-minheight": false,
-    "css-mobile-caret": false,
-    "css-mobile-sidebar": false,
-    "css-more-room": false,
-    "css-no-animations": false,
-    "css-subtle-controls": false,
-    "css-non-breakable-dates": false,
-    "css-topbar-borders": false,
-    "css-sidebar-borders": false,
-  },
-  css: { [key: string]: string } = {
-    system: "",
-    quattro: "",
-    things: "",
-    craft: "",
-    bear: "",
-    lesswrong: "",
-  },
-  extAPI: OnloadArgs["extensionAPI"];
+let settings: { [key: string]: any } = {
+      "css-theme": "Quattro",
+      "css-appearance": "Auto",
+      "css-font-family": "Theme Default",
+      "css-code-font-family": "Theme Default",
+      "css-heading-font-family": "Theme Default",
+      "css-heading-spacing": "Theme Default",
+      "css-heading-level1-color": "Theme Default",
+      "css-heading-level2-color": "Theme Default",
+      "css-heading-level3-color": "Theme Default",
+      "css-heading-level1-color-lightness": "Theme Default",
+      "css-heading-level2-color-lightness": "Theme Default",
+      "css-heading-level3-color-lightness": "Theme Default",
+      "css-heading-level1-size": "Theme Default",
+      "css-heading-level2-size": "Theme Default",
+      "css-heading-level3-size": "Theme Default",
+      "css-heading-level1-style": "Theme Default",
+      "css-heading-level2-style": "Theme Default",
+      "css-heading-level3-style": "Theme Default",
+      "css-heading-level1-weight": "Theme Default",
+      "css-heading-level2-weight": "Theme Default",
+      "css-heading-level3-weight": "Theme Default",
+      "css-font-size": "medium",
+      "css-line-spacing": "medium",
+      "css-code-font-size": "medium",
+      "css-mobile-font-size": "medium",
+      "css-external-link-color": "Theme Default",
+      "css-external-link-color-lightness": "Theme Default",
+      "css-external-link-style": "Theme Default",
+      "css-external-link-border-lightness": "Theme Default",
+      "css-external-link-weight": "Theme Default",
+      "css-page-link-color": "Theme Default",
+      "css-page-link-color-lightness": "Theme Default",
+      "css-page-link-style": "Theme Default",
+      "css-page-link-border-lightness": "Theme Default",
+      "css-page-link-weight": "Theme Default",
+      "css-reference-link-color": "Theme Default",
+      "css-reference-link-color-lightness": "Theme Default",
+      "css-reference-link-style": "Theme Default",
+      "css-reference-link-border-lightness": "Theme Default",
+      "css-reference-link-weight": "Theme Default",
+      "css-block-link-color": "Theme Default",
+      "css-block-link-color-lightness": "Theme Default",
+      "css-block-link-style": "Theme Default",
+      "css-block-link-border-lightness": "Theme Default",
+      "css-block-link-weight": "Theme Default",
+      "css-tag-color": "Theme Default",
+      "css-tag-color-lightness": "Theme Default",
+      "css-tag-style": "Theme Default",
+      "css-tag-font-size": "Theme Default",
+      "css-tag-background": "Theme Default",
+      "css-tag-background-lightness": "Theme Default",
+      "css-tag-radius": "Theme Default",
+      "css-tag-padding": "Theme Default",
+      "css-date-icon": false,
+      "css-date-color": "Theme Default",
+      "css-date-color-lightness": "Theme Default",
+      "css-date-style": "Theme Default",
+      "css-date-font-size": "Theme Default",
+      "css-date-background": "Theme Default",
+      "css-date-background-lightness": "Theme Default",
+      "css-date-radius": "Theme Default",
+      "css-date-padding": "Theme Default",
+    },
+    modules: { [key: string]: boolean } = {
+      "css-advanced-heading-spacing": false,
+      "css-bullet-effects": false,
+      "css-centered-search": false,
+      "css-done": false,
+      "css-dynamic-images": false,
+      "css-dynamic-pdfs": false,
+      "css-feather-icons": false,
+      "css-hide-line-numbers": false,
+      "css-hide-logo": false,
+      "css-hide-shortcuts": false,
+      "css-hide-sidebar-icons": false,
+      "css-masonry": false,
+      "css-logpage-minheight": false,
+      "css-mobile-caret": false,
+      "css-mobile-sidebar": false,
+      "css-more-room": false,
+      "css-no-animations": false,
+      "css-subtle-controls": false,
+      "css-non-breakable-dates": false,
+      "css-topbar-borders": false,
+      "css-sidebar-borders": false,
+    },
+    css: { [key: string]: string } = {
+      system: "",
+      quattro: "",
+      things: "",
+      craft: "",
+      bear: "",
+      lesswrong: "",
+    },
+    extAPI: OnloadArgs["extensionAPI"];
 
 function changeSettings(setting: string) {
   console.log("Changing setting: " + setting);
@@ -104,30 +104,32 @@ function changeSettings(setting: string) {
     case "css-theme":
     case "css-appearance":
       changeTheme();
+      setToggleIcon();
       changeFontFamily();
+      changeFontSize();
       changeLineSpacing();
-      changeCodeFontFamily();
-      changeHeadingSpacing();
+      changeMobileFontSize();
       changeHeadingFontFamily();
       changeHeadingFontSize("level1");
-      changeHeadingFontColor("level1");
       changeHeadingFontSize("level2");
-      changeHeadingFontColor("level2");
       changeHeadingFontSize("level3");
+      changeHeadingFontColor("level1");
+      changeHeadingFontColor("level2");
       changeHeadingFontColor("level3");
-      changeFontSize();
-      changeMobileFontSize();
+      changeHeadingSpacing();
+      changeCodeFontFamily();
+      changeCodeFontSize();
       changePageLink();
+      changeExternalLink();
       changeReferenceLink();
       changeBlockLink();
       changeTag();
-      changeDateIcon();
       changeDate();
+      changeDateIcon();
       for (const item in modules) {
         console.log("Setting: " + "css-" + item);
         changeModule(item);
       }
-
       break;
     case "css-font-family":
       changeFontFamily();
@@ -215,11 +217,78 @@ function changeSettings(setting: string) {
   }
 }
 
-function setToggleIcon() {
+function changeTheme() {
+  console.log("Changing theme to: " + settings["css-theme"]);
+  console.log("Changing appearance to: " + settings["css-appearance"]);
+
+  const head = document.getElementsByTagName("head")[0];
+  const style = document.createElement("style");
+
+  if (document.getElementById("roamstudio-css-theme")) {
+    document.getElementById("roamstudio-css-theme").remove();
+  }
+
+  if (settings["css-theme"].toLowerCase() != "default") {
+    if (document.getElementById("roamstudio-css-system") == null) {
+      style.id = "roamstudio-css-system";
+      style.textContent = css["system"];
+      head.appendChild(style);
+    }
+
+    style.id = "roamstudio-css-theme";
+    style.textContent =
+        css[settings["css-theme"].toLowerCase() + "-common"] +
+        css[
+        settings["css-theme"].toLowerCase() +
+        "-" +
+        settings["css-appearance"].toLowerCase()
+            ];
+    head.appendChild(style);
+  } else {
+    if (document.getElementById("roamstudio-css-system")) {
+      document.getElementById("roamstudio-css-system").remove();
+    }
+  }
+}
+
+function toggleDarkMode() {
   console.log("Dark mode toggled: " + settings["css-appearance"]);
 
+  if (settings["css-appearance"] == "Auto") {
+    let btn = document.getElementsByClassName(
+        "bp3-icon-clean roamstudio-dm-toggle"
+    )[0];
+    btn.classList.remove("bp3-icon-clean");
+    btn.classList.add("bp3-icon-flash");
+    settings["css-appearance"] = "Light";
+    extAPI.settings.set("css-appearance", "Light");
+    changeSettings("css-theme");
+  } else if (settings["css-appearance"] == "Light") {
+    let btn = document.getElementsByClassName(
+        "bp3-icon-flash roamstudio-dm-toggle"
+    )[0];
+    btn.classList.remove("bp3-icon-flash");
+    btn.classList.add("bp3-icon-moon");
+    settings["css-appearance"] = "Dark";
+    extAPI.settings.set("css-appearance", "Dark");
+    changeSettings("css-theme");
+  } else {
+    let btn = document.getElementsByClassName(
+        "bp3-icon-moon roamstudio-dm-toggle"
+    )[0];
+    btn.classList.remove("bp3-icon-moon");
+    btn.classList.add("bp3-icon-clean");
+    settings["css-appearance"] = "Auto";
+    extAPI.settings.set("css-appearance", "Auto");
+    changeSettings("css-theme");
+  }
+}
+
+function setToggleIcon() {
+  console.log("Set toggle icon: " + settings["css-appearance"]);
+
   let btn = document.getElementsByClassName(
-    "bp3-button roamstudio-dm-toggle"
+      "bp3-button roamstudio-dm-toggle"
   )[0];
 
   if (btn.classList.contains("bp3-icon-clean")) {
@@ -241,147 +310,27 @@ function setToggleIcon() {
   }
 }
 
-function toggleDarkMode() {
-  console.log("Dark mode toggled: " + settings["css-appearance"]);
-
-  if (settings["css-appearance"] == "Auto") {
-    let btn = document.getElementsByClassName(
-      "bp3-icon-clean roamstudio-dm-toggle"
-    )[0];
-    btn.classList.remove("bp3-icon-clean");
-    btn.classList.add("bp3-icon-flash");
-    settings["css-appearance"] = "Light";
-    extAPI.settings.set("css-appearance", "Light");
-    changeSettings("css-theme");
-  } else if (settings["css-appearance"] == "Light") {
-    let btn = document.getElementsByClassName(
-      "bp3-icon-flash roamstudio-dm-toggle"
-    )[0];
-    btn.classList.remove("bp3-icon-flash");
-    btn.classList.add("bp3-icon-moon");
-    settings["css-appearance"] = "Dark";
-    extAPI.settings.set("css-appearance", "Dark");
-    changeSettings("css-theme");
-  } else {
-    let btn = document.getElementsByClassName(
-      "bp3-icon-moon roamstudio-dm-toggle"
-    )[0];
-    btn.classList.remove("bp3-icon-moon");
-    btn.classList.add("bp3-icon-clean");
-    settings["css-appearance"] = "Auto";
-    extAPI.settings.set("css-appearance", "Auto");
-    changeSettings("css-theme");
-  }
-}
-
-function createToggle() {
-  const createIconButton = (icon: string) => {
-    const popoverButton = document.createElement("span");
-    popoverButton.className = "";
-    popoverButton.tabIndex = 0;
-
-    const popoverIcon = document.createElement("span");
-    popoverIcon.className = `bp3-button bp3-minimal bp3-small bp3-icon-${icon} roamstudio-dm-toggle`;
-
-    popoverButton.appendChild(popoverIcon);
-
-    return popoverButton;
-  };
-
-  var iconName = "moon";
-  var nameToUse = "roamStudioToggleDarkMode";
-
-  switch (settings["css-appearance"]) {
-    case "Auto":
-      iconName = "clean";
-      break;
-    case "Dark":
-      iconName = "moon";
-      break;
-    case "Light":
-      iconName = "flash";
-      break;
+function changeFontFamily() {
+  console.log("Switching font family");
+  if (document.getElementById("roamstudio-css-font-family")) {
+    document.getElementById("roamstudio-css-font-family").remove();
   }
 
-  console.log("iconName: " + iconName);
-
-  var checkForButton = document.getElementById(`${nameToUse}-flex-space`);
-  if (!checkForButton) {
-    var mainButton = createIconButton(iconName);
-    var roamTopbar = document.getElementsByClassName("rm-topbar");
-
-    var nextIconButton = roamTopbar[0].lastElementChild;
-    var flexDiv = document.createElement("div");
-    flexDiv.className = "rm-topbar__spacer-sm roamstudio-dm-toggle";
-    flexDiv.id = nameToUse + "-flex-space";
-
-    var flexDivAfter = document.createElement("div");
-    flexDivAfter.className = "rm-topbar__spacer-sm roamstudio-dm-toggle";
-    flexDivAfter.id = nameToUse + "-flex-space-after";
-
-    nextIconButton.insertAdjacentElement("afterend", mainButton);
-    mainButton.insertAdjacentElement("beforebegin", flexDiv);
-    mainButton.insertAdjacentElement("afterend", flexDivAfter);
-    mainButton.addEventListener("click", toggleDarkMode);
-  }
-}
-
-function destroyToggle() {
-  const toggles = document.querySelectorAll(".roamstudio-dm-toggle");
-
-  toggles.forEach((tog) => {
-    tog.remove();
-  });
-}
-
-function loadSystem() {
-  console.log("Loading Roam Roam Studio");
-
-  if (document.getElementById("roamstudio-css-system")) {
-    document.getElementById("roamstudio-css-system").remove();
-  }
-
-  if (settings["css-theme"].toLowerCase() != "default") {
-    var head = document.getElementsByTagName("head")[0];
-    var style = document.createElement("style");
-    style.id = "roamstudio-css-system";
-    style.textContent = css["system"];
+  if (settings["css-font-family"] != "Theme Default") {
+    const head = document.getElementsByTagName("head")[0];
+    const style = document.createElement("style");
+    style.id = "roamstudio-css-font-family";
+    if (settings["css-font-family"] == "System Font Stack") {
+      style.textContent = `:root {--ff-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";--ff-main__tags: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";--ff-main__pomodoro: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";--ff-main__quote: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";--ff-log-page__h1: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";}`;
+    } else {
+      style.textContent = `:root {--ff-main: ${settings["css-font-family"]},sans-serif;--ff-main__zoom-item: ${settings["css-font-family"]},sans-serif;--ff-main__tags: ${settings["css-font-family"]},sans-serif;--ff-main__pomodoro: ${settings["css-font-family"]},sans-serif;--ff-main__quote: ${settings["css-font-family"]},sans-serif;--ff-log-page__h1: ${settings["css-font-family"]},sans-serif;--ff-reference__linked-title: ${settings["css-font-family"]},sans-serif;--ff-reference__linked-title-closed: ${settings["css-font-family"]},sans-serif;--ff-reference__page-title: ${settings["css-font-family"]},sans-serif;--ff-reference__unlinked-title: ${settings["css-font-family"]},sans-serif;--ff-reference__unlinked-title-closed: ${settings["css-font-family"]},sans-serif;--ff-reference__zoom-item: ${settings["css-font-family"]},sans-serif;--ff-reference: ${settings["css-font-family"]},sans-serif;}`;
+    }
     head.appendChild(style);
   }
-}
-
-function loadFixes() {
-  console.log("Loading Roam Roam Studio Fixes");
-
-  if (document.getElementById("roamstudio-css-system-fixes")) {
-    document.getElementById("roamstudio-css-system-fixes").remove();
-  }
-
-  if (settings["css-theme"].toLowerCase() != "default") {
-    var head = document.getElementsByTagName("head")[0];
-    var style = document.createElement("style");
-    style.id = "roamstudio-css-system-fixes";
-    style.textContent = css["fixes"];
-    head.appendChild(style);
-  }
-}
-
-function loadFonts() {
-  console.log("Loading Roam Roam Studio Fonts");
-
-  if (document.getElementById("roamstudio-css-system-fonts")) {
-    document.getElementById("roamstudio-css-system-fonts").remove();
-  }
-
-  var head = document.getElementsByTagName("head")[0];
-  var style = document.createElement("style");
-  style.id = "roamstudio-css-system-fonts";
-  style.textContent = css["fonts"];
-  head.appendChild(style);
 }
 
 function changeFontSize() {
-  var fontSize: number;
+  let fontSize: number;
 
   console.log("Switching base font size: " + settings["css-font-size"]);
   if (document.getElementById("roamstudio-css-font-size")) {
@@ -406,16 +355,16 @@ function changeFontSize() {
       break;
   }
 
-  var head = document.getElementsByTagName("head")[0];
-  var style = document.createElement("style");
+  const head = document.getElementsByTagName("head")[0];
+  const style = document.createElement("style");
   style.id = "roamstudio-css-font-size";
   style.textContent =
-    ":root {" + "--fs-app__html: " + fontSize + "px!important;};";
+      ":root {" + "--fs-app__html: " + fontSize + "px!important;};";
   head.appendChild(style);
 }
 
 function changeLineSpacing() {
-  var spacing: string;
+  let spacing: string;
 
   console.log("Changing line spacing: " + settings["css-line-spacing"]);
   if (document.getElementById("roamstudio-css-line-spacing")) {
@@ -425,36 +374,311 @@ function changeLineSpacing() {
   switch (settings["css-line-spacing"]) {
     case "small":
       spacing =
-        ".roam-block, .rm-block__input {line-height: calc(var(--fs-main) + 6px); min-height: calc(var(--fs-main) + 12px); padding-top: 5px;};" +
-        "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level1) + 6px);}" +
-        "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level2) + 6px);}" +
-        "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level3) + 6px);}";
+          ".roam-block, .rm-block__input {line-height: calc(var(--fs-main) + 6px); min-height: calc(var(--fs-main) + 12px); padding-top: 5px;};" +
+          "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level1) + 6px);}" +
+          "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level2) + 6px);}" +
+          "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level3) + 6px);}";
       break;
     case "medium":
       spacing =
-        ".roam-block, .rm-block__input {line-height: calc(var(--fs-main) + 8px); min-height: calc(var(--fs-main) + 16px); padding-top: 4px;};" +
-        "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level1) + 8px);}" +
-        "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level2) + 8px);}" +
-        "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level3) + 8px);}";
+          ".roam-block, .rm-block__input {line-height: calc(var(--fs-main) + 8px); min-height: calc(var(--fs-main) + 16px); padding-top: 4px;};" +
+          "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level1) + 8px);}" +
+          "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level2) + 8px);}" +
+          "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level3) + 8px);}";
       break;
     case "large":
       spacing =
-        ".roam-block, .rm-block__input {line-height: calc(var(--fs-main) + 10px); min-height: calc(var(--fs-main) + 20px); padding-top: 3px;};" +
-        "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level1) + 10px);}" +
-        "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level2) + 10px);}" +
-        "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level3) + 10px);}";
+          ".roam-block, .rm-block__input {line-height: calc(var(--fs-main) + 10px); min-height: calc(var(--fs-main) + 20px); padding-top: 3px;};" +
+          "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level1) + 10px);}" +
+          "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level2) + 10px);}" +
+          "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level3) + 10px);}";
       break;
   }
 
-  var head = document.getElementsByTagName("head")[0];
-  var style = document.createElement("style");
+  const head = document.getElementsByTagName("head")[0];
+  const style = document.createElement("style");
   style.id = "roamstudio-css-line-spacing";
   style.textContent = spacing;
   head.appendChild(style);
 }
 
+function changeMobileFontSize() {
+  let fontSize: number;
+
+  console.log(
+      "Switching mobile font size: " + settings["css-mobile-font-size"]
+  );
+  if (document.getElementById("roamstudio-css-mobile-font-size")) {
+    document.getElementById("roamstudio-css-mobile-font-size").remove();
+  }
+
+  switch (settings["css-mobile-font-size"]) {
+    case "extra small":
+      fontSize = 13;
+      break;
+    case "small":
+      fontSize = 14;
+      break;
+    case "medium":
+      fontSize = 15;
+      break;
+    case "large":
+      fontSize = 16;
+      break;
+    case "extra large":
+      fontSize = 17;
+      break;
+  }
+
+  const head = document.getElementsByTagName("head")[0];
+  const style = document.createElement("style");
+  style.id = "roamstudio-css-mobile-font-size";
+  style.textContent = `@media screen and (max-width: 600px) { :root {--fs-app__html: ${fontSize}px!important;};}`;
+  head.appendChild(style);
+}
+
+function changeHeadingFontFamily() {
+  console.log("Switching heading font family");
+  if (document.getElementById("roamstudio-css-heading-font-family")) {
+    document.getElementById("roamstudio-css-heading-font-family").remove();
+  }
+
+  if (settings["css-heading-font-family"] != "Theme Default") {
+    const head = document.getElementsByTagName("head")[0];
+    const style = document.createElement("style");
+    style.id = "roamstudio-css-heading-font-family";
+    if (settings["css-heading-font-family"] == "System Font Stack") {
+      style.textContent = `:root {--ff-main__page-title: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";--ff-main__level1: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";--ff-main__level2: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";--ff-main__level3: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";--ff-right-sidebar__h1: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";}`;
+    } else {
+      style.textContent = `:root {--ff-main__page-title: ${settings["css-heading-font-family"]},sans-serif;--ff-main__level1: ${settings["css-heading-font-family"]},sans-serif;--ff-main__level2: ${settings["css-heading-font-family"]},sans-serif;--ff-main__level3: ${settings["css-heading-font-family"]},sans-serif;--ff-right-sidebar__h1: ${settings["css-heading-font-family"]},sans-serif;}`;
+    }
+    head.appendChild(style);
+  }
+}
+
+function changeHeadingFontSize(heading: String) {
+  let fontSize: number;
+
+  console.log(
+      "Switching base font size: " + settings["css-heading-" + heading + "-size"]
+  );
+  if (document.getElementById("roamstudio-css-heading-" + heading + "-size")) {
+    document
+        .getElementById("roamstudio-css-heading-" + heading + "-size")
+        .remove();
+  }
+
+  if (settings["css-heading-" + heading + "-size"] != "Theme Default") {
+    switch (settings["css-heading-" + heading + "-size"]) {
+      case "Text":
+        fontSize = 1;
+        break;
+      case "extra small":
+        fontSize = 1.2;
+        break;
+      case "small":
+        fontSize = 1.4;
+        break;
+      case "medium":
+        fontSize = 1.8;
+        break;
+      case "large":
+        fontSize = 2.4;
+        break;
+      case "extra large":
+        fontSize = 3.2;
+        break;
+    }
+
+    const head = document.getElementsByTagName("head")[0];
+    const style = document.createElement("style");
+    style.id = "roamstudio-css-heading-" + heading + "-size";
+    style.textContent =
+        ":root {" + "--fs-main__" + heading + ": " + fontSize + "rem;};";
+    head.appendChild(style);
+  }
+}
+
+function changeHeadingFontColor(heading: String) {
+  let headingColorLightness: number;
+  let headingColorLightnessDark: number;
+
+  console.log(
+      "Switching heading link color: " +
+      settings["css-heading-" + heading + "-color"]
+  );
+
+  if (document.getElementById("roamstudio-css-heading-" + heading + "-color")) {
+    document
+        .getElementById("roamstudio-css-heading-" + heading + "-color")
+        .remove();
+  }
+
+  headingColorLightness = 600;
+
+  switch (settings["css-heading-" + heading + "-color-lightness"]) {
+    case "lightest":
+      headingColorLightness = 100;
+      break;
+    case "lighter":
+      headingColorLightness = 200;
+      break;
+    case "light":
+      headingColorLightness = 300;
+      break;
+    case "medium":
+      headingColorLightness = 500;
+      break;
+    case "dark":
+      headingColorLightness = 600;
+      break;
+    case "darker":
+      headingColorLightness = 800;
+      break;
+    case "darkest":
+      headingColorLightness = 900;
+      break;
+  }
+
+  headingColorLightnessDark = 1000 - headingColorLightness;
+
+  if (settings["css-heading-" + heading + "-color"] != "Theme Default") {
+    const head = document.getElementsByTagName("head")[0];
+    const style = document.createElement("style");
+    style.id = "roamstudio-css-heading-" + heading + "-color";
+    switch (settings["css-appearance"]) {
+      case "Auto":
+        style.textContent =
+            `:root {--co-main__${heading}: var(--cl-${
+                settings["css-heading-" + heading + "-color"]
+            }-${headingColorLightness});}` +
+            `@media(prefers-color-scheme: dark) {:root {--co-main__${heading}: var(--cl-${
+                settings["css-heading-" + heading + "-color"]
+            }-${headingColorLightness});}}`;
+        break;
+      case "Light":
+        style.textContent = `:root {--co-main__${heading}: var(--cl-${
+            settings["css-heading-" + heading + "-color"]
+        }-${headingColorLightness});}`;
+        break;
+      case "Dark":
+        style.textContent = `:root {--co-main__${heading}: var(--cl-${
+            settings["css-heading-" + heading + "-color"]
+        }-${headingColorLightnessDark});}`;
+        break;
+    }
+    head.appendChild(style);
+  }
+}
+
+function changeHeadingSpacing() {
+  let spacing: string;
+
+  console.log("Changing heading spacing: " + settings["css-heading-spacing"]);
+  if (document.getElementById("roamstudio-css-heading-spacing")) {
+    document.getElementById("roamstudio-css-heading-spacing").remove();
+  }
+
+  if (settings["css-heading-spacing"] != "Theme Default") {
+    switch (settings["css-heading-spacing"]) {
+      case "small":
+        spacing =
+            "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {margin-top: 0rem;margin-bottom: 0rem;}" +
+            "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {margin-top: 0rem;margin-bottom: 0rem;}" +
+            "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {margin-top: 0rem;margin-bottom: 0rem;}";
+        break;
+      case "medium":
+        spacing =
+            "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {margin-top: 1rem;margin-bottom: 0.5rem;}" +
+            "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {margin-top: 0.5rem;margin-bottom: 0.5rem;}" +
+            "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {margin-top: 0.5rem;margin-bottom: 0.5rem;}";
+        break;
+      case "large":
+        spacing =
+            "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {margin-top: 2rem;margin-bottom: 1rem;}" +
+            "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {margin-top: 1rem;margin-bottom: 1rem;}" +
+            "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {margin-top: 1rem;margin-bottom: 1rem;}";
+        break;
+    }
+
+    const head = document.getElementsByTagName("head")[0];
+    const style = document.createElement("style");
+    style.id = "roamstudio-css-heading-spacing";
+    style.textContent = spacing;
+    head.appendChild(style);
+  }
+}
+
+function changeCodeFontFamily() {
+  console.log("Switching code font family");
+  if (document.getElementById("roamstudio-css-code-font-family")) {
+    document.getElementById("roamstudio-css-code-font-family").remove();
+  }
+
+  if (settings["css-code-font-family"] != "Theme Default") {
+    const head = document.getElementsByTagName("head")[0];
+    const style = document.createElement("style");
+    style.id = "roamstudio-css-code-font-family";
+    if (settings["css-code-font-family"] == "System Font Stack") {
+      style.textContent = `:root {--ff-codeblock__code: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;--ff-codeblock__gutter: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;--ff-help__component-notation: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;--ff-main__inline-code: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;--ff-settings__hotkeys: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;}`;
+    } else {
+      style.textContent = `:root {--ff-codeblock__code: ${settings["css-code-font-family"]},monospace;--ff-codeblock__gutter: ${settings["css-code-font-family"]},monospace;--ff-help__component-notation: ${settings["css-code-font-family"]},monospace;--ff-main__inline-code: ${settings["css-code-font-family"]},monospace;--ff-settings__hotkeys: ${settings["css-code-font-family"]},monospace;}`;
+    }
+    head.appendChild(style);
+  }
+}
+
+function compileColor(color: string, lightness: number, invert: boolean) {
+  let compiledColor: string;
+  let lightnessStr: string;
+
+  console.log("Compiling color: " + color + " " + lightness + " " + invert);
+
+  if (color == "transparent") {
+    compiledColor = "transparent";
+  }
+  else if (color == "black") {
+    if (invert) {
+      compiledColor = "white";
+    } else {
+      compiledColor = "black";
+    }
+  }
+  else if (color == "white") {
+    if (invert) {
+      compiledColor = "black";
+    } else {
+      compiledColor = "white";
+    }
+  }
+  else {
+    if (invert) {
+      lightnessStr = (1000-lightness).toString();
+    } else {
+      lightnessStr = lightness.toString();
+    }
+    compiledColor = "var(--cl-" + color + "-" + lightnessStr + ")";
+  }
+  return compiledColor;
+}
+
+function compileBorder(style: string, color: string, lightness: number, invert: boolean) {
+  let compiledBorder: string;
+
+   console.log("Compiling border: " + style + " " + color + " " + lightness + " " + invert);
+
+  if (style == "none") {
+    compiledBorder = "none";
+  }
+  else  {
+    compiledBorder = style + ' ' + compileColor(color, lightness, invert);
+  }
+
+  return compiledBorder;
+}
+
 function changeCodeFontSize() {
-  var fontSize: number;
+  let fontSize: number;
 
   console.log("Switching code font size: " + settings["css-code-font-size"]);
   if (document.getElementById("roamstudio-css-code-font-size")) {
@@ -479,210 +703,42 @@ function changeCodeFontSize() {
       break;
   }
 
-  var head = document.getElementsByTagName("head")[0];
-  var style = document.createElement("style");
+  const head = document.getElementsByTagName("head")[0];
+  const style = document.createElement("style");
   style.id = "roamstudio-css-code-font-size";
   style.textContent =
-    ":root {" +
-    "--fs-codeblock__code: " +
-    fontSize +
-    "px!important;" +
-    "--fs-codeblock__gutter: " +
-    fontSize +
-    "px;};";
-  head.appendChild(style);
-}
-
-function changeMobileFontSize() {
-  var fontSize: number;
-
-  console.log(
-    "Switching mobile font size: " + settings["css-mobile-font-size"]
-  );
-  if (document.getElementById("roamstudio-css-mobile-font-size")) {
-    document.getElementById("roamstudio-css-mobile-font-size").remove();
-  }
-
-  switch (settings["css-mobile-font-size"]) {
-    case "extra small":
-      fontSize = 13;
-      break;
-    case "small":
-      fontSize = 14;
-      break;
-    case "medium":
-      fontSize = 15;
-      break;
-    case "large":
-      fontSize = 16;
-      break;
-    case "extra large":
-      fontSize = 17;
-      break;
-  }
-
-  var head = document.getElementsByTagName("head")[0];
-  var style = document.createElement("style");
-  style.id = "roamstudio-css-mobile-font-size";
-  style.textContent = `@media screen and (max-width: 600px) { :root {--fs-app__html: ${fontSize}px!important;};}`;
-  head.appendChild(style);
-}
-
-function changeExternalLink() {
-  var externalLinkColor: string;
-  var externalLinkColorLightness: number;
-  var externalLinkColorLightnessDark: number;
-  var externalLinkBorderStyle: string;
-  var externalLinkBorderLightness: number;
-  var externalLinkBorderLightnessDark: number;
-
-  console.log("Switching page link color:" + settings["css-external-link-color"]);
-  if (document.getElementById("roamstudio-css-external-link-color")) {
-    document.getElementById("roamstudio-css-external-link-color").remove();
-  }
-
-  externalLinkColorLightness = 600;
-
-  switch (settings["css-theme"]) {
-    case "Quattro":
-      externalLinkColor = "gray";
-      externalLinkColorLightness = 900;
-      externalLinkBorderStyle = "1px solid ";
-      externalLinkBorderLightness = 900;
-      break;
-
-    case "Craft":
-      externalLinkColor = "accent";
-      externalLinkColorLightness = 900;
-      externalLinkBorderStyle = "3px solid ";
-      externalLinkBorderLightness = 300;
-      break;
-
-    case "Things":
-      externalLinkColor = "gray";
-      externalLinkColorLightness = 700;
-      externalLinkBorderStyle = "0px solid ";
-      externalLinkBorderLightness = 900;
-      break;
-  }
-  
-  if (settings["css-external-link-color"] != "Theme Default") {
-    externalLinkColor = settings["css-external-link-color"];
-  }
-
-  switch (settings["css-external-link-color-lightness"]) {
-    case "lightest":
-      externalLinkColorLightness = 100;
-      break;
-    case "lighter":
-      externalLinkColorLightness = 200;
-      break;
-    case "light":
-      externalLinkColorLightness = 300;
-      break;
-    case "medium":
-      externalLinkColorLightness = 500;
-      break;
-    case "dark":
-      externalLinkColorLightness = 600;
-      break;
-    case "darker":
-      externalLinkColorLightness = 800;
-      break;
-    case "darkest":
-      externalLinkColorLightness = 900;
-      break;
-  }
-  
-  switch (settings["css-external-link-border-lightness"]) {
-    case "lightest":
-      externalLinkBorderLightness = 100;
-      break;
-    case "lighter":
-      externalLinkBorderLightness = 200;
-      break;
-    case "light":
-      externalLinkBorderLightness = 300;
-      break;
-    case "medium":
-      externalLinkBorderLightness = 500;
-      break;
-    case "dark":
-      externalLinkBorderLightness = 600;
-      break;
-    case "darker":
-      externalLinkBorderLightness = 800;
-      break;
-    case "darkest":
-      externalLinkBorderLightness = 900;
-      break;
-  }
-
-  if (settings["css-external-link-style"] != "Theme Default") {
-    switch (settings["css-external-link-style"]) {
-      case "No underline":
-        externalLinkBorderStyle = "0px solid ";
-        break;
-      case "Dotted underline":
-        externalLinkBorderStyle = "1px dotted ";
-        break;
-      case "Thin underline":
-        externalLinkBorderStyle = "1px solid ";
-        break;
-      case "Medium underline":
-        externalLinkBorderStyle = "2px solid ";
-        break;
-      case "Fat underline":
-        externalLinkBorderStyle = "3px solid ";
-        break;
-    }
-  }
-
-  externalLinkColorLightnessDark = 1000 - externalLinkColorLightness;
-  externalLinkBorderLightnessDark = 1000 - externalLinkBorderLightness;
-
-  var head = document.getElementsByTagName("head")[0];
-  var style = document.createElement("style");
-
-  style.id = "roamstudio-css-external-link-color";
-  switch (settings["css-appearance"]) {
-    case "Auto":
-      style.textContent =
-        `:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightness});--bb-main__alias: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightness});--bb-main__a--hover: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightness});--bb-main__alias--hover: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightness});--co-main__a: var(--cl-${externalLinkColor}-${externalLinkColorLightness});--co-main__alias: var(--cl-${externalLinkColor}-${externalLinkColorLightness});--co-main__external-link--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightness});--co-main__a--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightness});--co-main__alias--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightness});}` +
-        `@media (prefers-color-scheme: dark) {:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightnessDark});--bb-main__alias: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightnessDark});--bb-main__a--hover: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightnessDark});--bb-main__alias--hover: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightnessDark});--co-main__a: var(--cl-${externalLinkColor}-${externalLinkColorLightnessDark});--co-main__alias: var(--cl-${externalLinkColor}-${externalLinkColorLightnessDark});--co-main__a--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightnessDark});--co-main__alias--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightnessDark});}}`;
-      break;
-    case "Dark":
-      style.textContent = `:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightnessDark});--bb-main__alias: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightnessDark});--bb-main__a--hover: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightnessDark});--bb-main__alias--hover: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightnessDark});--co-main__a: var(--cl-${externalLinkColor}-${externalLinkColorLightnessDark});--co-main__alias: var(--cl-${externalLinkColor}-${externalLinkColorLightnessDark});--co-main__a--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightnessDark});--co-main__alias--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightnessDark})`;
-      break;
-    case "Light":
-      style.textContent = `:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightness});--bb-main__alias: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightness});--bb-main__a--hover: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightness});--bb-main__alias--hover: ${externalLinkBorderStyle}var(--cl-${externalLinkColor}-${externalLinkBorderLightness});--co-main__a: var(--cl-${externalLinkColor}-${externalLinkColorLightness});--co-main__alias: var(--cl-${externalLinkColor}-${externalLinkColorLightness});--co-main__external-link--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightness});--co-main__a--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightness});--co-main__alias--hover: var(--cl-${externalLinkColor}-${externalLinkColorLightness});`;
-      break;
-  }
+      ":root {" +
+      "--fs-codeblock__code: " +
+      fontSize +
+      "px!important;" +
+      "--fs-codeblock__gutter: " +
+      fontSize +
+      "px;};";
   head.appendChild(style);
 }
 
 function changePageLink() {
-  var pageLinkColor: string;
-  var pageLinkColorLightness: number;
-  var pageLinkColorLightnessDark: number;
-  var pageLinkBorderStyle: string;
-  var pageLinkBorderLightness: number;
-  var pageLinkBorderLightnessDark: number;
+  let pageLinkColor: string;
+  let pageLinkColorLightness: number;
+  let pageLinkColorLightnessDark: number;
+  let pageLinkBorderStyle: string;
+  let pageLinkBorderLightness: number;
+  let pageLinkBorderLightnessDark: number;
 
   console.log("Switching page link color: " + settings["css-page-link-color"]);
-  
+
   if (document.getElementById("roamstudio-css-page-link-color")) {
     document.getElementById("roamstudio-css-page-link-color").remove();
   }
 
-  pageLinkColorLightness = 600;
-
   switch (settings["css-theme"]) {
     case "Quattro":
-      pageLinkColor = "gray";
+      pageLinkColor = "neutral";
       pageLinkColorLightness = 900;
+      pageLinkColorLightnessDark = 700;     // remember to invert this
       pageLinkBorderStyle = "1px solid ";
-      pageLinkBorderLightness = 900;
+      pageLinkBorderLightness = 400;
+      pageLinkBorderLightnessDark = 500;
       break;
 
     case "Craft":
@@ -690,16 +746,18 @@ function changePageLink() {
       pageLinkColorLightness = 900;
       pageLinkBorderStyle = "3px solid ";
       pageLinkBorderLightness = 300;
+      pageLinkBorderLightnessDark = 700;
       break;
 
     case "Things":
-      pageLinkColor = "gray";
-      pageLinkColorLightness = 700;
+      pageLinkColor = "accent";
+      pageLinkColorLightness = 500;
       pageLinkBorderStyle = "0px solid ";
       pageLinkBorderLightness = 900;
+      pageLinkBorderLightnessDark = 100;
       break;
   }
-  
+
   if (settings["css-page-link-color"] != "Theme Default") {
     pageLinkColor = settings["css-page-link-color"];
   }
@@ -727,7 +785,7 @@ function changePageLink() {
       pageLinkColorLightness = 900;
       break;
   }
-  
+
   switch (settings["css-page-link-border-lightness"]) {
     case "lightest":
       pageLinkBorderLightness = 100;
@@ -772,50 +830,179 @@ function changePageLink() {
     }
   }
 
-  pageLinkColorLightnessDark = 1000 - pageLinkColorLightness;
-  pageLinkBorderLightnessDark = 1000 - pageLinkBorderLightness;
-
-  var head = document.getElementsByTagName("head")[0];
-  var style = document.createElement("style");
+  const head = document.getElementsByTagName("head")[0];
+  const style = document.createElement("style");
 
   style.id = "roamstudio-css-page-link-color";
   switch (settings["css-appearance"]) {
     case "Auto":
       style.textContent =
-        `:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${pageLinkBorderStyle}var(--cl-${pageLinkColor}-${pageLinkBorderLightness});--bb-main__page-link--hover: ${pageLinkBorderStyle}var(--cl-${pageLinkColor}-${pageLinkBorderLightness});--co-main__page-link: var(--cl-${pageLinkColor}-${pageLinkColorLightness});--co-main__page-link--hover: var(--cl-${pageLinkColor}-${pageLinkColorLightness});}` +
-        `@media (prefers-color-scheme: dark) {:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${pageLinkBorderStyle}var(--cl-${pageLinkColor}-${pageLinkBorderLightnessDark});--bb-main__page-link--hover: ${pageLinkBorderStyle}var(--cl-${pageLinkColor}-${pageLinkBorderLightnessDark});--co-main__page-link: var(--cl-${pageLinkColor}-${pageLinkColorLightnessDark});--co-main__page-link--hover: var(--cl-${pageLinkColor}-${pageLinkColorLightnessDark});}}`;
+          `:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightness, false)};--bb-main__page-link--hover: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightness, false)};--co-main__page-link: ${compileColor(pageLinkColor, pageLinkColorLightness, false)};--co-main__page-link--hover: ${compileColor(pageLinkColor, pageLinkColorLightness, false)};}` +
+          `@media (prefers-color-scheme: dark) {:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightnessDark, true)};--bb-main__page-link: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightnessDark, true)};--co-main__page-link: ${compileColor(pageLinkColor, pageLinkColorLightnessDark, true)};--co-main__page-link--hover: ${compileColor(pageLinkColor, pageLinkColorLightnessDark, true)};}}`;
       break;
     case "Dark":
-      style.textContent = `:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${pageLinkBorderStyle}var(--cl-${pageLinkColor}-${pageLinkBorderLightnessDark});--bb-main__page-link--hover: ${pageLinkBorderStyle}var(--cl-${pageLinkColor}-${pageLinkBorderLightnessDark});--co-main__page-link: var(--cl-${pageLinkColor}-${pageLinkColorLightnessDark});--co-main__page-link--hover: var(--cl-${pageLinkColor}-${pageLinkColorLightnessDark});}`;
+      style.textContent = `:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightnessDark, true)};--bb-main__page-link: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightnessDark, true)};--co-main__page-link: ${compileColor(pageLinkColor, pageLinkColorLightnessDark, true)};--co-main__page-link--hover: ${compileColor(pageLinkColor, pageLinkColorLightnessDark, true)};}`;
       break;
     case "Light":
-      style.textContent = `:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${pageLinkBorderStyle}var(--cl-${pageLinkColor}-${pageLinkBorderLightness});--bb-main__page-link--hover: ${pageLinkBorderStyle}var(--cl-${pageLinkColor}-${pageLinkBorderLightness});--co-main__page-link: var(--cl-${pageLinkColor}-${pageLinkColorLightness});--co-main__page-link--hover: var(--cl-${pageLinkColor}-${pageLinkColorLightness});}`;
+      style.textContent = `:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightness, false)};--bb-main__page-link--hover: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightness, false)};--co-main__page-link: ${compileColor(pageLinkColor, pageLinkColorLightness, false)};--co-main__page-link--hover: ${compileColor(pageLinkColor, pageLinkColorLightness, false)};}`;
+      break;
+  }
+  head.appendChild(style);
+}
+
+function changeExternalLink() {
+  let externalLinkColor: string;
+  let externalLinkColorLightness: number;
+  let externalLinkColorLightnessDark: number;
+  let externalLinkBorderStyle: string;
+  let externalLinkBorderLightness: number;
+  let externalLinkBorderLightnessDark: number;
+
+  console.log("Switching page link color:" + settings["css-external-link-color"]);
+  if (document.getElementById("roamstudio-css-external-link-color")) {
+    document.getElementById("roamstudio-css-external-link-color").remove();
+  }
+
+  switch (settings["css-theme"]) {
+    case "Quattro":
+      externalLinkColor = "neutral";
+      externalLinkColorLightness = 900;
+      externalLinkColorLightnessDark = 700;
+      externalLinkBorderStyle = "1px solid ";
+      externalLinkBorderLightness = 400;
+      externalLinkBorderLightnessDark = 500;
+      break;
+
+    case "Craft":
+      externalLinkColor = "accent";
+      externalLinkColorLightness = 900;
+      externalLinkBorderStyle = "3px solid ";
+      externalLinkBorderLightness = 300;
+      externalLinkBorderLightnessDark = 700;
+      break;
+
+    case "Things":
+      externalLinkColor = "gray";
+      externalLinkColorLightness = 700;
+      externalLinkBorderStyle = "0px solid ";
+      externalLinkBorderLightness = 900;
+      externalLinkBorderLightnessDark = 100;
+      break;
+  }
+
+  if (settings["css-external-link-color"] != "Theme Default") {
+    externalLinkColor = settings["css-external-link-color"];
+  }
+
+  switch (settings["css-external-link-color-lightness"]) {
+    case "lightest":
+      externalLinkColorLightness = 100;
+      break;
+    case "lighter":
+      externalLinkColorLightness = 200;
+      break;
+    case "light":
+      externalLinkColorLightness = 300;
+      break;
+    case "medium":
+      externalLinkColorLightness = 500;
+      break;
+    case "dark":
+      externalLinkColorLightness = 600;
+      break;
+    case "darker":
+      externalLinkColorLightness = 800;
+      break;
+    case "darkest":
+      externalLinkColorLightness = 900;
+      break;
+  }
+
+  switch (settings["css-external-link-border-lightness"]) {
+    case "lightest":
+      externalLinkBorderLightness = 100;
+      break;
+    case "lighter":
+      externalLinkBorderLightness = 200;
+      break;
+    case "light":
+      externalLinkBorderLightness = 300;
+      break;
+    case "medium":
+      externalLinkBorderLightness = 500;
+      break;
+    case "dark":
+      externalLinkBorderLightness = 600;
+      break;
+    case "darker":
+      externalLinkBorderLightness = 800;
+      break;
+    case "darkest":
+      externalLinkBorderLightness = 900;
+      break;
+  }
+
+  if (settings["css-external-link-style"] != "Theme Default") {
+    switch (settings["css-external-link-style"]) {
+      case "No underline":
+        externalLinkBorderStyle = "0px solid ";
+        break;
+      case "Dotted underline":
+        externalLinkBorderStyle = "1px dotted ";
+        break;
+      case "Thin underline":
+        externalLinkBorderStyle = "1px solid ";
+        break;
+      case "Medium underline":
+        externalLinkBorderStyle = "2px solid ";
+        break;
+      case "Fat underline":
+        externalLinkBorderStyle = "3px solid ";
+        break;
+    }
+  }
+
+  const head = document.getElementsByTagName("head")[0];
+  const style = document.createElement("style");
+
+  style.id = "roamstudio-css-external-link-color";
+  switch (settings["css-appearance"]) {
+    case "Auto":
+      style.textContent =
+          `:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__alias: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__a--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__alias--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--co-main__a: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__alias: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__external-link--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__a--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__alias--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};}` +
+          `@media (prefers-color-scheme: dark) {:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--bb-main__alias: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--bb-main__a--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--bb-main__alias--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--co-main__a: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__alias: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__external-link--hover: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__a--hover: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__alias--hover: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};}}`;
+      break;
+    case "Dark":
+      style.textContent = `:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--bb-main__alias: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--bb-main__a--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--bb-main__alias--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--co-main__a: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__alias: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__external-link--hover: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__a--hover: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__alias--hover: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};}`;
+      break;
+    case "Light":
+      style.textContent = `:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__alias: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__a--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__alias--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--co-main__a: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__alias: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__external-link--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__a--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__alias--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};}` ;
       break;
   }
   head.appendChild(style);
 }
 
 function changeReferenceLink() {
-  var referenceLinkColor: string;
-  var referenceLinkColorLightness: number;
-  var referenceLinkColorLightnessDark: number;
-  var referenceLinkBorderStyle: string;
-  var referenceLinkBorderLightness: number;
-  var referenceLinkBorderLightnessDark: number;
+  let referenceLinkColor: string;
+  let referenceLinkColorLightness: number;
+  let referenceLinkColorLightnessDark: number;
+  let referenceLinkBorderStyle: string;
+  let referenceLinkBorderLightness: number;
+  let referenceLinkBorderLightnessDark: number;
 
   console.log("Switching reference link color:" + settings["css-reference-link-color"]);
   if (document.getElementById("roamstudio-css-reference-link-color")) {
     document.getElementById("roamstudio-css-reference-link-color").remove();
   }
 
-  referenceLinkColorLightness = 600;
-
   switch (settings["css-theme"]) {
     case "Quattro":
       referenceLinkColor = "gray";
       referenceLinkColorLightness = 900;
+      referenceLinkColorLightnessDark = 700;
       referenceLinkBorderStyle = "1px solid ";
-      referenceLinkBorderLightness = 900;
+      referenceLinkBorderLightness = 400;
+      referenceLinkBorderLightnessDark = 500;
       break;
 
     case "Craft":
@@ -823,6 +1010,7 @@ function changeReferenceLink() {
       referenceLinkColorLightness = 900;
       referenceLinkBorderStyle = "3px solid ";
       referenceLinkBorderLightness = 300;
+      referenceLinkBorderLightnessDark = 700;
       break;
 
     case "Things":
@@ -830,9 +1018,10 @@ function changeReferenceLink() {
       referenceLinkColorLightness = 700;
       referenceLinkBorderStyle = "0px solid ";
       referenceLinkBorderLightness = 900;
+      referenceLinkBorderLightnessDark = 100;
       break;
   }
-  
+
   if (settings["css-reference-link-color"] != "Theme Default") {
     referenceLinkColor = settings["css-reference-link-color"];
   }
@@ -860,7 +1049,7 @@ function changeReferenceLink() {
       referenceLinkColorLightness = 900;
       break;
   }
-  
+
   switch (settings["css-reference-link-border-lightness"]) {
     case "lightest":
       referenceLinkBorderLightness = 100;
@@ -905,50 +1094,47 @@ function changeReferenceLink() {
     }
   }
 
-  referenceLinkColorLightnessDark = 1000 - referenceLinkColorLightness;
-  referenceLinkBorderLightnessDark = 1000 - referenceLinkBorderLightness;
-
-  var head = document.getElementsByTagName("head")[0];
-  var style = document.createElement("style");
+  const head = document.getElementsByTagName("head")[0];
+  const style = document.createElement("style");
 
   style.id = "roamstudio-css-reference-link-color";
-  
+
   switch (settings["css-appearance"]) {
     case "Auto":
-      style.textContent = `:root {--fw-reference__page-title: ${settings["css-reference-link-weight"]};--bb-reference__page-title: ${referenceLinkBorderStyle}var(--cl-${referenceLinkColor}-${referenceLinkBorderLightness});--bb-reference__page-title--hover: ${referenceLinkBorderStyle}var(--cl-${referenceLinkColor}-${referenceLinkBorderLightness});--co-reference__page-title: var(--cl-${referenceLinkColor}-${referenceLinkColorLightness});--co-reference__page-title--hover: var(--cl-${referenceLinkColor}-${referenceLinkColorLightness});}` +
-        `@media (prefers-color-scheme: dark) {:root {--fw-reference__page-title: ${settings["css-reference-link-weight"]};--bb-reference__page-title: ${referenceLinkBorderStyle}var(--cl-${referenceLinkColor}-${referenceLinkBorderLightnessDark});--bb-reference__page-title--hover: ${referenceLinkBorderStyle}var(--cl-${referenceLinkColor}-${referenceLinkBorderLightnessDark});--co-reference__page-title: var(--cl-${referenceLinkColor}-${referenceLinkColorLightnessDark});--co-reference__page-title--hover: var(--cl-${referenceLinkColor}-${referenceLinkColorLightnessDark});}}`;
+      style.textContent = `:root {--fw-reference__page-title: ${settings["css-reference-link-weight"]};--bb-reference__page-title: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightness, false)};--bb-reference__page-title--hover: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightness, false)};--co-reference__page-title: ${compileColor(referenceLinkColor, referenceLinkColorLightness, false)};--co-reference__page-title--hover: ${compileColor(referenceLinkColor, referenceLinkColorLightness, false)};}` +
+          `@media (prefers-color-scheme: dark) {:root {--fw-reference__page-title: ${settings["css-reference-link-weight"]};--bb-reference__page-title: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightnessDark, true)};--bb-reference__page-title--hover: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightnessDark, true)};--co-reference__page-title: ${compileColor(referenceLinkColor, referenceLinkColorLightnessDark, true)};--co-reference__page-title--hover: ${compileColor(referenceLinkColor, referenceLinkColorLightnessDark, true)};}}`;
       break;
     case "Dark":
-      style.textContent = `:root {--fw-reference__page-title: ${settings["css-reference-link-weight"]};--bb-reference__page-title: ${referenceLinkBorderStyle}var(--cl-${referenceLinkColor}-${referenceLinkBorderLightnessDark});--bb-reference__page-title--hover: ${referenceLinkBorderStyle}var(--cl-${referenceLinkColor}-${referenceLinkBorderLightnessDark});--co-reference__page-title: var(--cl-${referenceLinkColor}-${referenceLinkColorLightnessDark});--co-reference__page-title--hover: var(--cl-${referenceLinkColor}-${referenceLinkColorLightnessDark});}`;
+      style.textContent = `:root {--fw-reference__page-title: ${settings["css-reference-link-weight"]};--bb-reference__page-title: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightnessDark, true)};--bb-reference__page-title--hover: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightnessDark, true)};--co-reference__page-title: ${compileColor(referenceLinkColor, referenceLinkColorLightnessDark, true)};--co-reference__page-title--hover: ${compileColor(referenceLinkColor, referenceLinkColorLightnessDark, true)};}`;
       break;
     case "Light":
-      style.textContent = `:root {--fw-reference__page-title: ${settings["css-reference-link-weight"]};--bb-reference__page-title: ${referenceLinkBorderStyle}var(--cl-${referenceLinkColor}-${referenceLinkBorderLightness});--bb-reference__page-title--hover: ${referenceLinkBorderStyle}var(--cl-${referenceLinkColor}-${referenceLinkBorderLightness});--co-reference__page-title: var(--cl-${referenceLinkColor}-${referenceLinkColorLightness});--co-reference__page-title--hover: var(--cl-${referenceLinkColor}-${referenceLinkColorLightness});}`;
+      style.textContent = `:root {--fw-reference__page-title: ${settings["css-reference-link-weight"]};--bb-reference__page-title: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightness, false)};--bb-reference__page-title--hover: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightness, false)};--co-reference__page-title: ${compileColor(referenceLinkColor, referenceLinkColorLightness, false)};--co-reference__page-title--hover: ${compileColor(referenceLinkColor, referenceLinkColorLightness, false)};}`;
       break;
   }
   head.appendChild(style);
 }
 
 function changeBlockLink() {
-  var blockLinkColor: string;
-  var blockLinkColorLightness: number;
-  var blockLinkColorLightnessDark: number;
-  var blockLinkBorderStyle: string;
-  var blockLinkBorderLightness: number;
-  var blockLinkBorderLightnessDark: number;
+  let blockLinkColor: string;
+  let blockLinkColorLightness: number;
+  let blockLinkColorLightnessDark: number;
+  let blockLinkBorderStyle: string;
+  let blockLinkBorderLightness: number;
+  let blockLinkBorderLightnessDark: number;
 
   console.log("Switching block link color:" + settings["css-block-link-color"]);
   if (document.getElementById("roamstudio-css-block-link-color")) {
     document.getElementById("roamstudio-css-block-link-color").remove();
   }
 
-  blockLinkColorLightness = 600;
-
   switch (settings["css-theme"]) {
     case "Quattro":
-      blockLinkColor = "gray";
+      blockLinkColor = "neutral";
       blockLinkColorLightness = 900;
+      blockLinkColorLightnessDark = 700;
       blockLinkBorderStyle = "1px dotted ";
-      blockLinkBorderLightness = 300;
+      blockLinkBorderLightness = 400;
+      blockLinkBorderLightnessDark = 500;
       break;
 
     case "Craft":
@@ -965,7 +1151,7 @@ function changeBlockLink() {
       blockLinkBorderLightness = 300;
       break;
   }
-  
+
   if (settings["css-block-link-color"] != "Theme Default") {
     blockLinkColor = settings["css-block-link-color"];
   }
@@ -993,7 +1179,7 @@ function changeBlockLink() {
       blockLinkColorLightness = 900;
       break;
   }
-  
+
   switch (settings["css-block-link-border-lightness"]) {
     case "lightest":
       blockLinkBorderLightness = 100;
@@ -1038,46 +1224,41 @@ function changeBlockLink() {
     }
   }
 
-  blockLinkColorLightnessDark = 1000 - blockLinkColorLightness;
-  blockLinkBorderLightnessDark = 1000 - blockLinkBorderLightness;
-
-  var head = document.getElementsByTagName("head")[0];
-  var style = document.createElement("style");
+  const head = document.getElementsByTagName("head")[0];
+  const style = document.createElement("style");
 
   style.id = "roamstudio-css-block-link-color";
-  
+
   switch (settings["css-appearance"]) {
     case "Auto":
-      style.textContent = `:root {--fw-main__block-ref: ${settings["css-block-link-weight"]};--bb-main__block-ref: ${blockLinkBorderStyle}var(--cl-${blockLinkColor}-${blockLinkBorderLightness});--bb-main__block-ref--hover: ${blockLinkBorderStyle}var(--cl-${blockLinkColor}-${blockLinkBorderLightness});--co-main__block-ref: var(--cl-${blockLinkColor}-${blockLinkColorLightness});--co-main__block-ref--hover: var(--cl-${blockLinkColor}-${blockLinkColorLightness});}` +
-        `@media (prefers-color-scheme: dark) {:root {--fw-main__block-ref: ${settings["css-block-link-weight"]};--bb-main__block-ref: ${blockLinkBorderStyle}var(--cl-${blockLinkColor}-${blockLinkBorderLightnessDark});--bb-main__block-ref--hover: ${blockLinkBorderStyle}var(--cl-${blockLinkColor}-${blockLinkBorderLightnessDark});--co-main__block-ref: var(--cl-${blockLinkColor}-${blockLinkColorLightnessDark});--co-main__block-ref--hover: var(--cl-${blockLinkColor}-${blockLinkColorLightnessDark});}}`;
+      style.textContent = `:root {--fw-main__block-ref: ${settings["css-block-link-weight"]};--bb-main__block-ref: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightness, false)};--bb-main__block-ref--hover: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightness, false)};--co-main__block-ref: ${compileColor(blockLinkColor, blockLinkColorLightness, false)};--co-main__block-ref--hover: ${compileColor(blockLinkColor, blockLinkColorLightness, false)};}` +
+          `@media (prefers-color-scheme: dark) {:root {--fw-main__block-ref: ${settings["css-block-link-weight"]};--bb-main__block-ref: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightnessDark, true)};--bb-main__block-ref--hover: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightnessDark, true)};--co-main__block-ref: ${compileColor(blockLinkColor, blockLinkColorLightnessDark, true)};--co-main__block-ref--hover: ${compileColor(blockLinkColor, blockLinkColorLightnessDark, true)};}}`;
       break;
     case "Dark":
-      style.textContent = `:root {--fw-main__block-ref: ${settings["css-block-link-weight"]};--bb-main__block-ref: ${blockLinkBorderStyle}var(--cl-${blockLinkColor}-${blockLinkBorderLightnessDark});--bb-main__block-ref--hover: ${blockLinkBorderStyle}var(--cl-${blockLinkColor}-${blockLinkBorderLightnessDark});--co-main__block-ref: var(--cl-${blockLinkColor}-${blockLinkColorLightnessDark});--co-main__block-ref--hover: var(--cl-${blockLinkColor}-${blockLinkColorLightnessDark});}`;
+      style.textContent = `:root {--fw-main__block-ref: ${settings["css-block-link-weight"]};--bb-main__block-ref: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightnessDark, true)};--bb-main__block-ref--hover: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightnessDark, true)};--co-main__block-ref: ${compileColor(blockLinkColor, blockLinkColorLightnessDark, true)};--co-main__block-ref--hover: ${compileColor(blockLinkColor, blockLinkColorLightnessDark, true)};}`;
       break;
     case "Light":
-      style.textContent = `:root {--fw-main__block-ref: ${settings["css-block-link-weight"]};--bb-main__block-ref: ${blockLinkBorderStyle}var(--cl-${blockLinkColor}-${blockLinkBorderLightness});--bb-main__block-ref--hover: ${blockLinkBorderStyle}var(--cl-${blockLinkColor}-${blockLinkBorderLightness});--co-main__block-ref: var(--cl-${blockLinkColor}-${blockLinkColorLightness});--co-main__block-ref--hover: var(--cl-${blockLinkColor}-${blockLinkColorLightness});}`;
+      style.textContent = `:root {--fw-main__block-ref: ${settings["css-block-link-weight"]};--bb-main__block-ref: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightness, false)};--bb-main__block-ref--hover: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightness, false)};--co-main__block-ref: ${compileColor(blockLinkColor, blockLinkColorLightness, false)};--co-main__block-ref--hover: ${compileColor(blockLinkColor, blockLinkColorLightness, false)};}`;
       break;
   }
   head.appendChild(style);
 }
 
 function changeTag() {
-  var tagColorLightness: number;
-  var tagBackgroundLightness: number;
-  var tagColorLightnessDark: number;
-  var tagBackgroundLightnessDark: number;
+  let tagColorLightness: number;
+  let tagColorLightnessDark: number;
+  let tagBackgroundLightness: number;
+  let tagBackgroundLightnessDark: number;
+  let tagBorderLightness: number;
+  let tagBorderLightnessDark: number;
 
-  var tagColorLightnessStr: string;
-  var tagBackgroundLightnessStr: string;
-  var tagColorLightnessDarkStr: string;
-  var tagBackgroundLightnessDarkStr: string;
-  var tagBorderStyle: string;
-  var tagFontSize: string;
+  let tagBorderStyle: string;
+  let tagFontSize: string;
 
-  var tagColor: string;
-  var tagBackground: string;
-  var tagPadding: string;
-  var tagRadius: string;
+  let tagColor: string;
+  let tagBackground: string;
+  let tagPadding: string;
+  let tagRadius: string;
 
   console.log("Setting tags");
   if (document.getElementById("roamstudio-css-tag")) {
@@ -1086,12 +1267,16 @@ function changeTag() {
 
   switch (settings["css-theme"]) {
     case "Quattro":
-      tagColor = "gray";
-      tagBackground = "trans";
+      tagColor = "neutral";
+      tagBackground = "transparent";
       tagColorLightness = 900;
+      tagBorderLightness = 400;
       tagBackgroundLightness = 100;
-      tagColorLightnessDark = 400;
-      tagBackgroundLightnessDark = 900;
+
+      tagColorLightnessDark = 700;
+      tagBorderLightnessDark = 500;
+      tagBackgroundLightnessDark = 100;
+
       tagPadding = "0";
       tagRadius = "0";
       tagBorderStyle = "1px solid";
@@ -1103,8 +1288,8 @@ function changeTag() {
       tagBackground = "gray";
       tagColorLightness = 600;
       tagBackgroundLightness = 150;
-      tagColorLightnessDark = 450;
-      tagBackgroundLightnessDark = 750;
+      tagColorLightnessDark = 550;
+      tagBackgroundLightnessDark = 250;
       tagPadding = "2px 8px";
       tagRadius = "15px";
       tagBorderStyle = "none";
@@ -1115,11 +1300,11 @@ function changeTag() {
       tagColor = "accGreen";
       tagBackground = "accGreen";
       tagColorLightness = 900;
-      tagBackgroundLightness = 300;
-      tagColorLightnessDark = 100;
+      tagBackgroundLightness = 700;
+      tagColorLightnessDark = 900;
       tagBackgroundLightnessDark = 800;
       tagPadding = "2px 8px";
-      tagRadius = "15px";
+      tagRadius = "15";
       tagBorderStyle = "none";
       tagFontSize = "0.9rem";
       break;
@@ -1239,9 +1424,6 @@ function changeTag() {
       break;
   }
 
-  tagColorLightnessDark = 1000 - tagColorLightness;
-  tagBackgroundLightnessDark = 1000 - tagBackgroundLightness;
-
   if (settings["css-tag-color"] != "Theme Default") {
     tagColor = settings["css-tag-color"];
   }
@@ -1250,64 +1432,46 @@ function changeTag() {
     tagBackground = settings["css-tag-background"];
   }
 
-  if (tagColor == "white" || tagColor == "black") {
-    tagColorLightnessStr = "";
-    tagColorLightnessDarkStr = "";
-  } else {
-    tagColorLightnessStr = "-" + tagColorLightness;
-    tagColorLightnessDarkStr = "-" + tagColorLightnessDark;
-  }
-
-  if (tagBackground == "white" || tagBackground == "black") {
-    tagBackgroundLightnessStr = "";
-    tagBackgroundLightnessDarkStr = "";
-  } else {
-    tagBackgroundLightnessStr = "-" + tagBackgroundLightness;
-    tagBackgroundLightnessDarkStr = "-" + tagBackgroundLightnessDark;
-  }
-
-  var head = document.getElementsByTagName("head")[0];
-  var style = document.createElement("style");
+  const head = document.getElementsByTagName("head")[0];
+  const style = document.createElement("style");
   style.id = "roamstudio-css-tag";
   switch (settings["css-appearance"]) {
     case "Auto":
       style.textContent =
-        `.rm-page-ref--tag, span[data-tag="tags"], .rm-page-ref--tag:hover {padding: ${tagPadding};}` +
-        `:root {--bd-main__tags: ${tagRadius}px;--bd-main__tags--hover: ${tagRadius}px;--fs-main__tags: ${tagFontSize};--bb-main__tags: ${tagBorderStyle}var(--cl-${tagColor}-600);--bb-main__tags--hover: ${tagBorderStyle}var(--cl-${tagColor}-600);--co-main__tags: var(--cl-${tagColor}${tagColorLightnessStr});--co-main__tags--hover: var(--cl-${tagColor}${tagColorLightnessStr});--bc-main__tags: var(--cl-${tagBackground}${tagBackgroundLightnessStr});--bc-main__tags--hover: var(--cl-${tagBackground}${tagBackgroundLightnessStr});}` +
-        `@media (prefers-color-scheme: dark) {.rm-page-ref--tag, span[data-tag="tags"], .rm-page-ref--tag:hover {padding: ${tagPadding};}` +
-        `:root {--bd-main__tags: ${tagRadius}px;--bd-main__tags--hover: ${tagRadius}px;--fs-main__tags: ${tagFontSize};--bb-main__tags: ${tagBorderStyle}var(--cl-${tagColor}-400);--bb-main__tags--hover: ${tagBorderStyle}var(--cl-${tagColor}-400);--co-main__tags: var(--cl-${tagColor}${tagColorLightnessDarkStr});--co-main__tags--hover: var(--cl-${tagColor}${tagColorLightnessDarkStr});--bc-main__tags: var(--cl-${tagBackground}${tagBackgroundLightnessDarkStr});--bc-main__tags--hover: var(--cl-${tagBackground}${tagBackgroundLightnessDarkStr});}}`;
+          `.rm-page-ref--tag, span[data-tag="tags"], .rm-page-ref--tag:hover {padding: ${tagPadding};};` +
+          `:root {--bd-main__tags: ${tagRadius}px;--bd-main__tags--hover: ${tagRadius}px;--fs-main__tags: ${tagFontSize};--bb-main__tags: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightness, false)};--bb-main__tags--hover: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightness, false)};--co-main__tags: ${compileColor(tagColor, tagColorLightness, false)};--co-main__tags--hover: ${compileColor(tagColor, tagColorLightness, false)};--bc-main__tags: ${compileColor(tagBackground, tagBackgroundLightness, false)};--bc-main__tags--hover: ${compileColor(tagBackground, tagBackgroundLightness, false)};}` +
+          `@media (prefers-color-scheme: dark) {.rm-page-ref--tag, span[data-tag="tags"], .rm-page-ref--tag:hover {padding: ${tagPadding};}` +
+          `:root {--bd-main__tags: ${tagRadius}px;--bd-main__tags--hover: ${tagRadius}px;--fs-main__tags: ${tagFontSize};--bb-main__tags: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightnessDark, true)};--bb-main__tags--hover: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightnessDark, true)};--co-main__tags: ${compileColor(tagColor, tagColorLightnessDark, true)};--co-main__tags--hover: ${compileColor(tagColor, tagColorLightnessDark, true)};--bc-main__tags: ${compileColor(tagBackground, tagBackgroundLightnessDark, true)};--bc-main__tags--hover: ${compileColor(tagBackground, tagBackgroundLightnessDark, true)};}}`;
       break;
     case "Dark":
       style.textContent =
-        `.rm-page-ref--tag, span[data-tag="tags"], .rm-page-ref--tag:hover {padding: ${tagPadding};}` +
-        `:root {--bd-main__tags: ${tagRadius}px;--bd-main__tags--hover: ${tagRadius}px;--fs-main__tags: ${tagFontSize};--bb-main__tags: ${tagBorderStyle}var(--cl-${tagColor}-400);--bb-main__tags--hover: ${tagBorderStyle}var(--cl-${tagColor}-400);--co-main__tags: var(--cl-${tagColor}${tagColorLightnessDarkStr});--co-main__tags--hover: var(--cl-${tagColor}${tagColorLightnessDarkStr});--bc-main__tags: var(--cl-${tagBackground}${tagBackgroundLightnessDarkStr});--bc-main__tags--hover: var(--cl-${tagBackground}${tagBackgroundLightnessDarkStr});}`;
+          `.rm-page-ref--tag, span[data-tag="tags"], .rm-page-ref--tag:hover {padding: ${tagPadding};};` +
+          `:root {--bd-main__tags: ${tagRadius}px;--bd-main__tags--hover: ${tagRadius}px;--fs-main__tags: ${tagFontSize};--bb-main__tags: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightnessDark, true)};--bb-main__tags--hover: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightnessDark, true)};--co-main__tags: ${compileColor(tagColor, tagColorLightnessDark, true)};--co-main__tags--hover: ${compileColor(tagColor, tagColorLightnessDark, true)};--bc-main__tags: ${compileColor(tagBackground, tagBackgroundLightnessDark, true)};--bc-main__tags--hover: ${compileColor(tagBackground, tagBackgroundLightnessDark, true)};}`;
       break;
     case "Light":
       style.textContent =
-        `.rm-page-ref--tag, span[data-tag="tags"], .rm-page-ref--tag:hover {padding: ${tagPadding};}` +
-        `:root {--bd-main__tags: ${tagRadius}px;--bd-main__tags--hover: ${tagRadius}px;--fs-main__tags: ${tagFontSize};--bb-main__tags: ${tagBorderStyle}var(--cl-${tagColor}-600);--bb-main__tags--hover: ${tagBorderStyle}var(--cl-${tagColor}-600);--co-main__tags: var(--cl-${tagColor}${tagColorLightnessStr});--co-main__tags--hover: var(--cl-${tagColor}${tagColorLightnessStr});--bc-main__tags: var(--cl-${tagBackground}${tagBackgroundLightnessStr});--bc-main__tags--hover: var(--cl-${tagBackground}${tagBackgroundLightnessStr});}`;
+          `.rm-page-ref--tag, span[data-tag="tags"], .rm-page-ref--tag:hover {padding: ${tagPadding};};` +
+          `:root {--bd-main__tags: ${tagRadius}px;--bd-main__tags--hover: ${tagRadius}px;--fs-main__tags: ${tagFontSize};--bb-main__tags: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightness, false)};--bb-main__tags--hover: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightness, false)};--co-main__tags: ${compileColor(tagColor, tagColorLightness, false)};--co-main__tags--hover: ${compileColor(tagColor, tagColorLightness, false)};--bc-main__tags: ${compileColor(tagBackground, tagBackgroundLightness, false)};--bc-main__tags--hover: ${compileColor(tagBackground, tagBackgroundLightness, false)};}`;
       break;
   }
   head.appendChild(style);
 }
 
 function changeDate() {
-  var dateColorLightness: number;
-  var dateBackgroundLightness: number;
-  var dateColorLightnessDark: number;
-  var dateBackgroundLightnessDark: number;
+  let dateColorLightness: number;
+  let dateBackgroundLightness: number;
+  let dateColorLightnessDark: number;
+  let dateBackgroundLightnessDark: number;
+  let dateColorBorderLightness: number;
+  let dateColorBorderLightnessDark: number;
 
-  var dateColorLightnessStr: string;
-  var dateBackgroundLightnessStr: string;
-  var dateColorLightnessDarkStr: string;
-  var dateBackgroundLightnessDarkStr: string;
-  var dateBorderStyle: string;
-  var dateFontSize: string;
+  let dateBorderStyle: string;
+  let dateFontSize: string;
 
-  var dateColor: string;
-  var dateBackground: string;
-  var datePadding: string;
-  var dateRadius: string;
+  let dateColor: string;
+  let dateBackground: string;
+  let datePadding: string;
+  let dateRadius: string;
 
   console.log("Setting dates");
   if (document.getElementById("roamstudio-css-date")) {
@@ -1316,12 +1480,13 @@ function changeDate() {
 
   switch (settings["css-theme"]) {
     case "Quattro":
-      dateColor = "gray";
-      dateBackground = "trans";
+      dateColor = "neutral";
+      dateBackground = "transparent";
       dateColorLightness = 900;
       dateBackgroundLightness = 100;
-      dateColorLightnessDark = 400;
-      dateBackgroundLightnessDark = 900;
+      dateColorLightnessDark = 700;
+      dateColorBorderLightness = 400;
+      dateColorBorderLightnessDark = 500;
       datePadding = "0";
       dateRadius = "0";
       dateBorderStyle = "1px solid";
@@ -1469,9 +1634,6 @@ function changeDate() {
       break;
   }
 
-  dateColorLightnessDark = 1000 - dateColorLightness;
-  dateBackgroundLightnessDark = 1000 - dateBackgroundLightness;
-
   if (settings["css-date-color"] != "Theme Default") {
     dateColor = settings["css-date-color"];
   }
@@ -1480,42 +1642,26 @@ function changeDate() {
     dateBackground = settings["css-date-background"];
   }
 
-  if (dateColor == "white" || dateColor == "black") {
-    dateColorLightnessStr = "";
-    dateColorLightnessDarkStr = "";
-  } else {
-    dateColorLightnessStr = "-" + dateColorLightness;
-    dateColorLightnessDarkStr = "-" + dateColorLightnessDark;
-  }
-
-  if (dateBackground == "white" || dateBackground == "black") {
-    dateBackgroundLightnessStr = "";
-    dateBackgroundLightnessDarkStr = "";
-  } else {
-    dateBackgroundLightnessStr = "-" + dateBackgroundLightness;
-    dateBackgroundLightnessDarkStr = "-" + dateBackgroundLightnessDark;
-  }
-
-  var head = document.getElementsByTagName("head")[0];
-  var style = document.createElement("style");
+  const head = document.getElementsByTagName("head")[0];
+  const style = document.createElement("style");
   style.id = "roamstudio-css-date";
   switch (settings["css-appearance"]) {
     case "Auto":
       style.textContent =
-        `:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref,:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref:hover {padding: ${datePadding};}` +
-        `:root {--bd-main__date-link: ${dateRadius}px;--bd-main__date-link--hover: ${dateRadius}px;--fs-main__date-link: ${dateFontSize};--bb-main__date-link: ${dateBorderStyle}var(--cl-${dateColor}-600);--bb-main__date-link--hover: ${dateBorderStyle}var(--cl-${dateColor}-600);--co-main__date-link: var(--cl-${dateColor}${dateColorLightnessStr});--co-main__date-link--hover: var(--cl-${dateColor}${dateColorLightnessStr});--bc-main__date-link: var(--cl-${dateBackground}${dateBackgroundLightnessStr});--bc-main__date-link--hover: var(--cl-${dateBackground}${dateBackgroundLightnessStr});}` +
-        `@media (prefers-color-scheme: dark) {:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref,:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref:hover {padding: ${datePadding};}` +
-        `:root {--bd-main__date-link: ${dateRadius}px;--bd-main__date-link--hover: ${dateRadius}px;--fs-main__date-link: ${dateFontSize};--bb-main__date-link: ${dateBorderStyle}var(--cl-${dateColor}-400);--bb-main__date-link--hover: ${dateBorderStyle}var(--cl-${dateColor}-400);--co-main__date-link: var(--cl-${dateColor}${dateColorLightnessDarkStr});--co-main__date-link--hover: var(--cl-${dateColor}${dateColorLightnessDarkStr});--bc-main__date-link: var(--cl-${dateBackground}${dateBackgroundLightnessDarkStr});--bc-main__date-link--hover: var(--cl-${dateBackground}${dateBackgroundLightnessDarkStr});}}`;
+          `:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref,:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref:hover {padding: ${datePadding};}` +
+          `:root {--bd-main__date-link: ${dateRadius}px;--bd-main__date-link--hover: ${dateRadius}px;--fs-main__date-link: ${dateFontSize};--bb-main__date-link: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightness, false)};--bb-main__date-link--hover: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightness, false)};--co-main__date-link: ${compileColor(dateColor, dateColorLightness, false)};--co-main__date-link--hover: ${compileColor(dateColor, dateColorLightness, false)};--bc-main__date-link: ${compileColor(dateBackground, dateBackgroundLightness, false)};--bc-main__date-link--hover: ${compileColor(dateBackground, dateBackgroundLightness, false)};}` +
+          `@media (prefers-color-scheme: dark) {:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref,:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref:hover {padding: ${datePadding};}` +
+          `:root {--bd-main__date-link: ${dateRadius}px;--bd-main__date-link--hover: ${dateRadius}px;--fs-main__date-link: ${dateFontSize};--bb-main__date-link: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightnessDark, true)};--bb-main__date-link--hover: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightnessDark, true)};--co-main__date-link: ${compileColor(dateColor, dateColorLightnessDark, true)};--co-main__date-link--hover: ${compileColor(dateColor, dateColorLightnessDark, true)};--bc-main__date-link: ${compileColor(dateBackground, dateBackgroundLightness, true)};--bc-main__date-link--hover: ${compileColor(dateBackground, dateBackgroundLightness, true)};}}`;
       break;
     case "Dark":
       style.textContent =
-        `:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref,:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref:hover {padding: ${datePadding};}` +
-        `:root {--bd-main__date-link: ${dateRadius}px;--bd-main__date-link--hover: ${dateRadius}px;--fs-main__date-link: ${dateFontSize};--bb-main__date-link: ${dateBorderStyle}var(--cl-${dateColor}-400);--bb-main__date-link--hover: ${dateBorderStyle}var(--cl-${dateColor}-400);--co-main__date-link: var(--cl-${dateColor}${dateColorLightnessDarkStr});--co-main__date-link--hover: var(--cl-${dateColor}${dateColorLightnessDarkStr});--bc-main__date-link: var(--cl-${dateBackground}${dateBackgroundLightnessDarkStr});--bc-main__date-link--hover: var(--cl-${dateBackground}${dateBackgroundLightnessDarkStr});}`;
+          `:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref,:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref:hover {padding: ${datePadding};}` +
+          `:root {--bd-main__date-link: ${dateRadius}px;--bd-main__date-link--hover: ${dateRadius}px;--fs-main__date-link: ${dateFontSize};--bb-main__date-link: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightnessDark, true)};--bb-main__date-link--hover: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightnessDark, true)};--co-main__date-link: ${compileColor(dateColor, dateColorLightnessDark, true)};--co-main__date-link--hover: ${compileColor(dateColor, dateColorLightnessDark, true)};--bc-main__date-link: ${compileColor(dateBackground, dateBackgroundLightness, true)};--bc-main__date-link--hover: ${compileColor(dateBackground, dateBackgroundLightness, true)};}`;
       break;
     case "Light":
       style.textContent =
-        `:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref,:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref:hover {padding: ${datePadding};}` +
-        `:root {--bd-main__date-link: ${dateRadius}px;--bd-main__date-link--hover: ${dateRadius}px;--fs-main__date-link: ${dateFontSize};--bb-main__date-link: ${dateBorderStyle}var(--cl-${dateColor}-600);--bb-main__date-link--hover: ${dateBorderStyle}var(--cl-${dateColor}-600);--co-main__date-link: var(--cl-${dateColor}${dateColorLightnessStr});--co-main__date-link--hover: var(--cl-${dateColor}${dateColorLightnessStr});--bc-main__date-link: var(--cl-${dateBackground}${dateBackgroundLightnessStr});--bc-main__date-link--hover: var(--cl-${dateBackground}${dateBackgroundLightnessStr});}`;
+          `:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref,:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref:hover {padding: ${datePadding};}` +
+          `:root {--bd-main__date-link: ${dateRadius}px;--bd-main__date-link--hover: ${dateRadius}px;--fs-main__date-link: ${dateFontSize};--bb-main__date-link: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightness, false)};--bb-main__date-link--hover: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightness, false)};--co-main__date-link: ${compileColor(dateColor, dateColorLightness, false)};--co-main__date-link--hover: ${compileColor(dateColor, dateColorLightness, false)};--bc-main__date-link: ${compileColor(dateBackground, dateBackgroundLightness, false)};--bc-main__date-link--hover: ${compileColor(dateBackground, dateBackgroundLightness, false)};}`;
       break;
   }
   head.appendChild(style);
@@ -1523,19 +1669,20 @@ function changeDate() {
 
 function changeDateIcon() {
   console.log(
-    "Switching date icon: " +
+      "Switching date icon: " +
       settings["css-date-icon"] +
       " " +
       modules["css-feather-icons"]
   );
+
+  const head = document.getElementsByTagName("head")[0];
+  const style = document.createElement("style");
 
   if (document.getElementById("roamstudio-css-date-icon")) {
     document.getElementById("roamstudio-css-date-icon").remove();
   }
 
   if (settings["css-date-icon"] && !modules["css-feather-icons"]) {
-    var head = document.getElementsByTagName("head")[0];
-    var style = document.createElement("style");
     style.id = "roamstudio-css-date-icon";
     style.textContent = `:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref:before {
       font-family: "Icons16",sans-serif;
@@ -1553,8 +1700,6 @@ function changeDateIcon() {
   }
 
   if (settings["css-date-icon"] && modules["css-feather-icons"]) {
-    var head = document.getElementsByTagName("head")[0];
-    var style = document.createElement("style");
     style.id = "roamstudio-css-date-icon";
     style.textContent = `:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref:before {
       width: var(--fs-main__date-link);
@@ -1575,249 +1720,124 @@ function changeDateIcon() {
   }
 }
 
-function changeHeadingSpacing() {
-  var spacing: string;
+function createToggle() {
+  const createIconButton = (icon: string) => {
+    const popoverButton = document.createElement("span");
+    popoverButton.className = "";
+    popoverButton.tabIndex = 0;
 
-  console.log("Changing heading spacing: " + settings["css-heading-spacing"]);
-  if (document.getElementById("roamstudio-css-heading-spacing")) {
-    document.getElementById("roamstudio-css-heading-spacing").remove();
+    const popoverIcon = document.createElement("span");
+    popoverIcon.className = `bp3-button bp3-minimal bp3-small bp3-icon-${icon} roamstudio-dm-toggle`;
+
+    popoverButton.appendChild(popoverIcon);
+
+    return popoverButton;
+  };
+
+  let iconName = "moon";
+  const nameToUse = "roamStudioToggleDarkMode";
+
+  switch (settings["css-appearance"]) {
+    case "Auto":
+      iconName = "clean";
+      break;
+    case "Dark":
+      iconName = "moon";
+      break;
+    case "Light":
+      iconName = "flash";
+      break;
   }
 
-  if (settings["css-heading-spacing"] != "Theme Default") {
-    switch (settings["css-heading-spacing"]) {
-      case "small":
-        spacing =
-          "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {margin-top: 0rem;margin-bottom: 0rem;}" +
-          "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {margin-top: 0rem;margin-bottom: 0rem;}" +
-          "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {margin-top: 0rem;margin-bottom: 0rem;}";
-        break;
-      case "medium":
-        spacing =
-          "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {margin-top: 1rem;margin-bottom: 0.5rem;}" +
-          "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {margin-top: 0.5rem;margin-bottom: 0.5rem;}" +
-          "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {margin-top: 0.5rem;margin-bottom: 0.5rem;}";
-        break;
-      case "large":
-        spacing =
-          "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {margin-top: 2rem;margin-bottom: 1rem;}" +
-          "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {margin-top: 1rem;margin-bottom: 1rem;}" +
-          "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {margin-top: 1rem;margin-bottom: 1rem;}";
-        break;
-    }
+  console.log("iconName: " + iconName);
 
-    var head = document.getElementsByTagName("head")[0];
-    var style = document.createElement("style");
-    style.id = "roamstudio-css-heading-spacing";
-    style.textContent = spacing;
-    head.appendChild(style);
+  const checkForButton = document.getElementById(`${nameToUse}-flex-space`);
+  if (!checkForButton) {
+    const mainButton = createIconButton(iconName);
+    const roamTopbar = document.getElementsByClassName("rm-topbar");
+
+    const nextIconButton = roamTopbar[0].lastElementChild;
+    const flexDiv = document.createElement("div");
+    flexDiv.className = "rm-topbar__spacer-sm roamstudio-dm-toggle";
+    flexDiv.id = nameToUse + "-flex-space";
+
+    const flexDivAfter = document.createElement("div");
+    flexDivAfter.className = "rm-topbar__spacer-sm roamstudio-dm-toggle";
+    flexDivAfter.id = nameToUse + "-flex-space-after";
+
+    nextIconButton.insertAdjacentElement("afterend", mainButton);
+    mainButton.insertAdjacentElement("beforebegin", flexDiv);
+    mainButton.insertAdjacentElement("afterend", flexDivAfter);
+    mainButton.addEventListener("click", toggleDarkMode);
   }
 }
 
-function changeHeadingFontFamily() {
-  console.log("Switching heading font family");
-  if (document.getElementById("roamstudio-css-heading-font-family")) {
-    document.getElementById("roamstudio-css-heading-font-family").remove();
-  }
+function destroyToggle() {
+  const toggles = document.querySelectorAll(".roamstudio-dm-toggle");
 
-  if (settings["css-heading-font-family"] != "Theme Default") {
-    var head = document.getElementsByTagName("head")[0];
-    var style = document.createElement("style");
-    style.id = "roamstudio-css-heading-font-family";
-    if (settings["css-heading-font-family"] == "System Font Stack") {
-      style.textContent = `:root {--ff-main__page-title: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";--ff-main__level1: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";--ff-main__level2: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";--ff-main__level3: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";--ff-right-sidebar__h1: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";}`;
-    } else {
-      style.textContent = `:root {--ff-main__page-title: ${settings["css-heading-font-family"]},sans-serif;--ff-main__level1: ${settings["css-heading-font-family"]},sans-serif;--ff-main__level2: ${settings["css-heading-font-family"]},sans-serif;--ff-main__level3: ${settings["css-heading-font-family"]},sans-serif;--ff-right-sidebar__h1: ${settings["css-heading-font-family"]},sans-serif;}`;
-    }
-    head.appendChild(style);
-  }
+  toggles.forEach((tog) => {
+    tog.remove();
+  });
 }
 
-function changeHeadingFontSize(heading: String) {
-  var fontSize: number;
+function loadSystem() {
+  console.log("Loading Roam Studio");
 
-  console.log(
-    "Switching base font size: " + settings["css-heading-" + heading + "-size"]
-  );
-  if (document.getElementById("roamstudio-css-heading-" + heading + "-size")) {
-    document
-      .getElementById("roamstudio-css-heading-" + heading + "-size")
-      .remove();
-  }
-
-  if (settings["css-heading-" + heading + "-size"] != "Theme Default") {
-    switch (settings["css-heading-" + heading + "-size"]) {
-      case "Text":
-        fontSize = 1;
-        break;
-      case "extra small":
-        fontSize = 1.2;
-        break;
-      case "small":
-        fontSize = 1.4;
-        break;
-      case "medium":
-        fontSize = 1.8;
-        break;
-      case "large":
-        fontSize = 2.4;
-        break;
-      case "extra large":
-        fontSize = 3.2;
-        break;
-    }
-
-    var head = document.getElementsByTagName("head")[0];
-    var style = document.createElement("style");
-    style.id = "roamstudio-css-heading-" + heading + "-size";
-    style.textContent =
-      ":root {" + "--fs-main__" + heading + ": " + fontSize + "rem;};";
-    head.appendChild(style);
-  }
-}
-
-function changeHeadingFontColor(heading: String) {
-  var headingColorLightness: number;
-  var headingColorLightnessDark: number;
-
-  console.log(
-    "Switching heading link color: " +
-      settings["css-heading-" + heading + "-color"]
-  );
-
-  if (document.getElementById("roamstudio-css-heading-" + heading + "-color")) {
-    document
-      .getElementById("roamstudio-css-heading-" + heading + "-color")
-      .remove();
-  }
-
-  headingColorLightness = 600;
-
-  switch (settings["css-heading-" + heading + "-color-lightness"]) {
-    case "lightest":
-      headingColorLightness = 100;
-      break;
-    case "lighter":
-      headingColorLightness = 200;
-      break;
-    case "light":
-      headingColorLightness = 300;
-      break;
-    case "medium":
-      headingColorLightness = 500;
-      break;
-    case "dark":
-      headingColorLightness = 600;
-      break;
-    case "darker":
-      headingColorLightness = 800;
-      break;
-    case "darkest":
-      headingColorLightness = 900;
-      break;
-  }
-
-  headingColorLightnessDark = 1000 - headingColorLightness;
-
-  if (settings["css-heading-" + heading + "-color"] != "Theme Default") {
-    var head = document.getElementsByTagName("head")[0];
-    var style = document.createElement("style");
-    style.id = "roamstudio-css-heading-" + heading + "-color";
-    switch (settings["css-appearance"]) {
-      case "Auto":
-        style.textContent =
-          `:root {--co-main__${heading}: var(--cl-${
-            settings["css-heading-" + heading + "-color"]
-          }-${headingColorLightness});}` +
-          `@media(prefers-color-scheme: dark) {:root {--co-main__${heading}: var(--cl-${
-            settings["css-heading-" + heading + "-color"]
-          }-${headingColorLightness});}}`;
-        break;
-      case "Light":
-        style.textContent = `:root {--co-main__${heading}: var(--cl-${
-          settings["css-heading-" + heading + "-color"]
-        }-${headingColorLightness});}`;
-        break;
-      case "Dark":
-        style.textContent = `:root {--co-main__${heading}: var(--cl-${
-          settings["css-heading-" + heading + "-color"]
-        }-${headingColorLightnessDark});}`;
-        break;
-    }
-    head.appendChild(style);
-  }
-}
-
-function changeFontFamily() {
-  console.log("Switching font family");
-  if (document.getElementById("roamstudio-css-font-family")) {
-    document.getElementById("roamstudio-css-font-family").remove();
-  }
-
-  if (settings["css-font-family"] != "Theme Default") {
-    var head = document.getElementsByTagName("head")[0];
-    var style = document.createElement("style");
-    style.id = "roamstudio-css-font-family";
-    if (settings["css-font-family"] == "System Font Stack") {
-      style.textContent = `:root {--ff-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";--ff-main__tags: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";--ff-main__pomodoro: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";--ff-main__quote: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";--ff-log-page__h1: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";}`;
-    } else {
-      style.textContent = `:root {--ff-main: ${settings["css-font-family"]},sans-serif;--ff-main__zoom-item: ${settings["css-font-family"]},sans-serif;--ff-main__tags: ${settings["css-font-family"]},sans-serif;--ff-main__pomodoro: ${settings["css-font-family"]},sans-serif;--ff-main__quote: ${settings["css-font-family"]},sans-serif;--ff-log-page__h1: ${settings["css-font-family"]},sans-serif;--ff-reference__linked-title: ${settings["css-font-family"]},sans-serif;--ff-reference__linked-title-closed: ${settings["css-font-family"]},sans-serif;--ff-reference__page-title: ${settings["css-font-family"]},sans-serif;--ff-reference__unlinked-title: ${settings["css-font-family"]},sans-serif;--ff-reference__unlinked-title-closed: ${settings["css-font-family"]},sans-serif;--ff-reference__zoom-item: ${settings["css-font-family"]},sans-serif;--ff-reference: ${settings["css-font-family"]},sans-serif;}`;
-    }
-    head.appendChild(style);
-  }
-}
-
-function changeCodeFontFamily() {
-  console.log("Switching code font family");
-  if (document.getElementById("roamstudio-css-code-font-family")) {
-    document.getElementById("roamstudio-css-code-font-family").remove();
-  }
-
-  if (settings["css-code-font-family"] != "Theme Default") {
-    var head = document.getElementsByTagName("head")[0];
-    var style = document.createElement("style");
-    style.id = "roamstudio-css-code-font-family";
-    if (settings["css-code-font-family"] == "System Font Stack") {
-      style.textContent = `:root {--ff-codeblock__code: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;--ff-codeblock__gutter: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;--ff-help__component-notation: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;--ff-main__inline-code: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;--ff-settings__hotkeys: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;}`;
-    } else {
-      style.textContent = `:root {--ff-codeblock__code: ${settings["css-code-font-family"]},monospace;--ff-codeblock__gutter: ${settings["css-code-font-family"]},monospace;--ff-help__component-notation: ${settings["css-code-font-family"]},monospace;--ff-main__inline-code: ${settings["css-code-font-family"]},monospace;--ff-settings__hotkeys: ${settings["css-code-font-family"]},monospace;}`;
-    }
-    head.appendChild(style);
-  }
-}
-
-function changeTheme() {
-  console.log("Changing theme to: " + settings["css-theme"]);
-  console.log("Changing appearance to: " + settings["css-appearance"]);
-
-  if (document.getElementById("roamstudio-css-theme")) {
-    document.getElementById("roamstudio-css-theme").remove();
+  if (document.getElementById("roamstudio-css-system")) {
+    document.getElementById("roamstudio-css-system").remove();
   }
 
   if (settings["css-theme"].toLowerCase() != "default") {
-    if (document.getElementById("roamstudio-css-system") == null) {
-      var head = document.getElementsByTagName("head")[0];
-      var style = document.createElement("style");
-      style.id = "roamstudio-css-system";
-      style.textContent = css["system"];
-      head.appendChild(style);
-    }
-
-    var head = document.getElementsByTagName("head")[0];
-    var style = document.createElement("style");
-    style.id = "roamstudio-css-theme";
-    style.textContent =
-      css[settings["css-theme"].toLowerCase() + "-common"] +
-      css[
-        settings["css-theme"].toLowerCase() +
-          "-" +
-          settings["css-appearance"].toLowerCase()
-      ];
+    const head = document.getElementsByTagName("head")[0];
+    const style = document.createElement("style");
+    style.id = "roamstudio-css-system";
+    style.textContent = css["system"];
     head.appendChild(style);
-  } else {
-    if (document.getElementById("roamstudio-css-system")) {
-      document.getElementById("roamstudio-css-system").remove();
-    }
   }
+}
+
+function loadFixes() {
+  console.log("Loading Roam Studio Fixes");
+
+  if (document.getElementById("roamstudio-css-system-fixes")) {
+    document.getElementById("roamstudio-css-system-fixes").remove();
+  }
+
+  if (settings["css-theme"].toLowerCase() != "default") {
+    const head = document.getElementsByTagName("head")[0];
+    const style = document.createElement("style");
+    style.id = "roamstudio-css-system-fixes";
+    style.textContent = css["fixes"];
+    head.appendChild(style);
+  }
+}
+
+function loadFonts() {
+  console.log("Loading Roam Studio Fonts");
+
+  if (document.getElementById("roamstudio-css-system-fonts")) {
+    document.getElementById("roamstudio-css-system-fonts").remove();
+  }
+
+  const head = document.getElementsByTagName("head")[0];
+  const style = document.createElement("style");
+  style.id = "roamstudio-css-system-fonts";
+  style.textContent = css["fonts"];
+  head.appendChild(style);
+}
+
+function loadColors() {
+  console.log("Loading Roam Studio Colors");
+
+  if (document.getElementById("roamstudio-css-system-colors")) {
+    document.getElementById("roamstudio-css-system-colors").remove();
+  }
+
+  const head = document.getElementsByTagName("head")[0];
+  const style = document.createElement("style");
+  style.id = "roamstudio-css-system-colors";
+  style.textContent = css["colors"];
+  head.appendChild(style);
 }
 
 function changeModule(moduleName: string) {
@@ -1833,19 +1853,15 @@ function changeModule(moduleName: string) {
       document.getElementById("roamstudio-" + moduleName).remove();
     }
 
-    var head = document.getElementsByTagName("head")[0];
-    var style = document.createElement("style");
+    const head = document.getElementsByTagName("head")[0];
+    const style = document.createElement("style");
     style.id = "roamstudio-" + moduleName;
     style.textContent = css[moduleName];
     head.appendChild(style);
   }
 }
 
-function setSettingDefault(
-  extensionAPI: any,
-  settingId: any,
-  settingDefault: any
-) {
+function setSettingDefault(extensionAPI: any, settingId: any, settingDefault: any) {
   let storedSetting = extensionAPI.settings.get(settingId);
   if (null == storedSetting)
     extensionAPI.settings.set(settingId, settingDefault);
@@ -1861,6 +1877,8 @@ function onload({ extensionAPI }: OnloadArgs) {
   loadSystem();
   loadFixes();
   loadFonts();
+  loadColors();
+  createToggle();
 
   for (const item in settings) {
     settings[item] = setSettingDefault(extensionAPI, item, settings[item]);
@@ -1869,7 +1887,7 @@ function onload({ extensionAPI }: OnloadArgs) {
 
   for (const item in modules) {
     modules[item] = setSettingDefault(extensionAPI, item, false);
-    console.log("Setting: " + "css-" + item);
+    console.log("Module: " + "css-" + item);
   }
 
   changeSettings("css-theme");
@@ -1896,7 +1914,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-appearance",
         name: "Appearance",
         description:
-          "Select the themes appearance (choose 'Auto' if the theme should adapt your systems settings)",
+            "Select the themes appearance (choose 'Auto' if the theme should adapt your systems settings)",
         action: {
           type: "select",
           items: ["Dark", "Light", "Auto"],
@@ -1924,7 +1942,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-font-family",
         name: "Font Family",
         description:
-          "Select your main font family (changes the font used on pages)",
+            "Select your main font family (changes the font used on pages)",
         action: {
           type: "select",
           items: [
@@ -2061,7 +2079,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-heading-level1-color-lightness",
         name: "Heading Level 1 Color Lightness",
         description:
-          "Select the lightness of the color of your level 1 headings",
+            "Select the lightness of the color of your level 1 headings",
         action: {
           type: "select",
           items: [
@@ -2139,7 +2157,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-heading-level2-color-lightness",
         name: "Heading Level 2 Color Lightness",
         description:
-          "Select the lightness of the color of your level 2 headings",
+            "Select the lightness of the color of your level 2 headings",
         action: {
           type: "select",
           items: [
@@ -2217,7 +2235,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-heading-level3-color-lightness",
         name: "Heading Level 3 Color Lightness",
         description:
-          "Select the lightness of the color of your level 3 headings",
+            "Select the lightness of the color of your level 3 headings",
         action: {
           type: "select",
           items: [
@@ -2240,7 +2258,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-heading-spacing",
         name: "Heading Spacing",
         description:
-          "Select the spacing of your headings (the free space above and below the heading)",
+            "Select the spacing of your headings (the free space above and below the heading)",
         action: {
           type: "select",
           items: ["Theme Default", "small", "medium", "large"],
@@ -2408,7 +2426,7 @@ function onload({ extensionAPI }: OnloadArgs) {
       {
         id: "css-external-link-color",
         name: "External Link Color",
-        description: "Select the color of your external-links",
+        description: "Select the color of your  -links",
         action: {
           type: "select",
           items: [
@@ -3117,7 +3135,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-non-breakable-dates",
         name: "No line-break within dates",
         description:
-          "Dates are not wrapped at the end of the line but transferred to the next line.",
+            "Dates are not wrapped at the end of the line but transferred to the next line.",
         action: {
           type: "switch",
           onChange: (evt) => {
@@ -3154,7 +3172,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-centered-search",
         name: "Centered Search",
         description:
-          "Centers the find or create dialog, hides the search icon (use keyboard shortcuts :))",
+            "Centers the find or create dialog, hides the search icon (use keyboard shortcuts :))",
         action: {
           type: "switch",
           onChange: (evt) => {
@@ -3167,7 +3185,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-no-animations",
         name: "Disable Animations",
         description:
-          "Disable all animations and transitions to speed up the UI",
+            "Disable all animations and transitions to speed up the UI",
         action: {
           type: "switch",
           onChange: (evt) => {
@@ -3240,7 +3258,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-hide-sidebar-icons",
         name: "Hide Sidebar Icons",
         description:
-          "Hide Sidebar Icons (Daily Notes Page, Graph, All Pages, Roam Depot) and make text bold",
+            "Hide Sidebar Icons (Daily Notes Page, Graph, All Pages, Roam Depot) and make text bold",
         action: {
           type: "switch",
           onChange: (evt) => {
@@ -3253,7 +3271,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-logpage-minheight",
         name: "Remove Logpage minimum height",
         description:
-          "Removes the height settings from the day blocks on the log page",
+            "Removes the height settings from the day blocks on the log page",
         action: {
           type: "switch",
           onChange: (evt) => {
@@ -3266,7 +3284,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-masonry",
         name: "Masonry Sidebar",
         description:
-          "Change the right sidebar to a masonry view of the windows",
+            "Change the right sidebar to a masonry view of the windows",
         action: {
           type: "switch",
           onChange: (evt) => {
@@ -3315,7 +3333,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-subtle-controls",
         name: "Subtle Controls",
         description:
-          "Make controls (bullets, carets and multibars) less intrusive when block is not focused",
+            "Make controls (bullets, carets and multibars) less intrusive when block is not focused",
         action: {
           type: "switch",
           onChange: (evt) => {
@@ -3351,7 +3369,6 @@ function onload({ extensionAPI }: OnloadArgs) {
     ],
   });
 
-  createToggle();
   console.log("Loaded Roam Studio");
 }
 
@@ -3359,18 +3376,23 @@ function onunload() {
   console.log("Unloading Roam Studio");
 
   if (document.getElementById("roamstudio-css-system")) {
-    console.log("Removing CSS System");
+    console.log("Removing Roam Studio System");
     document.getElementById("roamstudio-css-system").remove();
   }
 
   if (document.getElementById("roamstudio-css-system-fonts")) {
-    console.log("Removing CSS System Fonts");
+    console.log("Removing Roam Studio Fonts");
     document.getElementById("roamstudio-css-system-fonts").remove();
   }
 
   if (document.getElementById("roamstudio-css-system-fixes")) {
-    console.log("Removing CSS System Fixes");
+    console.log("Removing Roam Studio Fixes");
     document.getElementById("roamstudio-css-system-fixes").remove();
+  }
+
+  if (document.getElementById("roamstudio-css-system-colors")) {
+    console.log("Removing Roam Studio Colors");
+    document.getElementById("roamstudio-css-system-colors").remove();
   }
 
   Object.keys(settings).forEach((item) => {
@@ -3379,11 +3401,11 @@ function onunload() {
       document.getElementById("roamstudio-" + item).remove();
     }
   });
-  
+
   if (document.getElementById("roamstudio-css-date")) {
     document.getElementById("roamstudio-css-date").remove();
   }
-  
+
   if (document.getElementById("roamstudio-css-tag")) {
     document.getElementById("roamstudio-css-tag").remove();
   }
@@ -3398,9 +3420,9 @@ function onunload() {
   destroyToggle();
 
   console.log("Unloaded Roam Studio");
-};
+}
 
 export default {
   onload: onload,
-  onunload: onunload,
+  onunload: onunload
 };

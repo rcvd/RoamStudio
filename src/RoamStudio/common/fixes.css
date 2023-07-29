@@ -134,6 +134,10 @@ html {
   display: inline-block !important;
 }
 
+.rm-code-block label {
+  display: inline-flex;
+}
+
 .bp3-control .bp3-control-indicator {
   display: inline-flex;
 }
@@ -248,6 +252,26 @@ input[type=radio]:active,
 
 .bp3-file-upload-input::after {
   line-height: 30px;
+}
+
+.rm-search-path .rm-code-block__settings-bar {
+  display: none;
+}
+
+.rm-search-path .rm-code-block .cm-editor .cm-activeLine, .rm-search-path .rm-code-block .cm-editor .cm-activeLineGutter {
+  background-color: transparent !important;
+}
+
+.rm-search-path .bp3-menu-item .rm-code-block, .rm-search-path .bp3-menu-item .rm-code-block .cm-editor .cm-gutters {
+  background-color: transparent !important;
+}
+
+.rm-search-path .bp3-menu-item, .rm-search-path .bp3-menu-item div, .rm-search-path .bp3-menu-item span, .rm-search-path .bp3-menu-item a {
+  border-color: var(--co-block-search__menu-item) !important;
+}
+
+.rm-search-path .bp3-menu-item:hover, .rm-search-path .bp3-menu-item:hover div, .rm-search-path .bp3-menu-item:hover span, .rm-search-path .bp3-menu-item:hover a, .rm-search-path .bp3-menu-item:active, .rm-search-path .bp3-menu-item:active div, .rm-search-path .bp3-menu-item:active span, .rm-search-path .bp3-menu-item:active a, .rm-search-path .bp3-menu-item.bp3-active, .rm-search-path .bp3-menu-item.bp3-active div, .rm-search-path .bp3-menu-item.bp3-active span, .rm-search-path .bp3-menu-item.bp3-active a {
+  border-color: var(--co-block-search__menu-item--hover) !important;
 }
 
 .dm-toggle {
@@ -366,6 +390,14 @@ input[type=radio]:active,
 
 .rm-encrypted-block input {
   padding: 3px 8px;
+}
+
+.rm-find-or-create-wrapper {
+  padding-right: 2px;
+}
+
+.rm-find-or-create-wrapper .bp3-transition-container[style*="transform: translate3d(-1px, 30px, 0px);"] {
+  transform: translate3d(-1px, 33px, 0px) !important;
 }
 
 .rm-graph-dropdown {
@@ -599,7 +631,7 @@ input[type=radio] {
 
 .rm-alias--external:after {
   content: "↗";
-  color: var(--cl-gray-500);
+  color: var(--co-main__alias);
 }
 
 .rm-article-wrapper {
@@ -760,6 +792,10 @@ input[type=radio] {
   font-weight: bold;
 }
 
+.roam-body-main span.bp3-icon:empty {
+  font-size: 16px;
+}
+
 .bp3-menu-item {
   align-items: center;
 }
@@ -808,6 +844,10 @@ input[type=radio] {
 
 .bp3-submenu.bp3-popover {
   padding: 0;
+}
+
+.bp3-menu {
+  min-width: 100px;
 }
 
 .bp3-popover .bp3-popover-content {
@@ -891,6 +931,20 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
   display: flex;
   flex: 1 1 auto;
   align-items: flex-start;
+}
+
+.rm-mentions-search .bp3-icon-search {
+  margin: 1.5px 0 0 0;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.rm-mentions-search--showing .bp3-icon-search {
+  margin-left: 2px;
+}
+
+div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-container) {
+  margin-top: 0px;
 }
 
 .window-headers {
@@ -1103,6 +1157,10 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
   border-radius: 0px !important;
 }
 
+.rm-settings .rm-settings-panel .flex-h-box > div:last-child {
+  margin-right: 0px;
+}
+
 .bp3-toast-message .bp3-button.bp3-small,
 .bp3-toast-message .bp3-small .bp3-button {
   min-height: 30px;
@@ -1126,17 +1184,12 @@ div[style*="margin-top: 24px"] .rm-reference-main > div > div:not(.rm-reference-
   top: 67px !important;
 }
 
-.bp3-popover.bp3-tooltip {
-  box-shadow: 0px 0px 0px 1px var(--fl-tooltip__arrow-border), 3px 3px 11px 3px rgba(0, 0, 0, 0.1) !important;
-  border: none !important;
-}
-
 .rm-topbar {
   transition: all ease-in-out 300ms;
 }
 
 .rm-topbar__spacer-sm {
-  flex: 0 0 0px;
+  flex: 0 0 2px;
 }
 
 span.bp3-popover-target {
@@ -1323,6 +1376,23 @@ span.bp3-popover-target {
   max-width: 640px;
   max-height: 600px;
   overflow: auto;
+}
+
+#todayTomorrow .bp3-icon-timeline-events {
+  min-width: 16px;
+  min-height: 16px;
+  margin: 4px;
+}
+
+#todayTomorrow .flex-items {
+  display: flex;
+  align-items: center;
+  line-height: 24px;
+  margin-right: 4px;
+}
+
+#todayTomorrow .flex-items:hover {
+  background: transparent;
 }
 
 /* Restore default settings for zotero base elements */

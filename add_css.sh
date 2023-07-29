@@ -5,6 +5,7 @@ echo "function initCSSThemes() {" >> src/index.ts
 echo "    css['system'] = '`cat src/RoamStudio/system/system.css | tr '\n' ' '`';" >> src/index.ts
 echo "    css['fixes'] = '`cat src/RoamStudio/common/fixes.css | tr '\n' ' '`';" >> src/index.ts
 echo "    css['fonts'] = '`cat src/RoamStudio/common/fonts.css | tr '\n' ' '`';" >> src/index.ts
+echo "    css['colors'] = '`cat src/RoamStudio/common/colors.css | tr '\n' ' '`';" >> src/index.ts
 echo "    css['quattro-auto'] = '`cat src/RoamStudio/inline/quattro-auto.css | tr '\n' ' '`';" >> src/index.ts
 echo "    css['quattro-common'] = '`cat src/RoamStudio/inline/quattro-common.css | tr '\n' ' '`';" >> src/index.ts
 echo "    css['quattro-dark'] = '`cat src/RoamStudio/inline/quattro-dark.css | tr '\n' ' '`';" >> src/index.ts
