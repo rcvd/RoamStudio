@@ -1,101 +1,102 @@
 import type { OnloadArgs } from "roamjs-components/types";
 
 let settings: { [key: string]: any } = {
-      "css-theme": "Quattro",
-      "css-appearance": "Auto",
-      "css-font-family": "Theme Default",
-      "css-code-font-family": "Theme Default",
-      "css-heading-font-family": "Theme Default",
-      "css-heading-spacing": "Theme Default",
-      "css-heading-level1-color": "Theme Default",
-      "css-heading-level2-color": "Theme Default",
-      "css-heading-level3-color": "Theme Default",
-      "css-heading-level1-color-lightness": "Theme Default",
-      "css-heading-level2-color-lightness": "Theme Default",
-      "css-heading-level3-color-lightness": "Theme Default",
-      "css-heading-level1-size": "Theme Default",
-      "css-heading-level2-size": "Theme Default",
-      "css-heading-level3-size": "Theme Default",
-      "css-heading-level1-style": "Theme Default",
-      "css-heading-level2-style": "Theme Default",
-      "css-heading-level3-style": "Theme Default",
-      "css-heading-level1-weight": "Theme Default",
-      "css-heading-level2-weight": "Theme Default",
-      "css-heading-level3-weight": "Theme Default",
-      "css-font-size": "medium",
-      "css-line-spacing": "medium",
-      "css-code-font-size": "medium",
-      "css-mobile-font-size": "medium",
-      "css-external-link-color": "Theme Default",
-      "css-external-link-color-lightness": "Theme Default",
-      "css-external-link-style": "Theme Default",
-      "css-external-link-border-lightness": "Theme Default",
-      "css-external-link-weight": "Theme Default",
-      "css-page-link-color": "Theme Default",
-      "css-page-link-color-lightness": "Theme Default",
-      "css-page-link-style": "Theme Default",
-      "css-page-link-border-lightness": "Theme Default",
-      "css-page-link-weight": "Theme Default",
-      "css-reference-link-color": "Theme Default",
-      "css-reference-link-color-lightness": "Theme Default",
-      "css-reference-link-style": "Theme Default",
-      "css-reference-link-border-lightness": "Theme Default",
-      "css-reference-link-weight": "Theme Default",
-      "css-block-link-color": "Theme Default",
-      "css-block-link-color-lightness": "Theme Default",
-      "css-block-link-style": "Theme Default",
-      "css-block-link-border-lightness": "Theme Default",
-      "css-block-link-weight": "Theme Default",
-      "css-tag-color": "Theme Default",
-      "css-tag-color-lightness": "Theme Default",
-      "css-tag-style": "Theme Default",
-      "css-tag-font-size": "Theme Default",
-      "css-tag-background": "Theme Default",
-      "css-tag-background-lightness": "Theme Default",
-      "css-tag-radius": "Theme Default",
-      "css-tag-padding": "Theme Default",
-      "css-date-icon": false,
-      "css-date-color": "Theme Default",
-      "css-date-color-lightness": "Theme Default",
-      "css-date-style": "Theme Default",
-      "css-date-font-size": "Theme Default",
-      "css-date-background": "Theme Default",
-      "css-date-background-lightness": "Theme Default",
-      "css-date-radius": "Theme Default",
-      "css-date-padding": "Theme Default",
-    },
-    modules: { [key: string]: boolean } = {
-      "css-advanced-heading-spacing": false,
-      "css-bullet-effects": false,
-      "css-centered-search": false,
-      "css-done": false,
-      "css-dynamic-images": false,
-      "css-dynamic-pdfs": false,
-      "css-feather-icons": false,
-      "css-hide-line-numbers": false,
-      "css-hide-logo": false,
-      "css-hide-shortcuts": false,
-      "css-hide-sidebar-icons": false,
-      "css-masonry": false,
-      "css-logpage-minheight": false,
-      "css-mobile-caret": false,
-      "css-mobile-sidebar": false,
-      "css-more-room": false,
-      "css-no-animations": false,
-      "css-subtle-controls": false,
-      "css-non-breakable-dates": false,
-      "css-topbar-borders": false,
-      "css-sidebar-borders": false,
-    },
-    css: { [key: string]: string } = {
-      system: "",
-      quattro: "",
-      things: "",
-      craft: "",
-      bear: "",
-      lesswrong: "",
-    },
-    extAPI: OnloadArgs["extensionAPI"];
+  "css-theme": "Quattro",
+  "css-appearance": "Auto",
+  "css-font-family": "Theme Default",
+  "css-code-font-family": "Theme Default",
+  "css-heading-font-family": "Theme Default",
+  "css-heading-spacing": "Theme Default",
+  "css-heading-level1-color": "Theme Default",
+  "css-heading-level2-color": "Theme Default",
+  "css-heading-level3-color": "Theme Default",
+  "css-heading-level1-color-lightness": "Theme Default",
+  "css-heading-level2-color-lightness": "Theme Default",
+  "css-heading-level3-color-lightness": "Theme Default",
+  "css-heading-level1-size": "Theme Default",
+  "css-heading-level2-size": "Theme Default",
+  "css-heading-level3-size": "Theme Default",
+  "css-heading-level1-style": "Theme Default",
+  "css-heading-level2-style": "Theme Default",
+  "css-heading-level3-style": "Theme Default",
+  "css-heading-level1-weight": "Theme Default",
+  "css-heading-level2-weight": "Theme Default",
+  "css-heading-level3-weight": "Theme Default",
+  "css-font-size": "medium",
+  "css-line-spacing": "medium",
+  "css-code-font-size": "medium",
+  "css-mobile-font-size": "medium",
+  "css-external-link-color": "Theme Default",
+  "css-external-link-color-lightness": "Theme Default",
+  "css-external-link-style": "Theme Default",
+  "css-external-link-border-lightness": "Theme Default",
+  "css-external-link-weight": "Theme Default",
+  "css-page-link-color": "Theme Default",
+  "css-page-link-color-lightness": "Theme Default",
+  "css-page-link-style": "Theme Default",
+  "css-page-link-border-lightness": "Theme Default",
+  "css-page-link-weight": "Theme Default",
+  "css-reference-link-color": "Theme Default",
+  "css-reference-link-color-lightness": "Theme Default",
+  "css-reference-link-style": "Theme Default",
+  "css-reference-link-border-lightness": "Theme Default",
+  "css-reference-link-weight": "Theme Default",
+  "css-block-link-color": "Theme Default",
+  "css-block-link-color-lightness": "Theme Default",
+  "css-block-link-style": "Theme Default",
+  "css-block-link-border-lightness": "Theme Default",
+  "css-block-link-weight": "Theme Default",
+  "css-tag-color": "Theme Default",
+  "css-tag-color-lightness": "Theme Default",
+  "css-tag-style": "Theme Default",
+  "css-tag-font-size": "Theme Default",
+  "css-tag-background": "Theme Default",
+  "css-tag-background-lightness": "Theme Default",
+  "css-tag-radius": "Theme Default",
+  "css-tag-padding": "Theme Default",
+  "css-date-icon": false,
+  "css-date-color": "Theme Default",
+  "css-date-color-lightness": "Theme Default",
+  "css-date-style": "Theme Default",
+  "css-date-font-size": "Theme Default",
+  "css-date-background": "Theme Default",
+  "css-date-background-lightness": "Theme Default",
+  "css-date-radius": "Theme Default",
+  "css-date-padding": "Theme Default",
+},
+  modules: { [key: string]: boolean } = {
+    "css-advanced-heading-spacing": false,
+    "css-bullet-effects": false,
+    "css-centered-search": false,
+    "css-done": false,
+    "css-dynamic-images": false,
+    "css-dynamic-pdfs": false,
+    "css-feather-icons": false,
+    "css-hide-line-numbers": false,
+    "css-hide-logo": false,
+    "css-hide-shortcuts": false,
+    "css-hide-sidebar-icons": false,
+    "css-masonry": false,
+    "css-logpage-minheight": false,
+    "css-mobile-caret": false,
+    "css-mobile-sidebar": false,
+    "css-more-room": false,
+    "css-no-animations": false,
+    "css-subtle-controls": false,
+    "css-non-breakable-dates": false,
+    "css-topbar-borders": false,
+    "css-sidebar-borders": false,
+  },
+  css: { [key: string]: string } = {
+    system: "",
+    quattro: "",
+    things: "",
+    craft: "",
+    bear: "",
+    lesswrong: "",
+    roam: ""
+  },
+  extAPI: OnloadArgs["extensionAPI"];
 
 function changeSettings(setting: string) {
   console.log("Changing setting: " + setting);
@@ -237,12 +238,12 @@ function changeTheme() {
 
     style.id = "roamstudio-css-theme";
     style.textContent =
-        css[settings["css-theme"].toLowerCase() + "-common"] +
-        css[
-        settings["css-theme"].toLowerCase() +
-        "-" +
-        settings["css-appearance"].toLowerCase()
-            ];
+      css[settings["css-theme"].toLowerCase() + "-common"] +
+      css[
+      settings["css-theme"].toLowerCase() +
+      "-" +
+      settings["css-appearance"].toLowerCase()
+      ];
     head.appendChild(style);
   } else {
     if (document.getElementById("roamstudio-css-system")) {
@@ -256,7 +257,7 @@ function toggleDarkMode() {
 
   if (settings["css-appearance"] == "Auto") {
     let btn = document.getElementsByClassName(
-        "bp3-icon-clean roamstudio-dm-toggle"
+      "bp3-icon-clean roamstudio-dm-toggle"
     )[0];
     btn.classList.remove("bp3-icon-clean");
     btn.classList.add("bp3-icon-flash");
@@ -265,7 +266,7 @@ function toggleDarkMode() {
     changeSettings("css-theme");
   } else if (settings["css-appearance"] == "Light") {
     let btn = document.getElementsByClassName(
-        "bp3-icon-flash roamstudio-dm-toggle"
+      "bp3-icon-flash roamstudio-dm-toggle"
     )[0];
     btn.classList.remove("bp3-icon-flash");
     btn.classList.add("bp3-icon-moon");
@@ -274,7 +275,7 @@ function toggleDarkMode() {
     changeSettings("css-theme");
   } else {
     let btn = document.getElementsByClassName(
-        "bp3-icon-moon roamstudio-dm-toggle"
+      "bp3-icon-moon roamstudio-dm-toggle"
     )[0];
     btn.classList.remove("bp3-icon-moon");
     btn.classList.add("bp3-icon-clean");
@@ -288,7 +289,7 @@ function setToggleIcon() {
   console.log("Set toggle icon: " + settings["css-appearance"]);
 
   let btn = document.getElementsByClassName(
-      "bp3-button roamstudio-dm-toggle"
+    "bp3-button roamstudio-dm-toggle"
   )[0];
 
   if (btn.classList.contains("bp3-icon-clean")) {
@@ -359,7 +360,7 @@ function changeFontSize() {
   const style = document.createElement("style");
   style.id = "roamstudio-css-font-size";
   style.textContent =
-      ":root {" + "--fs-app__html: " + fontSize + "px!important;};";
+    ":root {" + "--fs-app__html: " + fontSize + "px!important;};";
   head.appendChild(style);
 }
 
@@ -374,24 +375,24 @@ function changeLineSpacing() {
   switch (settings["css-line-spacing"]) {
     case "small":
       spacing =
-          ".roam-block, .rm-block__input {line-height: calc(var(--fs-main) + 6px); min-height: calc(var(--fs-main) + 12px); padding-top: 5px;};" +
-          "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level1) + 6px);}" +
-          "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level2) + 6px);}" +
-          "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level3) + 6px);}";
+        ".roam-block, .rm-block__input {line-height: calc(var(--fs-main) + 6px); min-height: calc(var(--fs-main) + 12px); padding-top: 5px;};" +
+        "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level1) + 6px);}" +
+        "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level2) + 6px);}" +
+        "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level3) + 6px);}";
       break;
     case "medium":
       spacing =
-          ".roam-block, .rm-block__input {line-height: calc(var(--fs-main) + 8px); min-height: calc(var(--fs-main) + 16px); padding-top: 4px;};" +
-          "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level1) + 8px);}" +
-          "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level2) + 8px);}" +
-          "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level3) + 8px);}";
+        ".roam-block, .rm-block__input {line-height: calc(var(--fs-main) + 8px); min-height: calc(var(--fs-main) + 16px); padding-top: 4px;};" +
+        "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level1) + 8px);}" +
+        "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level2) + 8px);}" +
+        "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level3) + 8px);}";
       break;
     case "large":
       spacing =
-          ".roam-block, .rm-block__input {line-height: calc(var(--fs-main) + 10px); min-height: calc(var(--fs-main) + 20px); padding-top: 3px;};" +
-          "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level1) + 10px);}" +
-          "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level2) + 10px);}" +
-          "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level3) + 10px);}";
+        ".roam-block, .rm-block__input {line-height: calc(var(--fs-main) + 10px); min-height: calc(var(--fs-main) + 20px); padding-top: 3px;};" +
+        "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level1) + 10px);}" +
+        "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level2) + 10px);}" +
+        "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {line-height: calc(var(--fs-main__level3) + 10px);}";
       break;
   }
 
@@ -406,7 +407,7 @@ function changeMobileFontSize() {
   let fontSize: number;
 
   console.log(
-      "Switching mobile font size: " + settings["css-mobile-font-size"]
+    "Switching mobile font size: " + settings["css-mobile-font-size"]
   );
   if (document.getElementById("roamstudio-css-mobile-font-size")) {
     document.getElementById("roamstudio-css-mobile-font-size").remove();
@@ -460,12 +461,12 @@ function changeHeadingFontSize(heading: String) {
   let fontSize: number;
 
   console.log(
-      "Switching base font size: " + settings["css-heading-" + heading + "-size"]
+    "Switching base font size: " + settings["css-heading-" + heading + "-size"]
   );
   if (document.getElementById("roamstudio-css-heading-" + heading + "-size")) {
     document
-        .getElementById("roamstudio-css-heading-" + heading + "-size")
-        .remove();
+      .getElementById("roamstudio-css-heading-" + heading + "-size")
+      .remove();
   }
 
   if (settings["css-heading-" + heading + "-size"] != "Theme Default") {
@@ -494,7 +495,7 @@ function changeHeadingFontSize(heading: String) {
     const style = document.createElement("style");
     style.id = "roamstudio-css-heading-" + heading + "-size";
     style.textContent =
-        ":root {" + "--fs-main__" + heading + ": " + fontSize + "rem;};";
+      ":root {" + "--fs-main__" + heading + ": " + fontSize + "rem;};";
     head.appendChild(style);
   }
 }
@@ -504,14 +505,14 @@ function changeHeadingFontColor(heading: String) {
   let headingColorLightnessDark: number;
 
   console.log(
-      "Switching heading link color: " +
-      settings["css-heading-" + heading + "-color"]
+    "Switching heading link color: " +
+    settings["css-heading-" + heading + "-color"]
   );
 
   if (document.getElementById("roamstudio-css-heading-" + heading + "-color")) {
     document
-        .getElementById("roamstudio-css-heading-" + heading + "-color")
-        .remove();
+      .getElementById("roamstudio-css-heading-" + heading + "-color")
+      .remove();
   }
 
   headingColorLightness = 600;
@@ -549,22 +550,18 @@ function changeHeadingFontColor(heading: String) {
     switch (settings["css-appearance"]) {
       case "Auto":
         style.textContent =
-            `:root {--co-main__${heading}: var(--cl-${
-                settings["css-heading-" + heading + "-color"]
-            }-${headingColorLightness});}` +
-            `@media(prefers-color-scheme: dark) {:root {--co-main__${heading}: var(--cl-${
-                settings["css-heading-" + heading + "-color"]
-            }-${headingColorLightness});}}`;
+          `:root {--co-main__${heading}: var(--cl-${settings["css-heading-" + heading + "-color"]
+          }-${headingColorLightness});}` +
+          `@media(prefers-color-scheme: dark) {:root {--co-main__${heading}: var(--cl-${settings["css-heading-" + heading + "-color"]
+          }-${headingColorLightness});}}`;
         break;
       case "Light":
-        style.textContent = `:root {--co-main__${heading}: var(--cl-${
-            settings["css-heading-" + heading + "-color"]
-        }-${headingColorLightness});}`;
+        style.textContent = `:root {--co-main__${heading}: var(--cl-${settings["css-heading-" + heading + "-color"]
+          }-${headingColorLightness});}`;
         break;
       case "Dark":
-        style.textContent = `:root {--co-main__${heading}: var(--cl-${
-            settings["css-heading-" + heading + "-color"]
-        }-${headingColorLightnessDark});}`;
+        style.textContent = `:root {--co-main__${heading}: var(--cl-${settings["css-heading-" + heading + "-color"]
+          }-${headingColorLightnessDark});}`;
         break;
     }
     head.appendChild(style);
@@ -583,21 +580,21 @@ function changeHeadingSpacing() {
     switch (settings["css-heading-spacing"]) {
       case "small":
         spacing =
-            "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {margin-top: 0rem;margin-bottom: 0rem;}" +
-            "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {margin-top: 0rem;margin-bottom: 0rem;}" +
-            "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {margin-top: 0rem;margin-bottom: 0rem;}";
+          "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {margin-top: 0rem;margin-bottom: 0rem;}" +
+          "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {margin-top: 0rem;margin-bottom: 0rem;}" +
+          "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {margin-top: 0rem;margin-bottom: 0rem;}";
         break;
       case "medium":
         spacing =
-            "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {margin-top: 1rem;margin-bottom: 0.5rem;}" +
-            "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {margin-top: 0.5rem;margin-bottom: 0.5rem;}" +
-            "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {margin-top: 0.5rem;margin-bottom: 0.5rem;}";
+          "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {margin-top: 1rem;margin-bottom: 0.5rem;}" +
+          "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {margin-top: 0.5rem;margin-bottom: 0.5rem;}" +
+          "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {margin-top: 0.5rem;margin-bottom: 0.5rem;}";
         break;
       case "large":
         spacing =
-            "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {margin-top: 2rem;margin-bottom: 1rem;}" +
-            "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {margin-top: 1rem;margin-bottom: 1rem;}" +
-            "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {margin-top: 1rem;margin-bottom: 1rem;}";
+          "rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-heading-level-1 > .rm-block__self > .controls, .rm-heading-level-1 > .rm-block__self > .rm-block__controls {margin-top: 2rem;margin-bottom: 1rem;}" +
+          "rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-heading-level-2 > .rm-block__self > .controls, .rm-heading-level-2 > .rm-block__self > .rm-block__controls {margin-top: 1rem;margin-bottom: 1rem;}" +
+          "rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-heading-level-3 > .rm-block__self > .controls, .rm-heading-level-3 > .rm-block__self > .rm-block__controls {margin-top: 1rem;margin-bottom: 1rem;}";
         break;
     }
 
@@ -653,7 +650,7 @@ function compileColor(color: string, lightness: number, invert: boolean) {
   }
   else {
     if (invert) {
-      lightnessStr = (1000-lightness).toString();
+      lightnessStr = (1000 - lightness).toString();
     } else {
       lightnessStr = lightness.toString();
     }
@@ -665,12 +662,12 @@ function compileColor(color: string, lightness: number, invert: boolean) {
 function compileBorder(style: string, color: string, lightness: number, invert: boolean) {
   let compiledBorder: string;
 
-   console.log("Compiling border: " + style + " " + color + " " + lightness + " " + invert);
+  console.log("Compiling border: " + style + " " + color + " " + lightness + " " + invert);
 
   if (style == "none") {
     compiledBorder = "none";
   }
-  else  {
+  else {
     compiledBorder = style + ' ' + compileColor(color, lightness, invert);
   }
 
@@ -707,13 +704,13 @@ function changeCodeFontSize() {
   const style = document.createElement("style");
   style.id = "roamstudio-css-code-font-size";
   style.textContent =
-      ":root {" +
-      "--fs-codeblock__code: " +
-      fontSize +
-      "px!important;" +
-      "--fs-codeblock__gutter: " +
-      fontSize +
-      "px;};";
+    ":root {" +
+    "--fs-codeblock__code: " +
+    fontSize +
+    "px!important;" +
+    "--fs-codeblock__gutter: " +
+    fontSize +
+    "px;};";
   head.appendChild(style);
 }
 
@@ -752,6 +749,14 @@ function changePageLink() {
     case "Things":
       pageLinkColor = "accent";
       pageLinkColorLightness = 500;
+      pageLinkBorderStyle = "0px solid ";
+      pageLinkBorderLightness = 900;
+      pageLinkBorderLightnessDark = 100;
+      break;
+
+    case "Roam":
+      pageLinkColor = "cerulean";
+      pageLinkColorLightness = 700;
       pageLinkBorderStyle = "0px solid ";
       pageLinkBorderLightness = 900;
       pageLinkBorderLightnessDark = 100;
@@ -837,8 +842,8 @@ function changePageLink() {
   switch (settings["css-appearance"]) {
     case "Auto":
       style.textContent =
-          `:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightness, false)};--bb-main__page-link--hover: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightness, false)};--co-main__page-link: ${compileColor(pageLinkColor, pageLinkColorLightness, false)};--co-main__page-link--hover: ${compileColor(pageLinkColor, pageLinkColorLightness, false)};}` +
-          `@media (prefers-color-scheme: dark) {:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightnessDark, true)};--bb-main__page-link: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightnessDark, true)};--co-main__page-link: ${compileColor(pageLinkColor, pageLinkColorLightnessDark, true)};--co-main__page-link--hover: ${compileColor(pageLinkColor, pageLinkColorLightnessDark, true)};}}`;
+        `:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightness, false)};--bb-main__page-link--hover: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightness, false)};--co-main__page-link: ${compileColor(pageLinkColor, pageLinkColorLightness, false)};--co-main__page-link--hover: ${compileColor(pageLinkColor, pageLinkColorLightness, false)};}` +
+        `@media (prefers-color-scheme: dark) {:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightnessDark, true)};--bb-main__page-link: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightnessDark, true)};--co-main__page-link: ${compileColor(pageLinkColor, pageLinkColorLightnessDark, true)};--co-main__page-link--hover: ${compileColor(pageLinkColor, pageLinkColorLightnessDark, true)};}}`;
       break;
     case "Dark":
       style.textContent = `:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightnessDark, true)};--bb-main__page-link: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightnessDark, true)};--co-main__page-link: ${compileColor(pageLinkColor, pageLinkColorLightnessDark, true)};--co-main__page-link--hover: ${compileColor(pageLinkColor, pageLinkColorLightnessDark, true)};}`;
@@ -883,6 +888,14 @@ function changeExternalLink() {
 
     case "Things":
       externalLinkColor = "gray";
+      externalLinkColorLightness = 700;
+      externalLinkBorderStyle = "0px solid ";
+      externalLinkBorderLightness = 900;
+      externalLinkBorderLightnessDark = 100;
+      break;
+
+    case "Roam":
+      externalLinkColor = "cerulean";
       externalLinkColorLightness = 700;
       externalLinkBorderStyle = "0px solid ";
       externalLinkBorderLightness = 900;
@@ -969,14 +982,14 @@ function changeExternalLink() {
   switch (settings["css-appearance"]) {
     case "Auto":
       style.textContent =
-          `:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__alias: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__a--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__alias--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--co-main__a: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__alias: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__external-link--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__a--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__alias--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};}` +
-          `@media (prefers-color-scheme: dark) {:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--bb-main__alias: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--bb-main__a--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--bb-main__alias--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--co-main__a: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__alias: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__external-link--hover: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__a--hover: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__alias--hover: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};}}`;
+        `:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__alias: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__a--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__alias--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--co-main__a: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__alias: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__external-link--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__a--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__alias--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};}` +
+        `@media (prefers-color-scheme: dark) {:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--bb-main__alias: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--bb-main__a--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--bb-main__alias--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--co-main__a: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__alias: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__external-link--hover: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__a--hover: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__alias--hover: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};}}`;
       break;
     case "Dark":
       style.textContent = `:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--bb-main__alias: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--bb-main__a--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--bb-main__alias--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--co-main__a: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__alias: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__external-link--hover: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__a--hover: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__alias--hover: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};}`;
       break;
     case "Light":
-      style.textContent = `:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__alias: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__a--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__alias--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--co-main__a: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__alias: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__external-link--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__a--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__alias--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};}` ;
+      style.textContent = `:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__alias: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__a--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__alias--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--co-main__a: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__alias: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__external-link--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__a--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__alias--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};}`;
       break;
   }
   head.appendChild(style);
@@ -1015,6 +1028,14 @@ function changeReferenceLink() {
 
     case "Things":
       referenceLinkColor = "gray";
+      referenceLinkColorLightness = 700;
+      referenceLinkBorderStyle = "0px solid ";
+      referenceLinkBorderLightness = 900;
+      referenceLinkBorderLightnessDark = 100;
+      break;
+
+    case "Roam":
+      referenceLinkColor = "cerulean";
       referenceLinkColorLightness = 700;
       referenceLinkBorderStyle = "0px solid ";
       referenceLinkBorderLightness = 900;
@@ -1102,7 +1123,7 @@ function changeReferenceLink() {
   switch (settings["css-appearance"]) {
     case "Auto":
       style.textContent = `:root {--fw-reference__page-title: ${settings["css-reference-link-weight"]};--bb-reference__page-title: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightness, false)};--bb-reference__page-title--hover: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightness, false)};--co-reference__page-title: ${compileColor(referenceLinkColor, referenceLinkColorLightness, false)};--co-reference__page-title--hover: ${compileColor(referenceLinkColor, referenceLinkColorLightness, false)};}` +
-          `@media (prefers-color-scheme: dark) {:root {--fw-reference__page-title: ${settings["css-reference-link-weight"]};--bb-reference__page-title: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightnessDark, true)};--bb-reference__page-title--hover: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightnessDark, true)};--co-reference__page-title: ${compileColor(referenceLinkColor, referenceLinkColorLightnessDark, true)};--co-reference__page-title--hover: ${compileColor(referenceLinkColor, referenceLinkColorLightnessDark, true)};}}`;
+        `@media (prefers-color-scheme: dark) {:root {--fw-reference__page-title: ${settings["css-reference-link-weight"]};--bb-reference__page-title: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightnessDark, true)};--bb-reference__page-title--hover: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightnessDark, true)};--co-reference__page-title: ${compileColor(referenceLinkColor, referenceLinkColorLightnessDark, true)};--co-reference__page-title--hover: ${compileColor(referenceLinkColor, referenceLinkColorLightnessDark, true)};}}`;
       break;
     case "Dark":
       style.textContent = `:root {--fw-reference__page-title: ${settings["css-reference-link-weight"]};--bb-reference__page-title: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightnessDark, true)};--bb-reference__page-title--hover: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightnessDark, true)};--co-reference__page-title: ${compileColor(referenceLinkColor, referenceLinkColorLightnessDark, true)};--co-reference__page-title--hover: ${compileColor(referenceLinkColor, referenceLinkColorLightnessDark, true)};}`;
@@ -1145,6 +1166,13 @@ function changeBlockLink() {
       break;
 
     case "Things":
+      blockLinkColor = "gray";
+      blockLinkColorLightness = 900;
+      blockLinkBorderStyle = "1px dotted ";
+      blockLinkBorderLightness = 300;
+      break;
+
+    case "Roam":
       blockLinkColor = "gray";
       blockLinkColorLightness = 900;
       blockLinkBorderStyle = "1px dotted ";
@@ -1232,7 +1260,7 @@ function changeBlockLink() {
   switch (settings["css-appearance"]) {
     case "Auto":
       style.textContent = `:root {--fw-main__block-ref: ${settings["css-block-link-weight"]};--bb-main__block-ref: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightness, false)};--bb-main__block-ref--hover: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightness, false)};--co-main__block-ref: ${compileColor(blockLinkColor, blockLinkColorLightness, false)};--co-main__block-ref--hover: ${compileColor(blockLinkColor, blockLinkColorLightness, false)};}` +
-          `@media (prefers-color-scheme: dark) {:root {--fw-main__block-ref: ${settings["css-block-link-weight"]};--bb-main__block-ref: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightnessDark, true)};--bb-main__block-ref--hover: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightnessDark, true)};--co-main__block-ref: ${compileColor(blockLinkColor, blockLinkColorLightnessDark, true)};--co-main__block-ref--hover: ${compileColor(blockLinkColor, blockLinkColorLightnessDark, true)};}}`;
+        `@media (prefers-color-scheme: dark) {:root {--fw-main__block-ref: ${settings["css-block-link-weight"]};--bb-main__block-ref: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightnessDark, true)};--bb-main__block-ref--hover: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightnessDark, true)};--co-main__block-ref: ${compileColor(blockLinkColor, blockLinkColorLightnessDark, true)};--co-main__block-ref--hover: ${compileColor(blockLinkColor, blockLinkColorLightnessDark, true)};}}`;
       break;
     case "Dark":
       style.textContent = `:root {--fw-main__block-ref: ${settings["css-block-link-weight"]};--bb-main__block-ref: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightnessDark, true)};--bb-main__block-ref--hover: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightnessDark, true)};--co-main__block-ref: ${compileColor(blockLinkColor, blockLinkColorLightnessDark, true)};--co-main__block-ref--hover: ${compileColor(blockLinkColor, blockLinkColorLightnessDark, true)};}`;
@@ -1307,6 +1335,23 @@ function changeTag() {
       tagRadius = "15";
       tagBorderStyle = "none";
       tagFontSize = "0.9rem";
+      break;
+
+    case "Roam":
+      tagColor = "gray";
+      tagBackground = "transparent";
+      tagColorLightness = 300;
+      tagBorderLightness = 400;
+      tagBackgroundLightness = 100;
+
+      tagColorLightnessDark = 700;
+      tagBorderLightnessDark = 500;
+      tagBackgroundLightnessDark = 100;
+
+      tagPadding = "0";
+      tagRadius = "0";
+      tagBorderStyle = "0px solid";
+      tagFontSize = "1rem";
       break;
   }
 
@@ -1426,10 +1471,18 @@ function changeTag() {
 
   if (settings["css-tag-color"] != "Theme Default") {
     tagColor = settings["css-tag-color"];
+
+    if (settings["css-theme"] == "Quattro" && tagColor == "gray" ) {
+      tagColor = "neutral";
+    }
   }
 
   if (settings["css-tag-background"] != "Theme Default") {
     tagBackground = settings["css-tag-background"];
+
+    if (settings["css-theme"] == "Quattro" && tagBackground == "gray" ) {
+      tagBackground = "neutral";
+    }
   }
 
   const head = document.getElementsByTagName("head")[0];
@@ -1438,24 +1491,25 @@ function changeTag() {
   switch (settings["css-appearance"]) {
     case "Auto":
       style.textContent =
-          `.rm-page-ref--tag, span[data-tag="tags"], .rm-page-ref--tag:hover {padding: ${tagPadding};};` +
-          `:root {--bd-main__tags: ${tagRadius}px;--bd-main__tags--hover: ${tagRadius}px;--fs-main__tags: ${tagFontSize};--bb-main__tags: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightness, false)};--bb-main__tags--hover: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightness, false)};--co-main__tags: ${compileColor(tagColor, tagColorLightness, false)};--co-main__tags--hover: ${compileColor(tagColor, tagColorLightness, false)};--bc-main__tags: ${compileColor(tagBackground, tagBackgroundLightness, false)};--bc-main__tags--hover: ${compileColor(tagBackground, tagBackgroundLightness, false)};}` +
-          `@media (prefers-color-scheme: dark) {.rm-page-ref--tag, span[data-tag="tags"], .rm-page-ref--tag:hover {padding: ${tagPadding};}` +
-          `:root {--bd-main__tags: ${tagRadius}px;--bd-main__tags--hover: ${tagRadius}px;--fs-main__tags: ${tagFontSize};--bb-main__tags: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightnessDark, true)};--bb-main__tags--hover: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightnessDark, true)};--co-main__tags: ${compileColor(tagColor, tagColorLightnessDark, true)};--co-main__tags--hover: ${compileColor(tagColor, tagColorLightnessDark, true)};--bc-main__tags: ${compileColor(tagBackground, tagBackgroundLightnessDark, true)};--bc-main__tags--hover: ${compileColor(tagBackground, tagBackgroundLightnessDark, true)};}}`;
+        `.rm-page-ref--tag, span[data-tag="tags"], .rm-page-ref--tag:hover {padding: ${tagPadding};}` +
+        `:root {--bd-main__tags: ${tagRadius}px;--bd-main__tags--hover: ${tagRadius}px;--fs-main__tags: ${tagFontSize};--bb-main__tags: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightness, false)};--bb-main__tags--hover: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightness, false)};--co-main__tags: ${compileColor(tagColor, tagColorLightness, false)};--co-main__tags--hover: ${compileColor(tagColor, tagColorLightness, false)};--bc-main__tags: ${compileColor(tagBackground, tagBackgroundLightness, false)};--bc-main__tags--hover: ${compileColor(tagBackground, tagBackgroundLightness, false)};}` +
+        `@media (prefers-color-scheme: dark) {.rm-page-ref--tag, span[data-tag="tags"], .rm-page-ref--tag:hover {padding: ${tagPadding};}` +
+        `:root {--bd-main__tags: ${tagRadius}px;--bd-main__tags--hover: ${tagRadius}px;--fs-main__tags: ${tagFontSize};--bb-main__tags: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightnessDark, true)};--bb-main__tags--hover: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightnessDark, true)};--co-main__tags: ${compileColor(tagColor, tagColorLightnessDark, true)};--co-main__tags--hover: ${compileColor(tagColor, tagColorLightnessDark, true)};--bc-main__tags: ${compileColor(tagBackground, tagBackgroundLightnessDark, true)};--bc-main__tags--hover: ${compileColor(tagBackground, tagBackgroundLightnessDark, true)};}}`;
       break;
     case "Dark":
       style.textContent =
-          `.rm-page-ref--tag, span[data-tag="tags"], .rm-page-ref--tag:hover {padding: ${tagPadding};};` +
-          `:root {--bd-main__tags: ${tagRadius}px;--bd-main__tags--hover: ${tagRadius}px;--fs-main__tags: ${tagFontSize};--bb-main__tags: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightnessDark, true)};--bb-main__tags--hover: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightnessDark, true)};--co-main__tags: ${compileColor(tagColor, tagColorLightnessDark, true)};--co-main__tags--hover: ${compileColor(tagColor, tagColorLightnessDark, true)};--bc-main__tags: ${compileColor(tagBackground, tagBackgroundLightnessDark, true)};--bc-main__tags--hover: ${compileColor(tagBackground, tagBackgroundLightnessDark, true)};}`;
+        `.rm-page-ref--tag, span[data-tag="tags"], .rm-page-ref--tag:hover {padding: ${tagPadding};}` +
+        `:root {--bd-main__tags: ${tagRadius}px;--bd-main__tags--hover: ${tagRadius}px;--fs-main__tags: ${tagFontSize};--bb-main__tags: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightnessDark, true)};--bb-main__tags--hover: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightnessDark, true)};--co-main__tags: ${compileColor(tagColor, tagColorLightnessDark, true)};--co-main__tags--hover: ${compileColor(tagColor, tagColorLightnessDark, true)};--bc-main__tags: ${compileColor(tagBackground, tagBackgroundLightnessDark, true)};--bc-main__tags--hover: ${compileColor(tagBackground, tagBackgroundLightnessDark, true)};}`;
       break;
     case "Light":
       style.textContent =
-          `.rm-page-ref--tag, span[data-tag="tags"], .rm-page-ref--tag:hover {padding: ${tagPadding};};` +
-          `:root {--bd-main__tags: ${tagRadius}px;--bd-main__tags--hover: ${tagRadius}px;--fs-main__tags: ${tagFontSize};--bb-main__tags: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightness, false)};--bb-main__tags--hover: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightness, false)};--co-main__tags: ${compileColor(tagColor, tagColorLightness, false)};--co-main__tags--hover: ${compileColor(tagColor, tagColorLightness, false)};--bc-main__tags: ${compileColor(tagBackground, tagBackgroundLightness, false)};--bc-main__tags--hover: ${compileColor(tagBackground, tagBackgroundLightness, false)};}`;
+        `.rm-page-ref--tag, span[data-tag="tags"], .rm-page-ref--tag:hover {padding: ${tagPadding};}` +
+        `:root {--bd-main__tags: ${tagRadius}px;--bd-main__tags--hover: ${tagRadius}px;--fs-main__tags: ${tagFontSize};--bb-main__tags: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightness, false)};--bb-main__tags--hover: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightness, false)};--co-main__tags: ${compileColor(tagColor, tagColorLightness, false)};--co-main__tags--hover: ${compileColor(tagColor, tagColorLightness, false)};--bc-main__tags: ${compileColor(tagBackground, tagBackgroundLightness, false)};--bc-main__tags--hover: ${compileColor(tagBackground, tagBackgroundLightness, false)};}`;
       break;
   }
   head.appendChild(style);
 }
+
 
 function changeDate() {
   let dateColorLightness: number;
@@ -1517,6 +1571,20 @@ function changeDate() {
       dateRadius = "15px";
       dateBorderStyle = "none";
       dateFontSize = "0.9rem";
+      break;
+
+    case "Roam":
+      dateColor = "cerulean";
+      dateBackground = "transparent";
+      dateColorLightness = 700;
+      dateBackgroundLightness = 100;
+      dateColorLightnessDark = 700;
+      dateColorBorderLightness = 400;
+      dateColorBorderLightnessDark = 500;
+      datePadding = "0";
+      dateRadius = "0";
+      dateBorderStyle = "0px solid";
+      dateFontSize = "1rem";
       break;
   }
 
@@ -1636,10 +1704,18 @@ function changeDate() {
 
   if (settings["css-date-color"] != "Theme Default") {
     dateColor = settings["css-date-color"];
+
+    if (settings["css-theme"] == "Quattro" && dateColor == "gray" ) {
+      dateColor = "neutral";
+    }
   }
 
   if (settings["css-date-background"] != "Theme Default") {
     dateBackground = settings["css-date-background"];
+
+    if (settings["css-theme"] == "Quattro" && dateBackground == "gray" ) {
+      dateBackground = "neutral";
+    }
   }
 
   const head = document.getElementsByTagName("head")[0];
@@ -1648,20 +1724,20 @@ function changeDate() {
   switch (settings["css-appearance"]) {
     case "Auto":
       style.textContent =
-          `:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref,:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref:hover {padding: ${datePadding};}` +
-          `:root {--bd-main__date-link: ${dateRadius}px;--bd-main__date-link--hover: ${dateRadius}px;--fs-main__date-link: ${dateFontSize};--bb-main__date-link: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightness, false)};--bb-main__date-link--hover: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightness, false)};--co-main__date-link: ${compileColor(dateColor, dateColorLightness, false)};--co-main__date-link--hover: ${compileColor(dateColor, dateColorLightness, false)};--bc-main__date-link: ${compileColor(dateBackground, dateBackgroundLightness, false)};--bc-main__date-link--hover: ${compileColor(dateBackground, dateBackgroundLightness, false)};}` +
-          `@media (prefers-color-scheme: dark) {:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref,:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref:hover {padding: ${datePadding};}` +
-          `:root {--bd-main__date-link: ${dateRadius}px;--bd-main__date-link--hover: ${dateRadius}px;--fs-main__date-link: ${dateFontSize};--bb-main__date-link: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightnessDark, true)};--bb-main__date-link--hover: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightnessDark, true)};--co-main__date-link: ${compileColor(dateColor, dateColorLightnessDark, true)};--co-main__date-link--hover: ${compileColor(dateColor, dateColorLightnessDark, true)};--bc-main__date-link: ${compileColor(dateBackground, dateBackgroundLightness, true)};--bc-main__date-link--hover: ${compileColor(dateBackground, dateBackgroundLightness, true)};}}`;
+        `:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref,:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref:hover {padding: ${datePadding};}` +
+        `:root {--bd-main__date-link: ${dateRadius}px;--bd-main__date-link--hover: ${dateRadius}px;--fs-main__date-link: ${dateFontSize};--bb-main__date-link: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightness, false)};--bb-main__date-link--hover: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightness, false)};--co-main__date-link: ${compileColor(dateColor, dateColorLightness, false)};--co-main__date-link--hover: ${compileColor(dateColor, dateColorLightness, false)};--bc-main__date-link: ${compileColor(dateBackground, dateBackgroundLightness, false)};--bc-main__date-link--hover: ${compileColor(dateBackground, dateBackgroundLightness, false)};}` +
+        `@media (prefers-color-scheme: dark) {:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref,:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref:hover {padding: ${datePadding};}` +
+        `:root {--bd-main__date-link: ${dateRadius}px;--bd-main__date-link--hover: ${dateRadius}px;--fs-main__date-link: ${dateFontSize};--bb-main__date-link: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightnessDark, true)};--bb-main__date-link--hover: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightnessDark, true)};--co-main__date-link: ${compileColor(dateColor, dateColorLightnessDark, true)};--co-main__date-link--hover: ${compileColor(dateColor, dateColorLightnessDark, true)};--bc-main__date-link: ${compileColor(dateBackground, dateBackgroundLightness, true)};--bc-main__date-link--hover: ${compileColor(dateBackground, dateBackgroundLightness, true)};}}`;
       break;
     case "Dark":
       style.textContent =
-          `:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref,:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref:hover {padding: ${datePadding};}` +
-          `:root {--bd-main__date-link: ${dateRadius}px;--bd-main__date-link--hover: ${dateRadius}px;--fs-main__date-link: ${dateFontSize};--bb-main__date-link: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightnessDark, true)};--bb-main__date-link--hover: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightnessDark, true)};--co-main__date-link: ${compileColor(dateColor, dateColorLightnessDark, true)};--co-main__date-link--hover: ${compileColor(dateColor, dateColorLightnessDark, true)};--bc-main__date-link: ${compileColor(dateBackground, dateBackgroundLightness, true)};--bc-main__date-link--hover: ${compileColor(dateBackground, dateBackgroundLightness, true)};}`;
+        `:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref,:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref:hover {padding: ${datePadding};}` +
+        `:root {--bd-main__date-link: ${dateRadius}px;--bd-main__date-link--hover: ${dateRadius}px;--fs-main__date-link: ${dateFontSize};--bb-main__date-link: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightnessDark, true)};--bb-main__date-link--hover: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightnessDark, true)};--co-main__date-link: ${compileColor(dateColor, dateColorLightnessDark, true)};--co-main__date-link--hover: ${compileColor(dateColor, dateColorLightnessDark, true)};--bc-main__date-link: ${compileColor(dateBackground, dateBackgroundLightness, true)};--bc-main__date-link--hover: ${compileColor(dateBackground, dateBackgroundLightness, true)};}`;
       break;
     case "Light":
       style.textContent =
-          `:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref,:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref:hover {padding: ${datePadding};}` +
-          `:root {--bd-main__date-link: ${dateRadius}px;--bd-main__date-link--hover: ${dateRadius}px;--fs-main__date-link: ${dateFontSize};--bb-main__date-link: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightness, false)};--bb-main__date-link--hover: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightness, false)};--co-main__date-link: ${compileColor(dateColor, dateColorLightness, false)};--co-main__date-link--hover: ${compileColor(dateColor, dateColorLightness, false)};--bc-main__date-link: ${compileColor(dateBackground, dateBackgroundLightness, false)};--bc-main__date-link--hover: ${compileColor(dateBackground, dateBackgroundLightness, false)};}`;
+        `:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref,:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref:hover {padding: ${datePadding};}` +
+        `:root {--bd-main__date-link: ${dateRadius}px;--bd-main__date-link--hover: ${dateRadius}px;--fs-main__date-link: ${dateFontSize};--bb-main__date-link: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightness, false)};--bb-main__date-link--hover: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightness, false)};--co-main__date-link: ${compileColor(dateColor, dateColorLightness, false)};--co-main__date-link--hover: ${compileColor(dateColor, dateColorLightness, false)};--bc-main__date-link: ${compileColor(dateBackground, dateBackgroundLightness, false)};--bc-main__date-link--hover: ${compileColor(dateBackground, dateBackgroundLightness, false)};}`;
       break;
   }
   head.appendChild(style);
@@ -1669,10 +1745,10 @@ function changeDate() {
 
 function changeDateIcon() {
   console.log(
-      "Switching date icon: " +
-      settings["css-date-icon"] +
-      " " +
-      modules["css-feather-icons"]
+    "Switching date icon: " +
+    settings["css-date-icon"] +
+    " " +
+    modules["css-feather-icons"]
   );
 
   const head = document.getElementsByTagName("head")[0];
@@ -1903,7 +1979,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         description: "Select your base theme",
         action: {
           type: "select",
-          items: ["Craft", "Quattro", "Things"],
+          items: ["Craft", "Quattro", "Things", "Roam"],
           onChange: (evt) => {
             settings["css-theme"] = evt.toString();
             changeSettings("css-theme");
@@ -1914,7 +1990,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-appearance",
         name: "Appearance",
         description:
-            "Select the themes appearance (choose 'Auto' if the theme should adapt your systems settings)",
+          "Select the themes appearance (choose 'Auto' if the theme should adapt your systems settings)",
         action: {
           type: "select",
           items: ["Dark", "Light", "Auto"],
@@ -1942,7 +2018,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-font-family",
         name: "Font Family",
         description:
-            "Select your main font family (changes the font used on pages)",
+          "Select your main font family (changes the font used on pages)",
         action: {
           type: "select",
           items: [
@@ -2079,7 +2155,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-heading-level1-color-lightness",
         name: "Heading Level 1 Color Lightness",
         description:
-            "Select the lightness of the color of your level 1 headings",
+          "Select the lightness of the color of your level 1 headings",
         action: {
           type: "select",
           items: [
@@ -2157,7 +2233,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-heading-level2-color-lightness",
         name: "Heading Level 2 Color Lightness",
         description:
-            "Select the lightness of the color of your level 2 headings",
+          "Select the lightness of the color of your level 2 headings",
         action: {
           type: "select",
           items: [
@@ -2235,7 +2311,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-heading-level3-color-lightness",
         name: "Heading Level 3 Color Lightness",
         description:
-            "Select the lightness of the color of your level 3 headings",
+          "Select the lightness of the color of your level 3 headings",
         action: {
           type: "select",
           items: [
@@ -2258,7 +2334,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-heading-spacing",
         name: "Heading Spacing",
         description:
-            "Select the spacing of your headings (the free space above and below the heading)",
+          "Select the spacing of your headings (the free space above and below the heading)",
         action: {
           type: "select",
           items: ["Theme Default", "small", "medium", "large"],
@@ -3135,7 +3211,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-non-breakable-dates",
         name: "No line-break within dates",
         description:
-            "Dates are not wrapped at the end of the line but transferred to the next line.",
+          "Dates are not wrapped at the end of the line but transferred to the next line.",
         action: {
           type: "switch",
           onChange: (evt) => {
@@ -3172,7 +3248,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-centered-search",
         name: "Centered Search",
         description:
-            "Centers the find or create dialog, hides the search icon (use keyboard shortcuts :))",
+          "Centers the find or create dialog, hides the search icon (use keyboard shortcuts :))",
         action: {
           type: "switch",
           onChange: (evt) => {
@@ -3185,7 +3261,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-no-animations",
         name: "Disable Animations",
         description:
-            "Disable all animations and transitions to speed up the UI",
+          "Disable all animations and transitions to speed up the UI",
         action: {
           type: "switch",
           onChange: (evt) => {
@@ -3258,7 +3334,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-hide-sidebar-icons",
         name: "Hide Sidebar Icons",
         description:
-            "Hide Sidebar Icons (Daily Notes Page, Graph, All Pages, Roam Depot) and make text bold",
+          "Hide Sidebar Icons (Daily Notes Page, Graph, All Pages, Roam Depot) and make text bold",
         action: {
           type: "switch",
           onChange: (evt) => {
@@ -3271,7 +3347,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-logpage-minheight",
         name: "Remove Logpage minimum height",
         description:
-            "Removes the height settings from the day blocks on the log page",
+          "Removes the height settings from the day blocks on the log page",
         action: {
           type: "switch",
           onChange: (evt) => {
@@ -3284,7 +3360,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-masonry",
         name: "Masonry Sidebar",
         description:
-            "Change the right sidebar to a masonry view of the windows",
+          "Change the right sidebar to a masonry view of the windows",
         action: {
           type: "switch",
           onChange: (evt) => {
@@ -3333,7 +3409,7 @@ function onload({ extensionAPI }: OnloadArgs) {
         id: "css-subtle-controls",
         name: "Subtle Controls",
         description:
-            "Make controls (bullets, carets and multibars) less intrusive when block is not focused",
+          "Make controls (bullets, carets and multibars) less intrusive when block is not focused",
         action: {
           type: "switch",
           onChange: (evt) => {

@@ -1,6 +1,13 @@
 # Roam Studio
 
-Discover a wide range of themes for Roam Research that are beautiful and highly customizable, with various options and modules to choose from.
+## Important Notice
+A large update is coming soon which dramatically changes the inner architecture of Roam Studio. This will break your current settings. 
+
+- Lightning fast UI performance
+- Consistent theming throughout the app in dark and light mode with 5 themes
+- Enhanced readability and better layout for Roam's base components
+- Mobile enhancements
+- Popular Roam Depot plugins will be themed
 
 ## If you want to support my work
 
