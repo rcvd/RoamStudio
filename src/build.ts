@@ -3498,7 +3498,4 @@ function onunload() {
   console.log("Unloaded Roam Studio");
 }
 
-export default {
-  onload: onload,
-  onunload: onunload
-};
+export { onload, onunload };
