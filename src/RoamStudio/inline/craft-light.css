@@ -1429,7 +1429,7 @@
   --co-main__block-ref--hover: var(--cl-gray-850);
   --td-main__block-ref--hover: ;
   --bb-main__block-ref: 1px dotted var(--cl-gray-300);
-  --co-main__block-ref: ;
+  --co-main__block-ref: var(--cl-gray-850);
   --fw-main__block-ref: ;
   --td-main__block-ref: ;
   --co-main__block-strikethrough: var(--cl-gray-500);

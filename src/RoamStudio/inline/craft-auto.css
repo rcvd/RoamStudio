@@ -1429,7 +1429,7 @@
   --co-main__block-ref--hover: var(--cl-gray-850);
   --td-main__block-ref--hover: ;
   --bb-main__block-ref: 1px dotted var(--cl-gray-300);
-  --co-main__block-ref: ;
+  --co-main__block-ref: var(--cl-gray-850);
   --fw-main__block-ref: ;
   --td-main__block-ref: ;
   --co-main__block-strikethrough: var(--cl-gray-500);
@@ -3823,11 +3823,11 @@
     --bd-main__block-input: 5px;
     --co-main__block-input: var(--cl-gray-400);
     --bc-main__block-ref--hover: transparent;
-    --bb-main__block-ref--hover: ;
+    --bb-main__block-ref--hover: 1px dotted var(--cl-gray-550);
     --co-main__block-ref--hover: var(--cl-gray-400);
     --td-main__block-ref--hover: ;
     --bb-main__block-ref: 1px dotted var(--cl-gray-550);
-    --co-main__block-ref: ;
+    --co-main__block-ref: var(--cl-gray-400);
     --fw-main__block-ref: ;
     --td-main__block-ref: ;
     --co-main__block-strikethrough: var(--cl-gray-550);
@@ -3977,10 +3977,10 @@
     --co-main__namespace: var(--cl-gray-400);
     --td-main__namespace: none;
     --fs-main__numbered-list: 1rem;
-    --bb-main__page-link--hover: 3px solid var(--cl-gray-525);
+    --bb-main__page-link--hover: 3px solid var(--cl-gray-500);
     --co-main__page-link--hover: var(--cl-gray-300);
     --td-main__page-link--hover: none;
-    --bb-main__page-link: 3px solid var(--cl-gray-525);
+    --bb-main__page-link: 3px solid var(--cl-gray-500);
     --co-main__page-link: var(--cl-gray-300);
     --fw-main__page-link: inherit;
     --td-main__page-link: none;

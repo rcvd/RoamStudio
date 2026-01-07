@@ -1425,11 +1425,11 @@
   --bd-main__block-input: 5px;
   --co-main__block-input: var(--cl-neutral-400);
   --bc-main__block-ref--hover: transparent;
-  --bb-main__block-ref--hover: ;
-  --co-main__block-ref--hover: var(--cl-neutral-400);
+  --bb-main__block-ref--hover: 1px dotted var(--cl-neutral-550);
+  --co-main__block-ref--hover: var(--cl-accent-400);
   --td-main__block-ref--hover: ;
   --bb-main__block-ref: 1px dotted var(--cl-neutral-550);
-  --co-main__block-ref: ;
+  --co-main__block-ref: var(--cl-accent-400);
   --fw-main__block-ref: ;
   --td-main__block-ref: ;
   --co-main__block-strikethrough: var(--cl-neutral-500);

@@ -717,10 +717,9 @@ function changeCodeFontSize() {
 function changePageLink() {
   let pageLinkColor: string;
   let pageLinkColorLightness: number;
-  let pageLinkColorLightnessDark: number;
   let pageLinkBorderStyle: string;
   let pageLinkBorderLightness: number;
-  let pageLinkBorderLightnessDark: number;
+  let pageLinkFontWeight: string;
 
   console.log("Switching page link color: " + settings["css-page-link-color"]);
 
@@ -732,10 +731,9 @@ function changePageLink() {
     case "Quattro":
       pageLinkColor = "neutral";
       pageLinkColorLightness = 900;
-      pageLinkColorLightnessDark = 700;     // remember to invert this
       pageLinkBorderStyle = "1px solid ";
       pageLinkBorderLightness = 400;
-      pageLinkBorderLightnessDark = 500;
+      pageLinkFontWeight = "normal";
       break;
 
     case "Craft":
@@ -743,7 +741,7 @@ function changePageLink() {
       pageLinkColorLightness = 900;
       pageLinkBorderStyle = "3px solid ";
       pageLinkBorderLightness = 300;
-      pageLinkBorderLightnessDark = 700;
+      pageLinkFontWeight = "normal";
       break;
 
     case "Things":
@@ -751,7 +749,7 @@ function changePageLink() {
       pageLinkColorLightness = 500;
       pageLinkBorderStyle = "0px solid ";
       pageLinkBorderLightness = 900;
-      pageLinkBorderLightnessDark = 100;
+      pageLinkFontWeight = "normal";
       break;
 
     case "Roam":
@@ -759,7 +757,7 @@ function changePageLink() {
       pageLinkColorLightness = 700;
       pageLinkBorderStyle = "0px solid ";
       pageLinkBorderLightness = 900;
-      pageLinkBorderLightnessDark = 100;
+      pageLinkFontWeight = "normal";
       break;
   }
 
@@ -842,14 +840,14 @@ function changePageLink() {
   switch (settings["css-appearance"]) {
     case "Auto":
       style.textContent =
-        `:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightness, false)};--bb-main__page-link--hover: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightness, false)};--co-main__page-link: ${compileColor(pageLinkColor, pageLinkColorLightness, false)};--co-main__page-link--hover: ${compileColor(pageLinkColor, pageLinkColorLightness, false)};}` +
-        `@media (prefers-color-scheme: dark) {:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightnessDark, true)};--bb-main__page-link: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightnessDark, true)};--co-main__page-link: ${compileColor(pageLinkColor, pageLinkColorLightnessDark, true)};--co-main__page-link--hover: ${compileColor(pageLinkColor, pageLinkColorLightnessDark, true)};}}`;
+        `:root {--fw-main__page-link: ${pageLinkFontWeight};--bb-main__page-link: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightness, false)};--bb-main__page-link--hover: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightness, false)};--co-main__page-link: ${compileColor(pageLinkColor, pageLinkColorLightness, false)};--co-main__page-link--hover: ${compileColor(pageLinkColor, pageLinkColorLightness, false)};}` +
+        `@media (prefers-color-scheme: dark) {:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightness, true)};--bb-main__page-link--hover: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightness, true)};--co-main__page-link: ${compileColor(pageLinkColor, pageLinkColorLightness, true)};--co-main__page-link--hover: ${compileColor(pageLinkColor, pageLinkColorLightness, true)};}}`;
       break;
     case "Dark":
-      style.textContent = `:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightnessDark, true)};--bb-main__page-link: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightnessDark, true)};--co-main__page-link: ${compileColor(pageLinkColor, pageLinkColorLightnessDark, true)};--co-main__page-link--hover: ${compileColor(pageLinkColor, pageLinkColorLightnessDark, true)};}`;
+      style.textContent = `:root {--fw-main__page-link: ${pageLinkFontWeight};--bb-main__page-link: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightness, true)};--bb-main__page-link--hover: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightness, true)};--co-main__page-link: ${compileColor(pageLinkColor, pageLinkColorLightness, true)};--co-main__page-link--hover: ${compileColor(pageLinkColor, pageLinkColorLightness, true)};}`;
       break;
     case "Light":
-      style.textContent = `:root {--fw-main__page-link: ${settings["css-page-link-weight"]};--bb-main__page-link: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightness, false)};--bb-main__page-link--hover: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightness, false)};--co-main__page-link: ${compileColor(pageLinkColor, pageLinkColorLightness, false)};--co-main__page-link--hover: ${compileColor(pageLinkColor, pageLinkColorLightness, false)};}`;
+      style.textContent = `:root {--fw-main__page-link: ${pageLinkFontWeight};--bb-main__page-link: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightness, false)};--bb-main__page-link--hover: ${compileBorder(pageLinkBorderStyle, pageLinkColor, pageLinkBorderLightness, false)};--co-main__page-link: ${compileColor(pageLinkColor, pageLinkColorLightness, false)};--co-main__page-link--hover: ${compileColor(pageLinkColor, pageLinkColorLightness, false)};}`;
       break;
   }
   head.appendChild(style);
@@ -858,10 +856,9 @@ function changePageLink() {
 function changeExternalLink() {
   let externalLinkColor: string;
   let externalLinkColorLightness: number;
-  let externalLinkColorLightnessDark: number;
   let externalLinkBorderStyle: string;
   let externalLinkBorderLightness: number;
-  let externalLinkBorderLightnessDark: number;
+  let externalLinkFontWeight: string;
 
   console.log("Switching page link color:" + settings["css-external-link-color"]);
   if (document.getElementById("roamstudio-css-external-link-color")) {
@@ -872,26 +869,25 @@ function changeExternalLink() {
     case "Quattro":
       externalLinkColor = "neutral";
       externalLinkColorLightness = 900;
-      externalLinkColorLightnessDark = 700;
       externalLinkBorderStyle = "1px solid ";
       externalLinkBorderLightness = 400;
-      externalLinkBorderLightnessDark = 500;
+      externalLinkFontWeight = "normal";
       break;
 
     case "Craft":
-      externalLinkColor = "accent";
+      externalLinkColor = "gray";
       externalLinkColorLightness = 900;
       externalLinkBorderStyle = "3px solid ";
       externalLinkBorderLightness = 300;
-      externalLinkBorderLightnessDark = 700;
+      externalLinkFontWeight = "normal";
       break;
 
     case "Things":
-      externalLinkColor = "gray";
+      externalLinkColor = "accent";
       externalLinkColorLightness = 700;
       externalLinkBorderStyle = "0px solid ";
       externalLinkBorderLightness = 900;
-      externalLinkBorderLightnessDark = 100;
+      externalLinkFontWeight = "normal";
       break;
 
     case "Roam":
@@ -899,7 +895,7 @@ function changeExternalLink() {
       externalLinkColorLightness = 700;
       externalLinkBorderStyle = "0px solid ";
       externalLinkBorderLightness = 900;
-      externalLinkBorderLightnessDark = 100;
+      externalLinkFontWeight = "normal";
       break;
   }
 
@@ -982,11 +978,11 @@ function changeExternalLink() {
   switch (settings["css-appearance"]) {
     case "Auto":
       style.textContent =
-        `:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__alias: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__a--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__alias--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--co-main__a: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__alias: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__external-link--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__a--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__alias--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};}` +
-        `@media (prefers-color-scheme: dark) {:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--bb-main__alias: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--bb-main__a--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--bb-main__alias--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--co-main__a: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__alias: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__external-link--hover: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__a--hover: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__alias--hover: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};}}`;
+        `:root {--fw-main__a: ${externalLinkFontWeight};--fw-main__alias: ${externalLinkFontWeight};--bb-main__a: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__alias: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__a--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__alias--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--co-main__a: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__alias: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__external-link--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__a--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__alias--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};}` +
+        `@media (prefers-color-scheme: dark) {:root {--fw-main__a: ${externalLinkFontWeight};--fw-main__alias: ${externalLinkFontWeight};--bb-main__a: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, true)};--bb-main__alias: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, true)};--bb-main__a--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, true)};--bb-main__alias--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, true)};--co-main__a: ${compileColor(externalLinkColor, externalLinkColorLightness, true)};--co-main__alias: ${compileColor(externalLinkColor, externalLinkColorLightness, true)};--co-main__external-link--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, true)};--co-main__a--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, true)};--co-main__alias--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, true)};}}`;
       break;
     case "Dark":
-      style.textContent = `:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--bb-main__alias: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--bb-main__a--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--bb-main__alias--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightnessDark, true)};--co-main__a: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__alias: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__external-link--hover: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__a--hover: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};--co-main__alias--hover: ${compileColor(externalLinkColor, externalLinkColorLightnessDark, true)};}`;
+      style.textContent = `:root {--fw-main__a: ${externalLinkFontWeight};--fw-main__alias: ${externalLinkFontWeight};--bb-main__a: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, true)};--bb-main__alias: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, true)};--bb-main__a--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, true)};--bb-main__alias--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, true)};--co-main__a: ${compileColor(externalLinkColor, externalLinkColorLightness, true)};--co-main__alias: ${compileColor(externalLinkColor, externalLinkColorLightness, true)};--co-main__external-link--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, true)};--co-main__a--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, true)};--co-main__alias--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, true)};}`;
       break;
     case "Light":
       style.textContent = `:root {--fw-main__a: ${settings["css-external-link-weight"]};--fw-main__alias: ${settings["css-external-link-weight"]};--bb-main__a: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__alias: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__a--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--bb-main__alias--hover: ${compileBorder(externalLinkBorderStyle, externalLinkColor, externalLinkBorderLightness, false)};--co-main__a: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__alias: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__external-link--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__a--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};--co-main__alias--hover: ${compileColor(externalLinkColor, externalLinkColorLightness, false)};}`;
@@ -998,10 +994,9 @@ function changeExternalLink() {
 function changeReferenceLink() {
   let referenceLinkColor: string;
   let referenceLinkColorLightness: number;
-  let referenceLinkColorLightnessDark: number;
   let referenceLinkBorderStyle: string;
   let referenceLinkBorderLightness: number;
-  let referenceLinkBorderLightnessDark: number;
+  let referenceLinkFontWeight: string;
 
   console.log("Switching reference link color:" + settings["css-reference-link-color"]);
   if (document.getElementById("roamstudio-css-reference-link-color")) {
@@ -1012,10 +1007,9 @@ function changeReferenceLink() {
     case "Quattro":
       referenceLinkColor = "gray";
       referenceLinkColorLightness = 900;
-      referenceLinkColorLightnessDark = 700;
       referenceLinkBorderStyle = "1px solid ";
       referenceLinkBorderLightness = 400;
-      referenceLinkBorderLightnessDark = 500;
+      referenceLinkFontWeight = "normal";
       break;
 
     case "Craft":
@@ -1023,15 +1017,15 @@ function changeReferenceLink() {
       referenceLinkColorLightness = 900;
       referenceLinkBorderStyle = "3px solid ";
       referenceLinkBorderLightness = 300;
-      referenceLinkBorderLightnessDark = 700;
+      referenceLinkFontWeight = "normal";
       break;
 
     case "Things":
-      referenceLinkColor = "gray";
+      referenceLinkColor = "accent";
       referenceLinkColorLightness = 700;
       referenceLinkBorderStyle = "0px solid ";
       referenceLinkBorderLightness = 900;
-      referenceLinkBorderLightnessDark = 100;
+      referenceLinkFontWeight = "normal";
       break;
 
     case "Roam":
@@ -1039,7 +1033,7 @@ function changeReferenceLink() {
       referenceLinkColorLightness = 700;
       referenceLinkBorderStyle = "0px solid ";
       referenceLinkBorderLightness = 900;
-      referenceLinkBorderLightnessDark = 100;
+      referenceLinkFontWeight = "normal";
       break;
   }
 
@@ -1122,14 +1116,14 @@ function changeReferenceLink() {
 
   switch (settings["css-appearance"]) {
     case "Auto":
-      style.textContent = `:root {--fw-reference__page-title: ${settings["css-reference-link-weight"]};--bb-reference__page-title: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightness, false)};--bb-reference__page-title--hover: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightness, false)};--co-reference__page-title: ${compileColor(referenceLinkColor, referenceLinkColorLightness, false)};--co-reference__page-title--hover: ${compileColor(referenceLinkColor, referenceLinkColorLightness, false)};}` +
-        `@media (prefers-color-scheme: dark) {:root {--fw-reference__page-title: ${settings["css-reference-link-weight"]};--bb-reference__page-title: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightnessDark, true)};--bb-reference__page-title--hover: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightnessDark, true)};--co-reference__page-title: ${compileColor(referenceLinkColor, referenceLinkColorLightnessDark, true)};--co-reference__page-title--hover: ${compileColor(referenceLinkColor, referenceLinkColorLightnessDark, true)};}}`;
+      style.textContent = `:root {--fw-reference__page-title: ${referenceLinkFontWeight};--bb-reference__page-title: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightness, false)};--bb-reference__page-title--hover: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightness, false)};--co-reference__page-title: ${compileColor(referenceLinkColor, referenceLinkColorLightness, false)};--co-reference__page-title--hover: ${compileColor(referenceLinkColor, referenceLinkColorLightness, false)};}` +
+        `@media (prefers-color-scheme: dark) {:root {--fw-reference__page-title: ${settings["css-reference-link-weight"]};--bb-reference__page-title: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightness, true)};--bb-reference__page-title--hover: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightness, true)};--co-reference__page-title: ${compileColor(referenceLinkColor, referenceLinkColorLightness, true)};--co-reference__page-title--hover: ${compileColor(referenceLinkColor, referenceLinkColorLightness, true)};}}`;
       break;
     case "Dark":
-      style.textContent = `:root {--fw-reference__page-title: ${settings["css-reference-link-weight"]};--bb-reference__page-title: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightnessDark, true)};--bb-reference__page-title--hover: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightnessDark, true)};--co-reference__page-title: ${compileColor(referenceLinkColor, referenceLinkColorLightnessDark, true)};--co-reference__page-title--hover: ${compileColor(referenceLinkColor, referenceLinkColorLightnessDark, true)};}`;
+      style.textContent = `:root {--fw-reference__page-title: ${referenceLinkFontWeight};--bb-reference__page-title: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightness, true)};--bb-reference__page-title--hover: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightness, true)};--co-reference__page-title: ${compileColor(referenceLinkColor, referenceLinkColorLightness, true)};--co-reference__page-title--hover: ${compileColor(referenceLinkColor, referenceLinkColorLightness, true)};}`;
       break;
     case "Light":
-      style.textContent = `:root {--fw-reference__page-title: ${settings["css-reference-link-weight"]};--bb-reference__page-title: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightness, false)};--bb-reference__page-title--hover: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightness, false)};--co-reference__page-title: ${compileColor(referenceLinkColor, referenceLinkColorLightness, false)};--co-reference__page-title--hover: ${compileColor(referenceLinkColor, referenceLinkColorLightness, false)};}`;
+      style.textContent = `:root {--fw-reference__page-title: ${referenceLinkFontWeight};--bb-reference__page-title: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightness, false)};--bb-reference__page-title--hover: ${compileBorder(referenceLinkBorderStyle, referenceLinkColor, referenceLinkBorderLightness, false)};--co-reference__page-title: ${compileColor(referenceLinkColor, referenceLinkColorLightness, false)};--co-reference__page-title--hover: ${compileColor(referenceLinkColor, referenceLinkColorLightness, false)};}`;
       break;
   }
   head.appendChild(style);
@@ -1138,10 +1132,9 @@ function changeReferenceLink() {
 function changeBlockLink() {
   let blockLinkColor: string;
   let blockLinkColorLightness: number;
-  let blockLinkColorLightnessDark: number;
   let blockLinkBorderStyle: string;
   let blockLinkBorderLightness: number;
-  let blockLinkBorderLightnessDark: number;
+  let blockLinkFontWeight: string;
 
   console.log("Switching block link color:" + settings["css-block-link-color"]);
   if (document.getElementById("roamstudio-css-block-link-color")) {
@@ -1152,24 +1145,25 @@ function changeBlockLink() {
     case "Quattro":
       blockLinkColor = "neutral";
       blockLinkColorLightness = 900;
-      blockLinkColorLightnessDark = 700;
       blockLinkBorderStyle = "1px dotted ";
       blockLinkBorderLightness = 400;
-      blockLinkBorderLightnessDark = 500;
+      blockLinkFontWeight = "normal";
       break;
 
     case "Craft":
       blockLinkColor = "gray";
-      blockLinkColorLightness = 900;
+      blockLinkColorLightness = 850;
       blockLinkBorderStyle = "1px dotted ";
       blockLinkBorderLightness = 300;
+      blockLinkFontWeight = "normal";
       break;
 
     case "Things":
-      blockLinkColor = "gray";
-      blockLinkColorLightness = 900;
+      blockLinkColor = "accent";
+      blockLinkColorLightness = 700;
       blockLinkBorderStyle = "1px dotted ";
       blockLinkBorderLightness = 300;
+      blockLinkFontWeight = "normal";
       break;
 
     case "Roam":
@@ -1177,6 +1171,7 @@ function changeBlockLink() {
       blockLinkColorLightness = 900;
       blockLinkBorderStyle = "1px dotted ";
       blockLinkBorderLightness = 300;
+      blockLinkFontWeight = "normal";
       break;
   }
 
@@ -1259,14 +1254,14 @@ function changeBlockLink() {
 
   switch (settings["css-appearance"]) {
     case "Auto":
-      style.textContent = `:root {--fw-main__block-ref: ${settings["css-block-link-weight"]};--bb-main__block-ref: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightness, false)};--bb-main__block-ref--hover: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightness, false)};--co-main__block-ref: ${compileColor(blockLinkColor, blockLinkColorLightness, false)};--co-main__block-ref--hover: ${compileColor(blockLinkColor, blockLinkColorLightness, false)};}` +
-        `@media (prefers-color-scheme: dark) {:root {--fw-main__block-ref: ${settings["css-block-link-weight"]};--bb-main__block-ref: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightnessDark, true)};--bb-main__block-ref--hover: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightnessDark, true)};--co-main__block-ref: ${compileColor(blockLinkColor, blockLinkColorLightnessDark, true)};--co-main__block-ref--hover: ${compileColor(blockLinkColor, blockLinkColorLightnessDark, true)};}}`;
+      style.textContent = `:root {--fw-main__block-ref: ${blockLinkFontWeight};--bb-main__block-ref: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightness, false)};--bb-main__block-ref--hover: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightness, false)};--co-main__block-ref: ${compileColor(blockLinkColor, blockLinkColorLightness, false)};--co-main__block-ref--hover: ${compileColor(blockLinkColor, blockLinkColorLightness, false)};}` +
+        `@media (prefers-color-scheme: dark) {:root {--fw-main__block-ref: ${settings["css-block-link-weight"]};--bb-main__block-ref: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightness, true)};--bb-main__block-ref--hover: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightness, true)};--co-main__block-ref: ${compileColor(blockLinkColor, blockLinkColorLightness, true)};--co-main__block-ref--hover: ${compileColor(blockLinkColor, blockLinkColorLightness, true)};}}`;
       break;
     case "Dark":
-      style.textContent = `:root {--fw-main__block-ref: ${settings["css-block-link-weight"]};--bb-main__block-ref: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightnessDark, true)};--bb-main__block-ref--hover: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightnessDark, true)};--co-main__block-ref: ${compileColor(blockLinkColor, blockLinkColorLightnessDark, true)};--co-main__block-ref--hover: ${compileColor(blockLinkColor, blockLinkColorLightnessDark, true)};}`;
+      style.textContent = `:root {--fw-main__block-ref: ${blockLinkFontWeight};--bb-main__block-ref: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightness, true)};--bb-main__block-ref--hover: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightness, true)};--co-main__block-ref: ${compileColor(blockLinkColor, blockLinkColorLightness, true)};--co-main__block-ref--hover: ${compileColor(blockLinkColor, blockLinkColorLightness, true)};}`;
       break;
     case "Light":
-      style.textContent = `:root {--fw-main__block-ref: ${settings["css-block-link-weight"]};--bb-main__block-ref: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightness, false)};--bb-main__block-ref--hover: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightness, false)};--co-main__block-ref: ${compileColor(blockLinkColor, blockLinkColorLightness, false)};--co-main__block-ref--hover: ${compileColor(blockLinkColor, blockLinkColorLightness, false)};}`;
+      style.textContent = `:root {--fw-main__block-ref: ${blockLinkFontWeight};--bb-main__block-ref: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightness, false)};--bb-main__block-ref--hover: ${compileBorder(blockLinkBorderStyle, blockLinkColor, blockLinkBorderLightness, false)};--co-main__block-ref: ${compileColor(blockLinkColor, blockLinkColorLightness, false)};--co-main__block-ref--hover: ${compileColor(blockLinkColor, blockLinkColorLightness, false)};}`;
       break;
   }
   head.appendChild(style);
@@ -1274,11 +1269,8 @@ function changeBlockLink() {
 
 function changeTag() {
   let tagColorLightness: number;
-  let tagColorLightnessDark: number;
   let tagBackgroundLightness: number;
-  let tagBackgroundLightnessDark: number;
   let tagBorderLightness: number;
-  let tagBorderLightnessDark: number;
 
   let tagBorderStyle: string;
   let tagFontSize: string;
@@ -1300,11 +1292,6 @@ function changeTag() {
       tagColorLightness = 900;
       tagBorderLightness = 400;
       tagBackgroundLightness = 100;
-
-      tagColorLightnessDark = 700;
-      tagBorderLightnessDark = 500;
-      tagBackgroundLightnessDark = 100;
-
       tagPadding = "0";
       tagRadius = "0";
       tagBorderStyle = "1px solid";
@@ -1315,9 +1302,8 @@ function changeTag() {
       tagColor = "gray";
       tagBackground = "gray";
       tagColorLightness = 600;
+      tagBorderLightness = 300;
       tagBackgroundLightness = 150;
-      tagColorLightnessDark = 550;
-      tagBackgroundLightnessDark = 250;
       tagPadding = "2px 8px";
       tagRadius = "15px";
       tagBorderStyle = "none";
@@ -1325,12 +1311,11 @@ function changeTag() {
       break;
 
     case "Things":
-      tagColor = "accGreen";
-      tagBackground = "accGreen";
-      tagColorLightness = 900;
-      tagBackgroundLightness = 700;
-      tagColorLightnessDark = 900;
-      tagBackgroundLightnessDark = 800;
+      tagColor = "accent-green";
+      tagBackground = "accent-green";
+      tagColorLightness = 600;
+      tagBorderLightness = 300;
+      tagBackgroundLightness = 200;
       tagPadding = "2px 8px";
       tagRadius = "15";
       tagBorderStyle = "none";
@@ -1343,11 +1328,6 @@ function changeTag() {
       tagColorLightness = 300;
       tagBorderLightness = 400;
       tagBackgroundLightness = 100;
-
-      tagColorLightnessDark = 700;
-      tagBorderLightnessDark = 500;
-      tagBackgroundLightnessDark = 100;
-
       tagPadding = "0";
       tagRadius = "0";
       tagBorderStyle = "0px solid";
@@ -1494,12 +1474,12 @@ function changeTag() {
         `.rm-page-ref--tag, span[data-tag="tags"], .rm-page-ref--tag:hover {padding: ${tagPadding};}` +
         `:root {--bd-main__tags: ${tagRadius}px;--bd-main__tags--hover: ${tagRadius}px;--fs-main__tags: ${tagFontSize};--bb-main__tags: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightness, false)};--bb-main__tags--hover: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightness, false)};--co-main__tags: ${compileColor(tagColor, tagColorLightness, false)};--co-main__tags--hover: ${compileColor(tagColor, tagColorLightness, false)};--bc-main__tags: ${compileColor(tagBackground, tagBackgroundLightness, false)};--bc-main__tags--hover: ${compileColor(tagBackground, tagBackgroundLightness, false)};}` +
         `@media (prefers-color-scheme: dark) {.rm-page-ref--tag, span[data-tag="tags"], .rm-page-ref--tag:hover {padding: ${tagPadding};}` +
-        `:root {--bd-main__tags: ${tagRadius}px;--bd-main__tags--hover: ${tagRadius}px;--fs-main__tags: ${tagFontSize};--bb-main__tags: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightnessDark, true)};--bb-main__tags--hover: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightnessDark, true)};--co-main__tags: ${compileColor(tagColor, tagColorLightnessDark, true)};--co-main__tags--hover: ${compileColor(tagColor, tagColorLightnessDark, true)};--bc-main__tags: ${compileColor(tagBackground, tagBackgroundLightnessDark, true)};--bc-main__tags--hover: ${compileColor(tagBackground, tagBackgroundLightnessDark, true)};}}`;
+        `:root {--bd-main__tags: ${tagRadius}px;--bd-main__tags--hover: ${tagRadius}px;--fs-main__tags: ${tagFontSize};--bb-main__tags: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightness, true)};--bb-main__tags--hover: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightness, true)};--co-main__tags: ${compileColor(tagColor, tagColorLightness, true)};--co-main__tags--hover: ${compileColor(tagColor, tagColorLightness, true)};--bc-main__tags: ${compileColor(tagBackground, tagBackgroundLightness, true)};--bc-main__tags--hover: ${compileColor(tagBackground, tagBackgroundLightness, true)};}}`;
       break;
     case "Dark":
       style.textContent =
         `.rm-page-ref--tag, span[data-tag="tags"], .rm-page-ref--tag:hover {padding: ${tagPadding};}` +
-        `:root {--bd-main__tags: ${tagRadius}px;--bd-main__tags--hover: ${tagRadius}px;--fs-main__tags: ${tagFontSize};--bb-main__tags: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightnessDark, true)};--bb-main__tags--hover: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightnessDark, true)};--co-main__tags: ${compileColor(tagColor, tagColorLightnessDark, true)};--co-main__tags--hover: ${compileColor(tagColor, tagColorLightnessDark, true)};--bc-main__tags: ${compileColor(tagBackground, tagBackgroundLightnessDark, true)};--bc-main__tags--hover: ${compileColor(tagBackground, tagBackgroundLightnessDark, true)};}`;
+        `:root {--bd-main__tags: ${tagRadius}px;--bd-main__tags--hover: ${tagRadius}px;--fs-main__tags: ${tagFontSize};--bb-main__tags: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightness, true)};--bb-main__tags--hover: ${compileBorder(tagBorderStyle, tagColor, tagBorderLightness, true)};--co-main__tags: ${compileColor(tagColor, tagColorLightness, true)};--co-main__tags--hover: ${compileColor(tagColor, tagColorLightness, true)};--bc-main__tags: ${compileColor(tagBackground, tagBackgroundLightness, true)};--bc-main__tags--hover: ${compileColor(tagBackground, tagBackgroundLightness, true)};}`;
       break;
     case "Light":
       style.textContent =
@@ -1514,10 +1494,7 @@ function changeTag() {
 function changeDate() {
   let dateColorLightness: number;
   let dateBackgroundLightness: number;
-  let dateColorLightnessDark: number;
-  let dateBackgroundLightnessDark: number;
   let dateColorBorderLightness: number;
-  let dateColorBorderLightnessDark: number;
 
   let dateBorderStyle: string;
   let dateFontSize: string;
@@ -1538,9 +1515,7 @@ function changeDate() {
       dateBackground = "transparent";
       dateColorLightness = 900;
       dateBackgroundLightness = 100;
-      dateColorLightnessDark = 700;
       dateColorBorderLightness = 400;
-      dateColorBorderLightnessDark = 500;
       datePadding = "0";
       dateRadius = "0";
       dateBorderStyle = "1px solid";
@@ -1552,8 +1527,6 @@ function changeDate() {
       dateBackground = "gray";
       dateColorLightness = 600;
       dateBackgroundLightness = 150;
-      dateColorLightnessDark = 450;
-      dateBackgroundLightnessDark = 750;
       datePadding = "2px 8px";
       dateRadius = "15px";
       dateBorderStyle = "none";
@@ -1561,12 +1534,10 @@ function changeDate() {
       break;
 
     case "Things":
-      dateColor = "accGreen";
-      dateBackground = "accGreen";
-      dateColorLightness = 900;
+      dateColor = "neutral";
+      dateBackground = "neutral";
+      dateColorLightness = 650;
       dateBackgroundLightness = 300;
-      dateColorLightnessDark = 100;
-      dateBackgroundLightnessDark = 800;
       datePadding = "2px 8px";
       dateRadius = "15px";
       dateBorderStyle = "none";
@@ -1578,9 +1549,7 @@ function changeDate() {
       dateBackground = "transparent";
       dateColorLightness = 700;
       dateBackgroundLightness = 100;
-      dateColorLightnessDark = 700;
       dateColorBorderLightness = 400;
-      dateColorBorderLightnessDark = 500;
       datePadding = "0";
       dateRadius = "0";
       dateBorderStyle = "0px solid";
@@ -1727,12 +1696,12 @@ function changeDate() {
         `:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref,:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref:hover {padding: ${datePadding};}` +
         `:root {--bd-main__date-link: ${dateRadius}px;--bd-main__date-link--hover: ${dateRadius}px;--fs-main__date-link: ${dateFontSize};--bb-main__date-link: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightness, false)};--bb-main__date-link--hover: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightness, false)};--co-main__date-link: ${compileColor(dateColor, dateColorLightness, false)};--co-main__date-link--hover: ${compileColor(dateColor, dateColorLightness, false)};--bc-main__date-link: ${compileColor(dateBackground, dateBackgroundLightness, false)};--bc-main__date-link--hover: ${compileColor(dateBackground, dateBackgroundLightness, false)};}` +
         `@media (prefers-color-scheme: dark) {:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref,:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref:hover {padding: ${datePadding};}` +
-        `:root {--bd-main__date-link: ${dateRadius}px;--bd-main__date-link--hover: ${dateRadius}px;--fs-main__date-link: ${dateFontSize};--bb-main__date-link: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightnessDark, true)};--bb-main__date-link--hover: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightnessDark, true)};--co-main__date-link: ${compileColor(dateColor, dateColorLightnessDark, true)};--co-main__date-link--hover: ${compileColor(dateColor, dateColorLightnessDark, true)};--bc-main__date-link: ${compileColor(dateBackground, dateBackgroundLightness, true)};--bc-main__date-link--hover: ${compileColor(dateBackground, dateBackgroundLightness, true)};}}`;
+        `:root {--bd-main__date-link: ${dateRadius}px;--bd-main__date-link--hover: ${dateRadius}px;--fs-main__date-link: ${dateFontSize};--bb-main__date-link: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightness, true)};--bb-main__date-link--hover: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightness, true)};--co-main__date-link: ${compileColor(dateColor, dateColorLightness, true)};--co-main__date-link--hover: ${compileColor(dateColor, dateColorLightness, true)};--bc-main__date-link: ${compileColor(dateBackground, dateBackgroundLightness, true)};--bc-main__date-link--hover: ${compileColor(dateBackground, dateBackgroundLightness, true)};}}`;
       break;
     case "Dark":
       style.textContent =
         `:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref,:is(span[data-link-uid*="-17"],span[data-link-uid*="-18"],span[data-link-uid*="-19"],span[data-link-uid*="-20"],span[data-link-uid*="-21"]) .rm-page-ref:hover {padding: ${datePadding};}` +
-        `:root {--bd-main__date-link: ${dateRadius}px;--bd-main__date-link--hover: ${dateRadius}px;--fs-main__date-link: ${dateFontSize};--bb-main__date-link: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightnessDark, true)};--bb-main__date-link--hover: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightnessDark, true)};--co-main__date-link: ${compileColor(dateColor, dateColorLightnessDark, true)};--co-main__date-link--hover: ${compileColor(dateColor, dateColorLightnessDark, true)};--bc-main__date-link: ${compileColor(dateBackground, dateBackgroundLightness, true)};--bc-main__date-link--hover: ${compileColor(dateBackground, dateBackgroundLightness, true)};}`;
+        `:root {--bd-main__date-link: ${dateRadius}px;--bd-main__date-link--hover: ${dateRadius}px;--fs-main__date-link: ${dateFontSize};--bb-main__date-link: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightness, true)};--bb-main__date-link--hover: ${compileBorder(dateBorderStyle, dateColor, dateColorBorderLightness, true)};--co-main__date-link: ${compileColor(dateColor, dateColorLightness, true)};--co-main__date-link--hover: ${compileColor(dateColor, dateColorLightness, true)};--bc-main__date-link: ${compileColor(dateBackground, dateBackgroundLightness, true)};--bc-main__date-link--hover: ${compileColor(dateBackground, dateBackgroundLightness, true)};}`;
       break;
     case "Light":
       style.textContent =
