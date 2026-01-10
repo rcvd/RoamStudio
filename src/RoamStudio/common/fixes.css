@@ -601,12 +601,12 @@ input[type=radio] {
 }
 
 .bp3-input-group > .bp3-icon-search {
-  top: 1px;
-  left: 2px;
+  top: 2px;
+  left: 2px !important;
 }
 
 .toolbar-search-group .bp3-input-group > .bp3-icon-search {
-  top: 2px;
+  top: 0;
   left: 2px;
 }
 
@@ -1227,7 +1227,6 @@ div[style*="margin-top: 24px"] .rm-reference-main>div>div:not(.rm-reference-cont
 }
 
 .rm-mentions-search .bp3-icon-search {
-  margin: 5.5px 0 0 0;
   cursor: pointer;
 }
 
@@ -1283,6 +1282,7 @@ span > .rm-reference-container .rm-ref-page-view div[style*="margin-left: 4px;"]
   margin-left: 16px;
 }
 
+/*
 .rm-mentions-search > .bp3-button {
   margin-top: 2px;
 }
@@ -1292,6 +1292,7 @@ span > .rm-reference-container .rm-ref-page-view div[style*="margin-left: 4px;"]
   margin-top: 2px;
 }
 
+ */
 .window-headers {
   padding-bottom: 4px;
   padding-top: 4px;

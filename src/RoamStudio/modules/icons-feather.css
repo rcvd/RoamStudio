@@ -555,6 +555,7 @@
 span.bp3-icon-standard:empty,
 span.bp3-icon:empty {
   height: 16px;
+  padding: 0;
 }
 
 /* Hide original svg icons */
@@ -647,7 +648,7 @@ span.bp3-icon:empty {
 }
 
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button .icon::before {
-  background-color: var(--co-left-sidebar__icon);
+  background-color: var(--co-left-sidebar__icon) !important;
 }
 
 /* Fix sizes */
