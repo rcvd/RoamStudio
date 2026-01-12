@@ -661,7 +661,7 @@ input[type=radio] {
 
 .controls,
 .rm-block__controls {
-  padding-top: 0;
+  padding-top: 0 !important;
   padding-left: 0;
   min-height: calc(var(--fs-main) + 16px);
   align-items: center;
