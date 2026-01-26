@@ -3881,10 +3881,10 @@
     --bl-main__checkmark--checked: 1px solid var(--cl-accent-500);
     --sd-main__checkmark--checked: none;
     --bc-main__checkmark: transparent;
-    --bt-main__checkmark: 1px solid var(--cl-neutral-525);
-    --br-main__checkmark: 1px solid var(--cl-neutral-525);
-    --bb-main__checkmark: 1px solid var(--cl-neutral-525);
-    --bl-main__checkmark: 1px solid var(--cl-neutral-525);
+    --bt-main__checkmark: 1px solid var(--cl-neutral-500);
+    --br-main__checkmark: 1px solid var(--cl-neutral-500);
+    --bb-main__checkmark: 1px solid var(--cl-neutral-500);
+    --bl-main__checkmark: 1px solid var(--cl-neutral-500);
     --bd-main__checkmark: 4px;
     --bt-main__checkmark-mark--checked: transparent;
     --br-main__checkmark-mark--checked: 2px solid var(--cl-neutral-800);
