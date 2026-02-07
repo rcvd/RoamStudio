@@ -245,6 +245,21 @@ function changeTheme() {
       settings["css-appearance"].toLowerCase()
       ];
     head.appendChild(style);
+
+    if (settings["css-appearance"] == "Dark") {
+      document.getElementsByTagName("html")[0].classList.add("rs-dark");
+    } else if (settings["css-appearance"] == "Light") {
+      document.getElementsByTagName("html")[0].classList.remove("rs-dark");
+    } else if (settings["css-appearance"] == "Auto") {
+      if (
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches
+      ) {
+        document.getElementsByTagName("html")[0].classList.add("rs-dark");
+      } else {
+        document.getElementsByTagName("html")[0].classList.remove("rs-dark");
+      }
+    }
   } else {
     if (document.getElementById("roamstudio-css-system")) {
       document.getElementById("roamstudio-css-system").remove();
