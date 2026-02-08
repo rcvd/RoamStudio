@@ -459,7 +459,7 @@ span[style*="background-color: yellow"] {
 .bp3-button.bp3-minimal:active .bp3-icon, .bp3-button.bp3-minimal.bp3-active .bp3-icon, .bp3-active .bp3-button.bp3-minimal .bp3-icon, .bp3-button:not([class*="bp3-intent-"]).bp3-minimal:active .bp3-icon,
 .bp3-button.bp3-minimal:active.bp3-icon, .bp3-button.bp3-minimal.bp3-active.bp3-icon, .bp3-active .bp3-button.bp3-minimal.bp3-icon, .bp3-button:not([class*="bp3-intent-"]).bp3-minimal.bp3-icon:active,
 .bp3-button.bp3-minimal:active::before, .bp3-button.bp3-minimal:not([class*="bp3-intent-"]):active::before, .bp3-button.bp3-minimal.bp3-active::before, .bp3-button.bp3-minimal:not([class*="bp3-intent-"]).bp3-active::before {
-	background-color: var(--bc-button__minimal-icon--active)!important;
+	background-color: var(--bc-button__minimal-icon--active);
 	border-top: var(--bt-button__minimal-icon--active);
 	border-right: var(--br-button__minimal-icon--active);
 	border-bottom: var(--bb-button__minimal-icon--active);
@@ -472,7 +472,7 @@ span[style*="background-color: yellow"] {
 
 .bp3-button.bp3-minimal:disabled::before, .bp3-button.bp3-minimal:disabled.bp3-icon, .bp3-button.bp3-minimal:disabled.bp3-icon-standard, .bp3-button.bp3-minimal:disabled.bp3-icon-large, .bp3-button.bp3-minimal.bp3-disabled::before, .bp3-button.bp3-minimal.bp3-disabled.bp3-icon, .bp3-button.bp3-minimal.bp3-disabled.bp3-icon-standard, .bp3-button.bp3-minimal.bp3-disabled.bp3-icon-large,
 .bp3-button.bp3-minimal:disabled::before, .bp3-button.bp3-minimal:disabled .bp3-icon, .bp3-button.bp3-minimal:disabled .bp3-icon-standard, .bp3-button.bp3-minimal:disabled .bp3-icon-large, .bp3-button.bp3-minimal.bp3-disabled::before, .bp3-button.bp3-minimal.bp3-disabled .bp3-icon, .bp3-button.bp3-minimal.bp3-disabled .bp3-icon-standard, .bp3-button.bp3-minimal.bp3-disabled .bp3-icon-large {
-	background-color: var(--bc-button__minimal-icon--disabled)!important;
+	background-color: var(--bc-button__minimal-icon--disabled);
 	border-top: var(--bt-button__minimal-icon--disabled);
 	border-right: var(--br-button__minimal-icon--disabled);
 	border-bottom: var(--bb-button__minimal-icon--disabled);
@@ -487,7 +487,7 @@ span[style*="background-color: yellow"] {
 .bp3-button.bp3-minimal:hover .bp3-icon, .bp3-button.bp3-minimal:not([class*="bp3-intent-"]):hover .bp3-icon, .bp3-button.bp3-minimal:hover .bp3-icon-standard, .bp3-button.bp3-minimal:not([class*="bp3-intent-"]):hover .bp3-icon-standard,
 .bp3-button.bp3-minimal::before:hover, .bp3-button.bp3-minimal:not([class*="bp3-intent-"])::before:hover
  {
-	background-color: var(--bc-button__minimal-icon--hover)!important;
+	background-color: var(--bc-button__minimal-icon--hover);
 	border-top: var(--bt-button__minimal-icon--hover);
 	border-right: var(--br-button__minimal-icon--hover);
 	border-bottom: var(--bb-button__minimal-icon--hover);
@@ -501,7 +501,7 @@ span[style*="background-color: yellow"] {
 .bp3-button.bp3-minimal.bp3-icon, .bp3-button.bp3-minimal:not([class*="bp3-intent-"]).bp3-icon, .bp3-button.bp3-minimal.bp3-icon-standard, .bp3-button.bp3-minimal:not([class*="bp3-intent-"]).bp3-icon-standard, 
 .bp3-button.bp3-minimal .bp3-icon, .bp3-button.bp3-minimal:not([class*="bp3-intent-"]) .bp3-icon, .bp3-button.bp3-minimal .bp3-icon-standard, .bp3-button.bp3-minimal:not([class*="bp3-intent-"]) .bp3-icon-standard,
 .bp3-button.bp3-minimal::before, .bp3-button.bp3-minimal:not([class*="bp3-intent-"])::before {
-	background-color: var(--bc-button__minimal-icon)!important;
+	background-color: var(--bc-button__minimal-icon);
 	border-top: var(--bt-button__minimal-icon);
 	border-right: var(--br-button__minimal-icon);
 	border-bottom: var(--bb-button__minimal-icon);
