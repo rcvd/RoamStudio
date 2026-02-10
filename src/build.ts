@@ -248,17 +248,16 @@ function changeTheme() {
 
     if (settings["css-appearance"] == "Dark") {
       document.getElementsByTagName("html")[0].classList.add("rs-dark");
+      document.getElementsByTagName("html")[0].classList.remove("rs-light");
+      document.getElementsByTagName("html")[0].classList.remove("rs-auto");
     } else if (settings["css-appearance"] == "Light") {
+      document.getElementsByTagName("html")[0].classList.add("rs-light");
       document.getElementsByTagName("html")[0].classList.remove("rs-dark");
+      document.getElementsByTagName("html")[0].classList.remove("rs-auto");
     } else if (settings["css-appearance"] == "Auto") {
-      if (
-        window.matchMedia &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches
-      ) {
-        document.getElementsByTagName("html")[0].classList.add("rs-dark");
-      } else {
-        document.getElementsByTagName("html")[0].classList.remove("rs-dark");
-      }
+      document.getElementsByTagName("html")[0].classList.add("rs-auto");
+      document.getElementsByTagName("html")[0].classList.remove("rs-light");
+      document.getElementsByTagName("html")[0].classList.remove("rs-dark");
     }
   } else {
     if (document.getElementById("roamstudio-css-system")) {
