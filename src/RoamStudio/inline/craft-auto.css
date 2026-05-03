@@ -1885,7 +1885,7 @@
   --fs-menu: 0.9rem;
   --co-mobile-bar__icon: var(--cl-gray-850);
   --bc-mobile-bar: var(--cl-gray-200);
-  --co-pinned__icon: ;
+  --co-pinned__icon: var(--cl-accent-700);
   --fl-popover__arrow-border: transparent;
   --op-popover__arrow-border: ;
   --fl-popover__arrow-fill: transparent;
@@ -4291,7 +4291,7 @@
     --fs-menu: 0.9rem;
     --co-mobile-bar__icon: var(--cl-gray-350);
     --bc-mobile-bar: var(--cl-black);
-    --co-pinned__icon: ;
+    --co-pinned__icon: var(--cl-accent-800);
     --fl-popover__arrow-border: var(--cl-gray-750);
     --op-popover__arrow-border: ;
     --fl-popover__arrow-fill: var(--cl-gray-950);

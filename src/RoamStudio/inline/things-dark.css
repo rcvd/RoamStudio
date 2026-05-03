@@ -1079,7 +1079,7 @@
   --co-filter__command-text: ;
   --co-filter__helper-text: ;
   --co-filter__icon--filtered: ;
-  --bc-filter__popover: ;
+  --bc-filter__popover: var(--cl-neutral-850);
   --bd-filter__popover: ;
   --bc-find-or-create__menu-item--hover: ;
   --bc-find-or-create__menu-item--selected: var(--cl-accent-900);
@@ -1885,7 +1885,7 @@
   --fs-menu: 0.9rem;
   --co-mobile-bar__icon: var(--cl-neutral-400);
   --bc-mobile-bar: var(--cl-black);
-  --co-pinned__icon: ;
+  --co-pinned__icon: var(--cl-accent-800);
   --fl-popover__arrow-border: transparent;
   --op-popover__arrow-border: ;
   --fl-popover__arrow-fill: transparent;
