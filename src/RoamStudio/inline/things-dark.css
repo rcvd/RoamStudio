@@ -1710,6 +1710,14 @@
   --bc-main__streak-day-3: var(--cl-sky-700);
   --bc-main__streak-day-4: var(--cl-sky-600);
   --co-main__strikethrough: var(--cl-neutral-550);
+  --bc-main__table-new: var(--cl-neutral-800);
+  --bc-main__table-new-td: transparent;
+  --bt-main__table-new-td: 1px solid var(--cl-neutral-400);
+  --br-main__table-new-td: 1px solid var(--cl-neutral-400);
+  --bb-main__table-new-td: 1px solid var(--cl-neutral-400);
+  --bl-main__table-new-td: 1px solid var(--cl-neutral-400);
+  --co-main__table-new-td: var(--cl-neutral-400);
+  --fs-main__table-new-td: 0.9rem;
   --bc-main__table: transparent;
   --bt-main__table: transparent;
   --br-main__table: transparent;

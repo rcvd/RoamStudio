@@ -1713,6 +1713,14 @@
   --bc-main__streak-day-3: var(--cl-green-700);
   --bc-main__streak-day-4: var(--cl-green-600);
   --co-main__strikethrough: var(--cl-gray-550);
+  --bc-main__table-new: var(--cl-gray-825);
+  --bc-main__table-new-td: transparent;
+  --bt-main__table-new-td: 2px solid var(--cl-gray-675);
+  --br-main__table-new-td: 2px solid var(--cl-gray-675);
+  --bb-main__table-new-td: 2px solid var(--cl-gray-675);
+  --bl-main__table-new-td: 2px solid var(--cl-gray-675);
+  --co-main__table-new-td: var(--cl-gray-125);
+  --fs-main__table-new-td: 0.9rem;
   --bc-main__table: transparent;
   --bt-main__table: 2px solid var(--cl-gray-675);
   --br-main__table: 2px solid var(--cl-gray-675);

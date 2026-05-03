@@ -1704,6 +1704,14 @@
   --bc-main__streak-day-3: var(--cl-sky-600);
   --bc-main__streak-day-4: var(--cl-sky-700);
   --co-main__strikethrough: var(--cl-gray-700);
+  --bc-main__table-new: ;
+  --bc-main__table-new-td: ;
+  --bt-main__table-new-td: ;
+  --br-main__table-new-td: ;
+  --bb-main__table-new-td: ;
+  --bl-main__table-new-td: ;
+  --co-main__table-new-td: ;
+  --fs-main__table-new-td: ;
   --bc-main__table: transparent;
   --bt-main__table: transparent;
   --br-main__table: transparent;

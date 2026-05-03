@@ -1714,6 +1714,14 @@
   --bc-main__streak-day-3: var(--cl-sky-600);
   --bc-main__streak-day-4: var(--cl-sky-700);
   --co-main__strikethrough: var(--cl-neutral-500);
+  --bc-main__table-new: var(--cl-white);
+  --bc-main__table-new-td: transparent;
+  --bt-main__table-new-td: 1px solid var(--cl-neutral-200);
+  --br-main__table-new-td: 1px solid var(--cl-neutral-200);
+  --bb-main__table-new-td: 1px solid var(--cl-neutral-200);
+  --bl-main__table-new-td: 1px solid var(--cl-neutral-200);
+  --co-main__table-new-td: var(--cl-gray-750);
+  --fs-main__table-new-td: 0.9rem;
   --bc-main__table: transparent;
   --bt-main__table: transparent;
   --br-main__table: transparent;

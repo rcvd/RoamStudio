@@ -3288,6 +3288,20 @@ a[label*="[object Object]"].bp3-menu-item .bp3-menu-item-label, a[label*="[objec
 	color: var(--co-main__strikethrough);
 }
 
+.rm-table table {
+	background-color: var(--bc-main__table-new);
+}
+
+.rm-table td, .rm-table th, .rm-table tr {
+	background-color: var(--bc-main__table-new-td);
+	border-top: var(--bt-main__table-new-td);
+	border-right: var(--br-main__table-new-td);
+	border-bottom: var(--bb-main__table-new-td);
+	border-left: var(--bl-main__table-new-td);
+	color: var(--co-main__table-new-td);
+	font-size: var(--fs-main__table-new-td);
+}
+
 .roam-table th, .roam-table td, .roam-table tr {
 	background-color: var(--bc-main__table);
 	border-top: var(--bt-main__table);

@@ -667,10 +667,6 @@ input[type=radio] {
   align-items: center;
 }
 
-.rm-block__controls:hover .rm-caret.rm-caret-hidden {
-  opacity: 1;
-}
-
 .block-expand {
   display: inline-flex;
 }
