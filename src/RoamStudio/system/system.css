@@ -2078,11 +2078,11 @@ h3.bp3-heading, .bp3-dialog-header .bp3-heading {
 	border-radius: var(--bd-filter__popover);
 }
 
-.rm-find-or-create-wrapper .rm-menu-item:hover {
+.rm-find-or-create-wrapper .rm-menu-item:hover, :is(.rm-find-or-create-popover, .rm-find-or-create-modal) :is(.rm-find-or-create__menu, .rm-find-or-create-modal-body__list) > li.bp3-menu-item:hover {
 	background-color: var(--bc-find-or-create__menu-item--hover);
 }
 
-.rm-find-or-create-wrapper .rm-menu-item[style*="background-color: rgb(213, 218, 223);"] {
+.rm-find-or-create-wrapper .rm-menu-item[style*="background-color: rgb(213, 218, 223);"], :is(.rm-find-or-create-popover, .rm-find-or-create-modal) :is(.rm-find-or-create__menu, .rm-find-or-create-modal-body__list) > li.bp3-menu-item.bp3-active {
 	background-color: var(--bc-find-or-create__menu-item--selected)!important;
 	border-top: var(--bt-find-or-create__menu-item--selected);
 	border-right: var(--br-find-or-create__menu-item--selected);
@@ -2091,11 +2091,11 @@ h3.bp3-heading, .bp3-dialog-header .bp3-heading {
 	border-radius: var(--bd-find-or-create__menu-item--selected);
 }
 
-.rm-find-or-create-wrapper .rm-menu-item[style*="background-color: rgb(213, 218, 223);"] .rm-search-list-item, .rm-find-or-create-wrapper .rm-menu-item[style*="background-color: rgb(213, 218, 223);"] .rm-search-title, .rm-find-or-create-wrapper .rm-menu-item[style*="background-color: rgb(213, 218, 223);"] .rm-search-list-item-title {
+.rm-find-or-create-wrapper .rm-menu-item[style*="background-color: rgb(213, 218, 223);"] .rm-search-list-item, .rm-find-or-create-wrapper .rm-menu-item[style*="background-color: rgb(213, 218, 223);"] .rm-search-title, .rm-find-or-create-wrapper .rm-menu-item[style*="background-color: rgb(213, 218, 223);"] .rm-search-list-item-title, :is(.rm-find-or-create-popover, .rm-find-or-create-modal) :is(.rm-find-or-create__menu, .rm-find-or-create-modal-body__list) > li.bp3-menu-item.bp3-active .rm-find-or-create-row__title, :is(.rm-find-or-create-popover, .rm-find-or-create-modal) :is(.rm-find-or-create__menu, .rm-find-or-create-modal-body__list) > li.bp3-menu-item.bp3-active .rm-find-or-create-row__title span, :is(.rm-find-or-create-popover, .rm-find-or-create-modal) :is(.rm-find-or-create__menu, .rm-find-or-create-modal-body__list) > li.bp3-menu-item.bp3-active .rm-find-or-create-row__ref-count {
 	color: var(--co-find-or-create__menu-item--selected)!important;
 }
 
-.rm-find-or-create-wrapper .rm-menu-item {
+.rm-find-or-create-wrapper .rm-menu-item, :is(.rm-find-or-create-popover, .rm-find-or-create-modal) :is(.rm-find-or-create__menu, .rm-find-or-create-modal-body__list) > li.bp3-menu-item {
 	border-top: var(--bt-find-or-create__menu-item);
 	border-right: var(--br-find-or-create__menu-item);
 	border-bottom: var(--bb-find-or-create__menu-item);
@@ -2103,25 +2103,83 @@ h3.bp3-heading, .bp3-dialog-header .bp3-heading {
 	color: var(--co-find-or-create__menu-item);
 }
 
-.rm-find-or-create-wrapper .rm-menu-item[style*="background-color: rgb(213, 218, 223);"] .rm-search-title .rm-new-page {
-	color: var(--co-find-or-create__new-page--selected);
+.rm-find-or-create-wrapper .rm-menu-item[style*="background-color: rgb(213, 218, 223);"] .rm-search-title .rm-new-page, :is(.rm-find-or-create-popover, .rm-find-or-create-modal) :is(.rm-find-or-create__menu, .rm-find-or-create-modal-body__list) > li.bp3-menu-item.bp3-active .rm-find-or-create-row__label {
+	color: var(--co-find-or-create__new-page--selected)!important;
 }
 
-.rm-find-or-create-wrapper .rm-menu-item .rm-search-title .rm-new-page {
+.rm-find-or-create-wrapper .rm-menu-item .rm-search-title .rm-new-page, :is(.rm-find-or-create-popover, .rm-find-or-create-modal) .rm-find-or-create-row__label {
 	color: var(--co-find-or-create__new-page);
 }
 
-.rm-find-or-create-wrapper .rm-find-or-create__menu > div[style*="color: rgb(206, 217, 224);"] {
+.rm-find-or-create-wrapper .rm-find-or-create__menu > div[style*="color: rgb(206, 217, 224);"], :is(.rm-find-or-create-popover, .rm-find-or-create-modal) .rm-find-or-create-body__group-header {
 	color: var(--co-find-or-create__recent)!important;
 }
 
-.rm-find-or-create-wrapper .rm-menu-item .rm-search-list-item {
+.rm-find-or-create-wrapper .rm-menu-item .rm-search-list-item, :is(.rm-find-or-create-popover, .rm-find-or-create-modal) .rm-find-or-create-row__ref-count {
 	color: var(--co-find-or-create__search-list-item);
 }
 
-.rm-find-or-create-wrapper .rm-menu-item .rm-search-list-item-title {
+.rm-find-or-create-wrapper .rm-menu-item .rm-search-list-item-title, :is(.rm-find-or-create-popover, .rm-find-or-create-modal) .rm-find-or-create-row__title {
 	color: var(--co-find-or-create__search-list-item-title);
 	font-size: var(--fs-find-or-create__search-list-item-title);
+}
+
+:is(.rm-find-or-create-popover, .rm-find-or-create-modal) .rm-find-or-create-footer {
+	background-color: var(--bc-find-or-create__footer, var(--bc-find-or-create))!important;
+	border-top: var(--bt-find-or-create__footer);
+	color: var(--co-find-or-create__footer, var(--co-find-or-create));
+}
+
+:is(.rm-find-or-create-popover, .rm-find-or-create-modal) .rm-find-or-create-footer .rm-find-or-create-footer__action-desc, :is(.rm-find-or-create-popover, .rm-find-or-create-modal) .rm-find-or-create-footer .rm-find-or-create-footer__title {
+	color: var(--co-find-or-create__footer, var(--co-find-or-create))!important;
+}
+
+:is(.rm-find-or-create-popover, .rm-find-or-create-modal) .rm-find-or-create-footer .rm-find-or-create-footer__action-hotkey-icon {
+	background-color: var(--bc-find-or-create__footer-hotkey, transparent);
+	color: var(--co-find-or-create__footer-hotkey, var(--co-find-or-create))!important;
+}
+
+:is(.rm-find-or-create-popover, .rm-find-or-create-modal) .rm-find-or-create-row__snippet, :is(.rm-find-or-create-popover, .rm-find-or-create-modal) .rm-find-or-create-row__snippet span {
+	color: var(--co-find-or-create__snippet, var(--co-find-or-create__search-list-item))!important;
+}
+
+:is(.rm-find-or-create-popover, .rm-find-or-create-modal) :is(.rm-find-or-create__menu, .rm-find-or-create-modal-body__list) > li.bp3-menu-item.bp3-active .rm-find-or-create-row__snippet, :is(.rm-find-or-create-popover, .rm-find-or-create-modal) :is(.rm-find-or-create__menu, .rm-find-or-create-modal-body__list) > li.bp3-menu-item.bp3-active .rm-find-or-create-row__snippet span {
+	color: var(--co-find-or-create__snippet--selected, var(--co-find-or-create__menu-item--selected))!important;
+}
+
+.rm-modal-dialog.rm-modal-dialog--find-or-create, .rm-modal-dialog--find-or-create .rm-find-or-create-modal {
+	background-color: var(--bc-dialog)!important;
+}
+
+.rm-modal-dialog--find-or-create .rm-find-or-create-modal-header {
+	border-bottom: var(--bb-dialog__header);
+}
+
+.rm-modal-dialog--find-or-create .rm-find-or-create-modal-header__query-input {
+	background-color: transparent!important;
+	box-shadow: none!important;
+	color: var(--co-input);
+}
+
+.rm-modal-dialog--find-or-create .rm-find-or-create-modal-header__query-input::-moz-placeholder {
+	color: var(--co-input__search-placeholder);
+}
+
+.rm-modal-dialog--find-or-create .rm-find-or-create-modal-header__query-input::placeholder {
+	color: var(--co-input__search-placeholder);
+}
+
+.rm-modal-dialog--find-or-create .rm-search-filter-chip {
+	background-color: var(--bc-find-or-create__chip, var(--bc-menu__item--hover))!important;
+	color: var(--co-find-or-create__chip, var(--co-menu__item))!important;
+}
+
+.rm-modal-dialog--find-or-create .rm-search-filter-chip.rm-search-filter-chip--add {
+	background-color: transparent!important;
+}
+
+.rm-modal-dialog--find-or-create .rm-find-or-create-body__empty-text {
+	color: var(--co-find-or-create__footer, var(--co-find-or-create));
 }
 
 .rm-find-or-create-wrapper:not([style*="flex: 0 1 200px"]) {
