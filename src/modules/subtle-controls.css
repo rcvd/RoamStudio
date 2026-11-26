@@ -1,0 +1,22 @@
+/* Bullets, multibars and reference carets fade while their block is not hovered or
+   focused, as in the original Roam Studio's "Subtle controls". Opacity only, so the
+   module paints no color of its own and fits every theme. */
+.rm-block .rm-bullet,
+.rm-block .rm-multibar,
+.rm-ref-page-view .rm-title-arrow-wrapper > .rm-caret {
+  opacity: 0.2;
+}
+
+.rm-block:hover > .rm-block-main > .controls > .rm-bullet,
+.rm-focused > .rm-block-main > .controls > .rm-bullet,
+.rm-block:hover > .rm-block-children > .rm-multibar,
+.rm-focused > .rm-block-children > .rm-multibar,
+.rm-ref-page-view:hover .rm-title-arrow-wrapper > .rm-caret {
+  opacity: 1;
+}
+
+/* The focused block's bullet. The color is a root token (light-dark), so this
+   compiled module fits every theme and follows Auto, Dark and Light by itself. */
+.rm-focused > .rm-block-main > .controls > .rm-bullet > .bp3-popover-wrapper .rm-bullet__inner {
+  background-color: var(--rs-bullet-focused);
+}

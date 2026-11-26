@@ -1,5 +1,0 @@
-div:has(>span>span>span>span>span>span>label>input:checked),
-div:has(>span>span>label>input:checked) {
-  color: gray!important;
-  text-decoration: line-through;
-}

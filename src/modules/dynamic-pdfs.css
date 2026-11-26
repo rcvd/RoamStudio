@@ -1,0 +1,6 @@
+/* Inline-style match kept: Roam marks a PDF's default width only through its inline
+   width, not with a class. */
+div.hoverparent[style*="width: 580px;"],
+div.hoverparent[style*="width: 580px;"] div.react-resizable {
+  width: 100% !important;
+}

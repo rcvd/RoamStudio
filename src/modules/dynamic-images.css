@@ -1,0 +1,16 @@
+/*
+Images in the right sidebar will be scaled dynamically to fit the width of the bar.
+
+Images in the content area will be scaled to 100% once the reach the max width of 580px
+*/
+#roam-right-sidebar-content .rm-inline-img__resize,
+#roam-right-sidebar-content .react-resizable {
+  width: unset !important;
+}
+
+/* Inline-style match kept: Roam marks an image's default width only through its inline
+   width, not with a class. */
+.rm-inline-img__resize[style*="width: 580px"],
+.react-resizable[style*="width: 580px"] {
+  width: 100% !important;
+}

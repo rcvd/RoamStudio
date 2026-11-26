@@ -1,0 +1,8 @@
+/* :has() sits on the block, not on its classless content span, so it runs per
+   block instead of per span. Roam renders a block's content as a single span.
+   The color is a root token, so this compiled module fits every theme. */
+.rm-block-ref:has(> span > .rm-checkbox > label.check-container > input:checked) > span,
+.roam-block:has(> span > .rm-checkbox > label.check-container > input:checked) > span {
+  color: var(--rs-done-text) !important;
+  text-decoration: line-through;
+}

@@ -1,3 +1,0 @@
-.rm-block > .rm-block-main:has(.roam-block > span:empty) > .controls {
-  display: none;
-}

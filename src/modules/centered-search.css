@@ -1,0 +1,68 @@
+@media (hover: hover) and (pointer: fine) {
+  .rm-find-or-create-wrapper[style="flex: 0 1 200px;"] {
+    position: absolute;
+    top: -80px;
+  }
+  /* No rule tests the collapsed wrapper's inline style left of a subject (Chromium would
+     restyle the matching descendants on every style write in the page): collapsed, the
+     wrapper sits above the window (top: -80px) and Roam renders no menu in it, so its input
+     and menu need no rule of their own. */
+  .rm-help-popup {
+    z-index: 1001;
+  }
+  .rm-find-or-create-wrapper .bp3-menu {
+    max-height: 340px;
+  }
+  /* Roam marks the open left sidebar only through the main column's inline margin. The
+     column sets a local variable that the open search reads, so no selector tests style
+     left of its subject. */
+  .roam-app .flex-h-box[style*="margin-left: 232px;"] {
+    --rs-x-search-left: -232px;
+  }
+  .rm-find-or-create-wrapper:not([style*="flex: 0 1 200px"]) {
+    border-radius: 15px;
+    bottom: 0;
+    display: block;
+    height: 400px;
+    left: var(--rs-x-search-left, 0);
+    margin: auto;
+    max-width: 600px;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 95%;
+    z-index: 1000;
+  }
+  /*
+    .rm-find-or-create-wrapper .bp3-popover .bp3-popover-content {
+      background-color: transparent !important;
+      border: none;
+    }*/
+  .rm-find-or-create-wrapper .bp3-popover {
+    box-shadow: none !important;
+  }
+  .rm-find-or-create-wrapper .bp3-transition-container {
+    transform: translate3d(0px, 50px, 0px) !important;
+  }
+  /* BlueprintJS elevation 3, in the active theme's colors (root tokens). */
+  .rm-find-or-create-wrapper {
+    transition: none;
+    box-shadow: 0 0 0 1px var(--rs-shadow-ring), 0 2px 4px var(--rs-shadow), 0 8px 24px var(--rs-shadow) !important;
+    border: none !important;
+  }
+  .rm-find-or-create-wrapper .bp3-menu {
+    padding: 10px;
+  }
+  .rm-find-or-create-wrapper {
+    background-color: var(--rs-card-background) !important;
+    border-radius: 6px;
+  }
+  .rm-find-or-create__menu,
+  .rm-find-or-create__menu .bp3-menu {
+    background-color: transparent !important;
+  }
+  .rm-find-or-create-wrapper .bp3-popover {
+    border: none;
+  }
+}

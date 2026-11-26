@@ -1,25 +1,32 @@
 {
   "name": "roamstudio",
   "version": "1.0.0",
-  "description": "Beautiful and easily customizable themes for Roam",
-  "main": "src/index.ts",
+  "description": "Beautiful, customizable themes for Roam Research",
+  "main": "extension.js",
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch",
     "start": "webpack --watch",
-    "add_css": "sh add_css.sh"
+    "test": "vitest run",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit && tsc --noEmit -p test/tsconfig.json"
   },
   "license": "MIT",
   "devDependencies": {
-    "@types/react-color": "^3.0.13",
-    "react-color": "^2.19.3",
-    "roamjs-scripts": "^0.27.1",
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.6.6",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "eslint": "^10.14.0",
+    "globals": "^17.14.0",
+    "jsdom": "^31.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "ts-loader": "^9.6.2",
-    "typescript": "^5.0.0",
-    "webpack": "^5.111.1",
-    "webpack-cli": "^7.2.3"
-  },
-  "dependencies": {
-    "roamjs-components": "^0.90.0"
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.72.2",
+    "vitest": "^5.1.0",
+    "webpack": "^5.112.2",
+    "webpack-cli": "^7.3.1"
   }
 }

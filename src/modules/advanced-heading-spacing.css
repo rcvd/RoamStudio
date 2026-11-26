@@ -1,0 +1,15 @@
+/* Collapsed headings lose their margins, so a page of collapsed sections reads as a
+   compact outline. Ported from the previous Roam Studio; the `> .rm-block__self`
+   selectors match where Blueprint puts the heading margins (partials/_headings.scss). */
+.rm-block--closed.rm-heading-level-1 > .rm-block__self,
+.rm-block--closed.rm-heading-level-2 > .rm-block__self,
+.rm-block--closed.rm-heading-level-3 > .rm-block__self,
+.rm-block--closed.rm-heading-level-1 > .rm-block__self .rm-block__input,
+.rm-block--closed.rm-heading-level-2 > .rm-block__self .rm-block__input,
+.rm-block--closed.rm-heading-level-3 > .rm-block__self .rm-block__input,
+.rm-block--closed.rm-heading-level-1 > .rm-block__self > .rm-block__controls,
+.rm-block--closed.rm-heading-level-2 > .rm-block__self > .rm-block__controls,
+.rm-block--closed.rm-heading-level-3 > .rm-block__self > .rm-block__controls {
+  margin-top: 0;
+  margin-bottom: 0;
+}

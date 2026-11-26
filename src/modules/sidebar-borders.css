@@ -1,0 +1,8 @@
+/* Removes the lines between the sidebars and the page: Blueprint draws them as
+   box-shadows, other themes may use borders. Ported from the previous Roam Studio. */
+.roam-body .roam-app .roam-sidebar-container,
+#right-sidebar {
+  border-left: none !important;
+  border-right: none !important;
+  box-shadow: none !important;
+}

@@ -1,0 +1,25 @@
+.rm-find-or-create-wrapper {
+  transition: none;
+  max-width: 400px;
+}
+
+/* :has() on single, classed elements (the search wrapper and the top bar). */
+.rm-find-or-create-wrapper:has(#find-or-create-input:focus) {
+  flex: 0 1 100% !important;
+  max-width: 600px;
+}
+
+.rm-topbar:has(#find-or-create-input:focus) .bp3-popover-wrapper:not(.bp3-input-action) .bp3-button,
+.rm-topbar:has(#find-or-create-input:focus) .rm-sync {
+  transition: none;
+  display: none;
+}
+
+.rm-topbar:has(#find-or-create-input:focus) .bp3-popover-wrapper.bp3-input-action .bp3-button {
+  display: block;
+}
+
+.rm-find-or-create-wrapper .bp3-menu {
+  /* height: 90dvh; */
+  max-height: 88dvh;
+}

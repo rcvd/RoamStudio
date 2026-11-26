@@ -1,0 +1,7 @@
+/* Hides the bullet (and caret) of empty blocks. Ported from the previous Roam Studio.
+   The :has() is anchored to the block's rendered text, a direct child of its main row,
+   so it checks two children instead of the row's subtree (src/roam/selector-allow.json). */
+.rm-block > .rm-block-main:has(> .roam-block > span:empty) > .controls,
+.rm-block > .rm-block-main:has(> .roam-block > span:empty) > .rm-block__controls {
+  display: none;
+}

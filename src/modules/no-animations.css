@@ -1,0 +1,9 @@
+/* Turns off transitions and animations to speed up the UI. Matches every div, which
+   is why it is a module: while it is off, these rules are not in the page. Ported
+   from the previous Roam Studio. */
+.rm-bullet::after,
+div,
+input {
+  transition: none !important;
+  animation: none !important;
+}

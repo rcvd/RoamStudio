@@ -1,0 +1,4 @@
+.icon::before {
+  content: "\f101";
+}
+.quote::after { content: 'it\'s'; }

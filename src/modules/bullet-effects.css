@@ -1,0 +1,11 @@
+.rm-bullet:hover .rm-bullet__inner {
+  width: 9px;
+  height: 9px;
+  border: 2px solid transparent;
+  transition: background 0.2s ease-in-out, border-color 0.2s ease-in-out, border-radius 0.2s ease-in-out, border-width 0.2s ease-in-out, border-image 0.2s ease-in-out, height 0.2s ease-in-out, width 0.2s ease-in-out;
+}
+
+.sidebar-content .rm-bullet.rm-bullet--closed:hover .rm-bullet__inner,
+.rm-bullet.rm-bullet--closed:hover .rm-bullet__inner {
+  border: 2px solid transparent;
+}

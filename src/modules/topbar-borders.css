@@ -1,0 +1,8 @@
+/* Removes the lines below the top bar and the sidebars' top rows. Ported from the
+   previous Roam Studio. */
+.rm-topbar,
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .top-row,
+#right-sidebar > .flex-h-box {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
