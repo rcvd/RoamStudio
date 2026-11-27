@@ -17,7 +17,7 @@ import { createToggle, destroyToggle, setAppearance } from "./components/dm-togg
 import { applyFonts, removeFonts, requiredFonts } from "./components/fonts";
 import { applyModules, removeModules } from "./components/modules";
 import { THEME_FONTS, applyStoredTheme, removeTheme, storedTheme } from "./components/theme";
-import { SETTING_APPEARANCE, SETTING_GRUVBOX_CONTRAST, SETTING_ICON_THEME, SETTING_OPEN_GROUPS, SETTING_THEME } from "./constants";
+import { SETTING_APPEARANCE, SETTING_COLLAPSED_BULLET, SETTING_GRUVBOX_CONTRAST, SETTING_ICON_THEME, SETTING_OPEN_GROUPS, SETTING_THEME } from "./constants";
 import { createSettingsPanel } from "./panel/register";
 import { applySettings, removeSettings } from "./settings/apply";
 import { SettingsStore } from "./settings/store";
@@ -35,7 +35,7 @@ function applyChange(store: SettingsStore, key: string) {
     applyStoredTheme(store);
     applyStoredFonts(store);
   } else if (key === SETTING_APPEARANCE) setAppearance(String(store.get(SETTING_APPEARANCE)));
-  else if (key.startsWith("rs-module-") || key === SETTING_ICON_THEME || key === "rs-date-icon") applyModules(store.lookup);
+  else if (key.startsWith("rs-module-") || key === SETTING_ICON_THEME || key === SETTING_COLLAPSED_BULLET || key === "rs-date-icon") applyModules(store.lookup);
   else {
     applySettings(store.lookup);
     applyStoredFonts(store);

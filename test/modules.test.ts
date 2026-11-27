@@ -38,6 +38,13 @@ describe("module loader", () => {
     expect(enabledModules(lookup({ "rs-icon-theme": "feather" }))).toEqual(["icons-feather"]);
   });
 
+  it("adds the chosen collapsed-bullet style, and none for the theme's own", () => {
+    expect(enabledModules(lookup({ "rs-collapsed-bullet": "ring" }))).toEqual(["collapsed-bullet-ring"]);
+    expect(enabledModules(lookup({ "rs-collapsed-bullet": "intensity" }))).toEqual(["collapsed-bullet-intensity"]);
+    expect(enabledModules(lookup({ "rs-collapsed-bullet": "halo" }))).toEqual([]);
+    expect(enabledModules(lookup({}))).toEqual([]);
+  });
+
   it("adds nothing while every module is off", () => {
     extension.onload({ extensionAPI: api() });
     expect(moduleIds()).toEqual([]);

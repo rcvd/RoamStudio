@@ -21,6 +21,22 @@ export function tokenValues(setting: Setting, value: unknown): [string, string][
   return css === undefined ? [] : setting.target.tokens.map((token) => [token, css]);
 }
 
+/**
+ * Links whose underline setting draws their own line (a border). Roam underlines a hovered
+ * link's text as well, which would show two lines; for these the settings stylesheet sets a
+ * local variable that the rule file's hover rules read (`--rs-x-<prefix>-hover-line`).
+ */
+const HOVER_LINES = ["page-link", "external-link", "alias", "tag", "date"];
+
+/** `none` while a link kind has an underline of its own, `underline` when set to none. */
+export function hoverLineValues(get: Lookup): [string, string][] {
+  return HOVER_LINES.flatMap((prefix) => {
+    const value = get(`rs-${prefix}-underline`);
+    if (value === null || value === undefined) return [];
+    return [[`x-${prefix}-hover-line`, value === "none" ? "underline" : "none"]];
+  });
+}
+
 /** The settings stylesheet's text: empty when every setting is at its default. */
 export function settingsCss(get: Lookup): string {
   const decls: string[] = [];
@@ -33,6 +49,7 @@ export function settingsCss(get: Lookup): string {
       if (css) mobile = `@media screen and (max-width: 600px) {\n  :root:root {\n    --rs-font-size: ${css};\n  }\n}\n`;
     }
   }
+  for (const [name, css] of hoverLineValues(get)) decls.push(`  --rs-${name}: ${css};`);
   const root = decls.length ? `:root:root {\n${decls.join("\n")}\n}\n` : "";
   return root + mobile;
 }

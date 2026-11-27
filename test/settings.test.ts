@@ -90,7 +90,7 @@ describe("settings applier", () => {
     ["rs-line-spacing", "small", "--rs-line-height: calc(var(--rs-font-size, 15px) + 6px);"],
     ["rs-h2-size", "l", "--rs-h2-size: 2.4rem;"],
     ["rs-heading-spacing", "medium", "--rs-heading-spacing: 0.5;"],
-    ["rs-page-link-underline", "fat", "--rs-page-link-underline: 3px solid;"],
+    ["rs-page-link-underline", "fat", "--rs-page-link-underline: 3px solid;\n  --rs-x-page-link-hover-line: none;"],
     ["rs-block-ref-weight", "bold", "--rs-block-ref-weight: 700;"],
     ["rs-tag-padding", "medium", "--rs-tag-padding: 2px 5px;"],
     ["rs-tag-radius", "heavy", "--rs-tag-radius: 10px;"],
@@ -100,6 +100,14 @@ describe("settings applier", () => {
   ])("%s = %s", (key, value, decl) => {
     const css = settingsCss(lookup({ [key]: value }));
     expect(css).toBe(`:root:root {\n  ${decl}\n}\n`);
+  });
+
+  it("turns off Roam's hover underline for a link kind that has an underline of its own", () => {
+    const css = settingsCss(lookup({ "rs-external-link-underline": "thin", "rs-tag-underline": "none", "rs-date-underline": "dotted" }));
+    expect(css).toContain("--rs-x-external-link-hover-line: none;");
+    expect(css).toContain("--rs-x-tag-hover-line: underline;");
+    expect(css).toContain("--rs-x-date-hover-line: none;");
+    expect(css).not.toContain("--rs-x-page-link-hover-line");
   });
 
   it("writes the code font to code blocks, inline code and hotkeys", () => {

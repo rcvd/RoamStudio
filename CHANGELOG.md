@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+- In Quattro, a collapsed block's bullet has a ring, as in Craft and Things; it had looked exactly like an open bullet.
+- **Collapsed bullets** (Blocks & Content) chooses how a collapsed block's bullet stands out in any theme: with a ring (as in Quattro, Craft and Things) or by intensity, with open bullets fainter (as in Blueprint and Gruvbox). Theme default keeps the theme's own.
+- A link with an underline setting no longer gets Roam's text underline too when hovered (every theme), and links inside a block reference draw no underline of their own under the block reference's: both showed two lines.
+- With the Feather icons, the magnifier of a page's references search sits centered in its field; it sat 4px too high.
+- With **Enhanced search**, the search menu leaves room for Roam's footer with the keyboard shortcuts, which fell below the window in lower windows.
 - In Craft, outlined buttons (Choose Folder in Roam's Import dialog, say) no longer gain a border on hover, which made them grow and shift their neighbors.
 - In Craft, hovering a button (the tags of a page's or a reference's filter menu, say) no longer mutes its text, which in Dark turned darker on the lighter hover background; hover now shows only in the background, as in Blueprint.
 - In Craft, tag and date pills stand out more: in Dark they are filled lighter than the page (their fill had matched it), and in Light a shade darker than before.

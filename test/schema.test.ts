@@ -43,7 +43,7 @@ describe("settings schema", () => {
     expect(labelsIn("Tags")).toEqual(["Color", "Background", "Padding", "Underline", "Underline color", "Font size", "Corner radius"]);
     expect(labelsIn("Dates")).toEqual(["Color", "Background", "Padding", "Underline", "Underline color", "Font size", "Corner radius", "Date icons", "No line break within dates"]);
     expect(labelsIn("Sidebars & Top Bar")).toEqual(["Hide logo", "Hide shortcuts heading", "Hide sidebar icons", "Masonry sidebar", "Remove sidebar borders", "Remove top bar borders", "Centered search", "Enhanced search"]);
-    expect(labelsIn("Blocks & Content")).toEqual(["Bullet effects", "Subtle controls", "More room", "Strike done todos", "Dynamic image sizes", "Dynamic PDF sizes", "Remove log page minimum height"]);
+    expect(labelsIn("Blocks & Content")).toEqual(["Collapsed bullets", "Bullet effects", "Subtle controls", "More room", "Strike done todos", "Dynamic image sizes", "Dynamic PDF sizes", "Remove log page minimum height"]);
     expect(labelsIn("Mobile")).toEqual(["Mobile font size", "Mobile caret", "Mobile sidebar"]);
     expect(labelsIn("Performance")).toEqual(["Disable animations"]);
   });

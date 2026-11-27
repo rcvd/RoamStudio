@@ -1,0 +1,12 @@
+/* Collapsed bullets: Ring (setting `rs-collapsed-bullet`). Every bullet takes the
+   collapsed fill, and a collapsed block's bullet adds a ring, as Craft and Things do.
+   Root tokens only, so the module fits every theme; `:root:root` outranks the themes'
+   mode-scoped bullet rules, and Subtle controls' focused bullet still wins. Bullets in a
+   collaborator's color (`--user-icon`) keep theirs. */
+:root:root .rm-bullet .rm-bullet__inner:not(.rm-bullet__inner--user-icon) {
+  background-color: var(--rs-bullet-collapsed);
+}
+
+:root:root .rm-bullet.rm-bullet--closed .rm-bullet__inner:not(.rm-bullet__inner--user-icon) {
+  border: 4px solid var(--rs-bullet-ring);
+}

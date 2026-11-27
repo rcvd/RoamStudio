@@ -20,6 +20,7 @@
 }
 
 .rm-find-or-create-wrapper .bp3-menu {
-  /* height: 90dvh; */
-  max-height: 88dvh;
+  /* The menu sits 38px below the window's top, and Roam's footer with the keyboard
+     shortcuts (24px) follows it: leave room for both, or the footer ends below the window. */
+  max-height: calc(100dvh - 80px);
 }

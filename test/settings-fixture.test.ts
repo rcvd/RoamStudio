@@ -27,7 +27,7 @@ describe("settings fixtures for the measure tools", () => {
         const target = SECTIONS_SETTINGS().find((s) => s.key === key)?.target;
         return n + (target && "tokens" in target ? target.tokens.length : 1);
       }, 0);
-      expect(css.match(/^ {2}--rs-/gm)?.length).toBe(written);
+      expect(css.match(/^ {2}--rs-(?!x-)/gm)?.length).toBe(written);
     });
   }
 
@@ -45,6 +45,8 @@ describe("settings fixtures for the measure tools", () => {
     const themeValue = (css: string, name: string) => css.match(new RegExp(`(?:^|[;{\\s])${name}:\\s*([^;}]+)`))?.[1].trim();
     const themes = ["blueprint", "gruvbox", "quattro", "craft", "things"].map((t) => readFileSync(resolve(themesDir, `${t}.css`), "utf8"));
     for (const [name, value] of declared) {
+      // `--rs-x-…` are local variables the rule file reads, not tokens.
+      if (name.startsWith("--rs-x-")) continue;
       const token = tokens[name.slice(5)];
       expect(token, `${name} is not a token`).toBeDefined();
       for (const v of [token.value, token.light, token.dark]) if (v) expect(value, `${name} equals Blueprint's ${v}`).not.toBe(v);

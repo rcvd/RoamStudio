@@ -23,6 +23,7 @@ export const ICON_FLASH = "flash";
 export const SETTING_THEME = "rs-theme";
 export const SETTING_GRUVBOX_CONTRAST = "rs-gruvbox-contrast";
 export const SETTING_ICON_THEME = "rs-icon-theme";
+export const SETTING_COLLAPSED_BULLET = "rs-collapsed-bullet";
 /** Which groups of the settings panel are open (a JSON list of group ids). */
 export const SETTING_OPEN_GROUPS = "rs-panel-open-groups";
 

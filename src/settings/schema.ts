@@ -14,6 +14,7 @@ import {
   CONTRAST_MEDIUM,
   SETTING_APPEARANCE,
   SETTING_GRUVBOX_CONTRAST,
+  SETTING_COLLAPSED_BULLET,
   SETTING_ICON_THEME,
   SETTING_THEME,
   THEMES,
@@ -50,7 +51,7 @@ export interface ChoiceSetting extends Base {
   themeDefault: boolean;
   /** Used when nothing valid is stored and there is no theme default. */
   fallback?: string;
-  target: TokenTarget | { kind: "theme" } | { kind: "appearance" } | { kind: "contrast" } | { kind: "icon-theme" } | { kind: "mobile-font-size" };
+  target: TokenTarget | { kind: "theme" } | { kind: "appearance" } | { kind: "contrast" } | { kind: "icon-theme" } | { kind: "collapsed-bullet" } | { kind: "mobile-font-size" };
 }
 
 /** A color from the picker (`color-selection`); `null` is "Theme default". */
@@ -230,6 +231,12 @@ function headingLevel(n: 1 | 2 | 3): Setting[] {
 
 // ---------------------------------------------------------------- the groups
 
+/** How a collapsed block's bullet differs from an open one; "Theme default" keeps the theme's. */
+export const COLLAPSED_BULLETS: Option[] = [
+  { value: "ring", label: "Ring (as Craft and Things)" },
+  { value: "intensity", label: "Intensity (as Blueprint and Gruvbox)" },
+];
+
 export const ICON_THEMES: Option[] = [
   { value: "blueprint", label: "BlueprintJS (Roam's icons)" },
   { value: "feather", label: "Feather" },
@@ -333,6 +340,7 @@ export const GROUPS: Group[] = [
     title: "Blocks & Content",
     sections: [{
       settings: [
+        choice(SETTING_COLLAPSED_BULLET, "Collapsed bullets", "How the bullet of a collapsed block stands out: a ring around it, or open bullets fainter than collapsed ones.", COLLAPSED_BULLETS, { kind: "collapsed-bullet" }),
         moduleSwitch("bullet-effects", "Bullet effects", "A subtle effect when hovering bullets"),
         moduleSwitch("subtle-controls", "Subtle controls", "Make bullets, carets and lines less prominent while a block is not focused"),
         moduleSwitch("more-room", "More room", "Hide the bullets of empty blocks"),

@@ -5,12 +5,14 @@
  * the theme stylesheet. Modules paint only with root tokens, so the same CSS fits
  * every theme (scripts/check-palette.mjs --modules).
  *
- * Besides the module switches, the icon theme (Feather) and the date icon (in the
- * active icon theme's style) are modules too.
+ * Besides the module switches, the icon theme (Feather), the date icon (in the
+ * active icon theme's style) and the collapsed-bullet style are modules too.
  */
 import advancedHeadingSpacing from "../modules/advanced-heading-spacing.css";
 import bulletEffects from "../modules/bullet-effects.css";
 import centeredSearch from "../modules/centered-search.css";
+import collapsedBulletIntensity from "../modules/collapsed-bullet-intensity.css";
+import collapsedBulletRing from "../modules/collapsed-bullet-ring.css";
 import dateIcon from "../modules/date-icon.css";
 import dateIconFeather from "../modules/date-icon-feather.css";
 import done from "../modules/done.css";
@@ -32,7 +34,7 @@ import nonBreakableDates from "../modules/non-breakable-dates.css";
 import sidebarBorders from "../modules/sidebar-borders.css";
 import subtleControls from "../modules/subtle-controls.css";
 import topbarBorders from "../modules/topbar-borders.css";
-import { SETTING_ICON_THEME } from "../constants";
+import { SETTING_COLLAPSED_BULLET, SETTING_ICON_THEME } from "../constants";
 import { MODULES, type Lookup } from "../settings/schema";
 
 /** Every compiled module, by key. */
@@ -40,6 +42,8 @@ export const MODULE_CSS: Record<string, string> = {
   "advanced-heading-spacing": advancedHeadingSpacing,
   "bullet-effects": bulletEffects,
   "centered-search": centeredSearch,
+  "collapsed-bullet-intensity": collapsedBulletIntensity,
+  "collapsed-bullet-ring": collapsedBulletRing,
   "date-icon": dateIcon,
   "date-icon-feather": dateIconFeather,
   "done": done,
@@ -71,6 +75,8 @@ export function enabledModules(get: Lookup): string[] {
   const feather = get(SETTING_ICON_THEME) === "feather";
   if (feather) on.push("icons-feather");
   if (get("rs-date-icon") === true) on.push(feather ? "date-icon-feather" : "date-icon");
+  const bullet = get(SETTING_COLLAPSED_BULLET);
+  if (bullet === "ring" || bullet === "intensity") on.push(`collapsed-bullet-${bullet}`);
   return on;
 }
 

@@ -2150,6 +2150,8 @@ html:root.bp3-light {
   --rs-main-background: light-dark(var(--craft-bg-light), var(--craft-bg-dark));
   --rs-done-text: #ababab;
   --rs-bullet-focused: light-dark(#262626, #eaeaea);
+  --rs-bullet-collapsed: light-dark(#494b4d, #b6b6b6);
+  --rs-bullet-ring: light-dark(#cdcdcd, #414141);
   --rs-text-muted: light-dark(#494b4d, #ababab);
   --rs-card-background: light-dark(#ffffff, #262626);
   --rs-card-ring: light-dark(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4));
@@ -2197,6 +2199,8 @@ html:root.bp3-light {
   --rs-tag-padding: 2px 8px;
   --rs-date-radius: 15px;
   --rs-date-padding: 2px 8px;
+  --rs-bullet-collapsed: light-dark(#494b4d, #cdcdcd);
+  --rs-bullet-ring: light-dark(#eaeaea, #414141);
 }
 
 body {
@@ -26851,6 +26855,32 @@ code {
 
 .rm-page-ref--link {
   font-weight: var(--rs-page-link-weight, inherit);
+}
+
+.rm-block-ref .rm-page-ref, .rm-block-ref a.rm-alias, .rm-block-ref a:not(.rm-alias),
+.bp3-light .rm-block-ref .rm-page-ref, .bp3-light .rm-block-ref a.rm-alias, .bp3-light .rm-block-ref a:not(.rm-alias),
+.bp3-dark .rm-block-ref .rm-page-ref, .bp3-dark .rm-block-ref a.rm-alias, .bp3-dark .rm-block-ref a:not(.rm-alias) {
+  border-bottom: none;
+}
+
+.rm-page-ref--link:hover {
+  text-decoration-line: var(--rs-x-page-link-hover-line, underline);
+}
+
+.rm-page-ref--tag:hover {
+  text-decoration-line: var(--rs-x-tag-hover-line, underline);
+}
+
+:where(span[data-link-uid*="-17"], span[data-link-uid*="-18"], span[data-link-uid*="-19"], span[data-link-uid*="-20"], span[data-link-uid*="-21"]) .rm-page-ref:hover {
+  text-decoration-line: var(--rs-x-date-hover-line, var(--rs-x-page-link-hover-line, underline));
+}
+
+a.rm-alias--external:hover, :where(.roam-block) a:not(.rm-alias):hover {
+  text-decoration-line: var(--rs-x-external-link-hover-line, underline);
+}
+
+a.rm-alias--page:hover, a.rm-alias--block:hover {
+  text-decoration-line: var(--rs-x-alias-hover-line, underline);
 }
 
 .rm-autocomplete__results .dont-unfocus-block[style*="background-color: rgb(213, 218, 223)"] {

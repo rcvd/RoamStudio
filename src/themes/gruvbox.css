@@ -2150,6 +2150,8 @@ html:root.bp3-light {
   --rs-main-background: light-dark(var(--gruvbox-bg-light), var(--gruvbox-bg-dark));
   --rs-done-text: #928374;
   --rs-bullet-focused: light-dark(#32302f, #ebdbb2);
+  --rs-bullet-collapsed: light-dark(#665c54, #bdae93);
+  --rs-bullet-ring: light-dark(#d5c4a1, #504945);
   --rs-text-muted: light-dark(#665c54, #a89984);
   --rs-card-background: light-dark(#fbf1c7, #3c3836);
   --rs-card-ring: light-dark(rgba(29, 32, 33, 0.15), rgba(29, 32, 33, 0.4));
@@ -26809,6 +26811,32 @@ code {
 
 .rm-page-ref--link {
   font-weight: var(--rs-page-link-weight, inherit);
+}
+
+.rm-block-ref .rm-page-ref, .rm-block-ref a.rm-alias, .rm-block-ref a:not(.rm-alias),
+.bp3-light .rm-block-ref .rm-page-ref, .bp3-light .rm-block-ref a.rm-alias, .bp3-light .rm-block-ref a:not(.rm-alias),
+.bp3-dark .rm-block-ref .rm-page-ref, .bp3-dark .rm-block-ref a.rm-alias, .bp3-dark .rm-block-ref a:not(.rm-alias) {
+  border-bottom: none;
+}
+
+.rm-page-ref--link:hover {
+  text-decoration-line: var(--rs-x-page-link-hover-line, underline);
+}
+
+.rm-page-ref--tag:hover {
+  text-decoration-line: var(--rs-x-tag-hover-line, underline);
+}
+
+:where(span[data-link-uid*="-17"], span[data-link-uid*="-18"], span[data-link-uid*="-19"], span[data-link-uid*="-20"], span[data-link-uid*="-21"]) .rm-page-ref:hover {
+  text-decoration-line: var(--rs-x-date-hover-line, var(--rs-x-page-link-hover-line, underline));
+}
+
+a.rm-alias--external:hover, :where(.roam-block) a:not(.rm-alias):hover {
+  text-decoration-line: var(--rs-x-external-link-hover-line, underline);
+}
+
+a.rm-alias--page:hover, a.rm-alias--block:hover {
+  text-decoration-line: var(--rs-x-alias-hover-line, underline);
 }
 
 .rm-autocomplete__results .dont-unfocus-block[style*="background-color: rgb(213, 218, 223)"] {

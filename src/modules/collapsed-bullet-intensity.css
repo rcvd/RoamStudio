@@ -1,0 +1,16 @@
+/* Collapsed bullets: Intensity (setting `rs-collapsed-bullet`). Open bullets are faint
+   and a collapsed block's bullet is full, as Blueprint and Gruvbox do, without a ring.
+   Root tokens and opacity only, so the module fits every theme; `:root:root` outranks the
+   themes' mode-scoped bullet rules. Bullets in a collaborator's color (`--user-icon`)
+   keep theirs. */
+:root:root .rm-bullet .rm-bullet__inner:not(.rm-bullet__inner--user-icon) {
+  background-color: var(--rs-bullet-collapsed);
+}
+
+:root:root .rm-bullet:not(.rm-bullet--closed) .rm-bullet__inner:not(.rm-bullet__inner--user-icon) {
+  opacity: 0.35;
+}
+
+:root:root .rm-bullet.rm-bullet--closed .rm-bullet__inner:not(.rm-bullet__inner--user-icon) {
+  border-color: transparent;
+}

@@ -452,6 +452,13 @@
   width: 13px !important;
 }
 
+/* Roam's references search draws its magnifier in a 24px box with a 3px margin, centered
+   on the 30px field by the icon font's line height; the 16px Feather icon needs a 7px
+   margin above and below to sit centered, and keeps the 3px at the sides. */
+.rm-mentions-search .rm-mentions-search__search-icon {
+  margin: 7px 3px !important;
+}
+
 span.bp3-icon-standard:empty,
 span.bp3-icon:empty {
   height: 16px;
