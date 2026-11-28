@@ -50,6 +50,16 @@ const read = (text: string) => {
   return result;
 };
 
+describe("Feather icon theme", () => {
+  it("imports and exports a stored Feather choice as Lucide", () => {
+    const result = read(JSON.stringify({ format: FORMAT, version: 1, settings: { "rs-icon-theme": "feather" } }));
+    expect(result.settings).toEqual({ "rs-icon-theme": "lucide" });
+    expect(result.skipped).toEqual([]);
+    const { store } = storeOf({ "rs-icon-theme": "feather" });
+    expect(exportDocument(store.lookup).settings).toEqual({ "rs-icon-theme": "lucide" });
+  });
+});
+
 describe("export", () => {
   it("holds exactly the customized settings, in panel order", () => {
     const { store } = storeOf({ "rs-page-link-color": "rose-600", "rs-theme": "Craft", [SETTING_OPEN_GROUPS]: '["tags"]' });

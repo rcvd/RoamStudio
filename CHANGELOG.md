@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- **Breaking:** the Feather icon theme is replaced by **Lucide**, Feather's maintained fork (Feather is no longer maintained). The icon theme offers BlueprintJS and Lucide; a Feather choice carries over and shows the Lucide icons, the date icon included. Lucide also replaces the icons Feather left as BlueprintJS's (callouts, dialogs, zoom controls, select carets; Roam's block carets stay), and no icon shows BlueprintJS's drawing cut or next to its replacement any more (the settings' Import icon, chevrons, close and help buttons); every icon keeps Roam's size and position.
+- In Roam Depot's settings, Roam Studio's own buttons (Export, Import, Appearance, Gruvbox contrast) take the theme's button colors in Gruvbox, Quattro, Craft and Things. Roam paints buttons there dark even in Light, which those themes reproduced: Gruvbox Light showed dark buttons with unreadable text.
 - In Quattro, a collapsed block's bullet has a ring, as in Craft and Things; it had looked exactly like an open bullet.
 - **Collapsed bullets** (Blocks & Content) chooses how a collapsed block's bullet stands out in any theme: with a ring (as in Quattro, Craft and Things) or by intensity, with open bullets fainter (as in Blueprint and Gruvbox). Theme default keeps the theme's own.
 - A link with an underline setting no longer gets Roam's text underline too when hovered (every theme), and links inside a block reference draw no underline of their own under the block reference's: both showed two lines.

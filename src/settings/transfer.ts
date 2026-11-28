@@ -8,7 +8,7 @@
  * extension would ignore.
  */
 import { SETTING_APPEARANCE, SETTING_THEME } from "../constants";
-import { SETTINGS, isDefault, readValue, settingByKey, type Lookup } from "./schema";
+import { SETTINGS, isDefault, readValue, VALUE_ALIASES, settingByKey, type Lookup } from "./schema";
 import type { SettingsStore } from "./store";
 
 export const FORMAT = "roam-studio-settings";
@@ -81,13 +81,15 @@ export function readDocument(text: string): ReadResult {
       skipped.push({ key, reason: "not a Roam Studio setting" });
       continue;
     }
-    // Kept only when the setting would read it back unchanged (switches as booleans).
-    const valid = (typeof value === "string" || typeof value === "boolean") && readValue(setting, value) === value;
-    if (!valid) {
+    // Kept only when the setting would read it back unchanged (switches as booleans), or as
+    // the value an old alias stands for (a Feather icon theme imports as Lucide).
+    const read = typeof value === "string" || typeof value === "boolean" ? readValue(setting, value) : null;
+    const aliased = typeof value === "string" && VALUE_ALIASES[key]?.[value] === read;
+    if (read === null || (read !== value && !aliased)) {
       skipped.push({ key, reason: `not a valid value (${JSON.stringify(value)})` });
       continue;
     }
-    settings[key] = value;
+    settings[key] = read;
   }
   return { settings, skipped };
 }

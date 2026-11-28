@@ -85,7 +85,8 @@ describe("every option of the previous Roam Studio", () => {
     const previous = ["advanced-heading-spacing", "bullet-effects", "centered-search", "done", "dynamic-images", "dynamic-pdfs", "hide-line-numbers", "hide-logo", "hide-shortcuts",
       "hide-sidebar-icons", "masonry", "logpage-no-min-height", "mobile-caret", "mobile-sidebar", "more-room", "no-animations", "subtle-controls", "non-breakable-dates", "topbar-borders", "sidebar-borders"];
     expect(MODULES).toEqual(expect.arrayContaining(previous));
-    expect(choice("rs-icon-theme").options.map((o) => o.value)).toEqual(["blueprint", "feather"]);
+    expect(choice("rs-icon-theme").options.map((o) => o.value)).toEqual(["blueprint", "lucide"]);
+    expect(choice("rs-icon-theme").options.map((o) => o.label)).toEqual(["BlueprintJS (Roam's icons)", "Lucide"]);
     expect(settingByKey("rs-date-icon")?.control).toBe("switch");
   });
 });
@@ -101,6 +102,10 @@ describe("stored values", () => {
     expect(readValue(size, "l")).toBe("l");
     expect(readValue(linkColor, "rose-600")).toBe("rose-600");
     expect(readValue(linkColor, "accent")).toBe("accent");
+    // Feather (no longer offered) reads as Lucide, its maintained fork.
+    expect(readValue(settingByKey("rs-icon-theme") as Setting, "feather")).toBe("lucide");
+    expect(readValue(settingByKey("rs-icon-theme") as Setting, "lucide")).toBe("lucide");
+    expect(readValue(theme, "feather")).toBe("Quattro");
     expect(readValue(masonry, true)).toBe(true);
     expect(readValue(masonry, "true")).toBe(true);
   });

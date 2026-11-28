@@ -5,7 +5,7 @@
  * the theme stylesheet. Modules paint only with root tokens, so the same CSS fits
  * every theme (scripts/check-palette.mjs --modules).
  *
- * Besides the module switches, the icon theme (Feather), the date icon (in the
+ * Besides the module switches, the icon theme (Lucide), the date icon (in the
  * active icon theme's style) and the collapsed-bullet style are modules too.
  */
 import advancedHeadingSpacing from "../modules/advanced-heading-spacing.css";
@@ -14,7 +14,7 @@ import centeredSearch from "../modules/centered-search.css";
 import collapsedBulletIntensity from "../modules/collapsed-bullet-intensity.css";
 import collapsedBulletRing from "../modules/collapsed-bullet-ring.css";
 import dateIcon from "../modules/date-icon.css";
-import dateIconFeather from "../modules/date-icon-feather.css";
+import dateIconLucide from "../modules/date-icon-lucide.css";
 import done from "../modules/done.css";
 import dynamicImages from "../modules/dynamic-images.css";
 import dynamicPdfs from "../modules/dynamic-pdfs.css";
@@ -23,7 +23,7 @@ import hideLineNumbers from "../modules/hide-line-numbers.css";
 import hideLogo from "../modules/hide-logo.css";
 import hideShortcuts from "../modules/hide-shortcuts.css";
 import hideSidebarIcons from "../modules/hide-sidebar-icons.css";
-import iconsFeather from "../modules/icons-feather.css";
+import iconsLucide from "../modules/icons-lucide.css";
 import logpageNoMinHeight from "../modules/logpage-no-min-height.css";
 import masonry from "../modules/masonry.css";
 import mobileCaret from "../modules/mobile-caret.css";
@@ -45,7 +45,7 @@ export const MODULE_CSS: Record<string, string> = {
   "collapsed-bullet-intensity": collapsedBulletIntensity,
   "collapsed-bullet-ring": collapsedBulletRing,
   "date-icon": dateIcon,
-  "date-icon-feather": dateIconFeather,
+  "date-icon-lucide": dateIconLucide,
   "done": done,
   "dynamic-images": dynamicImages,
   "dynamic-pdfs": dynamicPdfs,
@@ -54,7 +54,7 @@ export const MODULE_CSS: Record<string, string> = {
   "hide-logo": hideLogo,
   "hide-shortcuts": hideShortcuts,
   "hide-sidebar-icons": hideSidebarIcons,
-  "icons-feather": iconsFeather,
+  "icons-lucide": iconsLucide,
   "logpage-no-min-height": logpageNoMinHeight,
   "masonry": masonry,
   "mobile-caret": mobileCaret,
@@ -72,9 +72,9 @@ const ID_PREFIX = "roamstudio-module-";
 /** The modules the current settings switch on. */
 export function enabledModules(get: Lookup): string[] {
   const on = MODULES.filter((key) => get(`rs-module-${key}`) === true);
-  const feather = get(SETTING_ICON_THEME) === "feather";
-  if (feather) on.push("icons-feather");
-  if (get("rs-date-icon") === true) on.push(feather ? "date-icon-feather" : "date-icon");
+  const lucide = get(SETTING_ICON_THEME) === "lucide";
+  if (lucide) on.push("icons-lucide");
+  if (get("rs-date-icon") === true) on.push(lucide ? "date-icon-lucide" : "date-icon");
   const bullet = get(SETTING_COLLAPSED_BULLET);
   if (bullet === "ring" || bullet === "intensity") on.push(`collapsed-bullet-${bullet}`);
   return on;

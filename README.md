@@ -43,6 +43,8 @@ Both settings take effect at once, and the Auto, Dark and Light modes work the s
 
 Gruvbox is based on the [Gruvbox color scheme](https://github.com/morhetz/gruvbox) by Pavel Pertsev, MIT licensed.
 
+The Lucide icon theme uses icons by [Lucide](https://lucide.dev) (ISC license; icons derived from Feather, MIT license), see `icons/LICENSE-lucide.txt`.
+
 ## Settings
 
 Roam Studio's settings are in its tab of Roam Depot's settings, in groups you open and close: Theme & Appearance, Typography, Headings, Code, Links, Tags, Dates, Sidebars & Top Bar, Blocks & Content, Mobile and Performance. A group's header shows how many of its settings you changed, and **Reset** sets them back to the theme's defaults. Every change applies at once.
@@ -71,7 +73,7 @@ Optional tweaks you switch on in the settings, grouped like the settings panel:
 - **Performance:** disable animations.
 - **Headings, Code, Dates:** advanced heading spacing, hide line numbers, no line break within dates.
 
-The **icon theme** can be Roam's BlueprintJS icons or Feather. **Date icons** add a calendar icon before links to daily notes, in the style of the chosen icon theme. **Collapsed bullets** sets how a collapsed block's bullet stands out in every theme: with a ring around it (as in Quattro, Craft and Things) or by intensity, with open bullets fainter (as in Blueprint and Gruvbox).
+The **icon theme** can be Roam's BlueprintJS icons or [Lucide](https://lucide.dev). Lucide replaces Feather, which is no longer maintained; a Feather choice from an earlier version shows Lucide. **Date icons** add a calendar icon before links to daily notes, in the style of the chosen icon theme. **Collapsed bullets** sets how a collapsed block's bullet stands out in every theme: with a ring around it (as in Quattro, Craft and Things) or by intensity, with open bullets fainter (as in Blueprint and Gruvbox).
 
 Every module is off until you switch it on, and a module that is off costs nothing. Every font Roam Studio offers works offline: they are embedded, and Inter comes with Roam.
 

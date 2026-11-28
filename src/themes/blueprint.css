@@ -1886,10 +1886,6 @@ textarea.roamstudio-import-dialog__text {
   border-bottom-right-radius: 0;
 }
 
-.rm-extensions-settings .bp3-button:not([class*=bp3-intent-]):not([class*=bp3-minimal]) {
-  background-color: inherit;
-}
-
 .rm-settings--desktop .rm-settings-panel {
   padding-left: 4px;
 }
@@ -11968,6 +11964,25 @@ a.rm-alias--page:hover, a.rm-alias--block:hover {
 .bp3-dark .rm-extensions-settings {
   background-color: transparent;
   color: light-dark(#182026, rgb(245, 248, 250));
+}
+
+.rm-extensions-settings .bp3-button:not([class*=bp3-intent-]):not([class*=bp3-minimal]),
+.bp3-light .rm-extensions-settings .bp3-button:not([class*=bp3-intent-]):not([class*=bp3-minimal]),
+.bp3-dark .rm-extensions-settings .bp3-button:not([class*=bp3-intent-]):not([class*=bp3-minimal]) {
+  background-color: light-dark(rgb(245, 248, 250), #394b59);
+  color: light-dark(#182026, rgb(245, 248, 250));
+}
+
+.rm-extensions-settings .bp3-button:not([class*=bp3-intent-]):not([class*=bp3-minimal]):hover,
+.bp3-light .rm-extensions-settings .bp3-button:not([class*=bp3-intent-]):not([class*=bp3-minimal]):hover,
+.bp3-dark .rm-extensions-settings .bp3-button:not([class*=bp3-intent-]):not([class*=bp3-minimal]):hover {
+  background-color: light-dark(#ebf1f5, #30404d);
+}
+
+.rm-extensions-settings .bp3-button:not([class*=bp3-intent-]):not([class*=bp3-minimal]).bp3-active, .rm-extensions-settings .bp3-button:not([class*=bp3-intent-]):not([class*=bp3-minimal]):active,
+.bp3-light .rm-extensions-settings .bp3-button:not([class*=bp3-intent-]):not([class*=bp3-minimal]).bp3-active, .bp3-light .rm-extensions-settings .bp3-button:not([class*=bp3-intent-]):not([class*=bp3-minimal]):active,
+.bp3-dark .rm-extensions-settings .bp3-button:not([class*=bp3-intent-]):not([class*=bp3-minimal]).bp3-active, .bp3-dark .rm-extensions-settings .bp3-button:not([class*=bp3-intent-]):not([class*=bp3-minimal]):active {
+  background-color: light-dark(#d8e1e8, #202b33);
 }
 
 .rm-file-list-item__description a:hover,

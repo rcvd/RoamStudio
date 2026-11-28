@@ -21,7 +21,7 @@ afterEach(() => {
 
 describe("module loader", () => {
   it("has compiled CSS for every module switch, the icon theme and both date icons", () => {
-    for (const key of [...MODULES, "icons-feather", "date-icon", "date-icon-feather"]) expect(MODULE_CSS[key]?.length, key).toBeGreaterThan(0);
+    for (const key of [...MODULES, "icons-lucide", "date-icon", "date-icon-lucide"]) expect(MODULE_CSS[key]?.length, key).toBeGreaterThan(0);
   });
 
   it("switches a module's style element on and off", () => {
@@ -32,10 +32,12 @@ describe("module loader", () => {
     expect(moduleIds()).toEqual([]);
   });
 
-  it("follows the icon theme for Feather and the date icon", () => {
+  it("follows the icon theme for Lucide and the date icon", () => {
     expect(enabledModules(lookup({ "rs-date-icon": true }))).toEqual(["date-icon"]);
-    expect(enabledModules(lookup({ "rs-date-icon": true, "rs-icon-theme": "feather" }))).toEqual(["icons-feather", "date-icon-feather"]);
-    expect(enabledModules(lookup({ "rs-icon-theme": "feather" }))).toEqual(["icons-feather"]);
+    expect(enabledModules(lookup({ "rs-date-icon": true, "rs-icon-theme": "lucide" }))).toEqual(["icons-lucide", "date-icon-lucide"]);
+    expect(enabledModules(lookup({ "rs-icon-theme": "lucide" }))).toEqual(["icons-lucide"]);
+    // A Feather choice from an earlier version reads as Lucide.
+    expect(enabledModules(lookup({ "rs-date-icon": true, "rs-icon-theme": "feather" }))).toEqual(["icons-lucide", "date-icon-lucide"]);
   });
 
   it("adds the chosen collapsed-bullet style, and none for the theme's own", () => {
@@ -69,7 +71,7 @@ describe("module loader", () => {
 
   it("loads stored modules on load and removes every module on unload", () => {
     extension.onload({ extensionAPI: api({ "rs-module-hide-logo": "true", "rs-module-masonry": true, "rs-icon-theme": "feather" }) });
-    expect(moduleIds()).toEqual(["hide-logo", "icons-feather", "masonry"]);
+    expect(moduleIds()).toEqual(["hide-logo", "icons-lucide", "masonry"]);
     extension.onunload();
     expect(moduleIds()).toEqual([]);
   });

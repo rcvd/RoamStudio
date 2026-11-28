@@ -44,6 +44,18 @@ describe("settings store", () => {
     expect(s.get("rs-module-masonry")).toBe(false);
   });
 
+  it("reads a stored Feather icon theme as Lucide and writes nothing on load", () => {
+    const { api, store } = stub({ "rs-icon-theme": "feather" });
+    const writes: string[] = [];
+    const set = api.settings.set;
+    api.settings.set = (key, value) => (writes.push(key), set(key, value));
+    extension.onload({ extensionAPI: api });
+    expect(new SettingsStore(api).get("rs-icon-theme")).toBe("lucide");
+    expect(document.getElementById("roamstudio-module-icons-lucide")).not.toBeNull();
+    expect(store.get("rs-icon-theme")).toBe("feather");
+    expect(writes).toEqual([]);
+  });
+
   it("returns a written value at once, even while Roam still returns the old one", () => {
     const { api, store, flush } = stub({ "rs-theme": "Blueprint" }, { lag: true });
     const s = new SettingsStore(api);

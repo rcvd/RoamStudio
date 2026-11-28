@@ -239,7 +239,7 @@ export const COLLAPSED_BULLETS: Option[] = [
 
 export const ICON_THEMES: Option[] = [
   { value: "blueprint", label: "BlueprintJS (Roam's icons)" },
-  { value: "feather", label: "Feather" },
+  { value: "lucide", label: "Lucide" },
 ];
 
 export const GROUPS: Group[] = [
@@ -390,11 +390,21 @@ export function defaultValue(setting: Setting): SettingValue {
 }
 
 /**
- * Reads a stored value: a valid value as stored, anything else (missing, unknown,
- * malformed) as the setting's default. Roam may store switches as booleans or as
- * "true"/"false".
+ * Stored values that earlier versions offered and that now read as another option.
+ * Nothing rewrites them: "not stored" and old values stay as Roam has them.
+ */
+export const VALUE_ALIASES: Record<string, Record<string, string>> = {
+  // Feather is no longer maintained; Lucide, its maintained fork, replaces it.
+  [SETTING_ICON_THEME]: { feather: "lucide" },
+};
+
+/**
+ * Reads a stored value: a valid value as stored, an alias (`VALUE_ALIASES`) as the
+ * value it stands for, anything else (missing, unknown, malformed) as the setting's
+ * default. Roam may store switches as booleans or as "true"/"false".
  */
 export function readValue(setting: Setting, stored: unknown): SettingValue {
+  if (typeof stored === "string") stored = VALUE_ALIASES[setting.key]?.[stored] ?? stored;
   if (setting.control === "switch") {
     if (stored === true || stored === "true") return true;
     if (stored === false || stored === "false") return false;
