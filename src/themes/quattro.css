@@ -26281,6 +26281,18 @@ pre,
   color: light-dark(#525252, #b6b6b6) !important;
 }
 
+#roam-sidebar-logo img,
+.bp3-light #roam-sidebar-logo img,
+.bp3-dark #roam-sidebar-logo img {
+  color: light-dark(#525252, #b6b6b6);
+  background-color: currentColor;
+}
+
+#roam-sidebar-logo img {
+  mask: url(/assets/astrolabe-white.png) center/contain no-repeat;
+  object-position: -9999px 0;
+}
+
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .title,
 .bp3-light .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .title,
 .bp3-dark .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .title {
@@ -37709,19 +37721,6 @@ code {
   color: light-dark(#404040, #d4d4d4);
 }
 
-#roam-sidebar-logo img {
-  filter: brightness(25%);
-}
-
-.bp3-dark #roam-sidebar-logo img {
-  filter: brightness(72%);
-}
-
-@media (prefers-color-scheme: dark) {
-  :where(html:not(.bp3-light)) #roam-sidebar-logo img {
-    filter: brightness(72%);
-  }
-}
 .rm-command-palette__scroll-container .rm-command-palette__menu,
 .bp3-light .rm-command-palette__scroll-container .rm-command-palette__menu,
 .bp3-dark .rm-command-palette__scroll-container .rm-command-palette__menu {

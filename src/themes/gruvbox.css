@@ -26244,6 +26244,18 @@ pre,
   color: light-dark(#665c54, #bdae93) !important;
 }
 
+#roam-sidebar-logo img,
+.bp3-light #roam-sidebar-logo img,
+.bp3-dark #roam-sidebar-logo img {
+  color: light-dark(#665c54, #bdae93);
+  background-color: currentColor;
+}
+
+#roam-sidebar-logo img {
+  mask: url(/assets/astrolabe-white.png) center/contain no-repeat;
+  object-position: -9999px 0;
+}
+
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .title,
 .bp3-light .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .title,
 .bp3-dark .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .title {

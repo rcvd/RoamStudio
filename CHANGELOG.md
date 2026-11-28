@@ -1,7 +1,8 @@
 # Changelog
 
-## Unreleased
+## 2.0.0 — 2026-11-28
 
+- Roam's logo at the bottom of the left sidebar takes the wordmark's color in every theme and mode. Its white image vanished on the light sidebars of Blueprint and Gruvbox, and in Quattro, Craft and Things it was a different gray than the wordmark.
 - **Phosphor** is a third icon theme, next to BlueprintJS and Lucide: softer, rounder icons whose weight follows the theme (light in Quattro and Things, regular in Craft, Blueprint and Gruvbox) and changes with it; the date icon follows too. Every icon keeps Roam's size and position, as with Lucide.
 - The left sidebar's Desk icon follows the icon theme (Lucide and Phosphor); it kept BlueprintJS's.
 - In Quattro, Craft and Things, Lucide icons in minimal buttons (the top bar's filter and calendar, the settings panel's group arrows) show again; the themes cleared their fill. The Lucide stylesheet is also smaller (187 → 139 KB): each icon's drawing is in it once.
