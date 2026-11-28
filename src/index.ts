@@ -34,6 +34,8 @@ function applyChange(store: SettingsStore, key: string) {
   if (key === SETTING_THEME || key === SETTING_GRUVBOX_CONTRAST) {
     applyStoredTheme(store);
     applyStoredFonts(store);
+    // Phosphor's weight follows the theme.
+    applyModules(store.lookup);
   } else if (key === SETTING_APPEARANCE) setAppearance(String(store.get(SETTING_APPEARANCE)));
   else if (key.startsWith("rs-module-") || key === SETTING_ICON_THEME || key === SETTING_COLLAPSED_BULLET || key === "rs-date-icon") applyModules(store.lookup);
   else {

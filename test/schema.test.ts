@@ -85,8 +85,8 @@ describe("every option of the previous Roam Studio", () => {
     const previous = ["advanced-heading-spacing", "bullet-effects", "centered-search", "done", "dynamic-images", "dynamic-pdfs", "hide-line-numbers", "hide-logo", "hide-shortcuts",
       "hide-sidebar-icons", "masonry", "logpage-no-min-height", "mobile-caret", "mobile-sidebar", "more-room", "no-animations", "subtle-controls", "non-breakable-dates", "topbar-borders", "sidebar-borders"];
     expect(MODULES).toEqual(expect.arrayContaining(previous));
-    expect(choice("rs-icon-theme").options.map((o) => o.value)).toEqual(["blueprint", "lucide"]);
-    expect(choice("rs-icon-theme").options.map((o) => o.label)).toEqual(["BlueprintJS (Roam's icons)", "Lucide"]);
+    expect(choice("rs-icon-theme").options.map((o) => o.value)).toEqual(["blueprint", "lucide", "phosphor"]);
+    expect(choice("rs-icon-theme").options.map((o) => o.label)).toEqual(["BlueprintJS (Roam's icons)", "Lucide", "Phosphor"]);
     expect(settingByKey("rs-date-icon")?.control).toBe("switch");
   });
 });

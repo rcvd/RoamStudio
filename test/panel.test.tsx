@@ -81,6 +81,14 @@ describe("settings panel", () => {
     expect(document.querySelector('[data-setting="rs-gruvbox-contrast"]')).toBeNull();
   });
 
+  it("switches Phosphor's weight with the theme, without a reload", () => {
+    current = load({ "rs-icon-theme": "phosphor", "rs-theme": "Quattro" });
+    const sheets = () => [...document.querySelectorAll('style[id^="roamstudio-module-icons-"]')].map((e) => e.id);
+    expect(sheets()).toEqual(["roamstudio-module-icons-phosphor-light"]);
+    change(q<HTMLSelectElement>("select", setting("rs-theme")), "Gruvbox");
+    expect(sheets()).toEqual(["roamstudio-module-icons-phosphor-regular"]);
+  });
+
   it("hides a link's underline color while its underline style is none", () => {
     current = load();
     click(header("links"));

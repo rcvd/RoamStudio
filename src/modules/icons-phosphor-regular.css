@@ -1,0 +1,1274 @@
+.bp3-icon-add:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-\:character-count:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-\:code:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-\:strikethrough:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-popover .bp3-icon-add-column-right:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-align-center:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-align-justify:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-align-left:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-align-right:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-bold:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.advanced-search-el .bp3-icon-application:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-calculator:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-timeline-events:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.rm-topbar .bp3-icon-timeline-events:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.advanced-search-el .bp3-icon-calendar:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-elevation-3 .bp3-icon-calendar:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.roam-sidebar-container .bp3-icon-calendar:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.rm-all-pages .bp3-icon-calendar:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.rm-topbar .bp3-icon-calendar:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-calendar:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-chat:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-chevron-down:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-chevron-left:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-chevron-right:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-chevron-right.rm-zoom-chevron:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-chevron-up:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-clean:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-popover .bp3-icon-clipboard:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-clipboard:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.rm-extensions-marketplace-dialog .bp3-icon-cloud-download:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-popover .bp3-icon-cloud-download:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-cloud-upload:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-code-block:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-database:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-popover .bp3-icon-delete:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-delete:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-direction-left:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-direction-right:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-circle-arrow-right:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-cog:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.rm-graph-dropdown .bp3-icon-cog:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-popover .bp3-icon-cog:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.rm-settings .bp3-icon-cog:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-cross:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-data-lineage:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-document-share:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-draw:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-popover .bp3-icon-duplicate:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-duplicate:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.advanced-search-el .bp3-icon-document:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-document:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-edit:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.rm-inline-img__resize .bp3-icon-edit:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-popover .bp3-icon-swap-horizontal:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-popover .bp3-icon-exchange:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.rm-all-pages .bp3-icon-export:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-popover .bp3-icon-export:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-export:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-eye-open:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-eye-off:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-fast-backward:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-fast-forward:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.roamjs-query-builder-parent .bp3-icon-filter:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-filter:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-filter-keep:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-filter-list:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-filter-remove:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-flash:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-folder-new:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-function:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-git-new-branch:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.roam-sidebar-content .bp3-icon-graph:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.rm-topbar .bp3-icon-graph:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-menu .bp3-icon-help:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-help:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-highlight:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-horizontal-distribution:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-import:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-info-sign:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-popover .bp3-icon-inheritance:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-issue-new:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-italic:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-learning:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-dialog .bp3-icon-link:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-link:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-list:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-lock:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-manual:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-maximize:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-fullscreen:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-menu:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.roam-sidebar-container .bp3-icon-menu-closed:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.rm-topbar .bp3-icon-menu-closed:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.rm-topbar .bp3-icon-menu-open.rm-open-left-sidebar-btn:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+#right-sidebar .bp3-icon-menu-open:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.rm-topbar .bp3-icon-menu-open:not(.rm-open-left-sidebar-btn):is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-moon:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.roamjs-query-builder-parent .bp3-icon-more:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-more:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-new-grid-item:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-minus:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-plus:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-popover .bp3-icon-new-layers:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-new-layers:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-new-link:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-numerical:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.advanced-search-el .bp3-icon-paragraph:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.advanced-search-el .bp3-icon-person:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-pin:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-properties:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-fork:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.roamjs-query-builder-parent .bp3-icon-refresh:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-popover .bp3-icon-refresh:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-refresh:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-reset:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-shield:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-shop:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.advanced-search-el .bp3-icon-search:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.roam-sidebar-container .bp3-icon-search:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-popover .bp3-icon-search:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-search:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-stacked-chart:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-star:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-star-empty:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-stopwatch:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.advanced-search-el .bp3-icon-tag:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-sort:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-th:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-tick:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-time:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-dialog .bp3-icon-trash:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-popover .bp3-icon-trash:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.rm-all-pages .bp3-icon-trash:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-translate:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-vertical-distribution:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-video:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-popover .bp3-icon-zoom-in:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-applications:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-arrow-right:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-build:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-caret-down:not(.rm-caret):is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-caret-right:not(.rm-caret):is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-caret-up:not(.rm-caret):is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-citation:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-cloud:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-document-open:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-double-caret-vertical:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-double-chevron-up:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-download:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-drag-handle-horizontal:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-drag-handle-vertical:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-error:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-history:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-key:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-key-enter:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-lightbulb:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-log-out:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-media:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-minimize:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-pause:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-random:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-search-around:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-small-cross:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-tick-circle:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-warning-sign:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-widget:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-zoom-in:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-zoom-out:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-zoom-to-fit:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a),
+.bp3-icon-inbox:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) {
+  background-color: currentColor !important;
+  mask: var(--rs-x-icon) 50% 50%/min(100%, 16px) min(100%, 16px) no-repeat content-box;
+}
+
+.bp3-icon-add:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-add:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-\:character-count:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-\:character-count:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-\:code:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-\:code:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-\:strikethrough:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-\:strikethrough:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-popover .bp3-icon-add-column-right:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-popover .bp3-icon-add-column-right:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-align-center:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-align-center:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-align-justify:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-align-justify:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-align-left:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-align-left:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-align-right:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-align-right:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-bold:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-bold:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.advanced-search-el .bp3-icon-application:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.advanced-search-el .bp3-icon-application:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-calculator:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-calculator:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-timeline-events:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-timeline-events:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.rm-topbar .bp3-icon-timeline-events:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.rm-topbar .bp3-icon-timeline-events:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.advanced-search-el .bp3-icon-calendar:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.advanced-search-el .bp3-icon-calendar:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-elevation-3 .bp3-icon-calendar:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-elevation-3 .bp3-icon-calendar:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.roam-sidebar-container .bp3-icon-calendar:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.roam-sidebar-container .bp3-icon-calendar:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.rm-all-pages .bp3-icon-calendar:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.rm-all-pages .bp3-icon-calendar:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.rm-topbar .bp3-icon-calendar:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.rm-topbar .bp3-icon-calendar:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-calendar:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-calendar:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-chat:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-chat:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-chevron-down:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-chevron-down:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-chevron-left:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-chevron-left:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-chevron-right:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-chevron-right:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-chevron-right.rm-zoom-chevron:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-chevron-right.rm-zoom-chevron:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-chevron-up:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-chevron-up:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-clean:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-clean:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-popover .bp3-icon-clipboard:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-popover .bp3-icon-clipboard:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-clipboard:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-clipboard:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.rm-extensions-marketplace-dialog .bp3-icon-cloud-download:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.rm-extensions-marketplace-dialog .bp3-icon-cloud-download:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-popover .bp3-icon-cloud-download:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-popover .bp3-icon-cloud-download:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-cloud-upload:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-cloud-upload:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-code-block:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-code-block:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-database:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-database:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-popover .bp3-icon-delete:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-popover .bp3-icon-delete:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-delete:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-delete:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-direction-left:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-direction-left:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-direction-right:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-direction-right:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-circle-arrow-right:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-circle-arrow-right:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-cog:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-cog:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.rm-graph-dropdown .bp3-icon-cog:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.rm-graph-dropdown .bp3-icon-cog:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-popover .bp3-icon-cog:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-popover .bp3-icon-cog:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.rm-settings .bp3-icon-cog:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.rm-settings .bp3-icon-cog:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-cross:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-cross:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-data-lineage:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-data-lineage:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-document-share:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-document-share:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-draw:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-draw:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-popover .bp3-icon-duplicate:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-popover .bp3-icon-duplicate:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-duplicate:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-duplicate:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.advanced-search-el .bp3-icon-document:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.advanced-search-el .bp3-icon-document:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-document:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-document:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-edit:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-edit:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.rm-inline-img__resize .bp3-icon-edit:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.rm-inline-img__resize .bp3-icon-edit:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-popover .bp3-icon-swap-horizontal:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-popover .bp3-icon-swap-horizontal:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-popover .bp3-icon-exchange:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-popover .bp3-icon-exchange:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.rm-all-pages .bp3-icon-export:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.rm-all-pages .bp3-icon-export:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-popover .bp3-icon-export:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-popover .bp3-icon-export:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-export:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-export:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-eye-open:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-eye-open:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-eye-off:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-eye-off:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-fast-backward:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-fast-backward:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-fast-forward:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-fast-forward:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.roamjs-query-builder-parent .bp3-icon-filter:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.roamjs-query-builder-parent .bp3-icon-filter:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-filter:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-filter:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-filter-keep:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-filter-keep:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-filter-list:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-filter-list:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-filter-remove:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-filter-remove:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-flash:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-flash:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-folder-new:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-folder-new:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-function:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-function:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-git-new-branch:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-git-new-branch:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.roam-sidebar-content .bp3-icon-graph:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.roam-sidebar-content .bp3-icon-graph:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.rm-topbar .bp3-icon-graph:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.rm-topbar .bp3-icon-graph:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-menu .bp3-icon-help:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-menu .bp3-icon-help:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-help:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-help:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-highlight:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-highlight:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-horizontal-distribution:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-horizontal-distribution:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-import:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-import:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-info-sign:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-info-sign:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-popover .bp3-icon-inheritance:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-popover .bp3-icon-inheritance:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-issue-new:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-issue-new:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-italic:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-italic:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-learning:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-learning:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-dialog .bp3-icon-link:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-dialog .bp3-icon-link:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-link:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-link:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-list:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-list:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-lock:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-lock:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-manual:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-manual:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-maximize:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-maximize:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-fullscreen:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-fullscreen:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-menu:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-menu:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.roam-sidebar-container .bp3-icon-menu-closed:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.roam-sidebar-container .bp3-icon-menu-closed:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.rm-topbar .bp3-icon-menu-closed:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.rm-topbar .bp3-icon-menu-closed:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.rm-topbar .bp3-icon-menu-open.rm-open-left-sidebar-btn:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.rm-topbar .bp3-icon-menu-open.rm-open-left-sidebar-btn:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+#right-sidebar .bp3-icon-menu-open:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+#right-sidebar .bp3-icon-menu-open:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.rm-topbar .bp3-icon-menu-open:not(.rm-open-left-sidebar-btn):is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.rm-topbar .bp3-icon-menu-open:not(.rm-open-left-sidebar-btn):is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-moon:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-moon:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.roamjs-query-builder-parent .bp3-icon-more:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.roamjs-query-builder-parent .bp3-icon-more:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-more:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-more:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-new-grid-item:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-new-grid-item:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-minus:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-minus:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-plus:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-plus:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-popover .bp3-icon-new-layers:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-popover .bp3-icon-new-layers:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-new-layers:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-new-layers:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-new-link:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-new-link:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-numerical:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-numerical:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.advanced-search-el .bp3-icon-paragraph:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.advanced-search-el .bp3-icon-paragraph:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.advanced-search-el .bp3-icon-person:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.advanced-search-el .bp3-icon-person:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-pin:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-pin:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-properties:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-properties:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-fork:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-fork:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.roamjs-query-builder-parent .bp3-icon-refresh:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.roamjs-query-builder-parent .bp3-icon-refresh:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-popover .bp3-icon-refresh:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-popover .bp3-icon-refresh:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-refresh:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-refresh:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-reset:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-reset:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-shield:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-shield:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-shop:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-shop:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.advanced-search-el .bp3-icon-search:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.advanced-search-el .bp3-icon-search:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.roam-sidebar-container .bp3-icon-search:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.roam-sidebar-container .bp3-icon-search:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-popover .bp3-icon-search:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-popover .bp3-icon-search:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-search:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-search:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-stacked-chart:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-stacked-chart:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-star:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-star:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-star-empty:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-star-empty:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-stopwatch:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-stopwatch:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.advanced-search-el .bp3-icon-tag:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.advanced-search-el .bp3-icon-tag:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-sort:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-sort:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-th:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-th:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-tick:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-tick:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-time:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-time:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-dialog .bp3-icon-trash:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-dialog .bp3-icon-trash:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-popover .bp3-icon-trash:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-popover .bp3-icon-trash:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.rm-all-pages .bp3-icon-trash:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.rm-all-pages .bp3-icon-trash:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-translate:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-translate:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-vertical-distribution:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-vertical-distribution:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-video:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-video:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-popover .bp3-icon-zoom-in:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-popover .bp3-icon-zoom-in:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-applications:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-applications:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-arrow-right:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-arrow-right:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-build:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-build:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-caret-down:not(.rm-caret):is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-caret-down:not(.rm-caret):is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-caret-right:not(.rm-caret):is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-caret-right:not(.rm-caret):is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-caret-up:not(.rm-caret):is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-caret-up:not(.rm-caret):is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-citation:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-citation:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-cloud:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-cloud:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-document-open:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-document-open:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-double-caret-vertical:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-double-caret-vertical:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-double-chevron-up:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-double-chevron-up:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-download:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-download:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-drag-handle-horizontal:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-drag-handle-horizontal:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-drag-handle-vertical:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-drag-handle-vertical:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-error:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-error:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-history:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-history:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-key:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-key:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-key-enter:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-key-enter:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-lightbulb:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-lightbulb:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-log-out:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-log-out:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-media:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-media:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-minimize:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-minimize:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-pause:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-pause:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-random:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-random:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-search-around:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-search-around:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-small-cross:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-small-cross:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-tick-circle:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-tick-circle:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-warning-sign:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-warning-sign:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-widget:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-widget:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-zoom-in:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-zoom-in:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-zoom-out:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-zoom-out:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-zoom-to-fit:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-zoom-to-fit:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before,
+.bp3-icon-inbox:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a) > svg,
+.bp3-icon-inbox:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a)::before {
+  visibility: hidden;
+}
+
+.bp3-icon-add:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-\:character-count:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-\:code:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-\:strikethrough:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-popover .bp3-icon-add-column-right:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-align-center:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-align-justify:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-align-left:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-align-right:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-bold:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.advanced-search-el .bp3-icon-application:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-calculator:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-timeline-events:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.rm-topbar .bp3-icon-timeline-events:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.advanced-search-el .bp3-icon-calendar:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-elevation-3 .bp3-icon-calendar:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.roam-sidebar-container .bp3-icon-calendar:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.rm-all-pages .bp3-icon-calendar:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.rm-topbar .bp3-icon-calendar:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-calendar:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-chat:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-chevron-down:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-chevron-left:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-chevron-right:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-chevron-right.rm-zoom-chevron:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-chevron-up:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-clean:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-popover .bp3-icon-clipboard:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-clipboard:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.rm-extensions-marketplace-dialog .bp3-icon-cloud-download:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-popover .bp3-icon-cloud-download:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-cloud-upload:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-code-block:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-database:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-popover .bp3-icon-delete:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-delete:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-direction-left:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-direction-right:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-circle-arrow-right:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-cog:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.rm-graph-dropdown .bp3-icon-cog:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-popover .bp3-icon-cog:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.rm-settings .bp3-icon-cog:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-cross:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-data-lineage:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-document-share:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-draw:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-popover .bp3-icon-duplicate:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-duplicate:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.advanced-search-el .bp3-icon-document:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-document:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-edit:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.rm-inline-img__resize .bp3-icon-edit:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-popover .bp3-icon-swap-horizontal:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-popover .bp3-icon-exchange:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.rm-all-pages .bp3-icon-export:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-popover .bp3-icon-export:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-export:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-eye-open:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-eye-off:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-fast-backward:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-fast-forward:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.roamjs-query-builder-parent .bp3-icon-filter:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-filter:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-filter-keep:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-filter-list:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-filter-remove:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-flash:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-folder-new:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-function:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-git-new-branch:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.roam-sidebar-content .bp3-icon-graph:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.rm-topbar .bp3-icon-graph:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-menu .bp3-icon-help:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-help:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-highlight:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-horizontal-distribution:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-import:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-info-sign:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-popover .bp3-icon-inheritance:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-issue-new:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-italic:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-learning:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-dialog .bp3-icon-link:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-link:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-list:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-lock:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-manual:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-maximize:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-fullscreen:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-menu:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.roam-sidebar-container .bp3-icon-menu-closed:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.rm-topbar .bp3-icon-menu-closed:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.rm-topbar .bp3-icon-menu-open.rm-open-left-sidebar-btn:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+#right-sidebar .bp3-icon-menu-open:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.rm-topbar .bp3-icon-menu-open:not(.rm-open-left-sidebar-btn):not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-moon:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.roamjs-query-builder-parent .bp3-icon-more:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-more:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-new-grid-item:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-minus:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-plus:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-popover .bp3-icon-new-layers:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-new-layers:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-new-link:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-numerical:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.advanced-search-el .bp3-icon-paragraph:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.advanced-search-el .bp3-icon-person:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-pin:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-properties:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-fork:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.roamjs-query-builder-parent .bp3-icon-refresh:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-popover .bp3-icon-refresh:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-refresh:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-reset:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-shield:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-shop:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.advanced-search-el .bp3-icon-search:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.roam-sidebar-container .bp3-icon-search:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-popover .bp3-icon-search:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-search:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-stacked-chart:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-star:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-star-empty:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-stopwatch:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.advanced-search-el .bp3-icon-tag:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-sort:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-th:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-tick:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-time:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-dialog .bp3-icon-trash:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-popover .bp3-icon-trash:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.rm-all-pages .bp3-icon-trash:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-translate:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-vertical-distribution:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-video:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-popover .bp3-icon-zoom-in:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-applications:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-arrow-right:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-build:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-caret-down:not(.rm-caret):not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-caret-right:not(.rm-caret):not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-caret-up:not(.rm-caret):not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-citation:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-cloud:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-document-open:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-double-caret-vertical:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-double-chevron-up:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-download:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-drag-handle-horizontal:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-drag-handle-vertical:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-error:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-history:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-key:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-key-enter:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-lightbulb:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-log-out:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-media:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-minimize:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-pause:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-random:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-search-around:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-small-cross:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-tick-circle:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-warning-sign:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-widget:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-zoom-in:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-zoom-out:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-zoom-to-fit:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before,
+.bp3-icon-inbox:not(:is(.bp3-icon, .bp3-icon-standard, .bp3-icon-large, .bp3-icon-small):not(.bp3-button, button, a))::before {
+  background-color: currentColor !important;
+  content: "";
+  box-sizing: content-box;
+  display: inline-block;
+  height: 16px;
+  min-height: 16px;
+  min-width: 16px;
+  width: 16px;
+  mask: var(--rs-x-icon) 50% 50%/min(100%, 16px) min(100%, 16px) no-repeat content-box;
+}
+
+.bp3-icon-add {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm48-88a8,8,0,0,1-8,8H136v32a8,8,0,0,1-16,0V136H88a8,8,0,0,1,0-16h32V88a8,8,0,0,1,16,0v32h32A8,8,0,0,1,176,128Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-\:character-count {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M140,128a12,12,0,1,1-12-12A12,12,0,0,1,140,128Zm56-12a12,12,0,1,0,12,12A12,12,0,0,0,196,116ZM60,116a12,12,0,1,0,12,12A12,12,0,0,0,60,116Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-\:code {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M117.31,134l-72,64a8,8,0,1,1-10.63-12L100,128,34.69,70A8,8,0,1,1,45.32,58l72,64a8,8,0,0,1,0,12ZM216,184H120a8,8,0,0,0,0,16h96a8,8,0,0,0,0-16Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-\:strikethrough {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128Z'/%3E%3C/svg%3E");
+}
+
+.bp3-popover .bp3-icon-add-column-right {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM40,56H80V200H40ZM216,200H96V56H216V200Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-align-center {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M32,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H40A8,8,0,0,1,32,64ZM64,96a8,8,0,0,0,0,16H192a8,8,0,0,0,0-16Zm152,40H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm-24,40H64a8,8,0,0,0,0,16H192a8,8,0,0,0,0-16Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-align-justify {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M32,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H40A8,8,0,0,1,32,64ZM216,96H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm0,40H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm0,40H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-align-left {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M32,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H40A8,8,0,0,1,32,64Zm8,48H168a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16Zm176,24H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm-48,40H40a8,8,0,0,0,0,16H168a8,8,0,0,0,0-16Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-align-right {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M32,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H40A8,8,0,0,1,32,64ZM216,96H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm0,40H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm0,40H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-bold {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M178.48,115.7A44,44,0,0,0,148,40H80a8,8,0,0,0-8,8V200a8,8,0,0,0,8,8h80a48,48,0,0,0,18.48-92.3ZM88,56h60a28,28,0,0,1,0,56H88Zm72,136H88V128h72a32,32,0,0,1,0,64Z'/%3E%3C/svg%3E");
+}
+
+.advanced-search-el .bp3-icon-application {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M213.66,82.34l-56-56A8,8,0,0,0,152,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V88A8,8,0,0,0,213.66,82.34ZM160,51.31,188.69,80H160ZM200,216H56V40h88V88a8,8,0,0,0,8,8h48V216Zm-32-80a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,136Zm0,32a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,168Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-calculator {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM128,80a16,16,0,1,0-16-16A16,16,0,0,0,128,80Zm0,96a16,16,0,1,0,16,16A16,16,0,0,0,128,176Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-timeline-events,
+.rm-topbar .bp3-icon-timeline-events,
+.advanced-search-el .bp3-icon-calendar,
+.bp3-elevation-3 .bp3-icon-calendar,
+.roam-sidebar-container .bp3-icon-calendar,
+.rm-all-pages .bp3-icon-calendar,
+.rm-topbar .bp3-icon-calendar,
+.bp3-icon-calendar {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Zm-96-88v64a8,8,0,0,1-16,0V132.94l-4.42,2.22a8,8,0,0,1-7.16-14.32l16-8A8,8,0,0,1,112,120Zm59.16,30.45L152,176h16a8,8,0,0,1,0,16H136a8,8,0,0,1-6.4-12.8l28.78-38.37A8,8,0,1,0,145.07,132a8,8,0,1,1-13.85-8A24,24,0,0,1,176,136,23.76,23.76,0,0,1,171.16,150.45Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-chat {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M216,48H40A16,16,0,0,0,24,64V224a15.84,15.84,0,0,0,9.25,14.5A16.05,16.05,0,0,0,40,240a15.89,15.89,0,0,0,10.25-3.78l.09-.07L83,208H216a16,16,0,0,0,16-16V64A16,16,0,0,0,216,48ZM40,224h0ZM216,192H80a8,8,0,0,0-5.23,1.95L40,224V64H216Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-chevron-down {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-chevron-left {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M165.66,202.34a8,8,0,0,1-11.32,11.32l-80-80a8,8,0,0,1,0-11.32l80-80a8,8,0,0,1,11.32,11.32L91.31,128Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-chevron-right {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-chevron-right.rm-zoom-chevron {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M184.49,136.49l-80,80a12,12,0,0,1-17-17L159,128,87.51,56.49a12,12,0,1,1,17-17l80,80A12,12,0,0,1,184.49,136.49Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-chevron-up {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M213.66,165.66a8,8,0,0,1-11.32,0L128,91.31,53.66,165.66a8,8,0,0,1-11.32-11.32l80-80a8,8,0,0,1,11.32,0l80,80A8,8,0,0,1,213.66,165.66Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-clean {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M215.79,118.17a8,8,0,0,0-5-5.66L153.18,90.9l14.66-73.33a8,8,0,0,0-13.69-7l-112,120a8,8,0,0,0,3,13l57.63,21.61L88.16,238.43a8,8,0,0,0,13.69,7l112-120A8,8,0,0,0,215.79,118.17ZM109.37,214l10.47-52.38a8,8,0,0,0-5-9.06L62,132.71l84.62-90.66L136.16,94.43a8,8,0,0,0,5,9.06l52.8,19.8Z'/%3E%3C/svg%3E");
+}
+
+.bp3-popover .bp3-icon-clipboard,
+.bp3-icon-clipboard {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M200,32H163.74a47.92,47.92,0,0,0-71.48,0H56A16,16,0,0,0,40,48V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V48A16,16,0,0,0,200,32Zm-72,0a32,32,0,0,1,32,32H96A32,32,0,0,1,128,32Zm72,184H56V48H82.75A47.93,47.93,0,0,0,80,64v8a8,8,0,0,0,8,8h80a8,8,0,0,0,8-8V64a47.93,47.93,0,0,0-2.75-16H200Z'/%3E%3C/svg%3E");
+}
+
+.rm-extensions-marketplace-dialog .bp3-icon-cloud-download {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M248,128a87.34,87.34,0,0,1-17.6,52.81,8,8,0,1,1-12.8-9.62A71.34,71.34,0,0,0,232,128a72,72,0,0,0-144,0,8,8,0,0,1-16,0,88,88,0,0,1,3.29-23.88C74.2,104,73.1,104,72,104a48,48,0,0,0,0,96H96a8,8,0,0,1,0,16H72A64,64,0,1,1,81.29,88.68,88,88,0,0,1,248,128Zm-69.66,42.34L160,188.69V128a8,8,0,0,0-16,0v60.69l-18.34-18.35a8,8,0,0,0-11.32,11.32l32,32a8,8,0,0,0,11.32,0l32-32a8,8,0,0,0-11.32-11.32Z'/%3E%3C/svg%3E");
+}
+
+.bp3-popover .bp3-icon-cloud-download {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M248,128a87.34,87.34,0,0,1-17.6,52.81,8,8,0,1,1-12.8-9.62A71.34,71.34,0,0,0,232,128a72,72,0,0,0-144,0,8,8,0,0,1-16,0,88,88,0,0,1,3.29-23.88C74.2,104,73.1,104,72,104a48,48,0,0,0,0,96H96a8,8,0,0,1,0,16H72A64,64,0,1,1,81.29,88.68,88,88,0,0,1,248,128Zm-69.66,42.34L160,188.69V128a8,8,0,0,0-16,0v60.69l-18.34-18.35a8,8,0,0,0-11.32,11.32l32,32a8,8,0,0,0,11.32,0l32-32a8,8,0,0,0-11.32-11.32Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-cloud-upload {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M178.34,165.66,160,147.31V208a8,8,0,0,1-16,0V147.31l-18.34,18.35a8,8,0,0,1-11.32-11.32l32-32a8,8,0,0,1,11.32,0l32,32a8,8,0,0,1-11.32,11.32ZM160,40A88.08,88.08,0,0,0,81.29,88.68,64,64,0,1,0,72,216h40a8,8,0,0,0,0-16H72a48,48,0,0,1,0-96c1.1,0,2.2,0,3.29.12A88,88,0,0,0,72,128a8,8,0,0,0,16,0,72,72,0,1,1,100.8,66,8,8,0,0,0,3.2,15.34,7.9,7.9,0,0,0,3.2-.68A88,88,0,0,0,160,40Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-code-block {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M69.12,94.15,28.5,128l40.62,33.85a8,8,0,1,1-10.24,12.29l-48-40a8,8,0,0,1,0-12.29l48-40a8,8,0,0,1,10.24,12.3Zm176,27.7-48-40a8,8,0,1,0-10.24,12.3L227.5,128l-40.62,33.85a8,8,0,1,0,10.24,12.29l48-40a8,8,0,0,0,0-12.29ZM162.73,32.48a8,8,0,0,0-10.25,4.79l-64,176a8,8,0,0,0,4.79,10.26A8.14,8.14,0,0,0,96,224a8,8,0,0,0,7.52-5.27l64-176A8,8,0,0,0,162.73,32.48Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-database {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm71.87,53.27L136,114.14V40.37A88,88,0,0,1,199.87,77.27ZM120,40.37v83l-71.89,41.5A88,88,0,0,1,120,40.37ZM128,216a88,88,0,0,1-71.87-37.27L207.89,91.12A88,88,0,0,1,128,216Z'/%3E%3C/svg%3E");
+}
+
+.bp3-popover .bp3-icon-delete,
+.bp3-icon-delete {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M165.66,101.66,139.31,128l26.35,26.34a8,8,0,0,1-11.32,11.32L128,139.31l-26.34,26.35a8,8,0,0,1-11.32-11.32L116.69,128,90.34,101.66a8,8,0,0,1,11.32-11.32L128,116.69l26.34-26.35a8,8,0,0,1,11.32,11.32ZM232,128A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-16,0a88,88,0,1,0-88,88A88.1,88.1,0,0,0,216,128Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-direction-left {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm48-88a8,8,0,0,1-8,8H107.31l18.35,18.34a8,8,0,0,1-11.32,11.32l-32-32a8,8,0,0,1,0-11.32l32-32a8,8,0,0,1,11.32,11.32L107.31,120H168A8,8,0,0,1,176,128Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-direction-right {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm45.66-93.66a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32-11.32L148.69,136H88a8,8,0,0,1,0-16h60.69l-18.35-18.34a8,8,0,0,1,11.32-11.32Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-circle-arrow-right {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M237.33,106.21,61.41,41l-.16-.05A16,16,0,0,0,40.9,61.25a1,1,0,0,0,.05.16l65.26,175.92A15.77,15.77,0,0,0,121.28,248h.3a15.77,15.77,0,0,0,15-11.29l.06-.2,21.84-78,78-21.84.2-.06a16,16,0,0,0,.62-30.38ZM149.84,144.3a8,8,0,0,0-5.54,5.54L121.3,232l-.06-.17L56,56l175.82,65.22.16.06Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-cog,
+.rm-graph-dropdown .bp3-icon-cog,
+.bp3-popover .bp3-icon-cog,
+.rm-settings .bp3-icon-cog {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Zm88-29.84q.06-2.16,0-4.32l14.92-18.64a8,8,0,0,0,1.48-7.06,107.21,107.21,0,0,0-10.88-26.25,8,8,0,0,0-6-3.93l-23.72-2.64q-1.48-1.56-3-3L186,40.54a8,8,0,0,0-3.94-6,107.71,107.71,0,0,0-26.25-10.87,8,8,0,0,0-7.06,1.49L130.16,40Q128,40,125.84,40L107.2,25.11a8,8,0,0,0-7.06-1.48A107.6,107.6,0,0,0,73.89,34.51a8,8,0,0,0-3.93,6L67.32,64.27q-1.56,1.49-3,3L40.54,70a8,8,0,0,0-6,3.94,107.71,107.71,0,0,0-10.87,26.25,8,8,0,0,0,1.49,7.06L40,125.84Q40,128,40,130.16L25.11,148.8a8,8,0,0,0-1.48,7.06,107.21,107.21,0,0,0,10.88,26.25,8,8,0,0,0,6,3.93l23.72,2.64q1.49,1.56,3,3L70,215.46a8,8,0,0,0,3.94,6,107.71,107.71,0,0,0,26.25,10.87,8,8,0,0,0,7.06-1.49L125.84,216q2.16.06,4.32,0l18.64,14.92a8,8,0,0,0,7.06,1.48,107.21,107.21,0,0,0,26.25-10.88,8,8,0,0,0,3.93-6l2.64-23.72q1.56-1.48,3-3L215.46,186a8,8,0,0,0,6-3.94,107.71,107.71,0,0,0,10.87-26.25,8,8,0,0,0-1.49-7.06Zm-16.1-6.5a73.93,73.93,0,0,1,0,8.68,8,8,0,0,0,1.74,5.48l14.19,17.73a91.57,91.57,0,0,1-6.23,15L187,173.11a8,8,0,0,0-5.1,2.64,74.11,74.11,0,0,1-6.14,6.14,8,8,0,0,0-2.64,5.1l-2.51,22.58a91.32,91.32,0,0,1-15,6.23l-17.74-14.19a8,8,0,0,0-5-1.75h-.48a73.93,73.93,0,0,1-8.68,0,8,8,0,0,0-5.48,1.74L100.45,215.8a91.57,91.57,0,0,1-15-6.23L82.89,187a8,8,0,0,0-2.64-5.1,74.11,74.11,0,0,1-6.14-6.14,8,8,0,0,0-5.1-2.64L46.43,170.6a91.32,91.32,0,0,1-6.23-15l14.19-17.74a8,8,0,0,0,1.74-5.48,73.93,73.93,0,0,1,0-8.68,8,8,0,0,0-1.74-5.48L40.2,100.45a91.57,91.57,0,0,1,6.23-15L69,82.89a8,8,0,0,0,5.1-2.64,74.11,74.11,0,0,1,6.14-6.14A8,8,0,0,0,82.89,69L85.4,46.43a91.32,91.32,0,0,1,15-6.23l17.74,14.19a8,8,0,0,0,5.48,1.74,73.93,73.93,0,0,1,8.68,0,8,8,0,0,0,5.48-1.74L155.55,40.2a91.57,91.57,0,0,1,15,6.23L173.11,69a8,8,0,0,0,2.64,5.1,74.11,74.11,0,0,1,6.14,6.14,8,8,0,0,0,5.1,2.64l22.58,2.51a91.32,91.32,0,0,1,6.23,15l-14.19,17.74A8,8,0,0,0,199.87,123.66Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-cross {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-data-lineage {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,16V158.75l-26.07-26.06a16,16,0,0,0-22.63,0l-20,20-44-44a16,16,0,0,0-22.62,0L40,149.37V56ZM40,172l52-52,80,80H40Zm176,28H194.63l-36-36,20-20L216,181.38V200ZM144,100a12,12,0,1,1,12,12A12,12,0,0,1,144,100Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-document-share {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216ZM172.42,72.84l-64,32a8.05,8.05,0,0,0-3.58,3.58l-32,64A8,8,0,0,0,80,184a8.1,8.1,0,0,0,3.58-.84l64-32a8.05,8.05,0,0,0,3.58-3.58l32-64a8,8,0,0,0-10.74-10.74ZM138,138,97.89,158.11,118,118l40.15-20.07Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-draw {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M248,92.68a15.86,15.86,0,0,0-4.69-11.31L174.63,12.68a16,16,0,0,0-22.63,0L123.57,41.11l-58,21.77A16.06,16.06,0,0,0,55.35,75.23L32.11,214.68A8,8,0,0,0,40,224a8.4,8.4,0,0,0,1.32-.11l139.44-23.24a16,16,0,0,0,12.35-10.17l21.77-58L243.31,104A15.87,15.87,0,0,0,248,92.68Zm-69.87,92.19L63.32,204l47.37-47.37a28,28,0,1,0-11.32-11.32L52,192.7,71.13,77.86,126,57.29,198.7,130ZM112,132a12,12,0,1,1,12,12A12,12,0,0,1,112,132Zm96-15.32L139.31,48l24-24L232,92.68Z'/%3E%3C/svg%3E");
+}
+
+.bp3-popover .bp3-icon-duplicate,
+.bp3-icon-duplicate {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M216,32H88a8,8,0,0,0-8,8V80H40a8,8,0,0,0-8,8V216a8,8,0,0,0,8,8H168a8,8,0,0,0,8-8V176h40a8,8,0,0,0,8-8V40A8,8,0,0,0,216,32ZM160,208H48V96H160Zm48-48H176V88a8,8,0,0,0-8-8H96V48H208Z'/%3E%3C/svg%3E");
+}
+
+.advanced-search-el .bp3-icon-document,
+.bp3-icon-document {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M213.66,82.34l-56-56A8,8,0,0,0,152,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V88A8,8,0,0,0,213.66,82.34ZM160,51.31,188.69,80H160ZM200,216H56V40h88V88a8,8,0,0,0,8,8h48V216Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-edit,
+.rm-inline-img__resize .bp3-icon-edit {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M229.66,58.34l-32-32a8,8,0,0,0-11.32,0l-96,96A8,8,0,0,0,88,128v32a8,8,0,0,0,8,8h32a8,8,0,0,0,5.66-2.34l96-96A8,8,0,0,0,229.66,58.34ZM124.69,152H104V131.31l64-64L188.69,88ZM200,76.69,179.31,56,192,43.31,212.69,64ZM224,128v80a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V48A16,16,0,0,1,48,32h80a8,8,0,0,1,0,16H48V208H208V128a8,8,0,0,1,16,0Z'/%3E%3C/svg%3E");
+}
+
+.bp3-popover .bp3-icon-swap-horizontal,
+.bp3-popover .bp3-icon-exchange {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M24,128A72.08,72.08,0,0,1,96,56H204.69L194.34,45.66a8,8,0,0,1,11.32-11.32l24,24a8,8,0,0,1,0,11.32l-24,24a8,8,0,0,1-11.32-11.32L204.69,72H96a56.06,56.06,0,0,0-56,56,8,8,0,0,1-16,0Zm200-8a8,8,0,0,0-8,8,56.06,56.06,0,0,1-56,56H51.31l10.35-10.34a8,8,0,0,0-11.32-11.32l-24,24a8,8,0,0,0,0,11.32l24,24a8,8,0,0,0,11.32-11.32L51.31,200H160a72.08,72.08,0,0,0,72-72A8,8,0,0,0,224,120Z'/%3E%3C/svg%3E");
+}
+
+.rm-all-pages .bp3-icon-export,
+.bp3-popover .bp3-icon-export,
+.bp3-icon-export {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M240,136v64a16,16,0,0,1-16,16H32a16,16,0,0,1-16-16V136a16,16,0,0,1,16-16H80a8,8,0,0,1,0,16H32v64H224V136H176a8,8,0,0,1,0-16h48A16,16,0,0,1,240,136ZM85.66,77.66,120,43.31V128a8,8,0,0,0,16,0V43.31l34.34,34.35a8,8,0,0,0,11.32-11.32l-48-48a8,8,0,0,0-11.32,0l-48,48A8,8,0,0,0,85.66,77.66ZM200,168a12,12,0,1,0-12,12A12,12,0,0,0,200,168Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-eye-open {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M247.31,124.76c-.35-.79-8.82-19.58-27.65-38.41C194.57,61.26,162.88,48,128,48S61.43,61.26,36.34,86.35C17.51,105.18,9,124,8.69,124.76a8,8,0,0,0,0,6.5c.35.79,8.82,19.57,27.65,38.4C61.43,194.74,93.12,208,128,208s66.57-13.26,91.66-38.34c18.83-18.83,27.3-37.61,27.65-38.4A8,8,0,0,0,247.31,124.76ZM128,192c-30.78,0-57.67-11.19-79.93-33.25A133.47,133.47,0,0,1,25,128,133.33,133.33,0,0,1,48.07,97.25C70.33,75.19,97.22,64,128,64s57.67,11.19,79.93,33.25A133.46,133.46,0,0,1,231.05,128C223.84,141.46,192.43,192,128,192Zm0-112a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-eye-off {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M53.92,34.62A8,8,0,1,0,42.08,45.38L61.32,66.55C25,88.84,9.38,123.2,8.69,124.76a8,8,0,0,0,0,6.5c.35.79,8.82,19.57,27.65,38.4C61.43,194.74,93.12,208,128,208a127.11,127.11,0,0,0,52.07-10.83l22,24.21a8,8,0,1,0,11.84-10.76Zm47.33,75.84,41.67,45.85a32,32,0,0,1-41.67-45.85ZM128,192c-30.78,0-57.67-11.19-79.93-33.25A133.16,133.16,0,0,1,25,128c4.69-8.79,19.66-33.39,47.35-49.38l18,19.75a48,48,0,0,0,63.66,70l14.73,16.2A112,112,0,0,1,128,192Zm6-95.43a8,8,0,0,1,3-15.72,48.16,48.16,0,0,1,38.77,42.64,8,8,0,0,1-7.22,8.71,6.39,6.39,0,0,1-.75,0,8,8,0,0,1-8-7.26A32.09,32.09,0,0,0,134,96.57Zm113.28,34.69c-.42.94-10.55,23.37-33.36,43.8a8,8,0,1,1-10.67-11.92A132.77,132.77,0,0,0,231.05,128a133.15,133.15,0,0,0-23.12-30.77C185.67,75.19,158.78,64,128,64a118.37,118.37,0,0,0-19.36,1.57A8,8,0,1,1,106,49.79,134,134,0,0,1,128,48c34.88,0,66.57,13.26,91.66,38.35,18.83,18.83,27.3,37.62,27.65,38.41A8,8,0,0,1,247.31,131.26Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-fast-backward {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M240,152H199.55a73.54,73.54,0,0,0,.45-8,72,72,0,0,0-144,0,73.54,73.54,0,0,0,.45,8H16a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16ZM72,144a56,56,0,1,1,111.41,8H72.59A56.13,56.13,0,0,1,72,144Zm144,56a8,8,0,0,1-8,8H48a8,8,0,0,1,0-16H208A8,8,0,0,1,216,200ZM72.84,43.58a8,8,0,0,1,14.32-7.16l8,16a8,8,0,0,1-14.32,7.16Zm-56,48.84a8,8,0,0,1,10.74-3.57l16,8a8,8,0,0,1-7.16,14.31l-16-8A8,8,0,0,1,16.84,92.42Zm192,15.16a8,8,0,0,1,3.58-10.73l16-8a8,8,0,1,1,7.16,14.31l-16,8a8,8,0,0,1-10.74-3.58Zm-48-55.16,8-16a8,8,0,0,1,14.32,7.16l-8,16a8,8,0,1,1-14.32-7.16Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-fast-forward {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M240,152H199.55a73.54,73.54,0,0,0,.45-8,72,72,0,0,0-144,0,73.54,73.54,0,0,0,.45,8H16a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16ZM72,144a56,56,0,1,1,111.41,8H72.59A56.13,56.13,0,0,1,72,144Zm144,56a8,8,0,0,1-8,8H48a8,8,0,0,1,0-16H208A8,8,0,0,1,216,200ZM72.84,43.58a8,8,0,0,1,14.32-7.16l8,16a8,8,0,0,1-14.32,7.16Zm-56,48.84a8,8,0,0,1,10.74-3.57l16,8a8,8,0,0,1-7.16,14.31l-16-8A8,8,0,0,1,16.84,92.42Zm192,15.16a8,8,0,0,1,3.58-10.73l16-8a8,8,0,1,1,7.16,14.31l-16,8a8,8,0,0,1-10.74-3.58Zm-48-55.16,8-16a8,8,0,0,1,14.32,7.16l-8,16a8,8,0,1,1-14.32-7.16Z'/%3E%3C/svg%3E");
+}
+
+.roamjs-query-builder-parent .bp3-icon-filter,
+.bp3-icon-filter {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M230.6,49.53A15.81,15.81,0,0,0,216,40H40A16,16,0,0,0,28.19,66.76l.08.09L96,139.17V216a16,16,0,0,0,24.87,13.32l32-21.34A16,16,0,0,0,160,194.66V139.17l67.74-72.32.08-.09A15.8,15.8,0,0,0,230.6,49.53ZM40,56h0Zm106.18,74.58A8,8,0,0,0,144,136v58.66L112,216V136a8,8,0,0,0-2.16-5.47L40,56H216Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-filter-keep,
+.bp3-icon-filter-list,
+.bp3-icon-filter-remove {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M128,24C74.17,24,32,48.6,32,80v96c0,31.4,42.17,56,96,56s96-24.6,96-56V80C224,48.6,181.83,24,128,24Zm80,104c0,9.62-7.88,19.43-21.61,26.92C170.93,163.35,150.19,168,128,168s-42.93-4.65-58.39-13.08C55.88,147.43,48,137.62,48,128V111.36c17.06,15,46.23,24.64,80,24.64s62.94-9.68,80-24.64ZM69.61,53.08C85.07,44.65,105.81,40,128,40s42.93,4.65,58.39,13.08C200.12,60.57,208,70.38,208,80s-7.88,19.43-21.61,26.92C170.93,115.35,150.19,120,128,120s-42.93-4.65-58.39-13.08C55.88,99.43,48,89.62,48,80S55.88,60.57,69.61,53.08ZM186.39,202.92C170.93,211.35,150.19,216,128,216s-42.93-4.65-58.39-13.08C55.88,195.43,48,185.62,48,176V159.36c17.06,15,46.23,24.64,80,24.64s62.94-9.68,80-24.64V176C208,185.62,200.12,195.43,186.39,202.92Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-flash {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M120,40V16a8,8,0,0,1,16,0V40a8,8,0,0,1-16,0Zm72,88a64,64,0,1,1-64-64A64.07,64.07,0,0,1,192,128Zm-16,0a48,48,0,1,0-48,48A48.05,48.05,0,0,0,176,128ZM58.34,69.66A8,8,0,0,0,69.66,58.34l-16-16A8,8,0,0,0,42.34,53.66Zm0,116.68-16,16a8,8,0,0,0,11.32,11.32l16-16a8,8,0,0,0-11.32-11.32ZM192,72a8,8,0,0,0,5.66-2.34l16-16a8,8,0,0,0-11.32-11.32l-16,16A8,8,0,0,0,192,72Zm5.66,114.34a8,8,0,0,0-11.32,11.32l16,16a8,8,0,0,0,11.32-11.32ZM48,128a8,8,0,0,0-8-8H16a8,8,0,0,0,0,16H40A8,8,0,0,0,48,128Zm80,80a8,8,0,0,0-8,8v24a8,8,0,0,0,16,0V216A8,8,0,0,0,128,208Zm112-88H216a8,8,0,0,0,0,16h24a8,8,0,0,0,0-16Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-folder-new {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M216,72H131.31L104,44.69A15.86,15.86,0,0,0,92.69,40H40A16,16,0,0,0,24,56V200.62A15.4,15.4,0,0,0,39.38,216H216.89A15.13,15.13,0,0,0,232,200.89V88A16,16,0,0,0,216,72ZM92.69,56l16,16H40V56ZM216,200H40V88H216Zm-88-88a8,8,0,0,1,8,8v16h16a8,8,0,0,1,0,16H136v16a8,8,0,0,1-16,0V152H104a8,8,0,0,1,0-16h16V120A8,8,0,0,1,128,112Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-function {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M152,120H136V56h8a32,32,0,0,1,32,32,8,8,0,0,0,16,0,48.05,48.05,0,0,0-48-48h-8V24a8,8,0,0,0-16,0V40h-8a48,48,0,0,0,0,96h8v64H104a32,32,0,0,1-32-32,8,8,0,0,0-16,0,48.05,48.05,0,0,0,48,48h16v16a8,8,0,0,0,16,0V216h16a48,48,0,0,0,0-96Zm-40,0a32,32,0,0,1,0-64h8v64Zm40,80H136V136h16a32,32,0,0,1,0,64Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-git-new-branch {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M240,88.23a54.43,54.43,0,0,1-16,37L189.25,160a54.27,54.27,0,0,1-38.63,16h-.05A54.63,54.63,0,0,1,96,119.84a8,8,0,0,1,16,.45A38.62,38.62,0,0,0,150.58,160h0a38.39,38.39,0,0,0,27.31-11.31l34.75-34.75a38.63,38.63,0,0,0-54.63-54.63l-11,11A8,8,0,0,1,135.7,59l11-11A54.65,54.65,0,0,1,224,48,54.86,54.86,0,0,1,240,88.23ZM109,185.66l-11,11A38.41,38.41,0,0,1,70.6,208h0a38.63,38.63,0,0,1-27.29-65.94L78,107.31A38.63,38.63,0,0,1,144,135.71a8,8,0,0,0,16,.45A54.86,54.86,0,0,0,144,96a54.65,54.65,0,0,0-77.27,0L32,130.75A54.62,54.62,0,0,0,70.56,224h0a54.28,54.28,0,0,0,38.64-16l11-11A8,8,0,0,0,109,185.66Z'/%3E%3C/svg%3E");
+}
+
+.roam-sidebar-content .bp3-icon-graph,
+.rm-topbar .bp3-icon-graph {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M176,160a39.89,39.89,0,0,0-28.62,12.09l-46.1-29.63a39.8,39.8,0,0,0,0-28.92l46.1-29.63a40,40,0,1,0-8.66-13.45l-46.1,29.63a40,40,0,1,0,0,55.82l46.1,29.63A40,40,0,1,0,176,160Zm0-128a24,24,0,1,1-24,24A24,24,0,0,1,176,32ZM64,152a24,24,0,1,1,24-24A24,24,0,0,1,64,152Zm112,72a24,24,0,1,1,24-24A24,24,0,0,1,176,224Z'/%3E%3C/svg%3E");
+}
+
+.bp3-menu .bp3-icon-help,
+.bp3-icon-help {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M140,180a12,12,0,1,1-12-12A12,12,0,0,1,140,180ZM128,72c-22.06,0-40,16.15-40,36v4a8,8,0,0,0,16,0v-4c0-11,10.77-20,24-20s24,9,24,20-10.77,20-24,20a8,8,0,0,0-8,8v8a8,8,0,0,0,16,0v-.72c18.24-3.35,32-17.9,32-35.28C168,88.15,150.06,72,128,72Zm104,56A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-16,0a88,88,0,1,0-88,88A88.1,88.1,0,0,0,216,128Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-highlight {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M227.32,73.37,182.63,28.69a16,16,0,0,0-22.63,0L36.69,152A15.86,15.86,0,0,0,32,163.31V208a16,16,0,0,0,16,16H92.69A15.86,15.86,0,0,0,104,219.31l83.67-83.66,3.48,13.9-36.8,36.79a8,8,0,0,0,11.31,11.32l40-40a8,8,0,0,0,2.11-7.6l-6.9-27.61L227.32,96A16,16,0,0,0,227.32,73.37ZM48,179.31,76.69,208H48Zm48,25.38L51.31,160,136,75.31,180.69,120Zm96-96L147.32,64l24-24L216,84.69Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-horizontal-distribution {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M104,32H64A16,16,0,0,0,48,48V208a16,16,0,0,0,16,16h40a16,16,0,0,0,16-16V48A16,16,0,0,0,104,32Zm0,176H64V48h40ZM192,32H152a16,16,0,0,0-16,16V208a16,16,0,0,0,16,16h40a16,16,0,0,0,16-16V48A16,16,0,0,0,192,32Zm0,176H152V48h40Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-import {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M240,136v64a16,16,0,0,1-16,16H32a16,16,0,0,1-16-16V136a16,16,0,0,1,16-16H72a8,8,0,0,1,0,16H32v64H224V136H184a8,8,0,0,1,0-16h40A16,16,0,0,1,240,136Zm-117.66-2.34a8,8,0,0,0,11.32,0l48-48a8,8,0,0,0-11.32-11.32L136,108.69V24a8,8,0,0,0-16,0v84.69L85.66,74.34A8,8,0,0,0,74.34,85.66ZM200,168a12,12,0,1,0-12,12A12,12,0,0,0,200,168Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-info-sign {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm16-40a8,8,0,0,1-8,8,16,16,0,0,1-16-16V128a8,8,0,0,1,0-16,16,16,0,0,1,16,16v40A8,8,0,0,1,144,176ZM112,84a12,12,0,1,1,12,12A12,12,0,0,1,112,84Z'/%3E%3C/svg%3E");
+}
+
+.bp3-popover .bp3-icon-inheritance {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M221.66,181.66l-48,48a8,8,0,0,1-11.32-11.32L196.69,184H72a8,8,0,0,1-8-8V32a8,8,0,0,1,16,0V168H196.69l-34.35-34.34a8,8,0,0,1,11.32-11.32l48,48A8,8,0,0,1,221.66,181.66Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-issue-new {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M120,40V16a8,8,0,0,1,16,0V40a8,8,0,0,1-16,0Zm72,88a64,64,0,1,1-64-64A64.07,64.07,0,0,1,192,128Zm-16,0a48,48,0,1,0-48,48A48.05,48.05,0,0,0,176,128ZM58.34,69.66A8,8,0,0,0,69.66,58.34l-16-16A8,8,0,0,0,42.34,53.66Zm0,116.68-16,16a8,8,0,0,0,11.32,11.32l16-16a8,8,0,0,0-11.32-11.32ZM192,72a8,8,0,0,0,5.66-2.34l16-16a8,8,0,0,0-11.32-11.32l-16,16A8,8,0,0,0,192,72Zm5.66,114.34a8,8,0,0,0-11.32,11.32l16,16a8,8,0,0,0,11.32-11.32ZM48,128a8,8,0,0,0-8-8H16a8,8,0,0,0,0,16H40A8,8,0,0,0,48,128Zm80,80a8,8,0,0,0-8,8v24a8,8,0,0,0,16,0V216A8,8,0,0,0,128,208Zm112-88H216a8,8,0,0,0,0,16h24a8,8,0,0,0,0-16Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-italic {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M200,56a8,8,0,0,1-8,8H157.77L115.1,192H144a8,8,0,0,1,0,16H64a8,8,0,0,1,0-16H98.23L140.9,64H112a8,8,0,0,1,0-16h80A8,8,0,0,1,200,56Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-learning {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M216,96A88,88,0,1,0,72,163.83V240a8,8,0,0,0,11.58,7.16L128,225l44.43,22.21A8.07,8.07,0,0,0,176,248a8,8,0,0,0,8-8V163.83A87.85,87.85,0,0,0,216,96ZM56,96a72,72,0,1,1,72,72A72.08,72.08,0,0,1,56,96ZM168,227.06l-36.43-18.21a8,8,0,0,0-7.16,0L88,227.06V174.37a87.89,87.89,0,0,0,80,0ZM128,152A56,56,0,1,0,72,96,56.06,56.06,0,0,0,128,152Zm0-96A40,40,0,1,1,88,96,40,40,0,0,1,128,56Z'/%3E%3C/svg%3E");
+}
+
+.bp3-dialog .bp3-icon-link,
+.bp3-icon-link {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M128,24h0A104,104,0,1,0,232,128,104.12,104.12,0,0,0,128,24Zm88,104a87.61,87.61,0,0,1-3.33,24H174.16a157.44,157.44,0,0,0,0-48h38.51A87.61,87.61,0,0,1,216,128ZM102,168H154a115.11,115.11,0,0,1-26,45A115.27,115.27,0,0,1,102,168Zm-3.9-16a140.84,140.84,0,0,1,0-48h59.88a140.84,140.84,0,0,1,0,48ZM40,128a87.61,87.61,0,0,1,3.33-24H81.84a157.44,157.44,0,0,0,0,48H43.33A87.61,87.61,0,0,1,40,128ZM154,88H102a115.11,115.11,0,0,1,26-45A115.27,115.27,0,0,1,154,88Zm52.33,0H170.71a135.28,135.28,0,0,0-22.3-45.6A88.29,88.29,0,0,1,206.37,88ZM107.59,42.4A135.28,135.28,0,0,0,85.29,88H49.63A88.29,88.29,0,0,1,107.59,42.4ZM49.63,168H85.29a135.28,135.28,0,0,0,22.3,45.6A88.29,88.29,0,0,1,49.63,168Zm98.78,45.6a135.28,135.28,0,0,0,22.3-45.6h35.66A88.29,88.29,0,0,1,148.41,213.6Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-list {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-lock {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M208,80H176V56a48,48,0,0,0-96,0V80H48A16,16,0,0,0,32,96V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V96A16,16,0,0,0,208,80ZM96,56a32,32,0,0,1,64,0V80H96ZM208,208H48V96H208V208Zm-68-56a12,12,0,1,1-12-12A12,12,0,0,1,140,152Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-manual {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M232,48H160a40,40,0,0,0-32,16A40,40,0,0,0,96,48H24a8,8,0,0,0-8,8V200a8,8,0,0,0,8,8H96a24,24,0,0,1,24,24,8,8,0,0,0,16,0,24,24,0,0,1,24-24h72a8,8,0,0,0,8-8V56A8,8,0,0,0,232,48ZM96,192H32V64H96a24,24,0,0,1,24,24V200A39.81,39.81,0,0,0,96,192Zm128,0H160a39.81,39.81,0,0,0-24,8V88a24,24,0,0,1,24-24h64Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-maximize,
+.bp3-icon-fullscreen {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M216,48V96a8,8,0,0,1-16,0V67.31l-42.34,42.35a8,8,0,0,1-11.32-11.32L188.69,56H160a8,8,0,0,1,0-16h48A8,8,0,0,1,216,48ZM98.34,146.34,56,188.69V160a8,8,0,0,0-16,0v48a8,8,0,0,0,8,8H96a8,8,0,0,0,0-16H67.31l42.35-42.34a8,8,0,0,0-11.32-11.32ZM208,152a8,8,0,0,0-8,8v28.69l-42.34-42.35a8,8,0,0,0-11.32,11.32L188.69,200H160a8,8,0,0,0,0,16h48a8,8,0,0,0,8-8V160A8,8,0,0,0,208,152ZM67.31,56H96a8,8,0,0,0,0-16H48a8,8,0,0,0-8,8V96a8,8,0,0,0,16,0V67.31l42.34,42.35a8,8,0,0,0,11.32-11.32Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-menu {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z'/%3E%3C/svg%3E");
+}
+
+.roam-sidebar-container .bp3-icon-menu-closed,
+.rm-topbar .bp3-icon-menu-closed {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM40,56H80V200H40ZM216,200H96V56H216V200Z'/%3E%3C/svg%3E");
+}
+
+.rm-topbar .bp3-icon-menu-open.rm-open-left-sidebar-btn,
+#right-sidebar .bp3-icon-menu-open {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM40,56H80V200H40ZM216,200H96V56H216V200Z'/%3E%3C/svg%3E");
+}
+
+.rm-topbar .bp3-icon-menu-open:not(.rm-open-left-sidebar-btn) {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM40,152H56a8,8,0,0,0,0-16H40V120H56a8,8,0,0,0,0-16H40V88H56a8,8,0,0,0,0-16H40V56H80V200H40Zm176,48H96V56H216V200Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-moon {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M233.54,142.23a8,8,0,0,0-8-2,88.08,88.08,0,0,1-109.8-109.8,8,8,0,0,0-10-10,104.84,104.84,0,0,0-52.91,37A104,104,0,0,0,136,224a103.09,103.09,0,0,0,62.52-20.88,104.84,104.84,0,0,0,37-52.91A8,8,0,0,0,233.54,142.23ZM188.9,190.34A88,88,0,0,1,65.66,67.11a89,89,0,0,1,31.4-26A106,106,0,0,0,96,56,104.11,104.11,0,0,0,200,160a106,106,0,0,0,14.92-1.06A89,89,0,0,1,188.9,190.34Z'/%3E%3C/svg%3E");
+}
+
+.roamjs-query-builder-parent .bp3-icon-more,
+.bp3-icon-more {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M140,128a12,12,0,1,1-12-12A12,12,0,0,1,140,128Zm56-12a12,12,0,1,0,12,12A12,12,0,0,0,196,116ZM60,116a12,12,0,1,0,12,12A12,12,0,0,0,60,116Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-new-grid-item {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M216,48H40a8,8,0,0,0-8,8V208a16,16,0,0,0,16,16H88a16,16,0,0,0,16-16V160h48v16a16,16,0,0,0,16,16h40a16,16,0,0,0,16-16V56A8,8,0,0,0,216,48ZM88,208H48V128H88Zm0-96H48V64H88Zm64,32H104V64h48Zm56,32H168V128h40Zm0-64H168V64h40Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-minus {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-plus {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z'/%3E%3C/svg%3E");
+}
+
+.bp3-popover .bp3-icon-new-layers,
+.bp3-icon-new-layers {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M216,32H88a8,8,0,0,0-8,8V80H40a8,8,0,0,0-8,8V216a8,8,0,0,0,8,8H168a8,8,0,0,0,8-8V176h40a8,8,0,0,0,8-8V40A8,8,0,0,0,216,32ZM160,208H48V96H160Zm48-48H176V88a8,8,0,0,0-8-8H96V48H208Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-new-link {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M165.66,90.34a8,8,0,0,1,0,11.32l-64,64a8,8,0,0,1-11.32-11.32l64-64A8,8,0,0,1,165.66,90.34ZM215.6,40.4a56,56,0,0,0-79.2,0L106.34,70.45a8,8,0,0,0,11.32,11.32l30.06-30a40,40,0,0,1,56.57,56.56l-30.07,30.06a8,8,0,0,0,11.31,11.32L215.6,119.6a56,56,0,0,0,0-79.2ZM138.34,174.22l-30.06,30.06a40,40,0,1,1-56.56-56.57l30.05-30.05a8,8,0,0,0-11.32-11.32L40.4,136.4a56,56,0,0,0,79.2,79.2l30.06-30.07a8,8,0,0,0-11.32-11.31Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-numerical {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M224,200h-8V40a8,8,0,0,0-8-8H152a8,8,0,0,0-8,8V80H96a8,8,0,0,0-8,8v40H48a8,8,0,0,0-8,8v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16ZM160,48h40V200H160ZM104,96h40V200H104ZM56,144H88v56H56Z'/%3E%3C/svg%3E");
+}
+
+.advanced-search-el .bp3-icon-paragraph {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M208,56V88a8,8,0,0,1-16,0V64H136V192h24a8,8,0,0,1,0,16H96a8,8,0,0,1,0-16h24V64H64V88a8,8,0,0,1-16,0V56a8,8,0,0,1,8-8H200A8,8,0,0,1,208,56Z'/%3E%3C/svg%3E");
+}
+
+.advanced-search-el .bp3-icon-person {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-pin {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M239.18,97.26A16.38,16.38,0,0,0,224.92,86l-59-4.76L143.14,26.15a16.36,16.36,0,0,0-30.27,0L90.11,81.23,31.08,86a16.46,16.46,0,0,0-9.37,28.86l45,38.83L53,211.75a16.38,16.38,0,0,0,24.5,17.82L128,198.49l50.53,31.08A16.4,16.4,0,0,0,203,211.75l-13.76-58.07,45-38.83A16.43,16.43,0,0,0,239.18,97.26Zm-15.34,5.47-48.7,42a8,8,0,0,0-2.56,7.91l14.88,62.8a.37.37,0,0,1-.17.48c-.18.14-.23.11-.38,0l-54.72-33.65a8,8,0,0,0-8.38,0L69.09,215.94c-.15.09-.19.12-.38,0a.37.37,0,0,1-.17-.48l14.88-62.8a8,8,0,0,0-2.56-7.91l-48.7-42c-.12-.1-.23-.19-.13-.5s.18-.27.33-.29l63.92-5.16A8,8,0,0,0,103,91.86l24.62-59.61c.08-.17.11-.25.35-.25s.27.08.35.25L153,91.86a8,8,0,0,0,6.75,4.92l63.92,5.16c.15,0,.24,0,.33.29S224,102.63,223.84,102.73Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-properties {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M213.66,82.34l-56-56A8,8,0,0,0,152,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V88A8,8,0,0,0,213.66,82.34ZM160,51.31,188.69,80H160ZM200,216H56V40h88V88a8,8,0,0,0,8,8h48V216Zm-32-80a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,136Zm0,32a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,168Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-fork,
+.roamjs-query-builder-parent .bp3-icon-refresh,
+.bp3-popover .bp3-icon-refresh,
+.bp3-icon-refresh {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M88,104H40a8,8,0,0,1-8-8V48a8,8,0,0,1,16,0V76.69L62.63,62.06A95.43,95.43,0,0,1,130,33.94h.53a95.36,95.36,0,0,1,67.07,27.33,8,8,0,0,1-11.18,11.44,79.52,79.52,0,0,0-55.89-22.77h-.45A79.56,79.56,0,0,0,73.94,73.37L59.31,88H88a8,8,0,0,1,0,16Zm128,48H168a8,8,0,0,0,0,16h28.69l-14.63,14.63a79.56,79.56,0,0,1-56.13,23.43h-.45a79.52,79.52,0,0,1-55.89-22.77,8,8,0,1,0-11.18,11.44,95.36,95.36,0,0,0,67.07,27.33H126a95.43,95.43,0,0,0,67.36-28.12L208,179.31V208a8,8,0,0,0,16,0V160A8,8,0,0,0,216,152Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-reset {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M224,128a96,96,0,0,1-94.71,96H128A95.38,95.38,0,0,1,62.1,197.8a8,8,0,0,1,11-11.63A80,80,0,1,0,71.43,71.39a3.07,3.07,0,0,1-.26.25L44.59,96H72a8,8,0,0,1,0,16H24a8,8,0,0,1-8-8V56a8,8,0,0,1,16,0V85.8L60.25,60A96,96,0,0,1,224,128Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-shield {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M208,40H48A16,16,0,0,0,32,56v56c0,52.72,25.52,84.67,46.93,102.19,23.06,18.86,46,25.27,47,25.53a8,8,0,0,0,4.2,0c1-.26,23.91-6.67,47-25.53C198.48,196.67,224,164.72,224,112V56A16,16,0,0,0,208,40Zm0,72c0,37.07-13.66,67.16-40.6,89.42A129.3,129.3,0,0,1,128,223.62a128.25,128.25,0,0,1-38.92-21.81C61.82,179.51,48,149.3,48,112l0-56,160,0Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-shop {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M230.14,58.87A8,8,0,0,0,224,56H62.68L56.6,22.57A8,8,0,0,0,48.73,16H24a8,8,0,0,0,0,16h18L67.56,172.29a24,24,0,0,0,5.33,11.27,28,28,0,1,0,44.4,8.44h45.42A27.75,27.75,0,0,0,160,204a28,28,0,1,0,28-28H91.17a8,8,0,0,1-7.87-6.57L80.13,152h116a24,24,0,0,0,23.61-19.71l12.16-66.86A8,8,0,0,0,230.14,58.87ZM104,204a12,12,0,1,1-12-12A12,12,0,0,1,104,204Zm96,0a12,12,0,1,1-12-12A12,12,0,0,1,200,204Zm4-74.57A8,8,0,0,1,196.1,136H77.22L65.59,72H214.41Z'/%3E%3C/svg%3E");
+}
+
+.advanced-search-el .bp3-icon-search,
+.roam-sidebar-container .bp3-icon-search,
+.bp3-popover .bp3-icon-search,
+.bp3-icon-search {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-stacked-chart {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M64,105V40a8,8,0,0,0-16,0v65a32,32,0,0,0,0,62v49a8,8,0,0,0,16,0V167a32,32,0,0,0,0-62Zm-8,47a16,16,0,1,1,16-16A16,16,0,0,1,56,152Zm80-95V40a8,8,0,0,0-16,0V57a32,32,0,0,0,0,62v97a8,8,0,0,0,16,0V119a32,32,0,0,0,0-62Zm-8,47a16,16,0,1,1,16-16A16,16,0,0,1,128,104Zm104,64a32.06,32.06,0,0,0-24-31V40a8,8,0,0,0-16,0v97a32,32,0,0,0,0,62v17a8,8,0,0,0,16,0V199A32.06,32.06,0,0,0,232,168Zm-32,16a16,16,0,1,1,16-16A16,16,0,0,1,200,184Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-star {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M184,32H72A16,16,0,0,0,56,48V224a8,8,0,0,0,12.24,6.78L128,193.43l59.77,37.35A8,8,0,0,0,200,224V48A16,16,0,0,0,184,32Zm0,16V161.57l-51.77-32.35a8,8,0,0,0-8.48,0L72,161.56V48ZM132.23,177.22a8,8,0,0,0-8.48,0L72,209.57V180.43l56-35,56,35v29.14Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-star-empty {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M184,32H72A16,16,0,0,0,56,48V224a8,8,0,0,0,12.24,6.78L128,193.43l59.77,37.35A8,8,0,0,0,200,224V48A16,16,0,0,0,184,32Zm0,16V161.57l-51.77-32.35a8,8,0,0,0-8.48,0L72,161.56V48ZM132.23,177.22a8,8,0,0,0-8.48,0L72,209.57V180.43l56-35,56,35v29.14Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-stopwatch {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M208,128a79.94,79.94,0,0,0-32.7-64.47l-6.24-34.38A16,16,0,0,0,153.32,16H102.68A16,16,0,0,0,86.94,29.15L80.7,63.53a79.9,79.9,0,0,0,0,128.94l6.24,34.38A16,16,0,0,0,102.68,240h50.64a16,16,0,0,0,15.74-13.15l6.24-34.38A79.94,79.94,0,0,0,208,128ZM102.68,32h50.64l3.91,21.55a79.75,79.75,0,0,0-58.46,0ZM64,128a64,64,0,1,1,64,64A64.07,64.07,0,0,1,64,128Zm89.32,96H102.68l-3.91-21.55a79.75,79.75,0,0,0,58.46,0ZM120,128V88a8,8,0,0,1,16,0v32h32a8,8,0,0,1,0,16H128A8,8,0,0,1,120,128Z'/%3E%3C/svg%3E");
+}
+
+.advanced-search-el .bp3-icon-tag {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M243.31,136,144,36.69A15.86,15.86,0,0,0,132.69,32H40a8,8,0,0,0-8,8v92.69A15.86,15.86,0,0,0,36.69,144L136,243.31a16,16,0,0,0,22.63,0l84.68-84.68a16,16,0,0,0,0-22.63Zm-96,96L48,132.69V48h84.69L232,147.31ZM96,84A12,12,0,1,1,84,72,12,12,0,0,1,96,84Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-sort {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-th {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48ZM40,112H80v32H40Zm56,0H216v32H96ZM216,64V96H40V64ZM40,160H80v32H40Zm176,32H96V160H216v32Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-tick {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-time {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm64-88a8,8,0,0,1-8,8H128a8,8,0,0,1-8-8V72a8,8,0,0,1,16,0v48h48A8,8,0,0,1,192,128Z'/%3E%3C/svg%3E");
+}
+
+.bp3-dialog .bp3-icon-trash,
+.bp3-popover .bp3-icon-trash,
+.rm-all-pages .bp3-icon-trash {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M216,48H176V40a24,24,0,0,0-24-24H104A24,24,0,0,0,80,40v8H40a8,8,0,0,0,0,16h8V208a16,16,0,0,0,16,16H192a16,16,0,0,0,16-16V64h8a8,8,0,0,0,0-16ZM96,40a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96Zm96,168H64V64H192ZM112,104v64a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Zm48,0v64a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-translate {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M224,104a8,8,0,0,1-16,0V59.32l-66.33,66.34a8,8,0,0,1-11.32-11.32L196.68,48H152a8,8,0,0,1,0-16h64a8,8,0,0,1,8,8Zm-40,24a8,8,0,0,0-8,8v72H48V80h72a8,8,0,0,0,0-16H48A16,16,0,0,0,32,80V208a16,16,0,0,0,16,16H176a16,16,0,0,0,16-16V136A8,8,0,0,0,184,128Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-vertical-distribution {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M226.76,69a8,8,0,0,0-12.84-2.88l-40.3,37.19-17.23-3.7-3.7-17.23,37.19-40.3A8,8,0,0,0,187,29.24,72,72,0,0,0,88,96,72.34,72.34,0,0,0,94,124.94L33.79,177c-.15.12-.29.26-.43.39a32,32,0,0,0,45.26,45.26c.13-.13.27-.28.39-.42L131.06,162A72,72,0,0,0,232,96,71.56,71.56,0,0,0,226.76,69ZM160,152a56.14,56.14,0,0,1-27.07-7,8,8,0,0,0-9.92,1.77L67.11,211.51a16,16,0,0,1-22.62-22.62L109.18,133a8,8,0,0,0,1.77-9.93,56,56,0,0,1,58.36-82.31l-31.2,33.81a8,8,0,0,0-1.94,7.1L141.83,108a8,8,0,0,0,6.14,6.14l26.35,5.66a8,8,0,0,0,7.1-1.94l33.81-31.2A56.06,56.06,0,0,1,160,152Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-video {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM40,88h80v80H40Zm96-16V56h32V72Zm-16,0H88V56h32Zm0,112v16H88V184Zm16,0h32v16H136Zm0-16V88h80v80Zm80-96H184V56h32ZM72,56V72H40V56ZM40,184H72v16H40Zm176,16H184V184h32v16Z'/%3E%3C/svg%3E");
+}
+
+.bp3-popover .bp3-icon-zoom-in {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M152,112a8,8,0,0,1-8,8H120v24a8,8,0,0,1-16,0V120H80a8,8,0,0,1,0-16h24V80a8,8,0,0,1,16,0v24h24A8,8,0,0,1,152,112Zm77.66,117.66a8,8,0,0,1-11.32,0l-50.06-50.07a88.11,88.11,0,1,1,11.31-11.31l50.07,50.06A8,8,0,0,1,229.66,229.66ZM112,184a72,72,0,1,0-72-72A72.08,72.08,0,0,0,112,184Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-applications {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M200,40H56A16,16,0,0,0,40,56V200a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V56A16,16,0,0,0,200,40Zm0,80H136V56h64ZM120,56v64H56V56ZM56,136h64v64H56Zm144,64H136V136h64v64Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-arrow-right {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-build {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M251.34,112,183.88,44.08a96.1,96.1,0,0,0-135.77,0l-.09.09L34.25,58.4A8,8,0,0,0,45.74,69.53L59.47,55.35a79.92,79.92,0,0,1,18.71-13.9L124.68,88l-96,96a16,16,0,0,0,0,22.63l20.69,20.69a16,16,0,0,0,22.63,0l96-96,14.34,14.34h0L200,163.3a16,16,0,0,0,22.63,0l28.69-28.69A16,16,0,0,0,251.34,112ZM60.68,216,40,195.31l68-68L128.68,148ZM162.34,114.32,140,136.67,119.31,116l22.35-22.35a8,8,0,0,0,0-11.32L94.32,35a80,80,0,0,1,78.23,20.41l44.22,44.51L188,128.66l-14.34-14.34A8,8,0,0,0,162.34,114.32Zm49,37.66-12-12L228,111.25l12,12Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-caret-down:not(.rm-caret) {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-caret-right:not(.rm-caret) {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-caret-up:not(.rm-caret) {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M213.66,165.66a8,8,0,0,1-11.32,0L128,91.31,53.66,165.66a8,8,0,0,1-11.32-11.32l80-80a8,8,0,0,1,11.32,0l80,80A8,8,0,0,1,213.66,165.66Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-citation {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M100,56H40A16,16,0,0,0,24,72v64a16,16,0,0,0,16,16h60v8a32,32,0,0,1-32,32,8,8,0,0,0,0,16,48.05,48.05,0,0,0,48-48V72A16,16,0,0,0,100,56Zm0,80H40V72h60ZM216,56H156a16,16,0,0,0-16,16v64a16,16,0,0,0,16,16h60v8a32,32,0,0,1-32,32,8,8,0,0,0,0,16,48.05,48.05,0,0,0,48-48V72A16,16,0,0,0,216,56Zm0,80H156V72h60Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-cloud {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M160,40A88.09,88.09,0,0,0,81.29,88.67,64,64,0,1,0,72,216h88a88,88,0,0,0,0-176Zm0,160H72a48,48,0,0,1,0-96c1.1,0,2.2,0,3.29.11A88,88,0,0,0,72,128a8,8,0,0,0,16,0,72,72,0,1,1,72,72Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-document-open {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M213.66,82.34l-56-56A8,8,0,0,0,152,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V88A8,8,0,0,0,213.66,82.34ZM160,51.31,188.69,80H160ZM200,216H56V40h88V88a8,8,0,0,0,8,8h48V216Zm-42.34-77.66a8,8,0,0,1-11.32,11.32L136,139.31V184a8,8,0,0,1-16,0V139.31l-10.34,10.35a8,8,0,0,1-11.32-11.32l24-24a8,8,0,0,1,11.32,0Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-double-caret-vertical {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M181.66,170.34a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32,0l-48-48a8,8,0,0,1,11.32-11.32L128,212.69l42.34-42.35A8,8,0,0,1,181.66,170.34Zm-96-84.68L128,43.31l42.34,42.35a8,8,0,0,0,11.32-11.32l-48-48a8,8,0,0,0-11.32,0l-48,48A8,8,0,0,0,85.66,85.66Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-double-chevron-up {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M213.66,194.34a8,8,0,0,1-11.32,11.32L128,131.31,53.66,205.66a8,8,0,0,1-11.32-11.32l80-80a8,8,0,0,1,11.32,0Zm-160-68.68L128,51.31l74.34,74.35a8,8,0,0,0,11.32-11.32l-80-80a8,8,0,0,0-11.32,0l-80,80a8,8,0,0,0,11.32,11.32Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-download {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M50.34,117.66a8,8,0,0,1,11.32-11.32L120,164.69V32a8,8,0,0,1,16,0V164.69l58.34-58.35a8,8,0,0,1,11.32,11.32l-72,72a8,8,0,0,1-11.32,0ZM216,208H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-drag-handle-horizontal {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M72,92A12,12,0,1,1,60,80,12,12,0,0,1,72,92Zm56-12a12,12,0,1,0,12,12A12,12,0,0,0,128,80Zm68,24a12,12,0,1,0-12-12A12,12,0,0,0,196,104ZM60,152a12,12,0,1,0,12,12A12,12,0,0,0,60,152Zm68,0a12,12,0,1,0,12,12A12,12,0,0,0,128,152Zm68,0a12,12,0,1,0,12,12A12,12,0,0,0,196,152Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-drag-handle-vertical {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M104,60A12,12,0,1,1,92,48,12,12,0,0,1,104,60Zm60,12a12,12,0,1,0-12-12A12,12,0,0,0,164,72ZM92,116a12,12,0,1,0,12,12A12,12,0,0,0,92,116Zm72,0a12,12,0,1,0,12,12A12,12,0,0,0,164,116ZM92,184a12,12,0,1,0,12,12A12,12,0,0,0,92,184Zm72,0a12,12,0,1,0,12,12A12,12,0,0,0,164,184Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-error {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm-8-80V80a8,8,0,0,1,16,0v56a8,8,0,0,1-16,0Zm20,36a12,12,0,1,1-12-12A12,12,0,0,1,140,172Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-history {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M136,80v43.47l36.12,21.67a8,8,0,0,1-8.24,13.72l-40-24A8,8,0,0,1,120,128V80a8,8,0,0,1,16,0Zm-8-48A95.44,95.44,0,0,0,60.08,60.15C52.81,67.51,46.35,74.59,40,82V64a8,8,0,0,0-16,0v40a8,8,0,0,0,8,8H72a8,8,0,0,0,0-16H49c7.15-8.42,14.27-16.35,22.39-24.57a80,80,0,1,1,1.66,114.75,8,8,0,1,0-11,11.64A96,96,0,1,0,128,32Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-key {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M216.57,39.43A80,80,0,0,0,83.91,120.78L28.69,176A15.86,15.86,0,0,0,24,187.31V216a16,16,0,0,0,16,16H72a8,8,0,0,0,8-8V208H96a8,8,0,0,0,8-8V184h16a8,8,0,0,0,5.66-2.34l9.56-9.57A79.73,79.73,0,0,0,160,176h.1A80,80,0,0,0,216.57,39.43ZM224,98.1c-1.09,34.09-29.75,61.86-63.89,61.9H160a63.7,63.7,0,0,1-23.65-4.51,8,8,0,0,0-8.84,1.68L116.69,168H96a8,8,0,0,0-8,8v16H72a8,8,0,0,0-8,8v16H40V187.31l58.83-58.82a8,8,0,0,0,1.68-8.84A63.72,63.72,0,0,1,96,95.92c0-34.14,27.81-62.8,61.9-63.89A64,64,0,0,1,224,98.1ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-key-enter {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M200,32V176a8,8,0,0,1-8,8H67.31l34.35,34.34a8,8,0,0,1-11.32,11.32l-48-48a8,8,0,0,1,0-11.32l48-48a8,8,0,0,1,11.32,11.32L67.31,168H184V32a8,8,0,0,1,16,0Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-lightbulb {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M176,232a8,8,0,0,1-8,8H88a8,8,0,0,1,0-16h80A8,8,0,0,1,176,232Zm40-128a87.55,87.55,0,0,1-33.64,69.21A16.24,16.24,0,0,0,176,186v6a16,16,0,0,1-16,16H96a16,16,0,0,1-16-16v-6a16,16,0,0,0-6.23-12.66A87.59,87.59,0,0,1,40,104.49C39.74,56.83,78.26,17.14,125.88,16A88,88,0,0,1,216,104Zm-16,0a72,72,0,0,0-73.74-72c-39,.92-70.47,33.39-70.26,72.39a71.65,71.65,0,0,0,27.64,56.3A32,32,0,0,1,96,186v6h64v-6a32.15,32.15,0,0,1,12.47-25.35A71.65,71.65,0,0,0,200,104Zm-16.11-9.34a57.6,57.6,0,0,0-46.56-46.55,8,8,0,0,0-2.66,15.78c16.57,2.79,30.63,16.85,33.44,33.45A8,8,0,0,0,176,104a9,9,0,0,0,1.35-.11A8,8,0,0,0,183.89,94.66Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-log-out {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M120,216a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V40a8,8,0,0,1,8-8h64a8,8,0,0,1,0,16H56V208h56A8,8,0,0,1,120,216Zm109.66-93.66-40-40a8,8,0,0,0-11.32,11.32L204.69,120H112a8,8,0,0,0,0,16h92.69l-26.35,26.34a8,8,0,0,0,11.32,11.32l40-40A8,8,0,0,0,229.66,122.34Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-media {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,16V158.75l-26.07-26.06a16,16,0,0,0-22.63,0l-20,20-44-44a16,16,0,0,0-22.62,0L40,149.37V56ZM40,172l52-52,80,80H40Zm176,28H194.63l-36-36,20-20L216,181.38V200ZM144,100a12,12,0,1,1,12,12A12,12,0,0,1,144,100Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-minimize {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M144,104V64a8,8,0,0,1,16,0V84.69l42.34-42.35a8,8,0,0,1,11.32,11.32L171.31,96H192a8,8,0,0,1,0,16H152A8,8,0,0,1,144,104Zm-40,40H64a8,8,0,0,0,0,16H84.69L42.34,202.34a8,8,0,0,0,11.32,11.32L96,171.31V192a8,8,0,0,0,16,0V152A8,8,0,0,0,104,144Zm67.31,16H192a8,8,0,0,0,0-16H152a8,8,0,0,0-8,8v40a8,8,0,0,0,16,0V171.31l42.34,42.35a8,8,0,0,0,11.32-11.32ZM104,56a8,8,0,0,0-8,8V84.69L53.66,42.34A8,8,0,0,0,42.34,53.66L84.69,96H64a8,8,0,0,0,0,16h40a8,8,0,0,0,8-8V64A8,8,0,0,0,104,56Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-pause {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M200,32H160a16,16,0,0,0-16,16V208a16,16,0,0,0,16,16h40a16,16,0,0,0,16-16V48A16,16,0,0,0,200,32Zm0,176H160V48h40ZM96,32H56A16,16,0,0,0,40,48V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V48A16,16,0,0,0,96,32Zm0,176H56V48H96Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-random {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M237.66,178.34a8,8,0,0,1,0,11.32l-24,24a8,8,0,0,1-11.32-11.32L212.69,192H200.94a72.12,72.12,0,0,1-58.59-30.15l-41.72-58.4A56.1,56.1,0,0,0,55.06,80H32a8,8,0,0,1,0-16H55.06a72.12,72.12,0,0,1,58.59,30.15l41.72,58.4A56.1,56.1,0,0,0,200.94,176h11.75l-10.35-10.34a8,8,0,0,1,11.32-11.32ZM143,107a8,8,0,0,0,11.16-1.86l1.2-1.67A56.1,56.1,0,0,1,200.94,80h11.75L202.34,90.34a8,8,0,0,0,11.32,11.32l24-24a8,8,0,0,0,0-11.32l-24-24a8,8,0,0,0-11.32,11.32L212.69,64H200.94a72.12,72.12,0,0,0-58.59,30.15l-1.2,1.67A8,8,0,0,0,143,107Zm-30,42a8,8,0,0,0-11.16,1.86l-1.2,1.67A56.1,56.1,0,0,1,55.06,176H32a8,8,0,0,0,0,16H55.06a72.12,72.12,0,0,0,58.59-30.15l1.2-1.67A8,8,0,0,0,113,149Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-search-around {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M237.2,151.87v0a47.1,47.1,0,0,0-2.35-5.45L193.26,51.8a7.82,7.82,0,0,0-1.66-2.44,32,32,0,0,0-45.26,0A8,8,0,0,0,144,55V80H112V55a8,8,0,0,0-2.34-5.66,32,32,0,0,0-45.26,0,7.82,7.82,0,0,0-1.66,2.44L21.15,146.4a47.1,47.1,0,0,0-2.35,5.45v0A48,48,0,1,0,112,168V96h32v72a48,48,0,1,0,93.2-16.13ZM76.71,59.75a16,16,0,0,1,19.29-1v73.51a47.9,47.9,0,0,0-46.79-9.92ZM64,200a32,32,0,1,1,32-32A32,32,0,0,1,64,200ZM160,58.74a16,16,0,0,1,19.29,1l27.5,62.58A47.9,47.9,0,0,0,160,132.25ZM192,200a32,32,0,1,1,32-32A32,32,0,0,1,192,200Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-small-cross {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-tick-circle {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M173.66,98.34a8,8,0,0,1,0,11.32l-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35A8,8,0,0,1,173.66,98.34ZM232,128A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-16,0a88,88,0,1,0-88,88A88.1,88.1,0,0,0,216,128Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-warning-sign {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M236.8,188.09,149.35,36.22h0a24.76,24.76,0,0,0-42.7,0L19.2,188.09a23.51,23.51,0,0,0,0,23.72A24.35,24.35,0,0,0,40.55,224h174.9a24.35,24.35,0,0,0,21.33-12.19A23.51,23.51,0,0,0,236.8,188.09ZM222.93,203.8a8.5,8.5,0,0,1-7.48,4.2H40.55a8.5,8.5,0,0,1-7.48-4.2,7.59,7.59,0,0,1,0-7.72L120.52,44.21a8.75,8.75,0,0,1,15,0l87.45,151.87A7.59,7.59,0,0,1,222.93,203.8ZM120,144V104a8,8,0,0,1,16,0v40a8,8,0,0,1-16,0Zm20,36a12,12,0,1,1-12-12A12,12,0,0,1,140,180Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-widget {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M104,40H56A16,16,0,0,0,40,56v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V56A16,16,0,0,0,104,40Zm0,64H56V56h48v48Zm96-64H152a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V56A16,16,0,0,0,200,40Zm0,64H152V56h48v48Zm-96,32H56a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V152A16,16,0,0,0,104,136Zm0,64H56V152h48v48Zm96-64H152a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V152A16,16,0,0,0,200,136Zm0,64H152V152h48v48Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-zoom-in {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M152,112a8,8,0,0,1-8,8H120v24a8,8,0,0,1-16,0V120H80a8,8,0,0,1,0-16h24V80a8,8,0,0,1,16,0v24h24A8,8,0,0,1,152,112Zm77.66,117.66a8,8,0,0,1-11.32,0l-50.06-50.07a88.11,88.11,0,1,1,11.31-11.31l50.07,50.06A8,8,0,0,1,229.66,229.66ZM112,184a72,72,0,1,0-72-72A72.08,72.08,0,0,0,112,184Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-zoom-out {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M152,112a8,8,0,0,1-8,8H80a8,8,0,0,1,0-16h64A8,8,0,0,1,152,112Zm77.66,117.66a8,8,0,0,1-11.32,0l-50.06-50.07a88.11,88.11,0,1,1,11.31-11.31l50.07,50.06A8,8,0,0,1,229.66,229.66ZM112,184a72,72,0,1,0-72-72A72.08,72.08,0,0,0,112,184Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-zoom-to-fit {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M224,40V80a8,8,0,0,1-16,0V48H176a8,8,0,0,1,0-16h40A8,8,0,0,1,224,40ZM80,208H48V176a8,8,0,0,0-16,0v40a8,8,0,0,0,8,8H80a8,8,0,0,0,0-16Zm136-40a8,8,0,0,0-8,8v32H176a8,8,0,0,0,0,16h40a8,8,0,0,0,8-8V176A8,8,0,0,0,216,168ZM40,88a8,8,0,0,0,8-8V48H80a8,8,0,0,0,0-16H40a8,8,0,0,0-8,8V80A8,8,0,0,0,40,88ZM80,72h96a8,8,0,0,1,8,8v96a8,8,0,0,1-8,8H80a8,8,0,0,1-8-8V80A8,8,0,0,1,80,72Zm8,96h80V88H88Z'/%3E%3C/svg%3E");
+}
+
+.bp3-icon-inbox {
+  --rs-x-icon: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='currentColor'%3E%3Cpath d='M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,16V152h-28.7A15.86,15.86,0,0,0,168,156.69L148.69,176H107.31L88,156.69A15.86,15.86,0,0,0,76.69,152H48V48Zm0,160H48V168H76.69L96,187.31A15.86,15.86,0,0,0,107.31,192h41.38A15.86,15.86,0,0,0,160,187.31L179.31,168H208v40Z'/%3E%3C/svg%3E");
+}
+
+/* Shared by every icon set (Lucide, Phosphor). The masks and the rules that pick the icon
+   element or ::before are generated per set (scripts/build-icons.mjs, <set>/_icons*.scss). An icon element keeps the box Roam gives it, so
+   it needs no position fixes; a ::before carrier is a 16px box and may. */
+/* Fix sizes */
+.rm-topbar .bp3-icon-menu-open.rm-open-left-sidebar-btn::before {
+  margin: 3px;
+}

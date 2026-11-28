@@ -43,7 +43,7 @@ Both settings take effect at once, and the Auto, Dark and Light modes work the s
 
 Gruvbox is based on the [Gruvbox color scheme](https://github.com/morhetz/gruvbox) by Pavel Pertsev, MIT licensed.
 
-The Lucide icon theme uses icons by [Lucide](https://lucide.dev) (ISC license; icons derived from Feather, MIT license), see `icons/LICENSE-lucide.txt`.
+The Lucide icon theme uses icons by [Lucide](https://lucide.dev) (ISC license; icons derived from Feather, MIT license), see `icons/LICENSE-lucide.txt`. The Phosphor icon theme uses icons by [Phosphor Icons](https://phosphoricons.com) (MIT license), see `icons/LICENSE-phosphor.txt`.
 
 ## Settings
 
@@ -73,7 +73,7 @@ Optional tweaks you switch on in the settings, grouped like the settings panel:
 - **Performance:** disable animations.
 - **Headings, Code, Dates:** advanced heading spacing, hide line numbers, no line break within dates.
 
-The **icon theme** can be Roam's BlueprintJS icons or [Lucide](https://lucide.dev). Lucide replaces Feather, which is no longer maintained; a Feather choice from an earlier version shows Lucide. **Date icons** add a calendar icon before links to daily notes, in the style of the chosen icon theme. **Collapsed bullets** sets how a collapsed block's bullet stands out in every theme: with a ring around it (as in Quattro, Craft and Things) or by intensity, with open bullets fainter (as in Blueprint and Gruvbox).
+The **icon theme** can be Roam's BlueprintJS icons, [Lucide](https://lucide.dev) or [Phosphor](https://phosphoricons.com). Phosphor's weight follows the theme: light in Quattro and Things, regular in the others. Lucide replaces Feather, which is no longer maintained; a Feather choice from an earlier version shows Lucide. **Date icons** add a calendar icon before links to daily notes, in the style of the chosen icon theme. **Collapsed bullets** sets how a collapsed block's bullet stands out in every theme: with a ring around it (as in Quattro, Craft and Things) or by intensity, with open bullets fainter (as in Blueprint and Gruvbox).
 
 Every module is off until you switch it on, and a module that is off costs nothing. Every font Roam Studio offers works offline: they are embedded, and Inter comes with Roam.
 

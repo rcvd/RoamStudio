@@ -21,7 +21,7 @@ afterEach(() => {
 
 describe("module loader", () => {
   it("has compiled CSS for every module switch, the icon theme and both date icons", () => {
-    for (const key of [...MODULES, "icons-lucide", "date-icon", "date-icon-lucide"]) expect(MODULE_CSS[key]?.length, key).toBeGreaterThan(0);
+    for (const key of [...MODULES, "icons-lucide", "date-icon", "date-icon-lucide", "icons-phosphor-light", "icons-phosphor-regular", "date-icon-phosphor-light", "date-icon-phosphor-regular"]) expect(MODULE_CSS[key]?.length, key).toBeGreaterThan(0);
   });
 
   it("switches a module's style element on and off", () => {
@@ -38,6 +38,22 @@ describe("module loader", () => {
     expect(enabledModules(lookup({ "rs-icon-theme": "lucide" }))).toEqual(["icons-lucide"]);
     // A Feather choice from an earlier version reads as Lucide.
     expect(enabledModules(lookup({ "rs-date-icon": true, "rs-icon-theme": "feather" }))).toEqual(["icons-lucide", "date-icon-lucide"]);
+  });
+
+  it("picks Phosphor in the active theme's weight, for the icons and the date icon", () => {
+    expect(enabledModules(lookup({ "rs-icon-theme": "phosphor", "rs-theme": "Quattro" }))).toEqual(["icons-phosphor-light"]);
+    expect(enabledModules(lookup({ "rs-icon-theme": "phosphor", "rs-theme": "Things", "rs-date-icon": true }))).toEqual(["icons-phosphor-light", "date-icon-phosphor-light"]);
+    expect(enabledModules(lookup({ "rs-icon-theme": "phosphor", "rs-theme": "Craft", "rs-date-icon": true }))).toEqual(["icons-phosphor-regular", "date-icon-phosphor-regular"]);
+    expect(enabledModules(lookup({ "rs-icon-theme": "phosphor", "rs-theme": "Gruvbox" }))).toEqual(["icons-phosphor-regular"]);
+    // No stored theme: the default theme (Quattro) is light.
+    expect(enabledModules(lookup({ "rs-icon-theme": "phosphor" }))).toEqual(["icons-phosphor-light"]);
+  });
+
+  it("keeps exactly one Phosphor sheet when the theme's weight changes", () => {
+    applyModules(lookup({ "rs-icon-theme": "phosphor", "rs-theme": "Quattro", "rs-date-icon": true }));
+    expect(moduleIds()).toEqual(["date-icon-phosphor-light", "icons-phosphor-light"]);
+    applyModules(lookup({ "rs-icon-theme": "phosphor", "rs-theme": "Gruvbox", "rs-date-icon": true }));
+    expect(moduleIds()).toEqual(["date-icon-phosphor-regular", "icons-phosphor-regular"]);
   });
 
   it("adds the chosen collapsed-bullet style, and none for the theme's own", () => {

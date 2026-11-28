@@ -240,6 +240,7 @@ export const COLLAPSED_BULLETS: Option[] = [
 export const ICON_THEMES: Option[] = [
   { value: "blueprint", label: "BlueprintJS (Roam's icons)" },
   { value: "lucide", label: "Lucide" },
+  { value: "phosphor", label: "Phosphor" },
 ];
 
 export const GROUPS: Group[] = [

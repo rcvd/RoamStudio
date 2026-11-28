@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- **Phosphor** is a third icon theme, next to BlueprintJS and Lucide: softer, rounder icons whose weight follows the theme (light in Quattro and Things, regular in Craft, Blueprint and Gruvbox) and changes with it; the date icon follows too. Every icon keeps Roam's size and position, as with Lucide.
+- The left sidebar's Desk icon follows the icon theme (Lucide and Phosphor); it kept BlueprintJS's.
+- In Quattro, Craft and Things, Lucide icons in minimal buttons (the top bar's filter and calendar, the settings panel's group arrows) show again; the themes cleared their fill. The Lucide stylesheet is also smaller (187 → 139 KB): each icon's drawing is in it once.
 - **Breaking:** the Feather icon theme is replaced by **Lucide**, Feather's maintained fork (Feather is no longer maintained). The icon theme offers BlueprintJS and Lucide; a Feather choice carries over and shows the Lucide icons, the date icon included. Lucide also replaces the icons Feather left as BlueprintJS's (callouts, dialogs, zoom controls, select carets; Roam's block carets stay), and no icon shows BlueprintJS's drawing cut or next to its replacement any more (the settings' Import icon, chevrons, close and help buttons); every icon keeps Roam's size and position.
 - In Roam Depot's settings, Roam Studio's own buttons (Export, Import, Appearance, Gruvbox contrast) take the theme's button colors in Gruvbox, Quattro, Craft and Things. Roam paints buttons there dark even in Light, which those themes reproduced: Gruvbox Light showed dark buttons with unreadable text.
 - In Quattro, a collapsed block's bullet has a ring, as in Craft and Things; it had looked exactly like an open bullet.
